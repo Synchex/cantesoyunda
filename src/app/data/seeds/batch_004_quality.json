@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 3050,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "selçuklu",
+    "difficulty": "orta",
+    "question": "Anadolu Selçuklu Devleti'nin başkenti neresidir?",
+    "choices": [
+      "Konya",
+      "Kayseri",
+      "Sivas",
+      "Erzurum"
+    ],
+    "answerIndex": 0,
+    "explanation": "Konya, Anadolu Selçuklularının başkenti olmuştur.",
+    "tags": [
+      "selçuklu",
+      "başkent"
+    ]
+  },
+  {
+    "id": 3051,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "selçuklu",
+    "difficulty": "zor",
+    "question": "Malazgirt Zaferi'nde Bizans İmparatoru kim esir alınmıştır?",
+    "choices": [
+      "IV. Romanos Diogenes",
+      "III. Romanos",
+      "II. Aleksios",
+      "I. İoannes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sultan Alparslan, 1071'de IV. Romanos Diogenes'i esir almıştır.",
+    "tags": [
+      "malazgirt",
+      "zafer"
+    ]
+  },
+  {
+    "id": 3052,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "selçuklu",
+    "difficulty": "kolay",
+    "question": "Mevlana Celaleddin-i Rumi hangi şehirde yaşamıştır?",
+    "choices": [
+      "Konya",
+      "Kayseri",
+      "Bursa",
+      "İstanbul"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mevlana, hayatının çoğunu Konya'da geçirmiş ve orada vefat etmiştir.",
+    "tags": [
+      "mevlana",
+      "tasavvuf"
+    ]
+  },
+  {
+    "id": 3053,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "orta",
+    "question": "Mohaç Meydan Muharebesi hangi padişah zamanında kazanılmıştır?",
+    "choices": [
+      "Kanuni Sultan Süleyman",
+      "Yavuz Sultan Selim",
+      "II. Mehmet",
+      "II. Bayezid"
+    ],
+    "answerIndex": 0,
+    "explanation": "1526'da Kanuni Sultan Süleyman, Macar Krallığı'nı Mohaç'ta yenmiştir.",
+    "tags": [
+      "mohaç",
+      "zafer"
+    ]
+  },
+  {
+    "id": 3054,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "cok_zor",
+    "question": "Osmanlı'da ilk kağıt para hangi padişah döneminde tedavüle çıkmıştır?",
+    "choices": [
+      "II. Mahmut",
+      "Abdülmecit",
+      "II. Abdülhamit",
+      "V. Mehmet Reşat"
+    ],
+    "answerIndex": 0,
+    "explanation": "1840 yılında II. Mahmut döneminde Kaime adıyla ilk kağıt para basılmıştır.",
+    "tags": [
+      "para",
+      "ekonomi"
+    ]
+  },
+  {
+    "id": 3055,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "cumhuriyet",
+    "difficulty": "kolay",
+    "question": "Atatürk'ün vefat tarihi nedir?",
+    "choices": [
+      "10 Kasım 1938",
+      "29 Ekim 1938",
+      "15 Kasım 1938",
+      "1 Kasım 1938"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mustafa Kemal Atatürk 10 Kasım 1938'de İstanbul Dolmabahçe Sarayı'nda vefat etmiştir.",
+    "tags": [
+      "atatürk",
+      "vefat"
+    ]
+  },
+  {
+    "id": 3056,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "inkılaplar",
+    "difficulty": "orta",
+    "question": "Tekke ve zaviyelerin kapatılması hangi yıl gerçekleşmiştir?",
+    "choices": [
+      "1925",
+      "1923",
+      "1928",
+      "1930"
+    ],
+    "answerIndex": 0,
+    "explanation": "30 Kasım 1925'te Tekke ve Zaviyeler Kapatılmıştır.",
+    "tags": [
+      "inkılap",
+      "laiklik"
+    ]
+  },
+  {
+    "id": 3057,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "inkılaplar",
+    "difficulty": "zor",
+    "question": "Medeni Kanun hangi ülkenin kanunundan uyarlanmıştır?",
+    "choices": [
+      "İsviçre",
+      "Fransa",
+      "Almanya",
+      "İtalya"
+    ],
+    "answerIndex": 0,
+    "explanation": "1926'da kabul edilen Türk Medeni Kanunu İsviçre Medeni Kanunu'ndan uyarlanmıştır.",
+    "tags": [
+      "kanun",
+      "inkılap"
+    ]
+  },
+  {
+    "id": 3058,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "cumhuriyet",
+    "difficulty": "orta",
+    "question": "Türkiye'nin ikinci Cumhurbaşkanı kimdir?",
+    "choices": [
+      "İsmet İnönü",
+      "Celal Bayar",
+      "Cemal Gürsel",
+      "Fevzi Çakmak"
+    ],
+    "answerIndex": 0,
+    "explanation": "İsmet İnönü, 1938-1950 yılları arasında Cumhurbaşkanlığı yapmıştır.",
+    "tags": [
+      "cumhurbaşkanı",
+      "siyaset"
+    ]
+  },
+  {
+    "id": 3059,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "kurtuluş_savaşı",
+    "difficulty": "kolay",
+    "question": "Sakarya Meydan Muharebesi kaç gün sürmüştür?",
+    "choices": [
+      "22 gün",
+      "15 gün",
+      "30 gün",
+      "10 gün"
+    ],
+    "answerIndex": 0,
+    "explanation": "23 Ağustos - 13 Eylül 1921 tarihleri arasında 22 gün sürmüştür.",
+    "tags": [
+      "sakarya",
+      "savaş"
+    ]
+  },
+  {
+    "id": 3060,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "kurtuluş_savaşı",
+    "difficulty": "orta",
+    "question": "İzmir'in kurtuluşu hangi tarihte kutlanır?",
+    "choices": [
+      "9 Eylül",
+      "30 Ağustos",
+      "26 Ağustos",
+      "29 Ekim"
+    ],
+    "answerIndex": 0,
+    "explanation": "9 Eylül 1922'de İzmir Yunan işgalinden kurtarılmıştır.",
+    "tags": [
+      "izmir",
+      "kurtuluş"
+    ]
+  },
+  {
+    "id": 3061,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "kurtuluş_savaşı",
+    "difficulty": "zor",
+    "question": "Amasya Genelgesi hangi tarihte yayınlanmıştır?",
+    "choices": [
+      "22 Haziran 1919",
+      "19 Mayıs 1919",
+      "23 Nisan 1920",
+      "4 Eylül 1919"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mustafa Kemal, milli mücadelenin ilkelerini belirten Amasya Genelgesi'ni 22 Haziran 1919'da yayınlamıştır.",
+    "tags": [
+      "amasya",
+      "genelge"
+    ]
+  },
+  {
+    "id": 3062,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "cumhuriyet",
+    "difficulty": "cok_zor",
+    "question": "Şapka Kanunu hangi yıl çıkarılmıştır?",
+    "choices": [
+      "1925",
+      "1923",
+      "1928",
+      "1934"
+    ],
+    "answerIndex": 0,
+    "explanation": "25 Kasım 1925'te Şapka İktisası Hakkında Kanun kabul edilmiştir.",
+    "tags": [
+      "şapka",
+      "kılık kıyafet"
+    ]
+  },
+  {
+    "id": 3063,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "kolay",
+    "question": "Türkiye'nin yüzölçümü bakımından en büyük ili hangisidir?",
+    "choices": [
+      "Konya",
+      "Ankara",
+      "İzmir",
+      "Sivas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Konya, 40.838 km² ile Türkiye'nin en büyük ilidir.",
+    "tags": [
+      "il",
+      "yüzölçümü"
+    ]
+  },
+  {
+    "id": 3064,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "orta",
+    "question": "Çoruh Nehri hangi denize dökülür?",
+    "choices": [
+      "Karadeniz",
+      "Ege Denizi",
+      "Akdeniz",
+      "Hazar Denizi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Çoruh Nehri, Artvin üzerinden Karadeniz'e dökülür.",
+    "tags": [
+      "nehir",
+      "karadeniz"
+    ]
+  },
+  {
+    "id": 3065,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "zor",
+    "question": "Türkiye'nin en büyük yarımadası hangisidir?",
+    "choices": [
+      "Bozburun Yarımadası",
+      "Gelibolu Yarımadası",
+      "Datça Yarımadası",
+      "Karaburun Yarımadası"
+    ],
+    "answerIndex": 0,
+    "explanation": "Muğla'daki Bozburun Yarımadası, Türkiye'nin en büyük yarımadasıdır.",
+    "tags": [
+      "yarımada",
+      "coğrafya"
+    ]
+  },
+  {
+    "id": 3066,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "kolay",
+    "question": "Karadeniz ve Marmara Denizi'ni birbirine bağlayan boğazın adı nedir?",
+    "choices": [
+      "İstanbul Boğazı",
+      "Çanakkale Boğazı",
+      "Gelibolu Boğazı",
+      "Her ikisi"
+    ],
+    "answerIndex": 0,
+    "explanation": "İstanbul Boğazı (Boğaziçi), Karadeniz ile Marmara'yı birbirine bağlar.",
+    "tags": [
+      "boğaz",
+      "istanbul"
+    ]
+  },
+  {
+    "id": 3067,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "orta",
+    "question": "Aslında bir volkan krateri olan ve \"Dipsiz Göl\" olarak bilinen göl hangisidir?",
+    "choices": [
+      "Meke Gölü",
+      "Van Gölü",
+      "Nemrut Krater Gölü",
+      "Çıldır Gölü"
+    ],
+    "answerIndex": 0,
+    "explanation": "Konya'nın Karapınar ilçesindeki Meke Gölü, volkan krateridir.",
+    "tags": [
+      "göl",
+      "volkan"
+    ]
+  },
+  {
+    "id": 3068,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "kolay",
+    "question": "Truva Antik Kenti hangi ilin sınırlarında bulunmaktadır?",
+    "choices": [
+      "Çanakkale",
+      "İzmir",
+      "Balıkesir",
+      "Manisa"
+    ],
+    "answerIndex": 0,
+    "explanation": "Truva, Çanakkale'nin Tevfikiye köyündedir.",
+    "tags": [
+      "antik kent",
+      "truva"
+    ]
+  },
+  {
+    "id": 3069,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "zor",
+    "question": "Türkiye'nin en güneyindeki il hangisidir?",
+    "choices": [
+      "Hatay",
+      "Adana",
+      "Mersin",
+      "Şanlıurfa"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hatay, Türkiye'nin en güney noktasındaki ildir.",
+    "tags": [
+      "il",
+      "konum"
+    ]
+  },
+  {
+    "id": 3070,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "orta",
+    "question": "Dicle ve Fırat nehirlerinin Türkiye dışında birleşmesiyle oluşan nehrin adı nedir?",
+    "choices": [
+      "Şattülarap",
+      "Asi",
+      "Aras",
+      "Karasu"
+    ],
+    "answerIndex": 0,
+    "explanation": "Irak'ta birleşerek Şattülarap (Arvandrud) nehirini oluştururlar.",
+    "tags": [
+      "nehir",
+      "coğrafya"
+    ]
+  },
+  {
+    "id": 3071,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "futbol",
+    "difficulty": "kolay",
+    "question": "Trabzonspor ilk şampiyonluğunu hangi yıl kazanmıştır?",
+    "choices": [
+      "1976",
+      "1975",
+      "1980",
+      "1979"
+    ],
+    "answerIndex": 0,
+    "explanation": "1975-1976 sezonunda ilk şampiyonluğunu kazanmıştır.",
+    "tags": [
+      "trabzonspor",
+      "şampiyonluk"
+    ]
+  },
+  {
+    "id": 3072,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "futbol",
+    "difficulty": "orta",
+    "question": "Beşiktaş'ın efsanevi kalecisi \"Kara Kartal\" lakaplı futbolcu kimdir?",
+    "choices": [
+      "Rüştü Reçber",
+      "Fevzi Zemzem",
+      "Ahmet Şenkal",
+      "Yaşar Duran"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fevzi Zemzem, \"Kara Kartal\" lakabıyla anılırdı. (Not: Rüştü farklı lakapla bilinir)",
+    "tags": [
+      "beşiktaş",
+      "kaleci"
+    ]
+  },
+  {
+    "id": 3073,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "futbol",
+    "difficulty": "zor",
+    "question": "Türkiye'de profesyonel futbol ligi hangi yıl başlamıştır?",
+    "choices": [
+      "1959",
+      "1955",
+      "1960",
+      "1952"
+    ],
+    "answerIndex": 0,
+    "explanation": "1959-1960 sezonunda Milli Lig adıyla profesyonel lig başlamıştır.",
+    "tags": [
+      "lig",
+      "futbol"
+    ]
+  },
+  {
+    "id": 3074,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "olimpiyat",
+    "difficulty": "kolay",
+    "question": "Türkiye ilk kez hangi yıl olimpiyatlara katılmıştır?",
+    "choices": [
+      "1908",
+      "1912",
+      "1920",
+      "1924"
+    ],
+    "answerIndex": 0,
+    "explanation": "1908 Londra Olimpiyatları'na ilk kez katılmıştır.",
+    "tags": [
+      "olimpiyat",
+      "tarih"
+    ]
+  },
+  {
+    "id": 3075,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "olimpiyat",
+    "difficulty": "orta",
+    "question": "Türkiye 2004 Atina Olimpiyatları'nda kaç madalya kazanmıştır?",
+    "choices": [
+      "3 altın 3 gümüş 4 bronz (10 toplam)",
+      "5 altın 2 gümüş 3 bronz",
+      "2 altın 4 gümüş 4 bronz",
+      "4 altın 1 gümüş 5 bronz"
+    ],
+    "answerIndex": 0,
+    "explanation": "2004'te toplam 10 madalya ile rekor kırmıştır.",
+    "tags": [
+      "olimpiyat",
+      "2004"
+    ]
+  },
+  {
+    "id": 3076,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "atletizm",
+    "difficulty": "zor",
+    "question": "Elvan Abeylegesse hangi milli takımı sonradan temsil etmiştir?",
+    "choices": [
+      "Türkiye",
+      "Etiyopya",
+      "Kenya",
+      "Uganda"
+    ],
+    "answerIndex": 0,
+    "explanation": "Etiyopya doğumlu sporcu 2004'ten itibaren Türkiye'yi temsil etmiştir.",
+    "tags": [
+      "atletizm",
+      "elvan"
+    ]
+  },
+  {
+    "id": 3077,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "voleybol",
+    "difficulty": "orta",
+    "question": "Türkiye Kadın Voleybol Milli Takımı hangi büyük organizasyonda şampiyon olmuştur?",
+    "choices": [
+      "2015 Avrupa Voleybol Şampiyonası",
+      "2012 Olimpiyatları",
+      "2014 Dünya Şampiyonası",
+      "2016 Olimpiyatları"
+    ],
+    "answerIndex": 0,
+    "explanation": "Belçika ve Hollanda'da düzenlenen şampiyonada Avrupa şampiyonu olmuştur.",
+    "tags": [
+      "voleybol",
+      "kadın"
+    ]
+  },
+  {
+    "id": 3078,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "basketbol",
+    "difficulty": "kolay",
+    "question": "NBA'de forma giyen ilk Türk basketbolcu kimdir?",
+    "choices": [
+      "Hidayet Türkoğlu",
+      "Mehmet Okur",
+      "Ersan İlyasova",
+      "Enes Kanter"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hidayet Türkoğlu 2000 yılında NBA'e draft edilmiştir.",
+    "tags": [
+      "nba",
+      "basketbol"
+    ]
+  },
+  {
+    "id": 3079,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "güreş",
+    "difficulty": "cok_zor",
+    "question": "Hamza Yerlikaya kaç kez Dünya Şampiyonu olmuştur?",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answerIndex": 0,
+    "explanation": "1993, 1995 ve 2005 yıllarında Dünya Şampiyonu olmuştur.",
+    "tags": [
+      "güreş",
+      "hamza"
+    ]
+  },
+  {
+    "id": 3080,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "kolay",
+    "question": "Türk edebiyatının ilk romanı kabul edilen eser hangisidir?",
+    "choices": [
+      "Taaşşuk-ı Talat ve Fitnat",
+      "Intibah",
+      "Araba Sevdası",
+      "Sergüzeşt"
+    ],
+    "answerIndex": 0,
+    "explanation": "Şemsettin Sami'nin 1872'de yazdığı ilk Türk romanıdır.",
+    "tags": [
+      "roman",
+      "ilk"
+    ]
+  },
+  {
+    "id": 3081,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "orta",
+    "question": "\"Vatan Yahut Silistre\" oyununun yazarı kimdir?",
+    "choices": [
+      "Namık Kemal",
+      "Ziya Paşa",
+      "Şinasi",
+      "Ahmet Mithat Efendi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Namık Kemal'in 1873'te yazdığı ünlü tiyatro eseridir.",
+    "tags": [
+      "tiyatro",
+      "namık kemal"
+    ]
+  },
+  {
+    "id": 3082,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "zor",
+    "question": "\"Mai ve Siyah\" romanının yazarı kimdir?",
+    "choices": [
+      "Halit Ziya Uşaklıgil",
+      "Recaizade Mahmut Ekrem",
+      "Tevfik Fikret",
+      "Cenap Şahabettin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Halit Ziya'nın 1897'de yayınlanan eseridir.",
+    "tags": [
+      "roman",
+      "servet-i fünun"
+    ]
+  },
+  {
+    "id": 3083,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "şiir",
+    "difficulty": "kolay",
+    "question": "\"Hatırladıkça güzelsin unutunca daha bir başkasın\" dizesi kime aittir?",
+    "choices": [
+      "Attilâ İlhan",
+      "Nazım Hikmet",
+      "Orhan Veli",
+      "Cemal Süreya"
+    ],
+    "answerIndex": 0,
+    "explanation": "Attilâ İlhan'ın ünlü şiir dizesidir.",
+    "tags": [
+      "şiir",
+      "attilâ ilhan"
+    ]
+  },
+  {
+    "id": 3084,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "orta",
+    "question": "\"Fatih-Harbiye\" romanını kim yazmıştır?",
+    "choices": [
+      "Peyami Safa",
+      "Yakup Kadri Karaosmanoğlu",
+      "Reşat Nuri Güntekin",
+      "Halide Edip Adıvar"
+    ],
+    "answerIndex": 0,
+    "explanation": "Peyami Safa'nın 1931'de yazdığı sosyal romandır.",
+    "tags": [
+      "roman",
+      "peyami safa"
+    ]
+  },
+  {
+    "id": 3085,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "cok_zor",
+    "question": "Türkiye'de Dil Bayramı hangi tarihte kutlanır?",
+    "choices": [
+      "26 Eylül",
+      "1 Mayıs",
+      "24 Kasım",
+      "29 Ekim"
+    ],
+    "answerIndex": 0,
+    "explanation": "26 Eylül 1932'de Atatürk'ün Türk Dili Tetkik Cemiyeti açılış nutkunu vermesi anısına kutlanır.",
+    "tags": [
+      "dil",
+      "bayram"
+    ]
+  },
+  {
+    "id": 3086,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "mimari",
+    "difficulty": "kolay",
+    "question": "Edirne'deki Selimiye Camii'ni hangi mimar inşa etmiştir?",
+    "choices": [
+      "Mimar Sinan",
+      "Sedefkar Mehmet Ağa",
+      "Mimar Kemalettin",
+      "Balyan"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mimar Sinan'ın başyapıtı kabul edilen eserdir.",
+    "tags": [
+      "sinan",
+      "selimiye"
+    ]
+  },
+  {
+    "id": 3087,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "mutfak",
+    "difficulty": "kolay",
+    "question": "Adana kebabının en belirgin özelliği nedir?",
+    "choices": [
+      "Acılı olması",
+      "Yoğurtla servis edilmesi",
+      "Tavuk etinden yapılması",
+      "Fırında pişirilmesi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Adana kebabı acı biberiyle yapılır ve acı lezzetiyle bilinir.",
+    "tags": [
+      "mutfak",
+      "adana"
+    ]
+  },
+  {
+    "id": 3088,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "gelenek",
+    "difficulty": "orta",
+    "question": "Hıdrellez hangi tarihte kutlanır?",
+    "choices": [
+      "5-6 Mayıs",
+      "21 Mart",
+      "23 Nisan",
+      "1 Haziran"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bahar bayramı olarak her yıl 5-6 Mayıs'ta kutlanır.",
+    "tags": [
+      "hıdrellez",
+      "bayram"
+    ]
+  },
+  {
+    "id": 3089,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "el sanatları",
+    "difficulty": "zor",
+    "question": "İğne oyası geleneği hangi bölgemizde özellikle yaygındır?",
+    "choices": [
+      "Erzurum ve çevresi",
+      "Ege Bölgesi",
+      "Akdeniz Bölgesi",
+      "Marmara Bölgesi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Özellikle Doğu Anadolu'da, Erzurum ve çevresinde yaygındır.",
+    "tags": [
+      "el sanatı",
+      "oya"
+    ]
+  },
+  {
+    "id": 3090,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "müzik",
+    "difficulty": "orta",
+    "question": "Türk Halk Müziği'nde \"bağlama\"nın kaç teli vardır?",
+    "choices": [
+      "7 tel (3 çift + 1 tekli)",
+      "6 tel",
+      "8 tel",
+      "9 tel"
+    ],
+    "answerIndex": 0,
+    "explanation": "Geleneksel bağlama 7 tellidir (3 çift grup + 1 tekli tel).",
+    "tags": [
+      "bağlama",
+      "müzik"
+    ]
+  },
+  {
+    "id": 3091,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "mimari",
+    "difficulty": "zor",
+    "question": "Dolmabahçe Sarayı'nı hangi mimar ailesi inşa etmiştir?",
+    "choices": [
+      "Balyan Ailesi",
+      "Sinan Ailesi",
+      "Ağa Ailesi",
+      "Kemalettin Ailesi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ermeni asıllı Balyan ailesinin mimarları tarafından 1843-1856 yılları arasında inşa edilmiştir.",
+    "tags": [
+      "saray",
+      "balyan"
+    ]
+  },
+  {
+    "id": 3092,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "arkeoloji",
+    "difficulty": "orta",
+    "question": "Frigya Kralı Midas'ın mezarının bulunduğu höyük hangisidir?",
+    "choices": [
+      "Gordion",
+      "Hattuşa",
+      "Alacahöyük",
+      "Beycesultan"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ankara yakınlarındaki Gordion'da Kral Midas'ın tümülüsü bulunmaktadır.",
+    "tags": [
+      "frigya",
+      "arkeoloji"
+    ]
+  },
+  {
+    "id": 3093,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "gelenek",
+    "difficulty": "kolay",
+    "question": "Türk kahvesi nasıl içilir?",
+    "choices": [
+      "Soğuk su eşliğinde",
+      "Sıcak süt ile",
+      "Tek başına",
+      "Tatlı ile"
+    ],
+    "answerIndex": 0,
+    "explanation": "Geleneksel olarak Türk kahvesi soğuk su eşliğinde içilir.",
+    "tags": [
+      "kahve",
+      "gelenek"
+    ]
+  },
+  {
+    "id": 3094,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "zor",
+    "question": "Osmanlı'da \"Bab-ı Ali\" nereye verilen isimdir?",
+    "choices": [
+      "Sadrazam Kapısı (Hükümet Merkezi)",
+      "Saray Kapısı",
+      "Cami Kapısı",
+      "Ordu Karargahı"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bab-ı Ali, Sadrazamlık binasının kapısı olup hükümeti temsil ederdi.",
+    "tags": [
+      "osmanlı",
+      "yönetim"
+    ]
+  },
+  {
+    "id": 3095,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "sinema",
+    "difficulty": "orta",
+    "question": "Türk sinemasının ilk sesli filmi hangisidir?",
+    "choices": [
+      "İstanbul Sokaklarında",
+      "Aysel Bataklı Damın Kızı",
+      "Halıcı Kız",
+      "Shirt Seller"
+    ],
+    "answerIndex": 0,
+    "explanation": "1931 yapımı \"İstanbul Sokaklarında\" ilk sesli Türk filmidir.",
+    "tags": [
+      "sinema",
+      "film"
+    ]
+  },
+  {
+    "id": 3096,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "bilim",
+    "difficulty": "zor",
+    "question": "TÜBİTAK hangi yıl kurulmuştur?",
+    "choices": [
+      "1963",
+      "1960",
+      "1970",
+      "1955"
+    ],
+    "answerIndex": 0,
+    "explanation": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu 1963'te kurulmuştur.",
+    "tags": [
+      "tübitak",
+      "bilim"
+    ]
+  },
+  {
+    "id": 3097,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "antik",
+    "difficulty": "orta",
+    "question": "Hitit İmparatorluğu'nun başkenti neresidir?",
+    "choices": [
+      "Hattuşa (Boğazköy)",
+      "Efes",
+      "Truva",
+      "Bergama"
+    ],
+    "answerIndex": 0,
+    "explanation": "Çorum yakınlarındaki Boğazköy'deki Hattuşa, Hitit başkentiydi.",
+    "tags": [
+      "hitit",
+      "antik"
+    ]
+  },
+  {
+    "id": 3098,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "motorsport",
+    "difficulty": "zor",
+    "question": "Formula 1 Türkiye Grand Prix'si hangi pistte düzenlenmiştir?",
+    "choices": [
+      "İstanbul Park",
+      "TT Circuit",
+      "Intercity İstanbul Park",
+      "Boğaz Pisti"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tuzla'daki İstanbul Park (Intercity İstanbul Park) pistinde düzenlenmiştir.",
+    "tags": [
+      "f1",
+      "yarış"
+    ]
+  },
+  {
+    "id": 3099,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "resim",
+    "difficulty": "cok_zor",
+    "question": "Türk resminin öncülerinden Osman Hamdi Bey'in en ünlü tablosu hangisidir?",
+    "choices": [
+      "Kaplumbağa Terbiyecisi",
+      "Atatürk Portresi",
+      "İstanbul Manzarası",
+      "Savaş Sahnesi"
+    ],
+    "answerIndex": 0,
+    "explanation": "1906 tarihli \"Kaplumbağa Terbiyecisi\" onun en ünlü eseridir.",
+    "tags": [
+      "resim",
+      "osman hamdi"
+    ]
+  }
+]

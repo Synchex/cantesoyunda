@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
 import { GameCard } from './GameCard';
 import { Brain, Clock, Trophy, Sparkles } from 'lucide-react';
-import { Language, getTranslation } from '@/app/data/translations';
+import { Language, getTranslation } from '../data/translations';
+import { CreditBar } from './CreditBar';
 
 export type Category = 'general' | 'history' | 'sports' | 'all';
 
@@ -43,6 +44,9 @@ export function CategorySelection({ onSelectCategory, language }: CategorySelect
 
   return (
     <div className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">
+      {/* Credit Bar */}
+      <CreditBar language={language} />
+
       {/* Background effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-[var(--bg-dark)] via-[var(--bg-darker)] to-[var(--bg-dark)]">
         <motion.div
@@ -67,7 +71,7 @@ export function CategorySelection({ onSelectCategory, language }: CategorySelect
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 
+          <h2
             className="text-5xl mb-4"
             style={{
               background: 'linear-gradient(135deg, var(--gold) 0%, var(--purple-bright) 100%)',

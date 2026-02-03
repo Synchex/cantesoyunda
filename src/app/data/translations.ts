@@ -5,7 +5,7 @@ export interface Translations {
   appTitle: string;
   appSubtitle: string;
   startGame: string;
-  
+
   // Category Selection
   chooseCategory: string;
   selectBattlefield: string;
@@ -17,7 +17,7 @@ export interface Translations {
   sportsDesc: string;
   allCategories: string;
   allCategoriesDesc: string;
-  
+
   // Difficulty Selection
   selectDifficulty: string;
   howBrave: string;
@@ -29,13 +29,13 @@ export interface Translations {
   hardDesc: string;
   veryHard: string;
   veryHardDesc: string;
-  
+
   // Question Screen
   questionOf: string;
   correct: string;
   wrongAnswer: string;
   timeUp: string;
-  
+
   // Results Screen
   perfectScore: string;
   excellent: string;
@@ -47,13 +47,36 @@ export interface Translations {
   coinsEarned: string;
   bestStreak: string;
   playAgain: string;
-  
+
   // Settings
   settings: string;
   language: string;
   close: string;
   english: string;
   turkish: string;
+
+  // Credits
+  credits: string;
+  dailyRefillIn: string;
+  notEnoughCredits: string;
+  needCredits: string;
+  getMoreCredits: string;
+  watchAds: string;
+  purchaseCoins: string;
+  comingSoon: string;
+  gameCost: string;
+  currentCredits: string;
+
+  // Bottom Tab Navigation
+  home: string;
+  aiAssistant: string;
+  leaderboard: string;
+  database: string;
+
+  // Question Database
+  questionDatabase: string;
+  searchQuestions: string;
+  allDifficulties: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -62,7 +85,7 @@ export const translations: Record<Language, Translations> = {
     appTitle: 'TRIVIA',
     appSubtitle: 'The Ultimate Quiz Show Experience',
     startGame: 'START GAME',
-    
+
     // Category Selection
     chooseCategory: 'Choose Your Category',
     selectBattlefield: 'Select your battlefield',
@@ -74,7 +97,7 @@ export const translations: Record<Language, Translations> = {
     sportsDesc: 'From championships to legendary athletes',
     allCategories: 'All Categories',
     allCategoriesDesc: 'The ultimate challenge: anything goes!',
-    
+
     // Difficulty Selection
     selectDifficulty: 'Select Difficulty',
     howBrave: 'How brave are you feeling?',
@@ -86,13 +109,13 @@ export const translations: Record<Language, Translations> = {
     hardDesc: 'For the true trivia masters',
     veryHard: 'Very Hard',
     veryHardDesc: 'Only legends survive this',
-    
+
     // Question Screen
     questionOf: 'Question {current} of {total}',
     correct: '🎉 Correct!',
     wrongAnswer: '❌ Wrong Answer',
     timeUp: "⏰ Time's Up!",
-    
+
     // Results Screen
     perfectScore: 'PERFECT SCORE!',
     excellent: 'EXCELLENT!',
@@ -104,21 +127,44 @@ export const translations: Record<Language, Translations> = {
     coinsEarned: 'Coins Earned',
     bestStreak: 'Best Streak',
     playAgain: 'PLAY AGAIN',
-    
+
     // Settings
     settings: 'Settings',
     language: 'Language',
     close: 'Close',
     english: 'English',
     turkish: 'Turkish',
+
+    // Credits
+    credits: 'Credits',
+    dailyRefillIn: 'Daily refill in',
+    notEnoughCredits: 'Not Enough Credits',
+    needCredits: 'You need {amount} credits to start a game',
+    getMoreCredits: 'Get More Credits',
+    watchAds: 'Watch Ads',
+    purchaseCoins: 'Purchase Coins',
+    comingSoon: 'Coming soon',
+    gameCost: 'Game Cost: {amount} credits',
+    currentCredits: 'Current Credits',
+
+    // Bottom Tab Navigation
+    home: 'Home',
+    aiAssistant: 'AI Assistant',
+    leaderboard: 'Leaderboard',
+    database: 'Database',
+
+    // Question Database
+    questionDatabase: 'Question Database',
+    searchQuestions: 'Search questions...',
+    allDifficulties: 'All Difficulties',
   },
-  
+
   tr: {
     // Home Screen
     appTitle: 'BİLGİ YARIŞMASI',
     appSubtitle: 'En İyi Bilgi Yarışması Deneyimi',
     startGame: 'OYUNA BAŞLA',
-    
+
     // Category Selection
     chooseCategory: 'Kategorini Seç',
     selectBattlefield: 'Savaş alanını seç',
@@ -130,7 +176,7 @@ export const translations: Record<Language, Translations> = {
     sportsDesc: 'Şampiyonluklar ve efsanevi sporcular',
     allCategories: 'Tüm Kategoriler',
     allCategoriesDesc: 'Nihai meydan okuma: her şey mümkün!',
-    
+
     // Difficulty Selection
     selectDifficulty: 'Zorluk Seç',
     howBrave: 'Ne kadar cesursun?',
@@ -142,13 +188,13 @@ export const translations: Record<Language, Translations> = {
     hardDesc: 'Gerçek bilgi yarışması ustaları için',
     veryHard: 'Çok Zor',
     veryHardDesc: 'Sadece efsaneler bunu başarır',
-    
+
     // Question Screen
     questionOf: 'Soru {current} / {total}',
     correct: '🎉 Doğru!',
     wrongAnswer: '❌ Yanlış Cevap',
     timeUp: '⏰ Süre Doldu!',
-    
+
     // Results Screen
     perfectScore: 'MÜKEMMEL SKOR!',
     excellent: 'HARIKA!',
@@ -160,24 +206,47 @@ export const translations: Record<Language, Translations> = {
     coinsEarned: 'Kazanılan Jeton',
     bestStreak: 'En İyi Seri',
     playAgain: 'TEKRAR OYNA',
-    
+
     // Settings
     settings: 'Ayarlar',
     language: 'Dil',
     close: 'Kapat',
     english: 'İngilizce',
     turkish: 'Türkçe',
+
+    // Credits
+    credits: 'Krediler',
+    dailyRefillIn: 'Günlük yenileme',
+    notEnoughCredits: 'Yetersiz Kredi',
+    currentCredits: 'Mevcut Krediler',
+    needCredits: 'Oyun başlatmak için {amount} krediye ihtiyacınız var',
+    getMoreCredits: 'Daha Fazla Kredi Al',
+    watchAds: 'Reklam İzle',
+    purchaseCoins: 'Jeton Satın Al',
+    comingSoon: 'Yakında gelecek',
+    gameCost: 'Oyun Maliyeti: {amount} kredi',
+
+    // Bottom Tab Navigation
+    home: 'Ana Sayfa',
+    aiAssistant: 'AI Asistan',
+    leaderboard: 'Skor Tablosu',
+    database: 'Veritabanı',
+
+    // Question Database
+    questionDatabase: 'Soru Veritabanı',
+    searchQuestions: 'Soru ara...',
+    allDifficulties: 'Tüm Zorluklar',
   },
 };
 
 export function getTranslation(lang: Language, key: keyof Translations, params?: Record<string, string | number>): string {
   let text = translations[lang][key];
-  
+
   if (params) {
     Object.keys(params).forEach(paramKey => {
       text = text.replace(`{${paramKey}}`, String(params[paramKey]));
     });
   }
-  
+
   return text;
 }

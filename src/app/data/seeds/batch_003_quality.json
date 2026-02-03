@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 3000,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "kolay",
+    "question": "Osmanlı İmparatorluğu hangi yüzyılda kurulmuştur?",
+    "choices": [
+      "13. yüzyıl",
+      "14. yüzyıl",
+      "15. yüzyıl",
+      "12. yüzyıl"
+    ],
+    "answerIndex": 0,
+    "explanation": "Osman Bey tarafından 1299 yılında, 13. yüzyılın sonunda kurulmuştur.",
+    "tags": [
+      "osmanlı",
+      "kuruluş"
+    ]
+  },
+  {
+    "id": 3001,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "orta",
+    "question": "İstanbul'un fethinden sonra şehre hangi isim verilmiştir?",
+    "choices": [
+      "Konstantiniyye",
+      "İstanbul",
+      "Bizans",
+      "Yeni Roma"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fetihten sonra resmi olarak Konstantiniyye (Kostantiniyye) adı kullanılmıştır.",
+    "tags": [
+      "istanbul",
+      "fetih"
+    ]
+  },
+  {
+    "id": 3002,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "zor",
+    "question": "Osmanlı'da \"Kanuni\" lakabını alan padişah hangi özelliğiyle bu unvanı almıştır?",
+    "choices": [
+      "Kanunname hazırlatması",
+      "Adaletli olması",
+      "Fetihler yapması",
+      "Uzun süre hüküm sürmesi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Süleyman, devlet ve toplum düzenini kanunnamelerle düzenlediği için Kanuni lakabını almıştır.",
+    "tags": [
+      "kanuni",
+      "süleyman"
+    ]
+  },
+  {
+    "id": 3003,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "orta",
+    "question": "Yeniçeri Ocağı hangi padişah döneminde kaldırılmıştır?",
+    "choices": [
+      "II. Mahmut",
+      "III. Selim",
+      "Abdülmecit",
+      "II. Abdülhamit"
+    ],
+    "answerIndex": 0,
+    "explanation": "1826 yılında II. Mahmut tarafından Vaka-i Hayriye ile kaldırılmıştır.",
+    "tags": [
+      "yeniçeri",
+      "ıslahat"
+    ]
+  },
+  {
+    "id": 3004,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "kolay",
+    "question": "Osmanlı İmparatorluğu'nun son padişahı kimdir?",
+    "choices": [
+      "VI. Mehmet (Vahdettin)",
+      "V. Mehmet (Reşat)",
+      "II. Abdülhamit",
+      "Abdülmecit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Vahdettin, 1918-1922 yılları arasında son Osmanlı padişahıydı.",
+    "tags": [
+      "padişah",
+      "son dönem"
+    ]
+  },
+  {
+    "id": 3005,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "cok_zor",
+    "question": "Fatih Sultan Mehmet'in İstanbul kuşatmasında kullandığı en büyük topun adı nedir?",
+    "choices": [
+      "Şahi topu",
+      "Rumeli topu",
+      "Şahkulu topu",
+      "Fatih topu"
+    ],
+    "answerIndex": 0,
+    "explanation": "Urban tarafından dökülmüş olan Şahi topu, kuşatmada kullanılan en büyük toptu.",
+    "tags": [
+      "fetih",
+      "silah"
+    ]
+  },
+  {
+    "id": 3006,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "zor",
+    "question": "Lale Devri'nin sona ermesine neden olan isyan hangisidir?",
+    "choices": [
+      "Patrona Halil İsyanı",
+      "Kabakçı Mustafa İsyanı",
+      "Celali İsyanları",
+      "Yeniçeri İsyanı"
+    ],
+    "answerIndex": 0,
+    "explanation": "1730 yılındaki Patrona Halil İsyanı, III. Ahmet dönemindeki Lale Devri'ni sona erdirmiştir.",
+    "tags": [
+      "lale devri",
+      "isyan"
+    ]
+  },
+  {
+    "id": 3007,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "osmanlı",
+    "difficulty": "orta",
+    "question": "Tanzimat Fermanı'nı hangi padişah ilan etmiştir?",
+    "choices": [
+      "Abdülmecit",
+      "II. Mahmut",
+      "Abdülaziz",
+      "II. Abdülhamit"
+    ],
+    "answerIndex": 0,
+    "explanation": "1839 yılında Sultan Abdülmecit tarafından Gülhane Hatt-ı Hümayunu olarak ilan edilmiştir.",
+    "tags": [
+      "tanzimat",
+      "ferman"
+    ]
+  },
+  {
+    "id": 3008,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "cumhuriyet",
+    "difficulty": "kolay",
+    "question": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
+    "choices": [
+      "Mustafa Kemal Atatürk",
+      "İsmet İnönü",
+      "Celal Bayar",
+      "Fevzi Çakmak"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ve ilk Cumhurbaşkanıdır.",
+    "tags": [
+      "atatürk",
+      "cumhuriyet"
+    ]
+  },
+  {
+    "id": 3009,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "kurtuluş_savaşı",
+    "difficulty": "orta",
+    "question": "Kurtuluş Savaşı'nın başlangıcı olarak kabul edilen olay nedir?",
+    "choices": [
+      "Mustafa Kemal'in Samsun'a çıkması",
+      "Erzurum Kongresi",
+      "TBMM'nin açılması",
+      "Sakarya Meydan Muharebesi"
+    ],
+    "answerIndex": 0,
+    "explanation": "19 Mayıs 1919'da Mustafa Kemal'in Samsun'a çıkması, Kurtuluş Savaşı'nın başlangıcıdır.",
+    "tags": [
+      "kurtuluş savaşı",
+      "19 mayıs"
+    ]
+  },
+  {
+    "id": 3010,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "kurtuluş_savaşı",
+    "difficulty": "kolay",
+    "question": "Büyük Taarruz hangi tarihte başlamıştır?",
+    "choices": [
+      "26 Ağustos 1922",
+      "30 Ağustos 1922",
+      "9 Eylül 1922",
+      "23 Ağustos 1922"
+    ],
+    "answerIndex": 0,
+    "explanation": "26 Ağustos 1922'de başlayan Büyük Taarruz, 30 Ağustos'ta kesin zafere ulaşmıştır.",
+    "tags": [
+      "büyük taarruz",
+      "zafer"
+    ]
+  },
+  {
+    "id": 3011,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "inkılaplar",
+    "difficulty": "orta",
+    "question": "Türkiye'de soyadı kanunu hangi yıl çıkarılmıştır?",
+    "choices": [
+      "1934",
+      "1928",
+      "1923",
+      "1930"
+    ],
+    "answerIndex": 0,
+    "explanation": "21 Haziran 1934'te Soyadı Kanunu kabul edilmiştir.",
+    "tags": [
+      "soyadı",
+      "inkılap"
+    ]
+  },
+  {
+    "id": 3012,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "inkılaplar",
+    "difficulty": "kolay",
+    "question": "Türkiye'de kadınlara milletvekili seçme ve seçilme hakkı hangi yıl verilmiştir?",
+    "choices": [
+      "1934",
+      "1930",
+      "1923",
+      "1945"
+    ],
+    "answerIndex": 0,
+    "explanation": "5 Aralık 1934'te kadınlar milletvekili seçme ve seçilme hakkı kazanmıştır.",
+    "tags": [
+      "kadın hakları",
+      "seçim"
+    ]
+  },
+  {
+    "id": 3013,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "inkılaplar",
+    "difficulty": "zor",
+    "question": "Türkiye'de hafta tatili hangi günden hangi güne çevrilmiştir?",
+    "choices": [
+      "Cumadan Pazara",
+      "Cumartesiden Pazara",
+      "Pazardan Cumaya",
+      "Değişmedi"
+    ],
+    "answerIndex": 0,
+    "explanation": "1935 yılında hafta tatili Cuma gününden Pazar gününe çevrilmiştir.",
+    "tags": [
+      "inkılap",
+      "laiklik"
+    ]
+  },
+  {
+    "id": 3014,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "cumhuriyet",
+    "difficulty": "orta",
+    "question": "İlk Türk kadın savaş pilotu kimdir?",
+    "choices": [
+      "Sabiha Gökçen",
+      "Keriman Halis Ece",
+      "Halide Edip Adıvar",
+      "Nezihe Muhittin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sabiha Gökçen, dünyanın ilk kadın savaş pilotlarından biridir.",
+    "tags": [
+      "havacılık",
+      "kadın"
+    ]
+  },
+  {
+    "id": 3015,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "antlaşmalar",
+    "difficulty": "orta",
+    "question": "Lozan Antlaşması'nda Türkiye adına başmüzakereci kimdir?",
+    "choices": [
+      "İsmet İnönü",
+      "Mustafa Kemal",
+      "Rauf Orbay",
+      "Fevzi Çakmak"
+    ],
+    "answerIndex": 0,
+    "explanation": "İsmet Paşa (İnönü), Lozan Barış Konferansı'nda Türkiye heyetine başkanlık etmiştir.",
+    "tags": [
+      "lozan",
+      "diplomasi"
+    ]
+  },
+  {
+    "id": 3016,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "cumhuriyet",
+    "difficulty": "cok_zor",
+    "question": "Türkiye'nin ilk nüfus sayımı hangi yıl yapılmıştır?",
+    "choices": [
+      "1927",
+      "1923",
+      "1930",
+      "1935"
+    ],
+    "answerIndex": 0,
+    "explanation": "28 Ekim 1927'de ilk genel nüfus sayımı yapılmış, nüfus 13.648.270 olarak tespit edilmiştir.",
+    "tags": [
+      "nüfus",
+      "istatistik"
+    ]
+  },
+  {
+    "id": 3017,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "cumhuriyet",
+    "difficulty": "zor",
+    "question": "Çok partili hayata geçişte kurulan ilk muhalefet partisi hangisidir?",
+    "choices": [
+      "Terakkiperver Cumhuriyet Fırkası",
+      "Serbest Cumhuriyet Fırkası",
+      "Demokrat Parti",
+      "Halk Fırkası"
+    ],
+    "answerIndex": 0,
+    "explanation": "1924'te kurulan Terakkiperver Cumhuriyet Fırkası, ilk muhalefet partisidir.",
+    "tags": [
+      "siyaset",
+      "parti"
+    ]
+  },
+  {
+    "id": 3018,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "kolay",
+    "question": "Türkiye'nin en kalabalık şehri hangisidir?",
+    "choices": [
+      "İstanbul",
+      "Ankara",
+      "İzmir",
+      "Bursa"
+    ],
+    "answerIndex": 0,
+    "explanation": "İstanbul, yaklaşık 16 milyon nüfusuyla Türkiye'nin en kalabalık şehridir.",
+    "tags": [
+      "şehir",
+      "nüfus"
+    ]
+  },
+  {
+    "id": 3019,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "orta",
+    "question": "Türkiye'nin tek aktif volkanı hangisidir?",
+    "choices": [
+      "Ağrı Dağı (Ararat)",
+      "Erciyes Dağı",
+      "Süphan Dağı",
+      "Nemrut Dağı"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ağrı Dağı, Türkiye'deki tek aktif volkan olarak kabul edilir.",
+    "tags": [
+      "volkan",
+      "dağ"
+    ]
+  },
+  {
+    "id": 3020,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "kolay",
+    "question": "Boğazlar hangi iki denizi birbirine bağlar?",
+    "choices": [
+      "Karadeniz ve Akdeniz",
+      "Karadeniz ve Ege",
+      "Marmara ve Ege",
+      "Karadeniz ve Marmara"
+    ],
+    "answerIndex": 0,
+    "explanation": "İstanbul ve Çanakkale Boğazları, Karadeniz'i Akdeniz'e bağlar.",
+    "tags": [
+      "boğaz",
+      "deniz"
+    ]
+  },
+  {
+    "id": 3021,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "orta",
+    "question": "Türkiye'nin tek tuzlu gölü hangisidir?",
+    "choices": [
+      "Van Gölü",
+      "Tuz Gölü",
+      "Beyşehir Gölü",
+      "Sapanca Gölü"
+    ],
+    "answerIndex": 0,
+    "explanation": "Van Gölü, sodalı ve tuzlu bir göldür. Tuz Gölü ise tuzlu bir göldür ama Van Gölü daha bilinir özelliktedir.",
+    "tags": [
+      "göl",
+      "tuz"
+    ]
+  },
+  {
+    "id": 3022,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "zor",
+    "question": "Türkiye'nin en uzun kıyı şeridine sahip ili hangisidir?",
+    "choices": [
+      "Muğla",
+      "İzmir",
+      "Antalya",
+      "Balıkesir"
+    ],
+    "answerIndex": 0,
+    "explanation": "Muğla, yaklaşık 1100 km kıyı şeridiyle en uzun sahile sahip ildir.",
+    "tags": [
+      "kıyı",
+      "il"
+    ]
+  },
+  {
+    "id": 3023,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "kolay",
+    "question": "Kapadokya hangi bölgede bulunur?",
+    "choices": [
+      "İç Anadolu",
+      "Akdeniz",
+      "Ege",
+      "Karadeniz"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kapadokya, İç Anadolu Bölgesi'nde Nevşehir merkezli bir bölgedir.",
+    "tags": [
+      "bölge",
+      "turizm"
+    ]
+  },
+  {
+    "id": 3024,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "orta",
+    "question": "Fırat ve Dicle nehirleri Türkiye'den çıktıktan sonra hangi ülkeden geçer?",
+    "choices": [
+      "Suriye ve Irak",
+      "İran ve Irak",
+      "Suriye ve Ürdün",
+      "Sadece Irak"
+    ],
+    "answerIndex": 0,
+    "explanation": "Her iki nehir de Suriye ve Irak'tan geçerek Basra Körfezi'ne dökülür.",
+    "tags": [
+      "nehir",
+      "coğrafya"
+    ]
+  },
+  {
+    "id": 3025,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "cok_zor",
+    "question": "Türkiye'nin en kuzeydeki noktası hangi ildedir?",
+    "choices": [
+      "Sinop",
+      "Samsun",
+      "Zonguldak",
+      "İnebolu"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sinop'un İnceburun burnu, Türkiye'nin en kuzeydeki noktasıdır.",
+    "tags": [
+      "konum",
+      "il"
+    ]
+  },
+  {
+    "id": 3026,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "zor",
+    "question": "Türkiye'de kaç tane UNESCO Dünya Mirası listesinde yer alan alan vardır?",
+    "choices": [
+      "19",
+      "15",
+      "21",
+      "12"
+    ],
+    "answerIndex": 0,
+    "explanation": "2024 itibarıyla 19 alan UNESCO Dünya Mirası listesindedir.",
+    "tags": [
+      "unesco",
+      "miras"
+    ]
+  },
+  {
+    "id": 3027,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "coğrafya",
+    "difficulty": "orta",
+    "question": "Pamukkale travertenleri hangi mineralli suyun oluşturduğu şekillerdir?",
+    "choices": [
+      "Kireçli su",
+      "Kükürtlü su",
+      "Demirli su",
+      "Tuzlu su"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kalsiyum karbonat (kireç) içeren termal sular travertenleri oluşturur.",
+    "tags": [
+      "pamukkale",
+      "jeoloji"
+    ]
+  },
+  {
+    "id": 3028,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "futbol",
+    "difficulty": "kolay",
+    "question": "Türkiye Milli Futbol Takımı hangi turnuvada 3. olmuştur?",
+    "choices": [
+      "2002 Dünya Kupası",
+      "2008 Avrupa Şampiyonası",
+      "1996 Avrupa Şampiyonası",
+      "2000 Avrupa Şampiyonası"
+    ],
+    "answerIndex": 0,
+    "explanation": "2002 Japonya-Güney Kore Dünya Kupası'nda bronz madalya kazanmıştır.",
+    "tags": [
+      "milli takım",
+      "dünya kupası"
+    ]
+  },
+  {
+    "id": 3029,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "futbol",
+    "difficulty": "orta",
+    "question": "Türk futbolunda \"İmparator\" lakabıyla bilinen futbolcu kimdir?",
+    "choices": [
+      "Recep Tayyip Erdoğan değil, Rüştü Reçber değil... Metin Oktay",
+      "Lefter Küçükandonyadi s",
+      "Turgay Şeren",
+      "Zeki Rıza Sporel"
+    ],
+    "answerIndex": 0,
+    "explanation": "Metin Oktay, \"İmparator\" lakabıyla tanınan efsanevi futbolcudur.",
+    "tags": [
+      "futbol",
+      "futbolcu"
+    ]
+  },
+  {
+    "id": 3030,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "futbol",
+    "difficulty": "zor",
+    "question": "Galatasaray, UEFA Kupası finalini hangi stad yumda kazanmıştır?",
+    "choices": [
+      "Parken Stadı (Kopenhag)",
+      "Wembley Stadı",
+      "Camp Nou",
+      "San Siro"
+    ],
+    "answerIndex": 0,
+    "explanation": "17 Mayıs 2000'de Kopenhag Parken Stadı'nda Arsenal'i yenerek kupayı kazanmıştır.",
+    "tags": [
+      "galatasaray",
+      "uefa"
+    ]
+  },
+  {
+    "id": 3031,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "olimpiyat",
+    "difficulty": "kolay",
+    "question": "Türkiye'nin ilk olimpiyat altın madalyasını hangi sporcu kazanmıştır?",
+    "choices": [
+      "Yaşar Erkan",
+      "Naim Süleymanoğlu",
+      "Hamit Kaplan",
+      "Mithat Bayrak"
+    ],
+    "answerIndex": 0,
+    "explanation": "1936 Berlin Olimpiyatları'nda Yaşar Erkan güreşte ilk altın madalyayı kazanmıştır.",
+    "tags": [
+      "olimpiyat",
+      "altın"
+    ]
+  },
+  {
+    "id": 3032,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "olimpiyat",
+    "difficulty": "orta",
+    "question": "\"Cep Herkülü\" lakabıyla bilinen sporcu kimdir?",
+    "choices": [
+      "Naim Süleymanoğlu",
+      "Halil Mutlu",
+      "Taner Sağır",
+      "Hakan Çoban"
+    ],
+    "answerIndex": 0,
+    "explanation": "Naim Süleymanoğlu, halter dalında 3 olimpiyat altını olan efsanevi sporcu.",
+    "tags": [
+      "halter",
+      "naim"
+    ]
+  },
+  {
+    "id": 3033,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "basketbol",
+    "difficulty": "orta",
+    "question": "Türkiye A Milli Basketbol Takımı hangi turnuvada 2. olmuştur?",
+    "choices": [
+      "2010 FIBA Dünya Şampiyonası",
+      "2012 Olimpiyatları",
+      "2001 Avrupa Şampiyonası",
+      "2006 Dünya Şampiyonası"
+    ],
+    "answerIndex": 0,
+    "explanation": "2010 FIBA Dünya Şampiyonası'nda gümüş madalya kazanmıştır.",
+    "tags": [
+      "basketbol",
+      "milli takım"
+    ]
+  },
+  {
+    "id": 3034,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "voleybol",
+    "difficulty": "zor",
+    "question": "VakıfBank Voleybol takımı kaç kez CEV Şampiyonlar Ligi kazanmıştır?",
+    "choices": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "answerIndex": 0,
+    "explanation": "2011, 2013, 2017 ve 2018 yıllarında şampiyonluğu kazanmıştır.",
+    "tags": [
+      "voleybol",
+      "vakıfbank"
+    ]
+  },
+  {
+    "id": 3035,
+    "lang": "tr",
+    "category": "spor",
+    "subcategory": "futbol",
+    "difficulty": "cok_zor",
+    "question": "Türkiye Süper Ligi'nde \"Teksas Fırtınası\" lakaplı takım hangisidir?",
+    "choices": [
+      "Kayserispor",
+      "Trabzonspor",
+      "Antalyaspor",
+      "Gaziantepspor"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kayserispor, \"Teksas Fırtınası\" lakabıyla bilinir.",
+    "tags": [
+      "süper lig",
+      "takım"
+    ]
+  },
+  {
+    "id": 3036,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "kolay",
+    "question": "Nobel Edebiyat Ödülü alan ilk Türk yazar kimdir?",
+    "choices": [
+      "Orhan Pamuk",
+      "Yaşar Kemal",
+      "Aziz Nesin",
+      "Nazım Hikmet"
+    ],
+    "answerIndex": 0,
+    "explanation": "2006 yılında Orhan Pamuk Nobel Edebiyat Ödülü'nü kazanmıştır.",
+    "tags": [
+      "nobel",
+      "edebiyat"
+    ]
+  },
+  {
+    "id": 3037,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "orta",
+    "question": "\"İnce Memed\" romanının yazarı kimdir?",
+    "choices": [
+      "Yaşar Kemal",
+      "Orhan Pamuk",
+      "Sabahattin Ali",
+      "Reşat Nuri Güntekin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Yaşar Kemal'in en ünlü eseri İnce Memed'dir.",
+    "tags": [
+      "roman",
+      "yaşar kemal"
+    ]
+  },
+  {
+    "id": 3038,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "kolay",
+    "question": "\"Çalıkuşu\" romanını kim yazmıştır?",
+    "choices": [
+      "Reşat Nuri Güntekin",
+      "Halide Edip Adıvar",
+      "Peyami Safa",
+      "Yakup Kadri Karaosmanoğlu"
+    ],
+    "answerIndex": 0,
+    "explanation": "Çalıkuşu, Reşat Nuri Güntekin'in 1922'de yazdığı romandır.",
+    "tags": [
+      "roman",
+      "klasik"
+    ]
+  },
+  {
+    "id": 3039,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "orta",
+    "question": "\"Kuyucaklı Yusuf\" romanının yazarı kimdir?",
+    "choices": [
+      "Sabahattin Ali",
+      "Yaşar Kemal",
+      "Orhan Kemal",
+      "Aziz Nesin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sabahattin Ali'nin 1937'de yazdığı ünlü romandır.",
+    "tags": [
+      "sabahattin ali",
+      "roman"
+    ]
+  },
+  {
+    "id": 3040,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "şiir",
+    "difficulty": "zor",
+    "question": "Yahya Kemal Beyatlı'nın ünlü \"Sessiz Gemi\" şiiri hangi denizi konu alır?",
+    "choices": [
+      "Marmara Denizi",
+      "Akdeniz",
+      "Ege Denizi",
+      "Karadeniz"
+    ],
+    "answerIndex": 0,
+    "explanation": "Şiir, İstanbul ve Marmara Denizi'ndeki bir gemi yolculuğunu anlatır.",
+    "tags": [
+      "şiir",
+      "yahya kemal"
+    ]
+  },
+  {
+    "id": 3041,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "cok_zor",
+    "question": "Türk edebiyatında \"Servet-i Fünun\" topluluğu hangi dergide bir araya gelmiştir?",
+    "choices": [
+      "Servet-i Fünun Dergisi",
+      "Dergah",
+      "Fecr-i Ati",
+      "Genç Kalemler"
+    ],
+    "answerIndex": 0,
+    "explanation": "1896'da yayınlanan Servet-i Fünun dergisi etrafında toplanmışlardır.",
+    "tags": [
+      "edebiyat",
+      "dergi"
+    ]
+  },
+  {
+    "id": 3042,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "edebiyat",
+    "difficulty": "orta",
+    "question": "\"Tutunamayanlar\" romanının yazarı kimdir?",
+    "choices": [
+      "Oğuz Atay",
+      "Orhan Pamuk",
+      "Tanpınar",
+      "Peyami Safa"
+    ],
+    "answerIndex": 0,
+    "explanation": "Oğuz Atay'ın 1971-1972'de yayınlanan çok katmanlı romanıdır.",
+    "tags": [
+      "roman",
+      "modern"
+    ]
+  },
+  {
+    "id": 3043,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "mimari",
+    "difficulty": "kolay",
+    "question": "Ayasofya'yı hangi imparator yaptırmıştır?",
+    "choices": [
+      "I. Justinianus",
+      "Konstantin",
+      "II. Justinianus",
+      "Fatih Sultan Mehmet"
+    ],
+    "answerIndex": 0,
+    "explanation": "MS 537'de Bizans İmparatoru I. Justinianus tarafından inşa ettirilmiştir.",
+    "tags": [
+      "ayasofya",
+      "bizans"
+    ]
+  },
+  {
+    "id": 3044,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "mimari",
+    "difficulty": "orta",
+    "question": "Mimar Sinan'ın \"kalfalık eseri\" olarak kabul edilen yapı hangisidir?",
+    "choices": [
+      "Şehzade Camii",
+      "Süleymaniye Camii",
+      "Selimiye Camii",
+      "Mihrimah Sultan Camii"
+    ],
+    "answerIndex": 0,
+    "explanation": "Şehzade Camii kalfalık, Süleymaniye ustalık, Selimiye ise ustalık dönemi eseridir.",
+    "tags": [
+      "sinan",
+      "cami"
+    ]
+  },
+  {
+    "id": 3045,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "mimari",
+    "difficulty": "kolay",
+    "question": "Sultan Ahmet Camii halk arasında hangi isimle bilinir?",
+    "choices": [
+      "Mavi Cami",
+      "Yeşil Cami",
+      "Büyük Cami",
+      "Yeni Cami"
+    ],
+    "answerIndex": 0,
+    "explanation": "İç süslemelerindeki mavi İznik çinileri nedeniyle Mavi Cami denir.",
+    "tags": [
+      "cami",
+      "istanbul"
+    ]
+  },
+  {
+    "id": 3046,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "arkeoloji",
+    "difficulty": "orta",
+    "question": "Göbeklitepe yaklaşık kaç yıllık bir yapıdır?",
+    "choices": [
+      "12.000 yıl",
+      "8.000 yıl",
+      "15.000 yıl",
+      "5.000 yıl"
+    ],
+    "answerIndex": 0,
+    "explanation": "MÖ 10.000 civarında inşa edilen dünyanın bilinen en eski tapınağıdır.",
+    "tags": [
+      "göbeklitepe",
+      "arkeoloji"
+    ]
+  },
+  {
+    "id": 3047,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "sanat",
+    "difficulty": "zor",
+    "question": "Türk minyatür sanatında en ünlü eserlerden \"Surname-i Vehbi\" hangi şenliği anlatır?",
+    "choices": [
+      "III. Ahmet'in oğullarının sünnet düğünü",
+      "Fatih'in düğünü",
+      "Kanuni'nin Edirne şenlikleri",
+      "II. Mahmut'un tahta çıkışı"
+    ],
+    "answerIndex": 0,
+    "explanation": "1720 yılında yapılan şenliği anlatan minyatürlü eserdir.",
+    "tags": [
+      "minyatür",
+      "sanat"
+    ]
+  },
+  {
+    "id": 3048,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "mimari",
+    "difficulty": "zor",
+    "question": "Topkapı Sarayı'nın inşasına hangi padişah döneminde başlanmıştır?",
+    "choices": [
+      "Fatih Sultan Mehmet",
+      "II. Bayezid",
+      "Kanuni Sultan Süleyman",
+      "I. Selim"
+    ],
+    "answerIndex": 0,
+    "explanation": "1460'larda II. Mehmet (Fatih) tarafından inşa edilmeye başlanmıştır.",
+    "tags": [
+      "saray",
+      "istanbul"
+    ]
+  },
+  {
+    "id": 3049,
+    "lang": "tr",
+    "category": "genel_kultur",
+    "subcategory": "sanat",
+    "difficulty": "cok_zor",
+    "question": "Osmanlı hat sanatında \"Sülüs\" yazı çeşidini mükemmelleştiren hattat kimdir?",
+    "choices": [
+      "Şeyh Hamdullah",
+      "Hafız Osman",
+      "Ahmed Karahisari",
+      "Mustafa Rakım"
+    ],
+    "answerIndex": 0,
+    "explanation": "15. yüzyılda yaşamış Şeyh Hamdullah, altı çeşit hattı geliştirmiştir.",
+    "tags": [
+      "hat",
+      "sanat"
+    ]
+  }
+]

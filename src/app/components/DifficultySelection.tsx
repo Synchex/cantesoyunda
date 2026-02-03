@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
 import { GameCard } from './GameCard';
 import { Smile, Zap, Flame, Skull } from 'lucide-react';
-import { Language, getTranslation } from '@/app/data/translations';
+import { Language, getTranslation } from '../data/translations';
+import { CreditBar } from './CreditBar';
 
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'very-hard';
 
@@ -47,6 +48,9 @@ export function DifficultySelection({ onSelectDifficulty, language }: Difficulty
 
   return (
     <div className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">
+      {/* Credit Bar */}
+      <CreditBar language={language} />
+
       {/* Background effect */}
       <div className="absolute inset-0 bg-gradient-to-br from-[var(--bg-dark)] via-[var(--bg-darker)] to-[var(--bg-dark)]">
         <motion.div
@@ -71,7 +75,7 @@ export function DifficultySelection({ onSelectDifficulty, language }: Difficulty
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 
+          <h2
             className="text-5xl mb-4"
             style={{
               background: 'linear-gradient(135deg, var(--neon-green) 0%, var(--gold) 50%, var(--wrong) 100%)',
@@ -103,7 +107,7 @@ export function DifficultySelection({ onSelectDifficulty, language }: Difficulty
                 glowing={difficulty.highlighted}
                 className="h-full"
               >
-                <h3 
+                <h3
                   className="text-2xl text-center mb-2"
                   style={{ color: difficulty.color }}
                 >

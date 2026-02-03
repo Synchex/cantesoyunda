@@ -3,7 +3,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { CircularTimer } from './CircularTimer';
 import { ProgressBar } from './ProgressBar';
 import { Coins, Zap } from 'lucide-react';
-import { Language, getTranslation } from '@/app/data/translations';
+import { Language, getTranslation } from '../data/translations';
+import { CreditBar } from './CreditBar';
 
 interface Question {
   id: number;
@@ -18,8 +19,10 @@ interface QuestionScreenProps {
   totalQuestions: number;
   coins: number;
   streak: number;
-  onAnswer: (isCorrect: boolean) => void;
+  onAnswer: (isCorrect: boolean, wrongAnswerData?: { correctAnswer: string; userAnswer: string; explanation?: string }) => void;
   onNextQuestion: () => void;
+  onContinueRequest: () => void;
+  continueUsed: boolean;
   language: Language;
 }
 
@@ -31,10 +34,12 @@ export function QuestionScreen({
   streak,
   onAnswer,
   onNextQuestion,
+  onContinueRequest,
+  continueUsed,
   language,
 }: QuestionScreenProps) {
   const t = (key: any, params?: any) => getTranslation(language, key, params);
-  
+
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -50,30 +55,65 @@ export function QuestionScreen({
 
   const handleAnswerClick = (index: number) => {
     if (selectedAnswer !== null || timeUp) return;
-    
+
     setSelectedAnswer(index);
     const correct = index === question.correctAnswer;
     setIsCorrect(correct);
     setShowResult(true);
-    onAnswer(correct);
 
-    // Auto advance after showing result
-    setTimeout(() => {
-      onNextQuestion();
-    }, 2000);
+    if (correct) {
+      onAnswer(true);
+      // Auto advance after showing result for correct answer
+      setTimeout(() => {
+        onNextQuestion();
+      }, 2000);
+    } else {
+      // For wrong answer, show brief feedback then navigate to loss screen
+      const wrongAnswerData = {
+        correctAnswer: question.answers[question.correctAnswer],
+        userAnswer: question.answers[index],
+        explanation: undefined, // Can be extended later if questions have explanations
+      };
+
+      onAnswer(false, wrongAnswerData);
+
+      // Show wrong answer feedback briefly (shake + red highlight)
+      setTimeout(() => {
+        if (!continueUsed) {
+          // First wrong answer - show continue modal
+          onContinueRequest();
+        } else {
+          // Continue already used - go to loss screen
+          onNextQuestion();
+        }
+      }, 800);
+    }
   };
 
   const handleTimeUp = () => {
     if (selectedAnswer !== null) return;
-    
+
     setTimeUp(true);
     setShowResult(true);
     setIsCorrect(false);
-    onAnswer(false);
+
+    const wrongAnswerData = {
+      correctAnswer: question.answers[question.correctAnswer],
+      userAnswer: language === 'tr' ? 'Zaman Doldu' : 'Time Up',
+      explanation: undefined,
+    };
+
+    onAnswer(false, wrongAnswerData);
 
     setTimeout(() => {
-      onNextQuestion();
-    }, 2000);
+      if (!continueUsed) {
+        // First wrong answer - show continue modal
+        onContinueRequest();
+      } else {
+        // Continue already used - go to loss screen
+        onNextQuestion();
+      }
+    }, 800);
   };
 
   const getAnswerStyle = (index: number) => {
@@ -94,6 +134,9 @@ export function QuestionScreen({
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 py-8 relative overflow-hidden">
+      {/* Credit Bar */}
+      <CreditBar language={language} />
+
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-[var(--bg-dark)] via-[var(--bg-darker)] to-[var(--bg-dark)]">
         {showResult && isCorrect && (
@@ -118,7 +161,7 @@ export function QuestionScreen({
         {/* Top Stats Bar */}
         <div className="mb-8 flex items-center justify-between">
           {/* Coins */}
-          <motion.div 
+          <motion.div
             className="flex items-center gap-2 bg-[var(--card)] px-4 py-2 rounded-full border-2 border-[var(--gold)]"
             animate={showResult && isCorrect ? { scale: [1, 1.2, 1] } : {}}
             transition={{ duration: 0.5 }}
@@ -128,16 +171,16 @@ export function QuestionScreen({
           </motion.div>
 
           {/* Timer */}
-          <CircularTimer 
-            duration={20} 
+          <CircularTimer
+            duration={20}
             onComplete={handleTimeUp}
             size={80}
           />
 
           {/* Streak */}
-          <motion.div 
+          <motion.div
             className="flex items-center gap-2 bg-[var(--card)] px-4 py-2 rounded-full border-2 border-[var(--neon-green)]"
-            animate={streak > 0 ? { 
+            animate={streak > 0 ? {
               boxShadow: [
                 '0 0 20px rgba(0,255,136,0.3)',
                 '0 0 30px rgba(0,255,136,0.6)',
@@ -183,14 +226,14 @@ export function QuestionScreen({
               onClick={() => handleAnswerClick(index)}
               disabled={selectedAnswer !== null || timeUp}
               initial={{ opacity: 0, x: -50 }}
-              animate={{ 
-                opacity: 1, 
+              animate={{
+                opacity: 1,
                 x: 0,
                 ...(showResult && index === selectedAnswer && !isCorrect ? {
                   x: [0, -10, 10, -10, 10, 0],
                 } : {})
               }}
-              transition={{ 
+              transition={{
                 delay: index * 0.1,
                 duration: showResult && index === selectedAnswer && !isCorrect ? 0.5 : 0.4
               }}

@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
 import { GameButton } from './GameButton';
 import { Trophy, Star, Target, TrendingUp } from 'lucide-react';
-import { Language, getTranslation } from '@/app/data/translations';
+import { Language, getTranslation } from '../data/translations';
+import { CreditBar } from './CreditBar';
 
 interface ResultsScreenProps {
   totalQuestions: number;
@@ -21,9 +22,9 @@ export function ResultsScreen({
   language,
 }: ResultsScreenProps) {
   const t = (key: any) => getTranslation(language, key);
-  
+
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
-  
+
   const getPerformanceMessage = () => {
     if (percentage === 100) return { message: t('perfectScore'), emoji: "🏆", color: "var(--gold)" };
     if (percentage >= 80) return { message: t('excellent'), emoji: "⭐", color: "var(--neon-green)" };
@@ -63,6 +64,9 @@ export function ResultsScreen({
 
   return (
     <div className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">
+      {/* Credit Bar */}
+      <CreditBar language={language} />
+
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-[var(--bg-dark)] via-[var(--bg-darker)] to-[var(--bg-dark)]">
         <motion.div
@@ -145,7 +149,7 @@ export function ResultsScreen({
           >
             {performance.emoji}
           </motion.div>
-          
+
           <h1
             className="text-6xl mb-4"
             style={{
@@ -182,7 +186,7 @@ export function ResultsScreen({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 + index * 0.1, duration: 0.5 }}
-              whileHover={{ 
+              whileHover={{
                 scale: 1.05,
                 borderColor: stat.color,
                 boxShadow: `0 0 30px ${stat.color}40`,

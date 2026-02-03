@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
 import { GameButton } from './GameButton';
 import { Sparkles, Settings } from 'lucide-react';
-import { Language, getTranslation } from '@/app/data/translations';
+import { Language, getTranslation } from '../data/translations';
+import { CreditBar } from './CreditBar';
 
 interface HomeScreenProps {
   onStartGame: () => void;
@@ -14,6 +15,9 @@ export function HomeScreen({ onStartGame, onOpenSettings, language }: HomeScreen
 
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Credit Bar */}
+      <CreditBar language={language} />
+
       {/* Settings button */}
       <motion.button
         className="absolute top-6 right-6 z-20 p-3 rounded-full bg-[var(--card)] border-2 border-[var(--border)] hover:border-[var(--purple)] transition-all duration-300 hover:shadow-[0_0_20px_rgba(168,85,247,0.4)]"
@@ -61,7 +65,7 @@ export function HomeScreen({ onStartGame, onOpenSettings, language }: HomeScreen
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="mb-8"
         >
-          <h1 
+          <h1
             className="text-6xl md:text-7xl mb-4 leading-tight"
             style={{
               background: 'linear-gradient(135deg, var(--gold) 0%, var(--purple-bright) 50%, var(--neon-green) 100%)',
@@ -96,9 +100,9 @@ export function HomeScreen({ onStartGame, onOpenSettings, language }: HomeScreen
           transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
           className="mt-16"
         >
-          <GameButton 
-            variant="gold" 
-            size="xl" 
+          <GameButton
+            variant="gold"
+            size="xl"
             onClick={onStartGame}
             className="text-3xl px-16 py-8 shadow-[0_0_60px_rgba(255,215,0,0.6)]"
           >
