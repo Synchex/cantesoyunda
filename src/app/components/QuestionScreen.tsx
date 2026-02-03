@@ -5,6 +5,9 @@ import { ProgressBar } from './ProgressBar';
 import { Coins, Zap } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
 import { CreditBar } from './CreditBar';
+import { PrizeLadder } from './PrizeLadder';
+import { PrizeDisplay } from './PrizeDisplay';
+import { getCurrentPrize } from '../data/prizeLadder';
 
 interface Question {
   id: number;
@@ -44,6 +47,9 @@ export function QuestionScreen({
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [timeUp, setTimeUp] = useState(false);
+
+  // Calculate current prize based on question number
+  const currentPrize = getCurrentPrize(questionNumber - 1); // questionNumber is 1-based, index is 0-based
 
   useEffect(() => {
     // Reset state when question changes
@@ -136,6 +142,14 @@ export function QuestionScreen({
     <div className="min-h-screen flex items-center justify-center px-4 py-8 relative overflow-hidden">
       {/* Credit Bar */}
       <CreditBar language={language} />
+
+      {/* Prize Display */}
+      <PrizeDisplay currentPrize={currentPrize} />
+
+      {/* Prize Ladder - Fixed position on left */}
+      <div className="fixed left-6 top-1/2 -translate-y-1/2 z-10 hidden lg:block">
+        <PrizeLadder currentQuestionNumber={questionNumber} />
+      </div>
 
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-[var(--bg-dark)] via-[var(--bg-darker)] to-[var(--bg-dark)]">

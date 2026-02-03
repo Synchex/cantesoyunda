@@ -69,7 +69,7 @@ export interface Translations {
 
   // Bottom Tab Navigation
   home: string;
-  aiAssistant: string;
+  gameHistory: string;
   leaderboard: string;
   database: string;
 
@@ -149,7 +149,7 @@ export const translations: Record<Language, Translations> = {
 
     // Bottom Tab Navigation
     home: 'Home',
-    aiAssistant: 'AI Assistant',
+    gameHistory: 'History',
     leaderboard: 'Leaderboard',
     database: 'Database',
 
@@ -228,7 +228,7 @@ export const translations: Record<Language, Translations> = {
 
     // Bottom Tab Navigation
     home: 'Ana Sayfa',
-    aiAssistant: 'AI Asistan',
+    gameHistory: 'Geçmiş',
     leaderboard: 'Skor Tablosu',
     database: 'Veritabanı',
 

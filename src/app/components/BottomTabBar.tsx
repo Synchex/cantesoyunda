@@ -1,8 +1,8 @@
 import { motion } from 'motion/react';
-import { Home, Bot, Trophy, Database } from 'lucide-react';
+import { Home, Clock, Trophy, Database, Settings } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
 
-export type TabType = 'home' | 'ai-assistant' | 'leaderboard' | 'database';
+export type TabType = 'home' | 'game-history' | 'leaderboard' | 'database' | 'settings';
 
 interface BottomTabBarProps {
     activeTab: TabType;
@@ -20,9 +20,9 @@ export function BottomTabBar({ activeTab, onTabChange, language }: BottomTabBarP
             label: t('home'),
         },
         {
-            id: 'ai-assistant' as TabType,
-            icon: Bot,
-            label: t('aiAssistant'),
+            id: 'game-history' as TabType,
+            icon: Clock,
+            label: t('gameHistory'),
         },
         {
             id: 'leaderboard' as TabType,
@@ -34,6 +34,11 @@ export function BottomTabBar({ activeTab, onTabChange, language }: BottomTabBarP
             icon: Database,
             label: t('database'),
         },
+        {
+            id: 'settings' as TabType,
+            icon: Settings,
+            label: t('settings'),
+        },
     ];
 
     return (
@@ -41,19 +46,26 @@ export function BottomTabBar({ activeTab, onTabChange, language }: BottomTabBarP
             className="fixed bottom-0 left-0 right-0 z-50"
             initial={{ y: 100 }}
             animate={{ y: 0 }}
-            transition={{ duration: 0.4, ease: 'easeOut' }}
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         >
             <div
                 className="relative mx-auto max-w-md"
                 style={{
-                    background: 'rgba(15, 15, 25, 0.95)',
-                    backdropFilter: 'blur(12px)',
-                    borderRadius: '24px 24px 0 0',
-                    boxShadow: '0 -2px 20px rgba(248, 213, 89, 0.15)',
-                    borderTop: '1px solid rgba(248, 213, 89, 0.2)',
+                    background: 'linear-gradient(180deg, rgba(14, 14, 22, 0.98) 0%, rgba(20, 20, 30, 0.95) 100%)',
+                    backdropFilter: 'blur(20px)',
+                    borderTop: '1px solid rgba(212, 175, 55, 0.2)',
+                    boxShadow: '0 -4px 30px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05)',
                 }}
             >
-                <div className="flex items-center justify-evenly px-6 py-4 pb-safe">
+                {/* Metallic sheen at top */}
+                <div
+                    className="absolute top-0 left-0 right-0 h-px pointer-events-none"
+                    style={{
+                        background: 'linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent)',
+                    }}
+                />
+
+                <div className="flex items-center justify-evenly px-4 py-3 pb-safe">
                     {tabs.map((tab) => {
                         const isActive = activeTab === tab.id;
                         const Icon = tab.icon;
@@ -62,84 +74,88 @@ export function BottomTabBar({ activeTab, onTabChange, language }: BottomTabBarP
                             <motion.button
                                 key={tab.id}
                                 onClick={() => onTabChange(tab.id)}
-                                className="flex flex-col items-center gap-1 relative"
+                                className="flex flex-col items-center gap-1.5 relative"
                                 whileTap={{ scale: 0.95 }}
                                 style={{
                                     minWidth: '70px',
+                                    paddingTop: '10px',
+                                    paddingBottom: '10px',
                                 }}
                             >
-                                {/* Active glow indicator */}
+                                {/* Glow halo behind active tab */}
                                 {isActive && (
                                     <motion.div
-                                        className="absolute -top-1 left-1/2 w-12 h-12 rounded-full"
+                                        className="absolute inset-0 rounded-xl pointer-events-none"
                                         style={{
-                                            background: 'radial-gradient(circle, rgba(248, 213, 89, 0.3) 0%, transparent 70%)',
-                                            transform: 'translateX(-50%)',
-                                            filter: 'blur(8px)',
+                                            background: 'radial-gradient(ellipse at center, rgba(212, 175, 55, 0.15) 0%, transparent 70%)',
+                                            filter: 'blur(12px)',
                                         }}
                                         initial={{ opacity: 0, scale: 0.8 }}
                                         animate={{
                                             opacity: [0.6, 1, 0.6],
-                                            scale: [0.9, 1, 0.9],
+                                            scale: 1,
                                         }}
                                         transition={{
-                                            duration: 2,
-                                            repeat: Infinity,
-                                            ease: 'easeInOut',
+                                            opacity: { duration: 2, repeat: Infinity },
+                                            scale: { duration: 0.3 },
                                         }}
                                     />
                                 )}
 
                                 {/* Icon */}
                                 <motion.div
+                                    className="relative z-10"
                                     animate={{
-                                        scale: isActive ? 1.1 : 1,
+                                        y: isActive ? -2 : 0,
                                     }}
-                                    transition={{ duration: 0.3 }}
-                                    style={{
-                                        position: 'relative',
-                                        zIndex: 1,
-                                    }}
+                                    transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
                                 >
                                     <Icon
-                                        size={24}
+                                        size={22}
                                         style={{
-                                            color: isActive ? 'var(--gold)' : 'rgba(255, 255, 255, 0.4)',
-                                            strokeWidth: isActive ? 2.5 : 2,
-                                            transition: 'all 300ms cubic-bezier(0.4, 0, 0.2, 1)',
+                                            color: isActive ? '#D4AF37' : 'rgba(236, 236, 236, 0.4)',
+                                            strokeWidth: 2,
+                                            filter: isActive ? 'drop-shadow(0 0 8px rgba(212, 175, 55, 0.6))' : 'none',
+                                            transition: 'all 300ms cubic-bezier(0.22, 1, 0.36, 1)',
                                         }}
                                     />
                                 </motion.div>
 
                                 {/* Label */}
                                 <motion.span
+                                    className="relative z-10"
                                     animate={{
-                                        opacity: isActive ? 1 : 0.6,
+                                        opacity: isActive ? 1 : 0.5,
                                     }}
                                     transition={{ duration: 0.3 }}
                                     style={{
-                                        fontSize: '12px',
+                                        fontSize: '11px',
                                         fontWeight: isActive ? 600 : 400,
-                                        color: isActive ? 'var(--gold)' : 'rgba(255, 255, 255, 0.5)',
-                                        letterSpacing: '0.3px',
-                                        transition: 'all 300ms cubic-bezier(0.4, 0, 0.2, 1)',
+                                        color: isActive ? '#D4AF37' : 'rgba(236, 236, 236, 0.5)',
+                                        letterSpacing: '0.02em',
+                                        textShadow: isActive ? '0 0 8px rgba(212, 175, 55, 0.4)' : 'none',
+                                        transition: 'all 300ms cubic-bezier(0.22, 1, 0.36, 1)',
                                     }}
                                 >
                                     {tab.label}
                                 </motion.span>
 
-                                {/* Active indicator dot */}
+                                {/* Gold underline indicator */}
                                 {isActive && (
                                     <motion.div
-                                        className="absolute -bottom-1 left-1/2 w-1 h-1 rounded-full"
+                                        className="absolute -bottom-3 left-1/2 h-0.5 rounded-full z-10"
                                         style={{
-                                            background: 'var(--gold)',
+                                            width: '40px',
+                                            background: 'linear-gradient(90deg, transparent, #D4AF37, transparent)',
                                             transform: 'translateX(-50%)',
-                                            boxShadow: '0 0 8px var(--gold)',
+                                            boxShadow: '0 0 10px rgba(212, 175, 55, 0.6)',
                                         }}
-                                        initial={{ opacity: 0, scale: 0 }}
-                                        animate={{ opacity: 1, scale: 1 }}
-                                        transition={{ duration: 0.3 }}
+                                        layoutId="activeTabIndicator"
+                                        transition={{
+                                            type: 'spring',
+                                            stiffness: 400,
+                                            damping: 30,
+                                        }}
                                     />
                                 )}
                             </motion.button>

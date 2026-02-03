@@ -3,6 +3,8 @@ import { GameButton } from './GameButton';
 import { X, CheckCircle2, AlertCircle, Trophy, Target } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
 import { CreditBar } from './CreditBar';
+import { ArenaCoinIcon } from './ArenaCoinIcon';
+import { formatPrizeFull } from '../data/prizeLadder';
 
 interface LossScreenProps {
     correctAnswer: string;
@@ -12,6 +14,7 @@ interface LossScreenProps {
     currentQuestion: number;
     totalQuestions: number;
     coinsEarned: number;
+    prizeWon: number; // ArenaCoins won
     onTryAgain: () => void;
     onGoHome: () => void;
     language: Language;
@@ -25,6 +28,7 @@ export function LossScreen({
     currentQuestion,
     totalQuestions,
     coinsEarned,
+    prizeWon,
     onTryAgain,
     onGoHome,
     language,
@@ -94,6 +98,30 @@ export function LossScreen({
                     <p className="text-xl text-[var(--muted-foreground)] mb-2">
                         {language === 'tr' ? 'Yanlış cevap verdin.' : 'Wrong answer.'}
                     </p>
+
+                    {/* Prize Won */}
+                    {prizeWon > 0 && (
+                        <motion.div
+                            className="mt-4 flex items-center justify-center gap-2 px-6 py-3 rounded-full border-2"
+                            style={{
+                                borderColor: 'rgba(212, 175, 55, 0.5)',
+                                background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%)',
+                            }}
+                            initial={{ scale: 0.8, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            transition={{ delay: 0.3, duration: 0.5 }}
+                        >
+                            <span className="text-sm" style={{ color: 'rgba(236, 236, 236, 0.7)' }}>
+                                {language === 'tr' ? 'Kazanılan Ödül:' : 'Prize Won:'}
+                            </span>
+                            <div className="flex items-center gap-1.5">
+                                <ArenaCoinIcon size={20} color="#D4AF37" />
+                                <span className="text-xl font-bold" style={{ color: '#D4AF37' }}>
+                                    {formatPrizeFull(prizeWon)}
+                                </span>
+                            </div>
+                        </motion.div>
+                    )}
                 </motion.div>
 
                 {/* Answer Comparison */}

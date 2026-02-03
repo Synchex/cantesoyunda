@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { HomeScreen } from './components/HomeScreen';
 import { CategorySelection, Category } from './components/CategorySelection';
 import { DifficultySelection, Difficulty } from './components/DifficultySelection';
@@ -7,19 +7,21 @@ import { ResultsScreen } from './components/ResultsScreen';
 import { LossScreen } from './components/LossScreen';
 import { ContinueModal } from './components/ContinueModal';
 import { DesignSystem } from './components/DesignSystem';
-import { SettingsModal } from './components/SettingsModal';
+import { SettingsScreen } from './components/SettingsScreen';
 import { InsufficientCreditsModal } from './components/InsufficientCreditsModal';
-import { AIAssistantScreen } from './components/AIAssistantScreen';
+import { GameHistoryScreen } from './components/GameHistoryScreen';
 import { LeaderboardScreen } from './components/LeaderboardScreen';
 import { QuestionDatabaseScreen } from './components/QuestionDatabaseScreen';
 import { BottomTabBar, TabType } from './components/BottomTabBar';
 import { getQuestions } from './data/triviaQuestions';
 import { Language } from './data/translations';
 import { CreditProvider, useCredits } from './context/CreditContext';
+import { GameHistoryProvider, useGameHistory } from './context/GameHistoryContext';
+import { getCurrentPrize } from './data/prizeLadder';
 import { toast } from 'sonner';
 
 type GameState = 'home' | 'category' | 'difficulty' | 'playing' | 'results' | 'loss' | 'design-system';
-type ViewState = 'game' | 'ai-assistant' | 'leaderboard' | 'database';
+type ViewState = 'game' | 'game-history' | 'leaderboard' | 'database' | 'settings';
 
 function AppContent() {
   const [gameState, setGameState] = useState<GameState>('home');
@@ -34,9 +36,9 @@ function AppContent() {
   const [maxStreak, setMaxStreak] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [language, setLanguage] = useState<Language>('en');
-  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [showInsufficientCreditsModal, setShowInsufficientCreditsModal] = useState(false);
   const { canAfford, spendCredits, gameCost } = useCredits();
+  const { startNewRun, recordAnswer, finalizeRun } = useGameHistory();
 
   // Loss screen state
   const [lossData, setLossData] = useState<{
@@ -50,6 +52,24 @@ function AppContent() {
   const [showContinueModal, setShowContinueModal] = useState(false);
 
   const TOTAL_QUESTIONS = 12;
+
+  // Finalize run when game completes successfully
+  useEffect(() => {
+    if (gameState === 'results') {
+      // Won full prize for completing all questions
+      const prize = getCurrentPrize(TOTAL_QUESTIONS - 1); // Get prize for last question
+      finalizeRun('completed', prize);
+    }
+  }, [gameState, finalizeRun]);
+
+  // Finalize run when game is lost
+  useEffect(() => {
+    if (gameState === 'loss') {
+      // Get prize for last correctly answered question (current index - 1 if wrong, but we track 0 for loss)
+      // Since they lost, prize is 0 unless we implement checkpoints
+      finalizeRun('lost', 0);
+    }
+  }, [gameState, finalizeRun]);
 
   const handleStartGame = () => {
     // Check if player has enough credits before proceeding
@@ -115,10 +135,27 @@ function AppContent() {
     setCorrectAnswers(0);
     setContinueUsed(false); // Reset continue usage for new run
 
+    // Start tracking this run
+    startNewRun(selectedCategory, difficulty, TOTAL_QUESTIONS);
+
     setGameState('playing');
   };
 
   const handleAnswer = (isCorrect: boolean, wrongAnswerData?: { correctAnswer: string; userAnswer: string; explanation?: string }) => {
+    // Record this answer in history
+    const currentQuestion = questions[currentQuestionIndex];
+    if (currentQuestion) {
+      recordAnswer({
+        questionId: currentQuestion.id,
+        questionText: currentQuestion.question,
+        selectedIndex: wrongAnswerData ? -1 : 0, // We don't track exact index, just correct/wrong
+        correctIndex: 0,
+        isCorrect,
+        userAnswer: wrongAnswerData?.userAnswer || (isCorrect ? 'Correct' : 'N/A'),
+        correctAnswer: wrongAnswerData?.correctAnswer || 'N/A',
+      });
+    }
+
     if (isCorrect) {
       const newStreak = streak + 1;
       const multiplier = Math.min(Math.floor(newStreak / 3) + 1, 5); // Max 5x multiplier
@@ -214,23 +251,25 @@ function AppContent() {
       if (gameState !== 'playing') {
         setGameState('home');
       }
-    } else if (tab === 'ai-assistant') {
-      setViewState('ai-assistant');
+    } else if (tab === 'game-history') {
+      setViewState('game-history');
     } else if (tab === 'leaderboard') {
       setViewState('leaderboard');
     } else if (tab === 'database') {
       setViewState('database');
+    } else if (tab === 'settings') {
+      setViewState('settings');
     }
   };
 
   // Uncomment this line and visit the app to see the design system
   // setGameState('design-system');
 
-  // Show AI Assistant screen
-  if (viewState === 'ai-assistant') {
+  // Show Game History screen
+  if (viewState === 'game-history') {
     return (
       <>
-        <AIAssistantScreen language={language} />
+        <GameHistoryScreen language={language} />
         <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />
       </>
     );
@@ -256,6 +295,19 @@ function AppContent() {
     );
   }
 
+  // Show Settings screen
+  if (viewState === 'settings') {
+    return (
+      <>
+        <SettingsScreen
+          language={language}
+          onLanguageChange={setLanguage}
+        />
+        <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />
+      </>
+    );
+  }
+
   // Game flow screens (viewState === 'game')
 
   if (gameState === 'design-system') {
@@ -267,14 +319,7 @@ function AppContent() {
       <>
         <HomeScreen
           onStartGame={handleStartGame}
-          onOpenSettings={() => setIsSettingsOpen(true)}
           language={language}
-        />
-        <SettingsModal
-          isOpen={isSettingsOpen}
-          onClose={() => setIsSettingsOpen(false)}
-          currentLanguage={language}
-          onLanguageChange={setLanguage}
         />
         <InsufficientCreditsModal
           isOpen={showInsufficientCreditsModal}
@@ -313,14 +358,7 @@ function AppContent() {
         <>
           <HomeScreen
             onStartGame={handleStartGame}
-            onOpenSettings={() => setIsSettingsOpen(true)}
             language={language}
-          />
-          <SettingsModal
-            isOpen={isSettingsOpen}
-            onClose={() => setIsSettingsOpen(false)}
-            currentLanguage={language}
-            onLanguageChange={setLanguage}
           />
         </>
       );
@@ -362,6 +400,7 @@ function AppContent() {
           currentQuestion={currentQuestionIndex + 1}
           totalQuestions={TOTAL_QUESTIONS}
           coinsEarned={coins}
+          prizeWon={0}
           onTryAgain={handleTryAgain}
           onGoHome={handleGoHome}
           language={language}
@@ -391,14 +430,7 @@ function AppContent() {
     <>
       <HomeScreen
         onStartGame={handleStartGame}
-        onOpenSettings={() => setIsSettingsOpen(true)}
         language={language}
-      />
-      <SettingsModal
-        isOpen={isSettingsOpen}
-        onClose={() => setIsSettingsOpen(false)}
-        currentLanguage={language}
-        onLanguageChange={setLanguage}
       />
       <InsufficientCreditsModal
         isOpen={showInsufficientCreditsModal}
@@ -413,7 +445,9 @@ function AppContent() {
 export default function App() {
   return (
     <CreditProvider>
-      <AppContent />
+      <GameHistoryProvider>
+        <AppContent />
+      </GameHistoryProvider>
     </CreditProvider>
   );
 }

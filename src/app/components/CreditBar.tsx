@@ -25,22 +25,22 @@ export function CreditBar({ language }: CreditBarProps) {
     const getBorderColor = () => {
         switch (warningState) {
             case 'critical':
-                return 'var(--wrong)';
+                return 'rgba(255, 60, 80, 0.6)';
             case 'low':
-                return 'var(--gold-dark)';
+                return 'rgba(255, 152, 0, 0.6)';
             default:
-                return 'var(--gold)';
+                return 'rgba(212, 175, 55, 0.5)';
         }
     };
 
     const getTextColor = () => {
         switch (warningState) {
             case 'critical':
-                return 'var(--wrong)';
+                return '#ff3c50';
             case 'low':
-                return '#ff9800'; // Orange
+                return '#ff9800';
             default:
-                return 'var(--gold)';
+                return '#D4AF37';
         }
     };
 
@@ -48,34 +48,46 @@ export function CreditBar({ language }: CreditBarProps) {
         <>
             <motion.div
                 className="fixed top-6 left-6 z-20"
-                initial={{ opacity: 0, x: -50 }}
+                initial={{ opacity: 0, x: -20 }}
                 animate={{
                     opacity: 1,
                     x: 0,
-                    scale: warningState !== 'normal' ? [1, 1.05, 1] : 1,
                 }}
                 transition={{
-                    duration: 0.5,
-                    scale: {
-                        duration: 1,
-                        repeat: warningState !== 'normal' ? Infinity : 0,
-                        ease: 'easeInOut',
-                    }
+                    duration: 0.6,
+                    ease: [0.22, 1, 0.36, 1],
                 }}
             >
-                <div
-                    className="relative px-4 py-3 rounded-2xl backdrop-blur-md border-2 transition-all duration-300"
+                <motion.div
+                    className="relative px-5 py-3 rounded-full backdrop-blur-md border-2 transition-all duration-300"
                     style={{
-                        background: 'linear-gradient(135deg, rgba(26, 15, 46, 0.9) 0%, rgba(10, 5, 20, 0.8) 100%)',
+                        background: 'linear-gradient(135deg, rgba(20, 20, 30, 0.9) 0%, rgba(30, 30, 45, 0.8) 100%)',
                         borderColor: getBorderColor(),
-                        boxShadow: `0 0 ${warningState === 'critical' ? '30' : '20'}px ${getBorderColor()}60`,
+                        boxShadow: `0 0 30px ${getBorderColor()}, inset 0 1px 0 rgba(255, 255, 255, 0.1)`,
+                    }}
+                    animate={{
+                        scale: warningState === 'critical' ? [1, 1.03, 1] : 1,
+                    }}
+                    transition={{
+                        scale: {
+                            duration: 1.5,
+                            repeat: warningState === 'critical' ? Infinity : 0,
+                        }
                     }}
                 >
+                    {/* Metallic sheen overlay */}
+                    <div
+                        className="absolute inset-0 rounded-full pointer-events-none opacity-30"
+                        style={{
+                            background: 'linear-gradient(135deg, transparent 0%, rgba(255, 255, 255, 0.15) 50%, transparent 100%)',
+                        }}
+                    />
+
                     {/* Main credit display */}
-                    <div className="flex items-center gap-3">
+                    <div className="relative flex items-center gap-3">
                         <motion.div
                             animate={{
-                                rotate: warningState === 'critical' ? [0, -10, 10, -10, 10, 0] : 0,
+                                rotate: warningState === 'critical' ? [0, -5, 5, -5, 5, 0] : 0,
                             }}
                             transition={{
                                 duration: 0.5,
@@ -84,18 +96,25 @@ export function CreditBar({ language }: CreditBarProps) {
                             }}
                         >
                             <Coins
-                                size={28}
-                                style={{ color: getTextColor() }}
+                                size={22}
+                                style={{
+                                    color: getTextColor(),
+                                    filter: `drop-shadow(0 0 6px ${getTextColor()})`,
+                                }}
                             />
                         </motion.div>
 
                         <motion.span
-                            className="text-2xl font-bold min-w-[60px]"
-                            style={{ color: getTextColor() }}
+                            className="text-2xl font-bold min-w-[55px] tabular-nums"
+                            style={{
+                                color: getTextColor(),
+                                textShadow: `0 0 10px ${getTextColor()}`,
+                                letterSpacing: '-0.02em',
+                            }}
                             key={credits}
-                            initial={{ scale: 1.3, opacity: 0.5 }}
+                            initial={{ scale: 1.2, opacity: 0.5 }}
                             animate={{ scale: 1, opacity: 1 }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
                         >
                             {credits}
                         </motion.span>
@@ -103,48 +122,53 @@ export function CreditBar({ language }: CreditBarProps) {
                         <motion.button
                             className="w-8 h-8 rounded-full flex items-center justify-center border-2 transition-all duration-300"
                             style={{
-                                backgroundColor: 'rgba(168, 85, 247, 0.2)',
-                                borderColor: 'var(--purple)',
+                                background: 'linear-gradient(135deg, rgba(44, 47, 111, 0.4) 0%, rgba(44, 47, 111, 0.2) 100%)',
+                                borderColor: 'rgba(212, 175, 55, 0.4)',
+                                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
                             }}
                             whileHover={{
-                                scale: 1.1,
-                                backgroundColor: 'rgba(168, 85, 247, 0.3)',
-                                boxShadow: '0 0 15px rgba(168, 85, 247, 0.5)',
+                                scale: 1.08,
+                                borderColor: 'rgba(212, 175, 55, 0.7)',
+                                boxShadow: '0 0 15px rgba(212, 175, 55, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)',
                             }}
-                            whileTap={{ scale: 0.9 }}
+                            whileTap={{ scale: 0.95 }}
                             onClick={() => setIsModalOpen(true)}
                         >
-                            <Plus size={18} className="text-[var(--purple)]" />
+                            <Plus size={16} style={{ color: '#D4AF37' }} />
                         </motion.button>
                     </div>
 
                     {/* Countdown timer */}
                     <motion.div
-                        className="mt-2 text-xs text-center"
-                        style={{ color: 'var(--muted-foreground)' }}
-                        initial={{ opacity: 0, y: -5 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.2 }}
+                        className="mt-2 text-[9px] text-center tracking-wide uppercase"
+                        style={{
+                            color: 'rgba(236, 236, 236, 0.35)',
+                            letterSpacing: '0.08em',
+                        }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.3 }}
                     >
                         {t('dailyRefillIn')} {timeUntilReset}
                     </motion.div>
 
-                    {/* Glow effect */}
+                    {/* Warning pulse effect */}
                     <AnimatePresence>
                         {warningState !== 'normal' && (
                             <motion.div
-                                className="absolute inset-0 rounded-2xl pointer-events-none"
+                                className="absolute -inset-1 rounded-full pointer-events-none"
                                 style={{
                                     background: `radial-gradient(circle, ${getTextColor()}20 0%, transparent 70%)`,
+                                    filter: 'blur(8px)',
                                 }}
                                 initial={{ opacity: 0 }}
-                                animate={{ opacity: [0.5, 1, 0.5] }}
+                                animate={{ opacity: [0.4, 0.8, 0.4] }}
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 2, repeat: Infinity }}
                             />
                         )}
                     </AnimatePresence>
-                </div>
+                </motion.div>
             </motion.div>
 
             <CreditModal
