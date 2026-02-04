@@ -14,6 +14,7 @@
 
 export type Category = 'genel_kultur' | 'tarih' | 'spor';
 export type Difficulty = 'kolay' | 'orta' | 'zor' | 'cok_zor';
+export type SportsSubcategory = 'football' | 'basketball' | 'turkish_sports' | 'legends_records';
 
 export interface Question {
     id: number;
@@ -22,6 +23,7 @@ export interface Question {
     correctAnswer: number; // Index of the correct answer (0-3)
     category: Category;
     difficulty: Difficulty;
+    subcategory?: SportsSubcategory; // Only applicable for 'spor' category
 }
 
 // ============================================================================
@@ -159,6 +161,7 @@ export { questionBankTR, questionBankEN, QUESTION_COUNT_TR, QUESTION_COUNT_EN };
 export interface GetQuestionsOptions {
     category?: Category | 'all';
     difficulty?: Difficulty | 'all';
+    subcategory?: SportsSubcategory;
     limit?: number;
     shuffle?: boolean;
     language?: QuestionBankLanguage;
@@ -171,6 +174,7 @@ export function getQuestions(options: GetQuestionsOptions = {}): Question[] {
     const {
         category = 'all',
         difficulty = 'all',
+        subcategory,
         limit,
         shuffle = true,
         language = 'en'
@@ -183,6 +187,11 @@ export function getQuestions(options: GetQuestionsOptions = {}): Question[] {
     // Filter by category
     if (category !== 'all') {
         filtered = filtered.filter(q => q.category === category);
+    }
+
+    // Filter by subcategory (only applicable for sports category)
+    if (subcategory) {
+        filtered = filtered.filter(q => q.subcategory === subcategory);
     }
 
     // Filter by difficulty

@@ -1,10 +1,15 @@
 import { motion } from 'motion/react';
+import { useState } from 'react';
 import { GameButton } from './GameButton';
-import { X, CheckCircle2, AlertCircle, Trophy, Target } from 'lucide-react';
+import { X, CheckCircle2, AlertCircle, Trophy, Target, Sparkles } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
 import { CreditBar } from './CreditBar';
 import { ArenaCoinIcon } from './ArenaCoinIcon';
 import { formatPrizeFull } from '../data/prizeLadder';
+import { useYuan } from '../context/YuanContext';
+import { YuanIcon } from './YuanIcon';
+import { ExplanationModal } from './ExplanationModal';
+import { fetchExplanation, ExplainResponse } from '../services/explainApi';
 
 interface LossScreenProps {
     correctAnswer: string;
@@ -18,6 +23,12 @@ interface LossScreenProps {
     onTryAgain: () => void;
     onGoHome: () => void;
     language: Language;
+    // For AI explanation
+    questionId?: string;
+    questionText?: string;
+    choices?: string[];
+    category?: string;
+    difficulty?: string;
 }
 
 export function LossScreen({
@@ -32,8 +43,53 @@ export function LossScreen({
     onTryAgain,
     onGoHome,
     language,
+    questionId,
+    questionText,
+    choices,
+    category,
+    difficulty,
 }: LossScreenProps) {
     const t = (key: any, params?: any) => getTranslation(language, key, params);
+    const { totalYuan, runYuan } = useYuan();
+
+    // AI Explanation state
+    const [isExplainModalOpen, setIsExplainModalOpen] = useState(false);
+    const [isExplainLoading, setIsExplainLoading] = useState(false);
+    const [explainError, setExplainError] = useState<string | null>(null);
+    const [explainData, setExplainData] = useState<ExplainResponse | null>(null);
+
+    const handleExplainClick = async () => {
+        setIsExplainModalOpen(true);
+
+        // If we already have data, don't fetch again
+        if (explainData?.success) return;
+
+        setIsExplainLoading(true);
+        setExplainError(null);
+
+        try {
+            const response = await fetchExplanation({
+                questionId: questionId || `q_${Date.now()}`,
+                questionText: questionText || '',
+                choices: choices || [correctAnswer, userAnswer],
+                correctChoice: correctAnswer,
+                selectedChoice: userAnswer,
+                category: category,
+                difficulty: difficulty,
+                language: language,
+            });
+
+            if (response.success) {
+                setExplainData(response);
+            } else {
+                setExplainError(response.error || 'Failed to get explanation');
+            }
+        } catch (err) {
+            setExplainError('Failed to connect to explanation service');
+        } finally {
+            setIsExplainLoading(false);
+        }
+    };
 
     return (
         <div className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">
@@ -176,6 +232,32 @@ export function LossScreen({
                             </div>
                         </motion.div>
                     )}
+
+                    {/* Explain with AI Button */}
+                    {questionText && (
+                        <motion.button
+                            className="w-full p-4 rounded-xl flex items-center justify-center gap-3 transition-all"
+                            style={{
+                                background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.08) 100%)',
+                                border: '2px solid rgba(212, 175, 55, 0.4)',
+                            }}
+                            whileHover={{
+                                scale: 1.02,
+                                borderColor: 'rgba(212, 175, 55, 0.6)',
+                                boxShadow: '0 0 20px rgba(212, 175, 55, 0.3)',
+                            }}
+                            whileTap={{ scale: 0.98 }}
+                            onClick={handleExplainClick}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.5, duration: 0.5 }}
+                        >
+                            <Sparkles size={20} style={{ color: '#D4AF37' }} />
+                            <span className="font-semibold" style={{ color: '#D4AF37' }}>
+                                {language === 'tr' ? 'AI ile Açıkla' : 'Explain with AI'}
+                            </span>
+                        </motion.button>
+                    )}
                 </motion.div>
 
                 {/* Stats Summary */}
@@ -224,6 +306,40 @@ export function LossScreen({
                     </div>
                 </motion.div>
 
+                {/* Yuan Earned Section */}
+                <motion.div
+                    className="mb-8 p-5 rounded-xl border-2"
+                    style={{
+                        background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%)',
+                        borderColor: 'rgba(212, 175, 55, 0.3)',
+                    }}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.4, duration: 0.5 }}
+                >
+                    <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                            <YuanIcon size={32} color="#D4AF37" />
+                            <div>
+                                <div className="text-xs" style={{ color: 'rgba(236, 236, 236, 0.5)' }}>
+                                    {language === 'tr' ? 'Bu Turda Kazanilan' : 'Earned This Run'}
+                                </div>
+                                <div className="text-xl font-bold" style={{ color: '#D4AF37' }}>
+                                    +{formatPrizeFull(runYuan)}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="text-right">
+                            <div className="text-xs" style={{ color: 'rgba(236, 236, 236, 0.5)' }}>
+                                {language === 'tr' ? 'Toplam Yuan' : 'Total Yuan'}
+                            </div>
+                            <div className="text-xl font-bold" style={{ color: '#D4AF37' }}>
+                                {formatPrizeFull(totalYuan)}
+                            </div>
+                        </div>
+                    </div>
+                </motion.div>
+
                 {/* Action Buttons */}
                 <motion.div
                     className="flex flex-col gap-4"
@@ -253,6 +369,19 @@ export function LossScreen({
                 {/* Spotlight effect */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-60 bg-gradient-to-b from-white/5 to-transparent pointer-events-none" />
             </div>
+
+            {/* AI Explanation Modal */}
+            <ExplanationModal
+                isOpen={isExplainModalOpen}
+                onClose={() => setIsExplainModalOpen(false)}
+                language={language}
+                isLoading={isExplainLoading}
+                error={explainError}
+                explanationMarkdown={explainData?.explanationMarkdown}
+                memoryTip={explainData?.memoryTip}
+                similarQuestion={explainData?.similarQuestion}
+                cached={explainData?.cached}
+            />
         </div>
     );
 }

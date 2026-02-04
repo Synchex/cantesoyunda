@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef, useCallback } from 'react';
 
 interface CircularTimerProps {
   duration: number; // in seconds
@@ -10,31 +10,48 @@ interface CircularTimerProps {
 export function CircularTimer({ duration, onComplete, size = 80 }: CircularTimerProps) {
   const [timeLeft, setTimeLeft] = useState(duration);
   const [isRunning, setIsRunning] = useState(true);
-  
+  // Ref to ensure onComplete is only called ONCE
+  const hasCompletedRef = useRef(false);
+  // Stable ref for onComplete to avoid dependency issues
+  const onCompleteRef = useRef(onComplete);
+  onCompleteRef.current = onComplete;
+
   const radius = (size - 8) / 2;
   const circumference = 2 * Math.PI * radius;
   const progress = (timeLeft / duration) * circumference;
-  
-  useEffect(() => {
-    if (!isRunning || timeLeft <= 0) {
-      if (timeLeft <= 0 && onComplete) {
-        onComplete();
-      }
-      return;
+
+  // Handle timer completion - only fires once
+  const handleComplete = useCallback(() => {
+    if (hasCompletedRef.current) return;
+    hasCompletedRef.current = true;
+    setIsRunning(false);
+    if (onCompleteRef.current) {
+      onCompleteRef.current();
     }
-    
+  }, []);
+
+  useEffect(() => {
+    // Reset on duration change (new question)
+    hasCompletedRef.current = false;
+    setTimeLeft(duration);
+    setIsRunning(true);
+  }, [duration]);
+
+  useEffect(() => {
+    if (!isRunning) return;
+
     const timer = setInterval(() => {
       setTimeLeft(prev => {
         if (prev <= 0.1) {
-          setIsRunning(false);
+          handleComplete();
           return 0;
         }
         return prev - 0.1;
       });
     }, 100);
-    
+
     return () => clearInterval(timer);
-  }, [isRunning, timeLeft, onComplete]);
+  }, [isRunning, handleComplete]);
   
   const getColor = () => {
     if (timeLeft <= 5) return 'var(--wrong)';

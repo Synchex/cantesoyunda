@@ -77,6 +77,18 @@ export interface Translations {
   questionDatabase: string;
   searchQuestions: string;
   allDifficulties: string;
+
+  // Sports Subcategory
+  chooseSportsCategory: string;
+  selectSportsField: string;
+  football: string;
+  footballDesc: string;
+  basketball: string;
+  basketballDesc: string;
+  turkishSports: string;
+  turkishSportsDesc: string;
+  legendsRecords: string;
+  legendsRecordsDesc: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -157,6 +169,18 @@ export const translations: Record<Language, Translations> = {
     questionDatabase: 'Question Database',
     searchQuestions: 'Search questions...',
     allDifficulties: 'All Difficulties',
+
+    // Sports Subcategory
+    chooseSportsCategory: 'Choose Sports Category',
+    selectSportsField: 'Pick your playing field',
+    football: 'Football',
+    footballDesc: 'The beautiful game worldwide',
+    basketball: 'Basketball',
+    basketballDesc: 'From NBA to international courts',
+    turkishSports: 'Turkish Sports',
+    turkishSportsDesc: 'Legends of Turkish athletics',
+    legendsRecords: 'Legends & Records',
+    legendsRecordsDesc: 'Greatest athletes and achievements',
   },
 
   tr: {
@@ -236,6 +260,18 @@ export const translations: Record<Language, Translations> = {
     questionDatabase: 'Soru Veritabanı',
     searchQuestions: 'Soru ara...',
     allDifficulties: 'Tüm Zorluklar',
+
+    // Sports Subcategory
+    chooseSportsCategory: 'Spor Kategorisi Seç',
+    selectSportsField: 'Oyun alanını seç',
+    football: 'Futbol',
+    footballDesc: 'Dünyanın en güzel oyunu',
+    basketball: 'Basketbol',
+    basketballDesc: 'NBA\'den uluslararası sahalara',
+    turkishSports: 'Türk Sporları',
+    turkishSportsDesc: 'Türk atletizminin efsaneleri',
+    legendsRecords: 'Efsaneler ve Rekorlar',
+    legendsRecordsDesc: 'En büyük sporcular ve başarılar',
   },
 };
 

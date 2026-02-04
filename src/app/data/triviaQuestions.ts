@@ -10,6 +10,7 @@ import {
   Question,
   Category,
   Difficulty,
+  SportsSubcategory,
   LegacyCategory,
   LegacyDifficulty,
   categoryMapReverse,
@@ -28,7 +29,11 @@ export interface TriviaQuestion {
   correctAnswer: number;
   category: LegacyCategory;
   difficulty: LegacyDifficulty;
+  subcategory?: SportsSubcategory;
 }
+
+// Re-export SportsSubcategory for use in App.tsx
+export type { SportsSubcategory };
 
 // ============================================================================
 // Convert Question Bank questions to legacy format
@@ -42,6 +47,7 @@ function toLegacyQuestion(q: Question): TriviaQuestion {
     correctAnswer: q.correctAnswer,
     category: categoryMapReverse[q.category],
     difficulty: difficultyMapReverse[q.difficulty],
+    subcategory: q.subcategory,
   };
 }
 
@@ -77,7 +83,8 @@ export function getQuestions(
   category: LegacyCategory | 'all',
   difficulty: LegacyDifficulty,
   count: number,
-  language: 'tr' | 'en' = 'en'
+  language: 'tr' | 'en' = 'en',
+  subcategory?: SportsSubcategory
 ): TriviaQuestion[] {
   const newCategory = legacyCategoryToNew[category];
   const newDifficulty = legacyDifficultyToNew[difficulty];
@@ -85,6 +92,7 @@ export function getQuestions(
   const questions = getQuestionsFromBank({
     category: newCategory,
     difficulty: newDifficulty,
+    subcategory: subcategory,
     limit: count,
     shuffle: true,
     language: language,

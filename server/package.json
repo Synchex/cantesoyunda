@@ -1,0 +1,21 @@
+{
+  "name": "trivia-explain-server",
+  "version": "1.0.0",
+  "description": "AI Explanation API for Trivia Game",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.1",
+    "openai": "^4.67.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

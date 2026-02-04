@@ -13,7 +13,7 @@ import batch003 from './seeds/batch_003_quality.json';
 import batch004 from './seeds/batch_004_quality.json';
 
 // Import shared types and helpers
-import type { Question, Category, Difficulty } from './questionBank';
+import type { Question, Category, Difficulty, SportsSubcategory } from './questionBank';
 import {
     normalizeQuestion,
     validateQuestion,
@@ -43,6 +43,28 @@ const difficultyAliases: Record<string, Difficulty> = {
     'hard': 'zor',
     'very_hard': 'cok_zor',
     'very-hard': 'cok_zor',
+};
+
+const subcategoryAliases: Record<string, SportsSubcategory> = {
+    // Football
+    'football': 'football',
+    'futbol': 'football',
+    // Basketball
+    'basketball': 'basketball',
+    'basketbol': 'basketball',
+    // Turkish Sports (wrestling, volleyball, etc. - notable Turkish achievements)
+    'turkish_sports': 'turkish_sports',
+    'turk_sporlari': 'turkish_sports',
+    'güreş': 'turkish_sports',
+    'gures': 'turkish_sports',
+    'voleybol': 'turkish_sports',
+    // Legends & Records (Olympics, athletics, motorsport, etc.)
+    'legends_records': 'legends_records',
+    'efsaneler': 'legends_records',
+    'olimpiyat': 'legends_records',
+    'atletizm': 'legends_records',
+    'motorsport': 'legends_records',
+    'tenis': 'legends_records',
 };
 
 interface RawQuestion {
@@ -87,6 +109,10 @@ function processRawQuestion(raw: RawQuestion, index: number): Question | null {
         typeof raw.id === 'string' ? parseInt(raw.id, 10) || (1000 + index) :
             (1000 + index);
 
+    // Process subcategory for sports questions
+    const subNorm = (raw.subcategory || '').toLowerCase().trim().replace(/[\s-]+/g, '_');
+    const subcategory = category === 'spor' ? subcategoryAliases[subNorm] : undefined;
+
     return {
         id,
         question: raw.question.trim(),
@@ -94,6 +120,7 @@ function processRawQuestion(raw: RawQuestion, index: number): Question | null {
         correctAnswer: correctIdx,
         category,
         difficulty,
+        subcategory,
     };
 }
 

@@ -1,6 +1,8 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-const INITIAL_CREDITS = 500;
+// DEV: Changed from 500 to 10000 for testing
+const INITIAL_CREDITS = 10000;
+const DEV_CREDITS = 10000; // Dev override amount
 const GAME_COST = 50;
 const STORAGE_KEY_CREDITS = 'triviaCredits';
 const STORAGE_KEY_RESET_DATE = 'lastCreditReset';
@@ -10,6 +12,7 @@ interface CreditContextType {
   spendCredits: (amount: number) => boolean;
   addCredits: (amount: number) => void;
   canAfford: (amount: number) => boolean;
+  resetCredits: () => void; // DEV: Reset credits to 10000 for testing
   timeUntilReset: string;
   gameCost: number;
 }
@@ -42,19 +45,21 @@ export function CreditProvider({ children }: { children: ReactNode }) {
     const storedCredits = localStorage.getItem(STORAGE_KEY_CREDITS);
     const lastResetDate = localStorage.getItem(STORAGE_KEY_RESET_DATE);
     const today = getTodayDateString();
+    const parsedCredits = storedCredits ? parseInt(storedCredits, 10) : 0;
 
-    if (lastResetDate !== today) {
+    // DEV OVERRIDE: If localStorage is missing OR credits are 0, set to DEV_CREDITS for testing
+    if (!storedCredits || parsedCredits === 0) {
+      setCredits(DEV_CREDITS);
+      localStorage.setItem(STORAGE_KEY_CREDITS, String(DEV_CREDITS));
+      localStorage.setItem(STORAGE_KEY_RESET_DATE, today);
+    } else if (lastResetDate !== today) {
       // New day - reset credits
       setCredits(INITIAL_CREDITS);
       localStorage.setItem(STORAGE_KEY_CREDITS, String(INITIAL_CREDITS));
       localStorage.setItem(STORAGE_KEY_RESET_DATE, today);
-    } else if (storedCredits) {
-      // Same day - restore saved credits
-      setCredits(parseInt(storedCredits, 10));
     } else {
-      // First time - initialize
-      localStorage.setItem(STORAGE_KEY_CREDITS, String(INITIAL_CREDITS));
-      localStorage.setItem(STORAGE_KEY_RESET_DATE, today);
+      // Same day - restore saved credits
+      setCredits(parsedCredits);
     }
   }, []);
 
@@ -97,6 +102,12 @@ export function CreditProvider({ children }: { children: ReactNode }) {
     return credits >= amount;
   };
 
+  // DEV: Reset credits to 10000 for testing
+  const resetCredits = (): void => {
+    setCredits(DEV_CREDITS);
+    localStorage.setItem(STORAGE_KEY_CREDITS, String(DEV_CREDITS));
+  };
+
   return (
     <CreditContext.Provider
       value={{
@@ -104,6 +115,7 @@ export function CreditProvider({ children }: { children: ReactNode }) {
         spendCredits,
         addCredits,
         canAfford,
+        resetCredits,
         timeUntilReset,
         gameCost: GAME_COST,
       }}

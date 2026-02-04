@@ -49,21 +49,21 @@ const baseQuestions: Question[] = [
     { id: 23, question: "The Treaty of Tordesillas was signed between which two countries?", answers: ["England and France", "Spain and Portugal", "Spain and Italy", "Portugal and France"], correctAnswer: 1, category: "tarih", difficulty: "cok_zor" },
     { id: 24, question: "What was the name of the first Chinese dynasty?", answers: ["Zhou Dynasty", "Shang Dynasty", "Xia Dynasty", "Qin Dynasty"], correctAnswer: 2, category: "tarih", difficulty: "cok_zor" },
     // SPOR - KOLAY
-    { id: 25, question: "How many players are on a soccer team?", answers: ["9", "10", "11", "12"], correctAnswer: 2, category: "spor", difficulty: "kolay" },
-    { id: 26, question: "Which sport is known as 'The Beautiful Game'?", answers: ["Basketball", "Soccer", "Tennis", "Baseball"], correctAnswer: 1, category: "spor", difficulty: "kolay" },
-    { id: 27, question: "How many points is a touchdown worth in American football?", answers: ["3", "6", "7", "8"], correctAnswer: 1, category: "spor", difficulty: "kolay" },
-    { id: 28, question: "In which sport would you perform a slam dunk?", answers: ["Volleyball", "Basketball", "Tennis", "Badminton"], correctAnswer: 1, category: "spor", difficulty: "kolay" },
+    { id: 25, question: "How many players are on a soccer team?", answers: ["9", "10", "11", "12"], correctAnswer: 2, category: "spor", difficulty: "kolay", subcategory: "football" },
+    { id: 26, question: "Which sport is known as 'The Beautiful Game'?", answers: ["Basketball", "Soccer", "Tennis", "Baseball"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "football" },
+    { id: 27, question: "How many points is a touchdown worth in American football?", answers: ["3", "6", "7", "8"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "legends_records" },
+    { id: 28, question: "In which sport would you perform a slam dunk?", answers: ["Volleyball", "Basketball", "Tennis", "Badminton"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "basketball" },
     // SPOR - ORTA
-    { id: 29, question: "Which country has won the most FIFA World Cups?", answers: ["Germany", "Argentina", "Brazil", "Italy"], correctAnswer: 2, category: "spor", difficulty: "orta" },
-    { id: 30, question: "What is the maximum break in snooker?", answers: ["137", "147", "157", "167"], correctAnswer: 1, category: "spor", difficulty: "orta" },
-    { id: 31, question: "How many Grand Slam tournaments are there in tennis per year?", answers: ["3", "4", "5", "6"], correctAnswer: 1, category: "spor", difficulty: "orta" },
-    { id: 32, question: "In which year were the first modern Olympic Games held?", answers: ["1892", "1896", "1900", "1904"], correctAnswer: 1, category: "spor", difficulty: "orta" },
+    { id: 29, question: "Which country has won the most FIFA World Cups?", answers: ["Germany", "Argentina", "Brazil", "Italy"], correctAnswer: 2, category: "spor", difficulty: "orta", subcategory: "football" },
+    { id: 30, question: "What is the maximum break in snooker?", answers: ["137", "147", "157", "167"], correctAnswer: 1, category: "spor", difficulty: "orta", subcategory: "legends_records" },
+    { id: 31, question: "How many Grand Slam tournaments are there in tennis per year?", answers: ["3", "4", "5", "6"], correctAnswer: 1, category: "spor", difficulty: "orta", subcategory: "legends_records" },
+    { id: 32, question: "In which year were the first modern Olympic Games held?", answers: ["1892", "1896", "1900", "1904"], correctAnswer: 1, category: "spor", difficulty: "orta", subcategory: "legends_records" },
     // SPOR - ZOR
-    { id: 33, question: "Who holds the record for most Olympic gold medals?", answers: ["Usain Bolt", "Michael Phelps", "Larisa Latynina", "Paavo Nurmi"], correctAnswer: 1, category: "spor", difficulty: "zor" },
-    { id: 34, question: "What is the diameter of a basketball hoop in inches?", answers: ["16 inches", "18 inches", "20 inches", "22 inches"], correctAnswer: 1, category: "spor", difficulty: "zor" },
+    { id: 33, question: "Who holds the record for most Olympic gold medals?", answers: ["Usain Bolt", "Michael Phelps", "Larisa Latynina", "Paavo Nurmi"], correctAnswer: 1, category: "spor", difficulty: "zor", subcategory: "legends_records" },
+    { id: 34, question: "What is the diameter of a basketball hoop in inches?", answers: ["16 inches", "18 inches", "20 inches", "22 inches"], correctAnswer: 1, category: "spor", difficulty: "zor", subcategory: "basketball" },
     // SPOR - ÇOK ZOR
-    { id: 35, question: "Who was the first player to score 100 points in a single NBA game?", answers: ["Wilt Chamberlain", "Michael Jordan", "Kobe Bryant", "Elgin Baylor"], correctAnswer: 0, category: "spor", difficulty: "cok_zor" },
-    { id: 36, question: "In what year was the first Cricket World Cup held?", answers: ["1971", "1973", "1975", "1977"], correctAnswer: 2, category: "spor", difficulty: "cok_zor" },
+    { id: 35, question: "Who was the first player to score 100 points in a single NBA game?", answers: ["Wilt Chamberlain", "Michael Jordan", "Kobe Bryant", "Elgin Baylor"], correctAnswer: 0, category: "spor", difficulty: "cok_zor", subcategory: "basketball" },
+    { id: 36, question: "In what year was the first Cricket World Cup held?", answers: ["1971", "1973", "1975", "1977"], correctAnswer: 2, category: "spor", difficulty: "cok_zor", subcategory: "legends_records" },
 ];
 
 // ============================================================================

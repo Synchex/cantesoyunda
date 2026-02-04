@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
-import { Globe } from 'lucide-react';
+import { Globe, RefreshCw } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
+import { useCredits } from '../context/CreditContext';
 
 interface SettingsScreenProps {
     language: Language;
@@ -9,6 +10,7 @@ interface SettingsScreenProps {
 
 export function SettingsScreen({ language, onLanguageChange }: SettingsScreenProps) {
     const t = (key: any) => getTranslation(language, key);
+    const { credits, resetCredits } = useCredits();
 
     return (
         <div
@@ -147,6 +149,52 @@ export function SettingsScreen({ language, onLanguageChange }: SettingsScreenPro
                                 >
                                     {t('turkish')}
                                 </div>
+                            </motion.button>
+                        </div>
+
+                        {/* DEV: Reset Credits Section */}
+                        <div className="mt-8 pt-6 border-t" style={{ borderColor: 'rgba(212, 175, 55, 0.2)' }}>
+                            <div className="flex items-center gap-3 mb-4">
+                                <RefreshCw
+                                    size={24}
+                                    style={{
+                                        color: '#D4AF37',
+                                        filter: 'drop-shadow(0 0 8px rgba(212, 175, 55, 0.6))',
+                                    }}
+                                />
+                                <span
+                                    className="text-lg font-semibold"
+                                    style={{ color: '#ECECEC' }}
+                                >
+                                    Dev Tools
+                                </span>
+                            </div>
+                            <div
+                                className="text-sm mb-3"
+                                style={{ color: 'rgba(236, 236, 236, 0.6)' }}
+                            >
+                                Current Credits: <span style={{ color: '#D4AF37', fontWeight: 600 }}>{credits}</span>
+                            </div>
+                            <motion.button
+                                onClick={resetCredits}
+                                className="w-full p-4 rounded-lg border-2 transition-all duration-300"
+                                style={{
+                                    background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(166, 124, 0, 0.1) 100%)',
+                                    borderColor: 'rgba(212, 175, 55, 0.4)',
+                                }}
+                                whileHover={{
+                                    scale: 1.02,
+                                    borderColor: 'rgba(212, 175, 55, 0.7)',
+                                    boxShadow: '0 0 20px rgba(212, 175, 55, 0.3)',
+                                }}
+                                whileTap={{ scale: 0.98 }}
+                            >
+                                <span
+                                    className="font-semibold"
+                                    style={{ color: '#D4AF37' }}
+                                >
+                                    Reset Credits to 10,000
+                                </span>
                             </motion.button>
                         </div>
                     </div>

@@ -3,6 +3,9 @@ import { GameButton } from './GameButton';
 import { Trophy, Star, Target, TrendingUp } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
 import { CreditBar } from './CreditBar';
+import { useYuan } from '../context/YuanContext';
+import { YuanIcon } from './YuanIcon';
+import { formatPrizeFull } from '../data/prizeLadder';
 
 interface ResultsScreenProps {
   totalQuestions: number;
@@ -22,6 +25,7 @@ export function ResultsScreen({
   language,
 }: ResultsScreenProps) {
   const t = (key: any) => getTranslation(language, key);
+  const { totalYuan, runYuan } = useYuan();
 
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
 
@@ -61,6 +65,10 @@ export function ResultsScreen({
       color: 'var(--neon-green)',
     },
   ];
+
+  // Yuan stats for display
+  const yuanEarnedThisRun = runYuan;
+  const totalYuanWallet = totalYuan;
 
   return (
     <div className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">
@@ -205,6 +213,41 @@ export function ResultsScreen({
               </div>
             </motion.div>
           ))}
+        </motion.div>
+
+        {/* Yuan Earned Section */}
+        <motion.div
+          className="mb-8 p-6 rounded-xl border-2"
+          style={{
+            background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%)',
+            borderColor: 'rgba(212, 175, 55, 0.4)',
+            boxShadow: '0 0 30px rgba(212, 175, 55, 0.2)',
+          }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6, duration: 0.5 }}
+        >
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <YuanIcon size={40} color="#D4AF37" />
+              <div>
+                <div className="text-sm" style={{ color: 'rgba(236, 236, 236, 0.6)' }}>
+                  {language === 'tr' ? 'Bu Turda Kazanilan' : 'Earned This Run'}
+                </div>
+                <div className="text-3xl font-bold" style={{ color: '#D4AF37', textShadow: '0 0 15px rgba(212, 175, 55, 0.5)' }}>
+                  +{formatPrizeFull(yuanEarnedThisRun)}
+                </div>
+              </div>
+            </div>
+            <div className="text-right">
+              <div className="text-sm" style={{ color: 'rgba(236, 236, 236, 0.6)' }}>
+                {language === 'tr' ? 'Toplam Yuan' : 'Total Yuan'}
+              </div>
+              <div className="text-2xl font-bold" style={{ color: '#D4AF37' }}>
+                {formatPrizeFull(totalYuanWallet)}
+              </div>
+            </div>
+          </div>
         </motion.div>
 
         {/* Action Buttons */}

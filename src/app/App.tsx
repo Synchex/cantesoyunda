@@ -13,14 +13,16 @@ import { GameHistoryScreen } from './components/GameHistoryScreen';
 import { LeaderboardScreen } from './components/LeaderboardScreen';
 import { QuestionDatabaseScreen } from './components/QuestionDatabaseScreen';
 import { BottomTabBar, TabType } from './components/BottomTabBar';
+import { SportsSubcategoryScreen, SportsSubcategory } from './components/SportsSubcategoryScreen';
 import { getQuestions } from './data/triviaQuestions';
 import { Language } from './data/translations';
 import { CreditProvider, useCredits } from './context/CreditContext';
 import { GameHistoryProvider, useGameHistory } from './context/GameHistoryContext';
+import { YuanProvider, useYuan } from './context/YuanContext';
 import { getCurrentPrize } from './data/prizeLadder';
 import { toast } from 'sonner';
 
-type GameState = 'home' | 'category' | 'difficulty' | 'playing' | 'results' | 'loss' | 'design-system';
+type GameState = 'home' | 'category' | 'sports-subcategory' | 'difficulty' | 'playing' | 'results' | 'loss' | 'design-system';
 type ViewState = 'game' | 'game-history' | 'leaderboard' | 'database' | 'settings';
 
 function AppContent() {
@@ -28,6 +30,7 @@ function AppContent() {
   const [viewState, setViewState] = useState<ViewState>('game');
   const [activeTab, setActiveTab] = useState<TabType>('home');
   const [selectedCategory, setSelectedCategory] = useState<Category>('all');
+  const [selectedSportsSubcategory, setSelectedSportsSubcategory] = useState<SportsSubcategory | null>(null);
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty>('easy');
   const [questions, setQuestions] = useState<any[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -39,6 +42,7 @@ function AppContent() {
   const [showInsufficientCreditsModal, setShowInsufficientCreditsModal] = useState(false);
   const { canAfford, spendCredits, gameCost } = useCredits();
   const { startNewRun, recordAnswer, finalizeRun } = useGameHistory();
+  const { addYuan, resetRunYuan } = useYuan();
 
   // Loss screen state
   const [lossData, setLossData] = useState<{
@@ -81,7 +85,20 @@ function AppContent() {
   };
 
   const handleSelectCategory = (category: Category) => {
+    console.log('[DEBUG] handleSelectCategory called with:', category);
     setSelectedCategory(category);
+    // If Sports is selected, show subcategory selection first
+    if (category === 'sports') {
+      console.log('[DEBUG] Sports selected, navigating to sports-subcategory');
+      setGameState('sports-subcategory');
+    } else {
+      setSelectedSportsSubcategory(null); // Clear any previous subcategory
+      setGameState('difficulty');
+    }
+  };
+
+  const handleSelectSportsSubcategory = (subcategory: SportsSubcategory) => {
+    setSelectedSportsSubcategory(subcategory);
     setGameState('difficulty');
   };
 
@@ -101,8 +118,14 @@ function AppContent() {
       duration: 2000,
     });
 
-    // Generate questions
-    let generatedQuestions = getQuestions(selectedCategory, difficulty, TOTAL_QUESTIONS, language);
+    // Generate questions (pass subcategory if sports category is selected)
+    let generatedQuestions = getQuestions(
+      selectedCategory,
+      difficulty,
+      TOTAL_QUESTIONS,
+      language,
+      selectedCategory === 'sports' ? selectedSportsSubcategory || undefined : undefined
+    );
 
     // If we don't have enough questions, try to get more from all categories
     if (generatedQuestions.length < TOTAL_QUESTIONS) {
@@ -134,6 +157,7 @@ function AppContent() {
     setMaxStreak(0);
     setCorrectAnswers(0);
     setContinueUsed(false); // Reset continue usage for new run
+    resetRunYuan(); // Reset yuan earned this run
 
     // Start tracking this run
     startNewRun(selectedCategory, difficulty, TOTAL_QUESTIONS);
@@ -146,7 +170,8 @@ function AppContent() {
     const currentQuestion = questions[currentQuestionIndex];
     if (currentQuestion) {
       recordAnswer({
-        questionId: currentQuestion.id,
+        questionId: String(currentQuestion.id),
+        questionIndex: currentQuestionIndex, // Used for deduplication and ordering
         questionText: currentQuestion.question,
         selectedIndex: wrongAnswerData ? -1 : 0, // We don't track exact index, just correct/wrong
         correctIndex: 0,
@@ -160,6 +185,10 @@ function AppContent() {
       const newStreak = streak + 1;
       const multiplier = Math.min(Math.floor(newStreak / 3) + 1, 5); // Max 5x multiplier
       const earnedCoins = 100 * multiplier;
+
+      // Add yuan from prize ladder for current question
+      const prizeAmount = getCurrentPrize(currentQuestionIndex);
+      addYuan(prizeAmount);
 
       setCorrectAnswers(prev => prev + 1);
       setCoins(prev => prev + earnedCoins);
@@ -225,6 +254,7 @@ function AppContent() {
     setCorrectAnswers(0);
     setLossData(null);
     setContinueUsed(false);
+    setSelectedSportsSubcategory(null);
     setGameState('home');
     setViewState('game');
     setActiveTab('home');
@@ -340,6 +370,19 @@ function AppContent() {
     );
   }
 
+  if (gameState === 'sports-subcategory') {
+    console.log('[DEBUG] Rendering SportsSubcategoryScreen');
+    return (
+      <>
+        <SportsSubcategoryScreen
+          onSelectSubcategory={handleSelectSportsSubcategory}
+          language={language}
+        />
+        <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />
+      </>
+    );
+  }
+
   if (gameState === 'difficulty') {
     return (
       <>
@@ -390,6 +433,7 @@ function AppContent() {
   }
 
   if (gameState === 'loss' && lossData) {
+    const currentQuestion = questions[currentQuestionIndex];
     return (
       <>
         <LossScreen
@@ -404,6 +448,11 @@ function AppContent() {
           onTryAgain={handleTryAgain}
           onGoHome={handleGoHome}
           language={language}
+          questionId={currentQuestion?.id?.toString()}
+          questionText={currentQuestion?.question}
+          choices={currentQuestion?.options}
+          category={selectedCategory}
+          difficulty={selectedDifficulty}
         />
         <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />
       </>
@@ -445,9 +494,11 @@ function AppContent() {
 export default function App() {
   return (
     <CreditProvider>
-      <GameHistoryProvider>
-        <AppContent />
-      </GameHistoryProvider>
+      <YuanProvider>
+        <GameHistoryProvider>
+          <AppContent />
+        </GameHistoryProvider>
+      </YuanProvider>
     </CreditProvider>
   );
 }

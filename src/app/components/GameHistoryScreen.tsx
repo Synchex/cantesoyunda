@@ -1,8 +1,10 @@
 import { motion, AnimatePresence } from 'motion/react';
-import { Check, X, ChevronDown, ChevronUp, Trash2 } from 'lucide-react';
+import { ChevronDown, Trash2, Sparkles } from 'lucide-react';
 import { useState } from 'react';
-import { useGameHistory, GameRun } from '../context/GameHistoryContext';
+import { useGameHistory, QuestionRecord } from '../context/GameHistoryContext';
 import { Language, getTranslation } from '../data/translations';
+import { ExplanationModal } from './ExplanationModal';
+import { fetchExplanation, ExplainResponse } from '../services/explainApi';
 
 interface GameHistoryScreenProps {
     language: Language;
@@ -12,6 +14,64 @@ export function GameHistoryScreen({ language }: GameHistoryScreenProps) {
     const { runs, clearHistory } = useGameHistory();
     const [expandedRunId, setExpandedRunId] = useState<string | null>(null);
     const t = (key: any) => getTranslation(language, key);
+
+    // AI Explanation state
+    const [isExplainModalOpen, setIsExplainModalOpen] = useState(false);
+    const [isExplainLoading, setIsExplainLoading] = useState(false);
+    const [explainError, setExplainError] = useState<string | null>(null);
+    const [explainData, setExplainData] = useState<ExplainResponse | null>(null);
+    const [currentExplainQuestion, setCurrentExplainQuestion] = useState<{
+        questionId: string;
+        questionText: string;
+        correctAnswer: string;
+        userAnswer: string;
+        category?: string;
+        difficulty?: string;
+    } | null>(null);
+
+    const handleExplainClick = async (
+        question: QuestionRecord,
+        category?: string,
+        difficulty?: string
+    ) => {
+        const questionData = {
+            questionId: question.questionId,
+            questionText: question.questionText,
+            correctAnswer: question.correctAnswer,
+            userAnswer: question.userAnswer,
+            category,
+            difficulty,
+        };
+
+        setCurrentExplainQuestion(questionData);
+        setIsExplainModalOpen(true);
+        setExplainData(null);
+        setIsExplainLoading(true);
+        setExplainError(null);
+
+        try {
+            const response = await fetchExplanation({
+                questionId: question.questionId,
+                questionText: question.questionText,
+                choices: [question.correctAnswer, question.userAnswer],
+                correctChoice: question.correctAnswer,
+                selectedChoice: question.userAnswer,
+                category: category,
+                difficulty: difficulty,
+                language: language,
+            });
+
+            if (response.success) {
+                setExplainData(response);
+            } else {
+                setExplainError(response.error || 'Failed to get explanation');
+            }
+        } catch (err) {
+            setExplainError('Failed to connect to explanation service');
+        } finally {
+            setIsExplainLoading(false);
+        }
+    };
 
     const formatDate = (timestamp: number) => {
         const date = new Date(timestamp);
@@ -244,48 +304,71 @@ export function GameHistoryScreen({ language }: GameHistoryScreenProps) {
                                                 >
                                                     {/* Questions timeline */}
                                                     <div className="space-y-3">
-                                                        {run.questions.map((q, qIndex) => (
-                                                            <div key={qIndex} className="flex items-start gap-3">
-                                                                {/* Status badge */}
-                                                                <div
-                                                                    className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center border-2"
-                                                                    style={{
-                                                                        background: q.isCorrect
-                                                                            ? 'rgba(0, 255, 136, 0.2)'
-                                                                            : 'rgba(255, 60, 80, 0.2)',
-                                                                        borderColor: q.isCorrect
-                                                                            ? 'rgba(0, 255, 136, 0.6)'
-                                                                            : 'rgba(255, 60, 80, 0.6)',
-                                                                    }}
-                                                                >
-                                                                    {q.isCorrect ? (
-                                                                        <Check size={16} style={{ color: '#00ff88', strokeWidth: 3 }} />
-                                                                    ) : (
-                                                                        <X size={16} style={{ color: '#ff3c50', strokeWidth: 3 }} />
-                                                                    )}
-                                                                </div>
-
-                                                                {/* Question content */}
-                                                                <div className="flex-1 min-w-0">
-                                                                    <p
-                                                                        className="text-sm mb-1"
-                                                                        style={{ color: '#ECECEC' }}
+                                                        {run.questions.map((q, qIndex) => {
+                                                            const questionNum = (q.questionIndex ?? qIndex) + 1;
+                                                            return (
+                                                                <div key={`${run.runId}-q${questionNum}`} className="flex items-start gap-3">
+                                                                    {/* Question number + status badge */}
+                                                                    <div
+                                                                        className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center border-2 text-xs font-bold"
+                                                                        style={{
+                                                                            background: q.isCorrect
+                                                                                ? 'rgba(0, 255, 136, 0.2)'
+                                                                                : 'rgba(255, 60, 80, 0.2)',
+                                                                            borderColor: q.isCorrect
+                                                                                ? 'rgba(0, 255, 136, 0.6)'
+                                                                                : 'rgba(255, 60, 80, 0.6)',
+                                                                            color: q.isCorrect ? '#00ff88' : '#ff3c50',
+                                                                        }}
                                                                     >
-                                                                        {q.questionText}
-                                                                    </p>
-                                                                    <div className="flex flex-col gap-1 text-xs">
-                                                                        <span style={{ color: q.isCorrect ? '#00ff88' : '#ff3c50' }}>
-                                                                            {language === 'tr' ? 'Seçilen: ' : 'Selected: '}{q.userAnswer}
-                                                                        </span>
-                                                                        {!q.isCorrect && (
-                                                                            <span style={{ color: 'rgba(0, 255, 136, 0.7)' }}>
-                                                                                {language === 'tr' ? 'Doğru: ' : 'Correct: '}{q.correctAnswer}
+                                                                        {questionNum}
+                                                                    </div>
+
+                                                                    {/* Question content */}
+                                                                    <div className="flex-1 min-w-0">
+                                                                        <p
+                                                                            className="text-sm mb-1"
+                                                                            style={{ color: '#ECECEC' }}
+                                                                        >
+                                                                            {q.questionText}
+                                                                        </p>
+                                                                        <div className="flex flex-col gap-1 text-xs">
+                                                                            <span style={{ color: q.isCorrect ? '#00ff88' : '#ff3c50' }}>
+                                                                                {language === 'tr' ? 'Seçilen: ' : 'Selected: '}{q.userAnswer}
                                                                             </span>
+                                                                            {!q.isCorrect && (
+                                                                                <span style={{ color: 'rgba(0, 255, 136, 0.7)' }}>
+                                                                                    {language === 'tr' ? 'Doğru: ' : 'Correct: '}{q.correctAnswer}
+                                                                                </span>
+                                                                            )}
+                                                                        </div>
+                                                                        {/* Explain with AI button for incorrect answers */}
+                                                                        {!q.isCorrect && (
+                                                                            <motion.button
+                                                                                className="mt-2 px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-xs font-medium"
+                                                                                style={{
+                                                                                    background: 'linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.08) 100%)',
+                                                                                    border: '1px solid rgba(212, 175, 55, 0.3)',
+                                                                                    color: '#D4AF37',
+                                                                                }}
+                                                                                whileHover={{
+                                                                                    scale: 1.02,
+                                                                                    borderColor: 'rgba(212, 175, 55, 0.5)',
+                                                                                }}
+                                                                                whileTap={{ scale: 0.98 }}
+                                                                                onClick={(e) => {
+                                                                                    e.stopPropagation();
+                                                                                    handleExplainClick(q, run.category, run.difficulty);
+                                                                                }}
+                                                                            >
+                                                                                <Sparkles size={12} />
+                                                                                {language === 'tr' ? 'AI ile Açıkla' : 'Explain'}
+                                                                            </motion.button>
                                                                         )}
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        ))}
+                                                            );
+                                                        })}
                                                     </div>
                                                 </div>
                                             </motion.div>
@@ -297,6 +380,22 @@ export function GameHistoryScreen({ language }: GameHistoryScreenProps) {
                     )}
                 </div>
             </div>
+
+            {/* AI Explanation Modal */}
+            <ExplanationModal
+                isOpen={isExplainModalOpen}
+                onClose={() => {
+                    setIsExplainModalOpen(false);
+                    setCurrentExplainQuestion(null);
+                }}
+                language={language}
+                isLoading={isExplainLoading}
+                error={explainError}
+                explanationMarkdown={explainData?.explanationMarkdown}
+                memoryTip={explainData?.memoryTip}
+                similarQuestion={explainData?.similarQuestion}
+                cached={explainData?.cached}
+            />
         </div>
     );
 }
