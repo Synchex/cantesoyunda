@@ -14,7 +14,8 @@ import { LeaderboardScreen } from './components/LeaderboardScreen';
 import { QuestionDatabaseScreen } from './components/QuestionDatabaseScreen';
 import { BottomTabBar, TabType } from './components/BottomTabBar';
 import { SportsSubcategoryScreen, SportsSubcategory } from './components/SportsSubcategoryScreen';
-import { getQuestions } from './data/triviaQuestions';
+import { HistorySubcategoryScreen, HistorySubcategory } from './components/HistorySubcategoryScreen';
+import { getQuestions, HistorySubcategory as HistorySubcategoryEN, HistorySubcategoryTR } from './data/triviaQuestions';
 import { Language } from './data/translations';
 import { CreditProvider, useCredits } from './context/CreditContext';
 import { GameHistoryProvider, useGameHistory } from './context/GameHistoryContext';
@@ -22,7 +23,7 @@ import { YuanProvider, useYuan } from './context/YuanContext';
 import { getCurrentPrize } from './data/prizeLadder';
 import { toast } from 'sonner';
 
-type GameState = 'home' | 'category' | 'sports-subcategory' | 'difficulty' | 'playing' | 'results' | 'loss' | 'design-system';
+type GameState = 'home' | 'category' | 'sports-subcategory' | 'history-subcategory' | 'difficulty' | 'playing' | 'results' | 'loss' | 'design-system';
 type ViewState = 'game' | 'game-history' | 'leaderboard' | 'database' | 'settings';
 
 function AppContent() {
@@ -31,6 +32,7 @@ function AppContent() {
   const [activeTab, setActiveTab] = useState<TabType>('home');
   const [selectedCategory, setSelectedCategory] = useState<Category>('all');
   const [selectedSportsSubcategory, setSelectedSportsSubcategory] = useState<SportsSubcategory | null>(null);
+  const [selectedHistorySubcategory, setSelectedHistorySubcategory] = useState<HistorySubcategory | null>(null);
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty>('easy');
   const [questions, setQuestions] = useState<any[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -91,14 +93,24 @@ function AppContent() {
     if (category === 'sports') {
       console.log('[DEBUG] Sports selected, navigating to sports-subcategory');
       setGameState('sports-subcategory');
+    } else if (category === 'history') {
+      // History subcategory for both EN and TR (different subcategories per language)
+      console.log('[DEBUG] History selected, navigating to history-subcategory');
+      setGameState('history-subcategory');
     } else {
       setSelectedSportsSubcategory(null); // Clear any previous subcategory
+      setSelectedHistorySubcategory(null);
       setGameState('difficulty');
     }
   };
 
   const handleSelectSportsSubcategory = (subcategory: SportsSubcategory) => {
     setSelectedSportsSubcategory(subcategory);
+    setGameState('difficulty');
+  };
+
+  const handleSelectHistorySubcategory = (subcategory: HistorySubcategory) => {
+    setSelectedHistorySubcategory(subcategory);
     setGameState('difficulty');
   };
 
@@ -118,13 +130,23 @@ function AppContent() {
       duration: 2000,
     });
 
-    // Generate questions (pass subcategory if sports category is selected)
+    // Generate questions (pass subcategory/historySubcategory based on category and language)
+    // For history: EN uses historySubcategory, TR uses historySubcategoryTR (passed as 7th param)
+    // Cast to the appropriate types from questionBank
+    const historySubEN = selectedCategory === 'history' && language === 'en'
+      ? selectedHistorySubcategory as HistorySubcategoryEN | undefined
+      : undefined;
+    const historySubTR = selectedCategory === 'history' && language === 'tr'
+      ? selectedHistorySubcategory as unknown as HistorySubcategoryTR | undefined
+      : undefined;
     let generatedQuestions = getQuestions(
       selectedCategory,
       difficulty,
       TOTAL_QUESTIONS,
       language,
-      selectedCategory === 'sports' ? selectedSportsSubcategory || undefined : undefined
+      selectedCategory === 'sports' ? selectedSportsSubcategory || undefined : undefined,
+      historySubEN,
+      historySubTR
     );
 
     // If we don't have enough questions, try to get more from all categories
@@ -376,6 +398,19 @@ function AppContent() {
       <>
         <SportsSubcategoryScreen
           onSelectSubcategory={handleSelectSportsSubcategory}
+          language={language}
+        />
+        <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />
+      </>
+    );
+  }
+
+  if (gameState === 'history-subcategory') {
+    console.log('[DEBUG] Rendering HistorySubcategoryScreen');
+    return (
+      <>
+        <HistorySubcategoryScreen
+          onSelectSubcategory={handleSelectHistorySubcategory}
           language={language}
         />
         <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />

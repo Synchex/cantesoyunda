@@ -9,6 +9,28 @@ import { PrizeLadder } from './PrizeLadder';
 import { PrizeDisplay } from './PrizeDisplay';
 import { getCurrentPrize } from '../data/prizeLadder';
 
+/**
+ * Get timer duration in seconds based on question number (1-based)
+ * Q1-4: 30 seconds (easier start)
+ * Q5-9: 45 seconds (medium difficulty)
+ * Q10+: 60 seconds (hardest questions need more time)
+ */
+function getTimerDuration(questionNumber: number): number {
+  if (questionNumber <= 4) return 30;
+  if (questionNumber <= 9) return 45;
+  return 60;
+}
+
+// Sanity check for timer durations (will log once on module load)
+if (typeof window !== 'undefined') {
+  console.log('[Timer Sanity Check] Q1:', getTimerDuration(1), '(expected 30)');
+  console.log('[Timer Sanity Check] Q4:', getTimerDuration(4), '(expected 30)');
+  console.log('[Timer Sanity Check] Q5:', getTimerDuration(5), '(expected 45)');
+  console.log('[Timer Sanity Check] Q9:', getTimerDuration(9), '(expected 45)');
+  console.log('[Timer Sanity Check] Q10:', getTimerDuration(10), '(expected 60)');
+  console.log('[Timer Sanity Check] Q12:', getTimerDuration(12), '(expected 60)');
+}
+
 interface Question {
   id: number;
   question: string;
@@ -186,7 +208,8 @@ export function QuestionScreen({
 
           {/* Timer */}
           <CircularTimer
-            duration={20}
+            key={`timer-${question.id}`}
+            duration={getTimerDuration(questionNumber)}
             onComplete={handleTimeUp}
             size={80}
           />

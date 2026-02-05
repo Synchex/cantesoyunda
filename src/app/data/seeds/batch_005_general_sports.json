@@ -1,0 +1,122 @@
+[
+    {
+        "id": 5001,
+        "question": "Tenis'te bir sette kaç oyun kazanılmalıdır?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "answerIndex": 2,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 5002,
+        "question": "Voleybol'da hangi ekipman kullanılır?",
+        "choices": [
+            "Top ve raket",
+            "Top ve file",
+            "Top ve sopa",
+            "Top ve eldiven"
+        ],
+        "answerIndex": 1,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 5003,
+        "question": "Yüzmede 'kurbağalama' stilinin diğer adı nedir?",
+        "choices": [
+            "Serbest stil",
+            "Kelebek",
+            "Sırtüstü",
+            "Breaststroke"
+        ],
+        "answerIndex": 3,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 5004,
+        "question": "Golf'te 'par' ne anlama gelir?",
+        "choices": [
+            "Birinci vuruş",
+            "Standart vuruş sayısı",
+            "Bonus puan",
+            "Ceza vuruşu"
+        ],
+        "answerIndex": 1,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 5005,
+        "question": "Formula 1'de bir yarış kaç tur sürer?",
+        "choices": [
+            "Sabit değildir, piste göre değişir",
+            "50 tur",
+            "100 tur",
+            "25 tur"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 5006,
+        "question": "Bisiklet yarışlarında 'Tour de France' kaç günde tamamlanır?",
+        "choices": [
+            "Yaklaşık 21 gün",
+            "Yaklaşık 7 gün",
+            "Yaklaşık 14 gün",
+            "Yaklaşık 30 gün"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 5007,
+        "question": "Boks'ta en ağır siklet kategorisi hangisidir?",
+        "choices": [
+            "Ağır siklet",
+            "Süper ağır siklet",
+            "Yarı ağır siklet",
+            "Kürüiser"
+        ],
+        "answerIndex": 1,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 5008,
+        "question": "Masa tenisi topu hangi malzemeden yapılır?",
+        "choices": [
+            "Kauçuk",
+            "Plastik (selüloid)",
+            "Deri",
+            "Ahşap"
+        ],
+        "answerIndex": 1,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    }
+]

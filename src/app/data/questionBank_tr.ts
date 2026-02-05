@@ -11,6 +11,8 @@
 import batch001 from './seeds/batch_001.json';
 import batch003 from './seeds/batch_003_quality.json';
 import batch004 from './seeds/batch_004_quality.json';
+import batch005 from './seeds/batch_005_general_sports.json';
+import batch006 from './seeds/batch_006_tr_sports.json';
 
 // Import shared types and helpers
 import type { Question, Category, Difficulty, SportsSubcategory } from './questionBank';
@@ -46,9 +48,18 @@ const difficultyAliases: Record<string, Difficulty> = {
 };
 
 const subcategoryAliases: Record<string, SportsSubcategory> = {
-    // Football
+    // General Sports (all mixed)
+    'general_sports': 'general_sports',
+    'genel_spor': 'general_sports',
+    // General Football (world football)
+    'general_football': 'general_football',
+    'genel_futbol': 'general_football',
+    // Football (base subcategory for football questions)
     'football': 'football',
     'futbol': 'football',
+    // Turkish Football (TR-only, maps to football questions)
+    'turkish_football': 'turkish_football',
+    'turk_futbolu': 'turkish_football',
     // Basketball
     'basketball': 'basketball',
     'basketbol': 'basketball',
@@ -113,6 +124,9 @@ function processRawQuestion(raw: RawQuestion, index: number): Question | null {
     const subNorm = (raw.subcategory || '').toLowerCase().trim().replace(/[\s-]+/g, '_');
     const subcategory = category === 'spor' ? subcategoryAliases[subNorm] : undefined;
 
+    // Preserve tags for history filtering
+    const tags = Array.isArray(raw.tags) ? raw.tags : undefined;
+
     return {
         id,
         question: raw.question.trim(),
@@ -121,6 +135,7 @@ function processRawQuestion(raw: RawQuestion, index: number): Question | null {
         category,
         difficulty,
         subcategory,
+        tags,
     };
 }
 
@@ -147,6 +162,8 @@ const importedQuestions = [
     ...importBatch(batch001 as RawQuestion[]),
     ...importBatch(batch003 as RawQuestion[]),
     ...importBatch(batch004 as RawQuestion[]),
+    ...importBatch(batch005 as RawQuestion[]),
+    ...importBatch(batch006 as RawQuestion[]),
 ];
 
 // Apply advanced deduplication

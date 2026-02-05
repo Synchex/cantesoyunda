@@ -998,5 +998,209 @@
       "hat",
       "sanat"
     ]
+  },
+  {
+    "id": 3050,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "dunya",
+    "difficulty": "orta",
+    "question": "Fransız İhtilali hangi yıl başlamıştır?",
+    "choices": [
+      "1789",
+      "1799",
+      "1804",
+      "1750"
+    ],
+    "answerIndex": 0,
+    "explanation": "1789 yılında Bastille Hapishanesi'nin basılmasıyla başlamıştır.",
+    "tags": [
+      "dunya",
+      "modern",
+      "ihtilal"
+    ]
+  },
+  {
+    "id": 3051,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "dunya",
+    "difficulty": "kolay",
+    "question": "Amerika kıtasını keşfeden denizci kimdir?",
+    "choices": [
+      "Kristof Kolomb",
+      "Vasco da Gama",
+      "Amerigo Vespucci",
+      "Macellan"
+    ],
+    "answerIndex": 0,
+    "explanation": "1492 yılında Kristof Kolomb Amerika'ya ulaşmıştır.",
+    "tags": [
+      "dunya",
+      "kesif"
+    ]
+  },
+  {
+    "id": 3052,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "dunya",
+    "difficulty": "orta",
+    "question": "İnsanlığın Ay'a ilk ayak basışı hangi yıl gerçekleşmiştir?",
+    "choices": [
+      "1969",
+      "1965",
+      "1972",
+      "1959"
+    ],
+    "answerIndex": 0,
+    "explanation": "1969 yılında Apollo 11 göreviyle Ay'a inilmiştir.",
+    "tags": [
+      "dunya",
+      "uzay",
+      "modern"
+    ]
+  },
+  {
+    "id": 3053,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "dunya",
+    "difficulty": "zor",
+    "question": "Birinci Dünya Savaşı hangi olayla başlamıştır?",
+    "choices": [
+      "Avusturya Arşidükü Ferdinand'ın öldürülmesi",
+      "Almanya'nın Polonya'yı işgali",
+      "Fransız İhtilali",
+      "Berlin Duvarı'nın yıkılması"
+    ],
+    "answerIndex": 0,
+    "explanation": "1914'te Saraybosna'da Arşidük Franz Ferdinand'ın suikaste uğramasıyla başlamıştır.",
+    "tags": [
+      "dunya",
+      "savas"
+    ]
+  },
+  {
+    "id": 3054,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "dunya",
+    "difficulty": "orta",
+    "question": "Sanayi Devrimi ilk olarak hangi ülkede başlamıştır?",
+    "choices": [
+      "İngiltere",
+      "Fransa",
+      "Almanya",
+      "Amerika"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sanayi Devrimi 18. yüzyılda İngiltere'de başlamıştır.",
+    "tags": [
+      "dunya",
+      "sanayi",
+      "modern"
+    ]
+  },
+  {
+    "id": 3055,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "antik",
+    "difficulty": "kolay",
+    "question": "Mısır Piramitleri hangi medeniyete aittir?",
+    "choices": [
+      "Antik Mısır",
+      "Sümerler",
+      "Babiller",
+      "Romalılar"
+    ],
+    "answerIndex": 0,
+    "explanation": "Piramitler Antik Mısır medeniyeti tarafından inşa edilmiştir.",
+    "tags": [
+      "antik",
+      "misir"
+    ]
+  },
+  {
+    "id": 3056,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "antik",
+    "difficulty": "orta",
+    "question": "Büyük İskender hangi krallığın hükümdarıydı?",
+    "choices": [
+      "Makedonya",
+      "Sparta",
+      "Atina",
+      "Pers"
+    ],
+    "answerIndex": 0,
+    "explanation": "Büyük İskender Makedonya Kralı olarak büyük bir imparatorluk kurmuştur.",
+    "tags": [
+      "antik",
+      "iskender"
+    ]
+  },
+  {
+    "id": 3057,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "antik",
+    "difficulty": "zor",
+    "question": "Hammurabi Kanunları hangi medeniyete aittir?",
+    "choices": [
+      "Babil",
+      "Asur",
+      "Sümer",
+      "Akad"
+    ],
+    "answerIndex": 0,
+    "explanation": "Babil Kralı Hammurabi tarafından oluşturulan ilk yazılı kanunlardır.",
+    "tags": [
+      "antik",
+      "babil"
+    ]
+  },
+  {
+    "id": 3058,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "antik",
+    "difficulty": "orta",
+    "question": "Roma İmparatorluğu'nun efsanevi kurucuları kimlerdir?",
+    "choices": [
+      "Romulus ve Remus",
+      "Sezar ve Brutus",
+      "Augustus ve Nero",
+      "Hector ve Paris"
+    ],
+    "answerIndex": 0,
+    "explanation": "Efsaneye göre Roma, Romulus ve Remus kardeşler tarafından kurulmuştur.",
+    "tags": [
+      "antik",
+      "roma"
+    ]
+  },
+  {
+    "id": 3059,
+    "lang": "tr",
+    "category": "tarih",
+    "subcategory": "antik",
+    "difficulty": "kolay",
+    "question": "\"Geldim, gördüm, yendim\" (Veni, vidi, vici) sözü kime aittir?",
+    "choices": [
+      "Jül Sezar",
+      "Büyük İskender",
+      "Napolyon",
+      "Hannibal"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jül Sezar bu sözü Zela Savaşı sonrasında söylemiştir.",
+    "tags": [
+      "antik",
+      "roma",
+      "sezar"
+    ]
   }
 ]

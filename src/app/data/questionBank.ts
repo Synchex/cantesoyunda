@@ -14,7 +14,9 @@
 
 export type Category = 'genel_kultur' | 'tarih' | 'spor';
 export type Difficulty = 'kolay' | 'orta' | 'zor' | 'cok_zor';
-export type SportsSubcategory = 'football' | 'basketball' | 'turkish_sports' | 'legends_records';
+export type SportsSubcategory = 'general_sports' | 'general_football' | 'football' | 'basketball' | 'turkish_football' | 'turkish_sports' | 'legends_records';
+export type HistorySubcategory = 'history_modern' | 'history_legends_empires' | 'history_ancient_early' | 'history_all';
+export type HistorySubcategoryTR = 'history_tr_turkish' | 'history_tr_world' | 'history_tr_ancient' | 'history_tr_all';
 
 export interface Question {
     id: number;
@@ -24,6 +26,8 @@ export interface Question {
     category: Category;
     difficulty: Difficulty;
     subcategory?: SportsSubcategory; // Only applicable for 'spor' category
+    historySubcategory?: HistorySubcategory; // Only applicable for 'tarih' category (EN only)
+    tags?: string[]; // Optional tags for filtering (e.g., 'modern', 'ancient', 'empires')
 }
 
 // ============================================================================
@@ -162,6 +166,8 @@ export interface GetQuestionsOptions {
     category?: Category | 'all';
     difficulty?: Difficulty | 'all';
     subcategory?: SportsSubcategory;
+    historySubcategory?: HistorySubcategory;
+    historySubcategoryTR?: HistorySubcategoryTR;
     limit?: number;
     shuffle?: boolean;
     language?: QuestionBankLanguage;
@@ -175,6 +181,8 @@ export function getQuestions(options: GetQuestionsOptions = {}): Question[] {
         category = 'all',
         difficulty = 'all',
         subcategory,
+        historySubcategory,
+        historySubcategoryTR,
         limit,
         shuffle = true,
         language = 'en'
@@ -190,8 +198,55 @@ export function getQuestions(options: GetQuestionsOptions = {}): Question[] {
     }
 
     // Filter by subcategory (only applicable for sports category)
-    if (subcategory) {
-        filtered = filtered.filter(q => q.subcategory === subcategory);
+    // Special case: 'general_sports' means ALL sports questions (don't filter by subcategory)
+    // Special case: 'general_football' and 'turkish_football' both query 'football' subcategory questions
+    if (subcategory && subcategory !== 'general_sports') {
+        if (subcategory === 'general_football' || subcategory === 'turkish_football') {
+            // Both general_football and turkish_football return football subcategory questions
+            filtered = filtered.filter(q => q.subcategory === 'football');
+        } else {
+            filtered = filtered.filter(q => q.subcategory === subcategory);
+        }
+    }
+
+    // Filter by history subcategory (EN only feature)
+    // history_all: return all history questions
+    // history_modern: filter by tags ['modern']
+    // history_legends_empires: filter by tags ['legends', 'empires']
+    // history_ancient_early: filter by tags ['ancient', 'early_modern']
+    if (historySubcategory && language === 'en' && historySubcategory !== 'history_all') {
+        const tagGroups: Record<HistorySubcategory, string[]> = {
+            'history_modern': ['modern'],
+            'history_legends_empires': ['legends', 'empires'],
+            'history_ancient_early': ['ancient', 'early_modern'],
+            'history_all': [] // Not used, handled above
+        };
+        const allowedTags = tagGroups[historySubcategory];
+        if (allowedTags.length > 0) {
+            filtered = filtered.filter(q =>
+                q.tags && q.tags.some(tag => allowedTags.includes(tag))
+            );
+        }
+    }
+
+    // Filter by history subcategory (TR only feature)
+    // history_tr_all: return all history questions
+    // history_tr_turkish: filter by tags ['turkish']
+    // history_tr_world: filter by tags ['world', 'modern']
+    // history_tr_ancient: filter by tags ['ancient']
+    if (historySubcategoryTR && language === 'tr' && historySubcategoryTR !== 'history_tr_all') {
+        const tagGroupsTR: Record<HistorySubcategoryTR, string[]> = {
+            'history_tr_turkish': ['turkish', 'ottoman', 'republic', 'seljuk', 'atatürk', 'ataturk', 'cumhuriyet', 'kurtulus', 'osmanli', 'turkiye', 'turk'],
+            'history_tr_world': ['world', 'modern', 'dunya', 'global'],
+            'history_tr_ancient': ['ancient', 'antik', 'ilk_cag'],
+            'history_tr_all': [] // Not used, handled above
+        };
+        const allowedTagsTR = tagGroupsTR[historySubcategoryTR];
+        if (allowedTagsTR.length > 0) {
+            filtered = filtered.filter(q =>
+                q.tags && q.tags.some(tag => allowedTagsTR.includes(tag))
+            );
+        }
     }
 
     // Filter by difficulty

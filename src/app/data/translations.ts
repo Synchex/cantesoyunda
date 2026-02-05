@@ -89,6 +89,32 @@ export interface Translations {
   turkishSportsDesc: string;
   legendsRecords: string;
   legendsRecordsDesc: string;
+  // Language-specific labels
+  generalSports: string;
+  generalSportsDesc: string;
+  generalFootball: string;
+  generalFootballDesc: string;
+  footballLabel: string;
+  // History Subcategory (EN only)
+  chooseHistoryCategory: string;
+  selectHistoryEra: string;
+  historyModern: string;
+  historyModernDesc: string;
+  historyLegendsEmpires: string;
+  historyLegendsEmpiresDesc: string;
+  historyAncientEarly: string;
+  historyAncientEarlyDesc: string;
+  historyAll: string;
+  historyAllDesc: string;
+  // History Subcategory (TR only)
+  historyTrTurkish: string;
+  historyTrTurkishDesc: string;
+  historyTrWorld: string;
+  historyTrWorldDesc: string;
+  historyTrAncient: string;
+  historyTrAncientDesc: string;
+  historyTrAll: string;
+  historyTrAllDesc: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -181,6 +207,32 @@ export const translations: Record<Language, Translations> = {
     turkishSportsDesc: 'Legends of Turkish athletics',
     legendsRecords: 'Legends & Records',
     legendsRecordsDesc: 'Greatest athletes and achievements',
+    // Language-specific labels
+    generalSports: 'General Sports',
+    generalSportsDesc: 'All sports mixed together',
+    generalFootball: 'General Football',
+    generalFootballDesc: 'Football from all leagues worldwide',
+    footballLabel: 'English Football',
+    // History Subcategory (EN only)
+    chooseHistoryCategory: 'Choose History Era',
+    selectHistoryEra: 'Pick your time period',
+    historyModern: 'Modern History',
+    historyModernDesc: 'Revolutions, wars, and the modern world (1700+)',
+    historyLegendsEmpires: 'Legends & Empires',
+    historyLegendsEmpiresDesc: 'Iconic leaders, dynasties and world-changing empires',
+    historyAncientEarly: 'Ancient & Early Modern History',
+    historyAncientEarlyDesc: 'From ancient civilizations to global exploration',
+    historyAll: 'All History',
+    historyAllDesc: 'The ultimate historical battlefield',
+    // History Subcategory (TR only - English placeholders)
+    historyTrTurkish: 'Turkish History',
+    historyTrTurkishDesc: 'From Central Asia to the year 2000',
+    historyTrWorld: 'World History',
+    historyTrWorldDesc: 'Global events and great wars',
+    historyTrAncient: 'Ancient Civilizations',
+    historyTrAncientDesc: 'Great civilizations of the ancient world',
+    historyTrAll: 'All History',
+    historyTrAllDesc: 'Mixed questions from all eras',
   },
 
   tr: {
@@ -272,6 +324,32 @@ export const translations: Record<Language, Translations> = {
     turkishSportsDesc: 'Türk atletizminin efsaneleri',
     legendsRecords: 'Efsaneler ve Rekorlar',
     legendsRecordsDesc: 'En büyük sporcular ve başarılar',
+    // Language-specific labels
+    generalSports: 'Genel Spor',
+    generalSportsDesc: 'Tüm sporlar bir arada',
+    generalFootball: 'Genel Futbol',
+    generalFootballDesc: 'Dünya futbolunun tamamı',
+    footballLabel: 'Türk Futbolu',
+    // History Subcategory (EN only - placeholders for TypeScript)
+    chooseHistoryCategory: 'Tarih Dönemi Seç',
+    selectHistoryEra: 'Zaman diliminizi seçin',
+    historyModern: 'Modern Tarih',
+    historyModernDesc: 'Devrimler, savaşlar ve modern dünya (1700+)',
+    historyLegendsEmpires: 'Efsaneler ve İmparatorluklar',
+    historyLegendsEmpiresDesc: 'İkonik liderler, hanedanlar ve dünyayı değiştiren imparatorluklar',
+    historyAncientEarly: 'Antik ve Erken Modern Tarih',
+    historyAncientEarlyDesc: 'Antik medeniyetlerden küresel keşiflere',
+    historyAll: 'Tüm Tarih',
+    historyAllDesc: 'Nihai tarih savaş alanı',
+    // History Subcategory (TR only)
+    historyTrTurkish: 'Türk Tarihi',
+    historyTrTurkishDesc: 'Orta Asya\'dan 2000 yılına kadar',
+    historyTrWorld: 'Dünya Tarihi',
+    historyTrWorldDesc: 'Küresel olaylar ve büyük savaşlar',
+    historyTrAncient: 'Antik Uygarlıklar',
+    historyTrAncientDesc: 'Eski dünyanın büyük medeniyetleri',
+    historyTrAll: 'Tüm Tarih',
+    historyTrAllDesc: 'Tüm çağlardan karışık sorular',
   },
 };
 

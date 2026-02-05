@@ -27,7 +27,7 @@ function BasketballIcon({ size = 64 }: { size?: number }) {
     );
 }
 
-export type SportsSubcategory = 'football' | 'basketball' | 'turkish_sports' | 'legends_records';
+export type SportsSubcategory = 'general_sports' | 'general_football' | 'football' | 'basketball' | 'turkish_football' | 'turkish_sports' | 'legends_records';
 
 interface SportsSubcategoryScreenProps {
     onSelectSubcategory: (subcategory: SportsSubcategory) => void;
@@ -37,14 +37,21 @@ interface SportsSubcategoryScreenProps {
 export function SportsSubcategoryScreen({ onSelectSubcategory, language }: SportsSubcategoryScreenProps) {
     const t = (key: any) => getTranslation(language, key);
 
-    const allSubcategories = [
+    // English subcategories: General Sports, General Football, Basketball
+    const englishSubcategories = [
         {
-            id: 'football' as SportsSubcategory,
-            name: t('football'),
+            id: 'general_sports' as SportsSubcategory,
+            name: t('generalSports'),
+            icon: <Trophy size={64} />,
+            description: t('generalSportsDesc'),
+            color: '#9C27B0', // Purple for mixed/all sports
+        },
+        {
+            id: 'general_football' as SportsSubcategory,
+            name: t('generalFootball'),
             icon: <FootballIcon size={64} />,
-            description: t('footballDesc'),
+            description: t('generalFootballDesc'),
             color: '#4CAF50', // Green for football
-            showAlways: true,
         },
         {
             id: 'basketball' as SportsSubcategory,
@@ -52,31 +59,43 @@ export function SportsSubcategoryScreen({ onSelectSubcategory, language }: Sport
             icon: <BasketballIcon size={64} />,
             description: t('basketballDesc'),
             color: '#FF9800', // Orange for basketball
-            showAlways: true,
-        },
-        {
-            id: 'turkish_sports' as SportsSubcategory,
-            name: t('turkishSports'),
-            icon: <Flag size={64} />,
-            description: t('turkishSportsDesc'),
-            color: '#E53935', // Red for Turkish sports (Turkish flag)
-            showAlways: false, // Only show for Turkish language
-        },
-        {
-            id: 'legends_records' as SportsSubcategory,
-            name: t('legendsRecords'),
-            icon: <Award size={64} />,
-            description: t('legendsRecordsDesc'),
-            color: '#D4AF37', // Gold for legends
-            highlighted: true,
-            showAlways: true,
         },
     ];
 
-    // Filter subcategories based on language
-    const subcategories = allSubcategories.filter(sub =>
-        sub.showAlways || language === 'tr'
-    );
+    // Turkish subcategories: Genel Spor, Genel Futbol, Türk Futbolu, Basketbol
+    const turkishSubcategories = [
+        {
+            id: 'general_sports' as SportsSubcategory,
+            name: t('generalSports'),
+            icon: <Trophy size={64} />,
+            description: t('generalSportsDesc'),
+            color: '#9C27B0', // Purple for mixed/all sports
+        },
+        {
+            id: 'general_football' as SportsSubcategory,
+            name: t('generalFootball'),
+            icon: <FootballIcon size={64} />,
+            description: t('generalFootballDesc'),
+            color: '#2196F3', // Blue for world/general football
+        },
+        {
+            id: 'turkish_football' as SportsSubcategory,
+            name: t('footballLabel'), // "Türk Futbolu"
+            icon: <Flag size={64} />,
+            description: t('footballDesc'),
+            color: '#E53935', // Red for Turkish football (Turkish flag color)
+        },
+        {
+            id: 'basketball' as SportsSubcategory,
+            name: t('basketball'),
+            icon: <BasketballIcon size={64} />,
+            description: t('basketballDesc'),
+            color: '#FF9800', // Orange for basketball
+        },
+    ];
+
+    // Select subcategories based on language
+    const subcategories = language === 'tr' ? turkishSubcategories : englishSubcategories;
 
     return (
         <div className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">
@@ -148,7 +167,7 @@ export function SportsSubcategoryScreen({ onSelectSubcategory, language }: Sport
                             <GameCard
                                 onClick={() => onSelectSubcategory(subcategory.id)}
                                 icon={<div style={{ color: subcategory.color }}>{subcategory.icon}</div>}
-                                glowing={subcategory.highlighted}
+                                glowing={(subcategory as any).highlighted}
                                 className="h-full"
                             >
                                 <h3

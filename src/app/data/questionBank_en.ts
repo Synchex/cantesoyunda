@@ -33,21 +33,21 @@ const baseQuestions: Question[] = [
     { id: 11, question: "What is the rarest naturally occurring element on Earth?", answers: ["Astatine", "Francium", "Promethium", "Technetium"], correctAnswer: 0, category: "genel_kultur", difficulty: "cok_zor" },
     { id: 12, question: "In what year was the first email sent?", answers: ["1965", "1971", "1983", "1990"], correctAnswer: 1, category: "genel_kultur", difficulty: "cok_zor" },
     // TARİH - KOLAY
-    { id: 13, question: "Who was the first President of the United States?", answers: ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"], correctAnswer: 1, category: "tarih", difficulty: "kolay" },
-    { id: 14, question: "In which year did World War II end?", answers: ["1943", "1944", "1945", "1946"], correctAnswer: 2, category: "tarih", difficulty: "kolay" },
-    { id: 15, question: "Which ancient wonder was located in Egypt?", answers: ["Hanging Gardens", "Colossus of Rhodes", "Great Pyramid of Giza", "Lighthouse of Alexandria"], correctAnswer: 2, category: "tarih", difficulty: "kolay" },
-    { id: 16, question: "Who painted the Mona Lisa?", answers: ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"], correctAnswer: 1, category: "tarih", difficulty: "kolay" },
+    { id: 13, question: "Who was the first President of the United States?", answers: ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"], correctAnswer: 1, category: "tarih", difficulty: "kolay", tags: ["modern", "legends"] },
+    { id: 14, question: "In which year did World War II end?", answers: ["1943", "1944", "1945", "1946"], correctAnswer: 2, category: "tarih", difficulty: "kolay", tags: ["modern"] },
+    { id: 15, question: "Which ancient wonder was located in Egypt?", answers: ["Hanging Gardens", "Colossus of Rhodes", "Great Pyramid of Giza", "Lighthouse of Alexandria"], correctAnswer: 2, category: "tarih", difficulty: "kolay", tags: ["ancient"] },
+    { id: 16, question: "Who painted the Mona Lisa?", answers: ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"], correctAnswer: 1, category: "tarih", difficulty: "kolay", tags: ["early_modern", "legends"] },
     // TARİH - ORTA
-    { id: 17, question: "The fall of the Berlin Wall occurred in which year?", answers: ["1987", "1989", "1991", "1993"], correctAnswer: 1, category: "tarih", difficulty: "orta" },
-    { id: 18, question: "Who was the first woman to win a Nobel Prize?", answers: ["Marie Curie", "Mother Teresa", "Jane Addams", "Rosalind Franklin"], correctAnswer: 0, category: "tarih", difficulty: "orta" },
-    { id: 19, question: "The Renaissance began in which country?", answers: ["France", "Spain", "Italy", "England"], correctAnswer: 2, category: "tarih", difficulty: "orta" },
-    { id: 20, question: "Which empire was ruled by Julius Caesar?", answers: ["Greek Empire", "Roman Empire", "Persian Empire", "Ottoman Empire"], correctAnswer: 1, category: "tarih", difficulty: "orta" },
+    { id: 17, question: "The fall of the Berlin Wall occurred in which year?", answers: ["1987", "1989", "1991", "1993"], correctAnswer: 1, category: "tarih", difficulty: "orta", tags: ["modern"] },
+    { id: 18, question: "Who was the first woman to win a Nobel Prize?", answers: ["Marie Curie", "Mother Teresa", "Jane Addams", "Rosalind Franklin"], correctAnswer: 0, category: "tarih", difficulty: "orta", tags: ["modern", "legends"] },
+    { id: 19, question: "The Renaissance began in which country?", answers: ["France", "Spain", "Italy", "England"], correctAnswer: 2, category: "tarih", difficulty: "orta", tags: ["early_modern"] },
+    { id: 20, question: "Which empire was ruled by Julius Caesar?", answers: ["Greek Empire", "Roman Empire", "Persian Empire", "Ottoman Empire"], correctAnswer: 1, category: "tarih", difficulty: "orta", tags: ["ancient", "empires", "legends"] },
     // TARİH - ZOR
-    { id: 21, question: "What year did the Byzantine Empire fall?", answers: ["1204", "1453", "1492", "1571"], correctAnswer: 1, category: "tarih", difficulty: "zor" },
-    { id: 22, question: "Who was the longest-reigning British monarch before Queen Elizabeth II?", answers: ["Queen Victoria", "King George III", "King Henry VIII", "Queen Anne"], correctAnswer: 0, category: "tarih", difficulty: "zor" },
+    { id: 21, question: "What year did the Byzantine Empire fall?", answers: ["1204", "1453", "1492", "1571"], correctAnswer: 1, category: "tarih", difficulty: "zor", tags: ["ancient", "empires"] },
+    { id: 22, question: "Who was the longest-reigning British monarch before Queen Elizabeth II?", answers: ["Queen Victoria", "King George III", "King Henry VIII", "Queen Anne"], correctAnswer: 0, category: "tarih", difficulty: "zor", tags: ["modern", "legends", "empires"] },
     // TARİH - ÇOK ZOR
-    { id: 23, question: "The Treaty of Tordesillas was signed between which two countries?", answers: ["England and France", "Spain and Portugal", "Spain and Italy", "Portugal and France"], correctAnswer: 1, category: "tarih", difficulty: "cok_zor" },
-    { id: 24, question: "What was the name of the first Chinese dynasty?", answers: ["Zhou Dynasty", "Shang Dynasty", "Xia Dynasty", "Qin Dynasty"], correctAnswer: 2, category: "tarih", difficulty: "cok_zor" },
+    { id: 23, question: "The Treaty of Tordesillas was signed between which two countries?", answers: ["England and France", "Spain and Portugal", "Spain and Italy", "Portugal and France"], correctAnswer: 1, category: "tarih", difficulty: "cok_zor", tags: ["early_modern", "empires"] },
+    { id: 24, question: "What was the name of the first Chinese dynasty?", answers: ["Zhou Dynasty", "Shang Dynasty", "Xia Dynasty", "Qin Dynasty"], correctAnswer: 2, category: "tarih", difficulty: "cok_zor", tags: ["ancient", "empires"] },
     // SPOR - KOLAY
     { id: 25, question: "How many players are on a soccer team?", answers: ["9", "10", "11", "12"], correctAnswer: 2, category: "spor", difficulty: "kolay", subcategory: "football" },
     { id: 26, question: "Which sport is known as 'The Beautiful Game'?", answers: ["Basketball", "Soccer", "Tennis", "Baseball"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "football" },
@@ -64,6 +64,15 @@ const baseQuestions: Question[] = [
     // SPOR - ÇOK ZOR
     { id: 35, question: "Who was the first player to score 100 points in a single NBA game?", answers: ["Wilt Chamberlain", "Michael Jordan", "Kobe Bryant", "Elgin Baylor"], correctAnswer: 0, category: "spor", difficulty: "cok_zor", subcategory: "basketball" },
     { id: 36, question: "In what year was the first Cricket World Cup held?", answers: ["1971", "1973", "1975", "1977"], correctAnswer: 2, category: "spor", difficulty: "cok_zor", subcategory: "legends_records" },
+    // GENERAL SPORTS - Mixed sports questions
+    { id: 37, question: "Which sport uses a shuttlecock?", answers: ["Tennis", "Badminton", "Squash", "Table Tennis"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "general_sports" },
+    { id: 38, question: "How many players are on a volleyball team on the court?", answers: ["5", "6", "7", "8"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "general_sports" },
+    { id: 39, question: "In which sport would you use a 'driver' and a 'putter'?", answers: ["Cricket", "Golf", "Polo", "Hockey"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "general_sports" },
+    { id: 40, question: "The Tour de France is a famous competition in which sport?", answers: ["Running", "Swimming", "Cycling", "Skiing"], correctAnswer: 2, category: "spor", difficulty: "orta", subcategory: "general_sports" },
+    { id: 41, question: "What is the maximum score in a single frame of bowling?", answers: ["10", "20", "30", "40"], correctAnswer: 2, category: "spor", difficulty: "orta", subcategory: "general_sports" },
+    { id: 42, question: "Which country invented the sport of golf?", answers: ["England", "Ireland", "Scotland", "Wales"], correctAnswer: 2, category: "spor", difficulty: "orta", subcategory: "general_sports" },
+    { id: 43, question: "In swimming, which stroke is considered the fastest?", answers: ["Breaststroke", "Butterfly", "Backstroke", "Freestyle"], correctAnswer: 3, category: "spor", difficulty: "zor", subcategory: "general_sports" },
+    { id: 44, question: "The Ryder Cup is a competition between Europe and USA in which sport?", answers: ["Tennis", "Golf", "Cricket", "Rugby"], correctAnswer: 1, category: "spor", difficulty: "zor", subcategory: "general_sports" },
 ];
 
 // ============================================================================

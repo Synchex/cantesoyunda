@@ -1,0 +1,752 @@
+[
+    {
+        "id": 6001,
+        "question": "Olimpiyatlarda en fazla altın madalya kazanan ülke hangisidir?",
+        "choices": [
+            "Amerika Birleşik Devletleri",
+            "Çin",
+            "Rusya",
+            "Almanya"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6002,
+        "question": "Maratonda koşulan mesafe kaç kilometredir?",
+        "choices": [
+            "42.195 km",
+            "40 km",
+            "45 km",
+            "50 km"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6003,
+        "question": "Hangi spor dalında 'ace' terimi kullanılır?",
+        "choices": [
+            "Tenis",
+            "Futbol",
+            "Basketbol",
+            "Yüzme"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6004,
+        "question": "Kış Olimpiyatları kaç yılda bir düzenlenir?",
+        "choices": [
+            "4 yılda bir",
+            "2 yılda bir",
+            "Her yıl",
+            "6 yılda bir"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6005,
+        "question": "Ragbi topunun şekli nasıldır?",
+        "choices": [
+            "Oval",
+            "Yuvarlak",
+            "Kare",
+            "Üçgen"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6006,
+        "question": "Beyzbolda kaç oyuncu sahada bulunur?",
+        "choices": [
+            "9",
+            "11",
+            "7",
+            "5"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6007,
+        "question": "Hangi spor dalında 'puck' kullanılır?",
+        "choices": [
+            "Buz hokeyi",
+            "Masa tenisi",
+            "Badminton",
+            "Golf"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6008,
+        "question": "100 metre dünya rekoru hangi sporcuya aittir?",
+        "choices": [
+            "Usain Bolt",
+            "Carl Lewis",
+            "Tyson Gay",
+            "Asafa Powell"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6009,
+        "question": "Kriket maçında bir takımda kaç oyuncu bulunur?",
+        "choices": [
+            "11",
+            "9",
+            "13",
+            "7"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6010,
+        "question": "Triatlon hangi üç sporu kapsar?",
+        "choices": [
+            "Yüzme, bisiklet, koşu",
+            "Yüzme, tenis, koşu",
+            "Bisiklet, güreş, boks",
+            "Koşu, atlama, atış"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6011,
+        "question": "Eskrim'de kaç farklı silah türü kullanılır?",
+        "choices": [
+            "3 (Epe, Flöre, Sabre)",
+            "2",
+            "4",
+            "5"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6012,
+        "question": "Dalış sporunda hangi gaz karışımı kullanılır?",
+        "choices": [
+            "Oksijen ve nitrojen",
+            "Sadece oksijen",
+            "Helyum ve oksijen",
+            "Karbon dioksit"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6013,
+        "question": "Senkronize yüzme en az kaç kişiyle yapılır?",
+        "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6014,
+        "question": "Kürek sporunda 'cox' ne anlama gelir?",
+        "choices": [
+            "Dümenci",
+            "Baş kürekçi",
+            "Antrenör",
+            "Hakem"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6015,
+        "question": "Modern pentatlon hangi beş sporu kapsar?",
+        "choices": [
+            "Eskrim, yüzme, ata binme, atış, koşu",
+            "Güreş, boks, koşu, atlama, disk atma",
+            "Yüzme, bisiklet, koşu, okçuluk, judo",
+            "Tenis, golf, yüzme, koşu, eskrim"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6016,
+        "question": "Biathlon hangi iki sporu birleştirir?",
+        "choices": [
+            "Kayaklı koşu ve atış",
+            "Yüzme ve koşu",
+            "Bisiklet ve koşu",
+            "Kayak ve buzda kayma"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6017,
+        "question": "Polo sporunda hangi hayvan kullanılır?",
+        "choices": [
+            "At",
+            "Deve",
+            "Fil",
+            "Eşek"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6018,
+        "question": "Curling sporunda kullanılan taşlar hangi malzemedendir?",
+        "choices": [
+            "Granit",
+            "Mermer",
+            "Kireçtaşı",
+            "Bazalt"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6019,
+        "question": "Hangi olimpiyat sporu suda gerçekleştirilir ama yüzme değildir?",
+        "choices": [
+            "Su polosu",
+            "Dalış",
+            "Tramplen",
+            "Senkronize yüzme"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6020,
+        "question": "Decatlon kaç branştan oluşur?",
+        "choices": [
+            "10",
+            "8",
+            "12",
+            "15"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_sports",
+        "lang": "tr"
+    },
+    {
+        "id": 6021,
+        "question": "2022 FIFA Dünya Kupası hangi ülkede düzenlendi?",
+        "choices": [
+            "Katar",
+            "Rusya",
+            "Brezilya",
+            "Almanya"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6022,
+        "question": "Futbolda 'hat-trick' ne demektir?",
+        "choices": [
+            "Bir maçta 3 gol atmak",
+            "3 maçta gol atmak",
+            "3 asist yapmak",
+            "3 kez oyundan atılmak"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6023,
+        "question": "UEFA Şampiyonlar Ligi'ni en çok kazanan kulüp hangisidir?",
+        "choices": [
+            "Real Madrid",
+            "AC Milan",
+            "Liverpool",
+            "Bayern München"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6024,
+        "question": "Lionel Messi hangi ülkenin milli takımında oynamaktadır?",
+        "choices": [
+            "Arjantin",
+            "İspanya",
+            "Brezilya",
+            "Portekiz"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6025,
+        "question": "Futbolda ofsayt kuralı hangi durumda geçerli değildir?",
+        "choices": [
+            "Taç atışında",
+            "Köşe vuruşunda",
+            "Serbest vuruşta",
+            "Penaltıda"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6026,
+        "question": "Premier Lig'de en fazla gol atan futbolcu kimdir?",
+        "choices": [
+            "Alan Shearer",
+            "Wayne Rooney",
+            "Thierry Henry",
+            "Sergio Agüero"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6027,
+        "question": "Dünya Kupası'nı en çok kazanan ülke hangisidir?",
+        "choices": [
+            "Brezilya",
+            "Almanya",
+            "İtalya",
+            "Arjantin"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6028,
+        "question": "VAR sistemi ilk olarak hangi Dünya Kupası'nda kullanıldı?",
+        "choices": [
+            "2018 Rusya",
+            "2014 Brezilya",
+            "2022 Katar",
+            "2010 Güney Afrika"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6029,
+        "question": "Barcelona'nın efsanevi stadyum ismi nedir?",
+        "choices": [
+            "Camp Nou",
+            "Santiago Bernabéu",
+            "Wanda Metropolitano",
+            "San Siro"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6030,
+        "question": "Ballon d'Or ödülünü en çok kazanan futbolcu kimdir?",
+        "choices": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Michel Platini",
+            "Johan Cruyff"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "general_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6031,
+        "question": "NBA'de en fazla şampiyonluğu bulunan takım hangisidir?",
+        "choices": [
+            "Boston Celtics",
+            "Los Angeles Lakers",
+            "Chicago Bulls",
+            "Golden State Warriors"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6032,
+        "question": "Basketbolda üç sayılık atış çizgisi ne kadar uzaklıktadır? (NBA)",
+        "choices": [
+            "7.24 metre",
+            "6.75 metre",
+            "8 metre",
+            "6 metre"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6033,
+        "question": "Michael Jordan hangi takımda en çok şampiyonluk kazandı?",
+        "choices": [
+            "Chicago Bulls",
+            "Washington Wizards",
+            "Los Angeles Lakers",
+            "Miami Heat"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6034,
+        "question": "Basketbolda 'double-double' ne anlama gelir?",
+        "choices": [
+            "İki kategoride çift haneli sayılar",
+            "İki maçta üst üste çift sayı",
+            "İki çeyrekten fazla oynamak",
+            "İkinci yarıda atılan sayılar"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6035,
+        "question": "EuroLeague'i en çok kazanan kulüp hangisidir?",
+        "choices": [
+            "Real Madrid",
+            "CSKA Moskova",
+            "Panathinaikos",
+            "Maccabi Tel Aviv"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6036,
+        "question": "Basketbolda bir periyot kaç dakikadır? (NBA)",
+        "choices": [
+            "12 dakika",
+            "10 dakika",
+            "15 dakika",
+            "8 dakika"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6037,
+        "question": "Kobe Bryant ömrü boyunca hangi takımda oynadı?",
+        "choices": [
+            "Los Angeles Lakers",
+            "Boston Celtics",
+            "Chicago Bulls",
+            "Miami Heat"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6038,
+        "question": "Basketbolda 'slam dunk' nedir?",
+        "choices": [
+            "Potaya smaç atmak",
+            "Üç sayılık atış",
+            "Serbest atış",
+            "Ribaund almak"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6039,
+        "question": "NBA'de en fazla sayı ortalamasına sahip oyuncu kimdir? (kariyer)",
+        "choices": [
+            "Michael Jordan",
+            "Wilt Chamberlain",
+            "LeBron James",
+            "Kareem Abdul-Jabbar"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6040,
+        "question": "Türkiye Basketbol Milli Takımı'nın en büyük başarısı hangisidir?",
+        "choices": [
+            "2010 Dünya İkinciliği",
+            "2008 Avrupa Şampiyonluğu",
+            "2012 Olimpiyat Bronzu",
+            "2014 Dünya Üçüncülüğü"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "basketball",
+        "lang": "tr"
+    },
+    {
+        "id": 6041,
+        "question": "Süper Lig'de en fazla şampiyonluğa sahip kulüp hangisidir?",
+        "choices": [
+            "Galatasaray",
+            "Fenerbahçe",
+            "Beşiktaş",
+            "Trabzonspor"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6042,
+        "question": "Türkiye'nin Avrupa'da kazandığı ilk kupa hangisidir?",
+        "choices": [
+            "2000 UEFA Kupası (Galatasaray)",
+            "1996 Kral Kupası",
+            "1999 Şampiyonlar Ligi",
+            "2003 UEFA Kupası"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6043,
+        "question": "Türk Milli Takımı'nın 2002 Dünya Kupası'ndaki başarısı nedir?",
+        "choices": [
+            "Üçüncülük",
+            "Yarı Final",
+            "Çeyrek Final",
+            "Şampiyonluk"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6044,
+        "question": "Fenerbahçe'nin stadyumunun adı nedir?",
+        "choices": [
+            "Ülker Stadyumu",
+            "Ali Sami Yen",
+            "İnönü Stadı",
+            "Atatürk Olimpiyat"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6045,
+        "question": "Süper Lig tarihinde en fazla gol atan futbolcu kimdir?",
+        "choices": [
+            "Hakan Şükür",
+            "Tanju Çolak",
+            "Metin Oktay",
+            "Bülent Korkmaz"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6046,
+        "question": "Trabzonspor hangi yıl ilk Süper Lig şampiyonluğunu kazandı?",
+        "choices": [
+            "1976",
+            "1980",
+            "1984",
+            "1990"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6047,
+        "question": "Galatasaray-Fenerbahçe derbisinin popüler adı nedir?",
+        "choices": [
+            "Kıtalararası Derbi",
+            "Büyük Derbi",
+            "İstanbul Derbisi",
+            "Süper Derbi"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "kolay",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6048,
+        "question": "Beşiktaş'ın kurucusu kimdir?",
+        "choices": [
+            "Şeref Bey",
+            "Ali Sami Yen",
+            "Ziya Songülen",
+            "Fuat Hüsnü Kayacan"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "zor",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6049,
+        "question": "Türkiye'nin 2008 Avrupa Şampiyonası'ndaki başarısı nedir?",
+        "choices": [
+            "Yarı Final",
+            "Çeyrek Final",
+            "Final",
+            "Grup aşaması"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    },
+    {
+        "id": 6050,
+        "question": "Arda Turan hangi İspanyol kulüplerinde oynadı?",
+        "choices": [
+            "Atletico Madrid ve Barcelona",
+            "Real Madrid ve Sevilla",
+            "Valencia ve Villarreal",
+            "Barcelona ve Real Betis"
+        ],
+        "answerIndex": 0,
+        "category": "spor",
+        "difficulty": "orta",
+        "subcategory": "turkish_football",
+        "lang": "tr"
+    }
+]
