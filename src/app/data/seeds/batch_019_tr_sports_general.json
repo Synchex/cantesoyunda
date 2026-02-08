@@ -1,0 +1,632 @@
+[
+  {
+    "id": 17200,
+    "question": "Türkiye'nin ata sporu olarak bilinen spor dalı hangisidir?",
+    "answers": [
+      "Okçuluk",
+      "Cirit",
+      "Yağlı Güreş",
+      "Binicilik"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17201,
+    "question": "'Cep Herkülü' lakaplı dünyaca ünlü haltercimiz kimdir?",
+    "answers": [
+      "Halil Mutlu",
+      "Naim Süleymanoğlu",
+      "Taner Sağır",
+      "Nurcan Taylan"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17202,
+    "question": "Filenin Sultanları hangi sporda ülkemizi temsil etmektedir?",
+    "answers": [
+      "Basketbol",
+      "Hentbol",
+      "Voleybol",
+      "Futbol"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17203,
+    "question": "Kırkpınar Yağlı Güreşleri hangi ilimizde düzenlenir?",
+    "answers": [
+      "İstanbul",
+      "Antalya",
+      "Edirne",
+      "Bursa"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17204,
+    "question": "Mete Gazoz hangi dalda Olimpiyat şampiyonu olmuştur?",
+    "answers": [
+      "Atıcılık",
+      "Okçuluk",
+      "Eskrim",
+      "Judo"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17205,
+    "question": "Türkiye'de dört büyükler dışında şampiyon çıkaran ilk Anadolu şehri hangisidir?",
+    "answers": [
+      "Bursa",
+      "Trabzon",
+      "Eskişehir",
+      "Sivas"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17206,
+    "question": "Hamza Yerlikaya hangi spor dalında efsaneleşmiştir?",
+    "answers": [
+      "Boks",
+      "Güreş",
+      "Halter",
+      "Judo"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17207,
+    "question": "Yasemin Adar hangi sporda dünya şampiyonu olan ilk Türk kadındır?",
+    "answers": [
+      "Güreş",
+      "Boks",
+      "Karate",
+      "Tekvando"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17208,
+    "question": "Kenan Sofuoğlu hangi motor sporu dalında yarışmıştır?",
+    "answers": [
+      "Formula 1",
+      "MotoGP",
+      "Supersport",
+      "Ralli"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17209,
+    "question": "'Boğazın Boğası' lakaplı boksörümüz kimdir?",
+    "answers": [
+      "Selçuk Aydın",
+      "Sinan Şamil Sam",
+      "Avni Yıldırım",
+      "Adem Kılıççı"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17210,
+    "question": "Busenaz Sürmeneli hangi alanda Olimpiyat altını kazanmıştır?",
+    "answers": [
+      "Judo",
+      "Boks",
+      "Güreş",
+      "Karate"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17211,
+    "question": "VakıfBank Kadın Voleybol Takımı kaç kez CEV Şampiyonlar Ligi'ni kazanmıştır?",
+    "answers": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17212,
+    "question": "Kırkpınar'da üst üste 3 kez başpehlivan olana ne verilir?",
+    "answers": [
+      "Altın Madalya",
+      "Kupa",
+      "Altın Kemer",
+      "Para Ödülü"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17213,
+    "question": "Toprak Razgatlıoğlu hangi yarış serisinde dünya şampiyonu olmuştur?",
+    "answers": [
+      "MotoGP",
+      "WorldSBK (Superbike)",
+      "F1",
+      "WRC"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17214,
+    "question": "Rıza Kayaalp hangi güreş stilinde yarışmaktadır?",
+    "answers": [
+      "Serbest",
+      "Grekoromen",
+      "Yağlı",
+      "Sumo"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17215,
+    "question": "Semih Saygıner hangi spor dalında dünya şampiyonudur?",
+    "answers": [
+      "Bilardo",
+      "Satranç",
+      "Okçuluk",
+      "Dart"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17216,
+    "question": "Sümeyye Boyacı hangi branşta ülkemizi temsil etmektedir?",
+    "answers": [
+      "Atletizm",
+      "Yüzme (Paralimpik)",
+      "Okçuluk",
+      "Tenis"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17217,
+    "question": "Marsel İlhan hangi Grand Slam turnuvasında ana tabloya kalan ilk Türk erkek tenisçidir?",
+    "answers": [
+      "Roland Garros",
+      "Wimbledon",
+      "US Open",
+      "Avustralya Açık"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17218,
+    "question": "Türkiye'de ilk resmi futbol maçı hangi şehirde oynanmıştır?",
+    "answers": [
+      "İstanbul",
+      "İzmir",
+      "Selanik",
+      "Ankara"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17219,
+    "question": "Çağla Büyükakçay hangi turnuvada şampiyon olarak WTA şampiyonluğu kazanan ilk Türk olmuştur?",
+    "answers": [
+      "İstanbul Cup",
+      "Antalya Open",
+      "Ankara Cup",
+      "İzmir Open"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17220,
+    "question": "Cüneyt Arkın gençliğinde hangi sporla profesyonel olarak ilgilenmiştir?",
+    "answers": [
+      "Güreş",
+      "Karate",
+      "Binicilik",
+      "Yüzme"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17221,
+    "question": "Şahika Ercümen hangi alanda dünya rekorlarına sahiptir?",
+    "answers": [
+      "Dağcılık",
+      "Serbest Dalış",
+      "Yüzme",
+      "Paraşüt"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17222,
+    "question": "Servet Tazegül Olimpiyat şampiyonluğunu hangi branşta kazanmıştır?",
+    "answers": [
+      "Güreş",
+      "Boks",
+      "Tekvando",
+      "Judo"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17223,
+    "question": "Türkiye Milli Olimpiyat Komitesi hangi yıl kurulmuştur?",
+    "answers": [
+      "1908",
+      "1914",
+      "1923",
+      "1936"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17224,
+    "question": "Olimpiyatlarda Türkiye'ye ilk altın madalyayı kazandıran sporcu kimdir?",
+    "answers": [
+      "Yaşar Erkan",
+      "Naim Süleymanoğlu",
+      "Hamit Kaplan",
+      "Gazanfer Bilge"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17225,
+    "question": "Nuri Şahin ve Hamit Altıntop'un birlikte forma giydiği dünya devi takım hangisidir?",
+    "answers": [
+      "Bayern Münih",
+      "Real Madrid",
+      "Dortmund",
+      "Liverpool"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17226,
+    "question": "A Milli Kadın Voleybol Takımı, 2023 yılında hangi organizasyonda ŞAMPİYON olmuştur?",
+    "answers": [
+      "Dünya Şampiyonası",
+      "Milletler Ligi (VNL)",
+      "Olimpiyatlar",
+      "Grand Prix"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17227,
+    "question": "Hangi Türk sporcu Manş Denizi'ni yüzerek geçen ilk kadın olmuştur?",
+    "answers": [
+      "Nesrin Olgun",
+      "Şahika Ercümen",
+      "Sümeyye Boyacı",
+      "Bengü Su"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17228,
+    "question": "Kırkpınar Yağlı Güreşleri UNESCO Somut Olmayan Kültürel Miras Listesi'ne hangi yıl girmiştir?",
+    "answers": [
+      "2005",
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17229,
+    "question": "Fenerbahçe'nin efsanevi futbolcusu 'Cihat Arman'ın lakabı neydi?",
+    "answers": [
+      "Panter",
+      "Uçan Kaleci",
+      "Berlin Kaplanı",
+      "Duvar"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17230,
+    "question": "Türkiye'nin Olimpiyatlarda en çok madalya kazandığı branş hangisidir?",
+    "answers": [
+      "Halter",
+      "Güreş",
+      "Boks",
+      "Tekvando"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17231,
+    "question": "Avrupa Atletizm Şampiyonası'nda 100 metrede altın madalya kazanan sporcumuz kimdir?",
+    "answers": [
+      "Ramil Guliyev",
+      "Jak Ali Harvey",
+      "Süreyya Ayhan",
+      "Yasmani Copello"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17232,
+    "question": "Ramil Guliyev 2017'de Dünya Şampiyonu olurken hangi mesafede koşmuştur?",
+    "answers": [
+      "100m",
+      "200m",
+      "400m",
+      "4x100m"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17233,
+    "question": "Elvan Abeylegesse'nin dünya rekoru kırdığı mesafe hangisidir?",
+    "answers": [
+      "1500m",
+      "3000m",
+      "5000m",
+      "10000m"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  },
+  {
+    "id": 17234,
+    "question": "Hangi yıl Türkiye Akdeniz Oyunları'na ev sahipliği yapmıştır (Mersin)?",
+    "answers": [
+      "2005",
+      "2009",
+      "2013",
+      "2017"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "turkish_sports",
+    "tags": [
+      "turkish_sports",
+      "general_sports"
+    ]
+  }
+]

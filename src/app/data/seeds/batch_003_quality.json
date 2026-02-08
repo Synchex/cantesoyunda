@@ -104,7 +104,7 @@
     "lang": "tr",
     "category": "tarih",
     "subcategory": "osmanlı",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Fatih Sultan Mehmet'in İstanbul kuşatmasında kullandığı en büyük topun adı nedir?",
     "choices": [
       "Şahi topu",
@@ -324,7 +324,7 @@
     "lang": "tr",
     "category": "tarih",
     "subcategory": "cumhuriyet",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Türkiye'nin ilk nüfus sayımı hangi yıl yapılmıştır?",
     "choices": [
       "1927",
@@ -504,7 +504,7 @@
     "lang": "tr",
     "category": "genel_kultur",
     "subcategory": "coğrafya",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Türkiye'nin en kuzeydeki noktası hangi ildedir?",
     "choices": [
       "Sinop",
@@ -704,7 +704,7 @@
     "lang": "tr",
     "category": "spor",
     "subcategory": "futbol",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Türkiye Süper Ligi'nde \"Teksas Fırtınası\" lakaplı takım hangisidir?",
     "choices": [
       "Kayserispor",
@@ -824,7 +824,7 @@
     "lang": "tr",
     "category": "genel_kultur",
     "subcategory": "edebiyat",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Türk edebiyatında \"Servet-i Fünun\" topluluğu hangi dergide bir araya gelmiştir?",
     "choices": [
       "Servet-i Fünun Dergisi",
@@ -984,7 +984,7 @@
     "lang": "tr",
     "category": "genel_kultur",
     "subcategory": "sanat",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Osmanlı hat sanatında \"Sülüs\" yazı çeşidini mükemmelleştiren hattat kimdir?",
     "choices": [
       "Şeyh Hamdullah",

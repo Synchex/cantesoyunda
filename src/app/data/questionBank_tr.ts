@@ -8,11 +8,25 @@
  */
 
 // Import batch files directly
-import batch001 from './seeds/batch_001.json';
-import batch003 from './seeds/batch_003_quality.json';
-import batch004 from './seeds/batch_004_quality.json';
+// batch001 removed - replaced by batch021_gk_revamp
+// batch003 and batch004 removed - replaced by batch021_gk_revamp (Hard Mode)
 import batch005 from './seeds/batch_005_general_sports.json';
 import batch006 from './seeds/batch_006_tr_sports.json';
+import batch007 from './seeds/batch_007_tr_history_ilk.json';
+import batch008 from './seeds/batch_008_tr_history_orta.json';
+import batch009 from './seeds/batch_009_tr_history_yeni.json';
+import batch010 from './seeds/batch_010_tr_history_yakin.json';
+import batch011 from './seeds/batch_011_tr_history_antik_anadolu.json';
+import batch012 from './seeds/batch_012_tr_history_modern_dunya.json';
+import batch013 from './seeds/batch_013_tr_history_ilk_more.json';
+import batch014 from './seeds/batch_014_tr_history_orta_more.json';
+import batch015 from './seeds/batch_015_tr_history_yeni_more.json';
+import batch016 from './seeds/batch_016_tr_history_yakin_more.json';
+import batch017 from './seeds/batch_017_tr_sports_football.json';
+import batch018 from './seeds/batch_018_tr_sports_basketball.json';
+import batch019 from './seeds/batch_019_tr_sports_general.json';
+import batch020 from './seeds/batch_020_tr_sports_legends.json';
+import batch021 from './seeds/batch_021_gk_revamp.json';
 
 // Import shared types and helpers
 import type { Question, Category, Difficulty, SportsSubcategory } from './questionBank';
@@ -39,12 +53,12 @@ const difficultyAliases: Record<string, Difficulty> = {
     'kolay': 'kolay',
     'orta': 'orta',
     'zor': 'zor',
-    'cok_zor': 'cok_zor',
+
     'easy': 'kolay',
     'medium': 'orta',
     'hard': 'zor',
-    'very_hard': 'cok_zor',
-    'very-hard': 'cok_zor',
+
+
 };
 
 const subcategoryAliases: Record<string, SportsSubcategory> = {
@@ -159,11 +173,26 @@ import {
 } from './questionDeduplication';
 
 const importedQuestions = [
-    ...importBatch(batch001 as RawQuestion[]),
-    ...importBatch(batch003 as RawQuestion[]),
-    ...importBatch(batch004 as RawQuestion[]),
+    // ...importBatch(batch001 as RawQuestion[]), // Removed - Replaced by batch021
+    // ...importBatch(batch003 as RawQuestion[]), // Removed
+    // ...importBatch(batch004 as RawQuestion[]), // Removed
     ...importBatch(batch005 as RawQuestion[]),
     ...importBatch(batch006 as RawQuestion[]),
+    ...importBatch(batch007 as RawQuestion[]),
+    ...importBatch(batch008 as RawQuestion[]),
+    ...importBatch(batch009 as RawQuestion[]),
+    ...importBatch(batch010 as RawQuestion[]),
+    ...importBatch(batch011 as RawQuestion[]),
+    ...importBatch(batch012 as RawQuestion[]),
+    ...importBatch(batch013 as RawQuestion[]),
+    ...importBatch(batch014 as RawQuestion[]),
+    ...importBatch(batch015 as RawQuestion[]),
+    ...importBatch(batch016 as RawQuestion[]),
+    ...importBatch(batch017 as RawQuestion[]),
+    ...importBatch(batch018 as RawQuestion[]),
+    ...importBatch(batch019 as RawQuestion[]),
+    ...importBatch(batch020 as RawQuestion[]),
+    ...importBatch(batch021 as RawQuestion[]),
 ];
 
 // Apply advanced deduplication

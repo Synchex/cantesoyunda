@@ -13,10 +13,10 @@
 // ============================================================================
 
 export type Category = 'genel_kultur' | 'tarih' | 'spor';
-export type Difficulty = 'kolay' | 'orta' | 'zor' | 'cok_zor';
+export type Difficulty = 'kolay' | 'orta' | 'zor' | 'mixed';
 export type SportsSubcategory = 'general_sports' | 'general_football' | 'football' | 'basketball' | 'turkish_football' | 'turkish_sports' | 'legends_records';
 export type HistorySubcategory = 'history_modern' | 'history_legends_empires' | 'history_ancient_early' | 'history_all';
-export type HistorySubcategoryTR = 'history_tr_turkish' | 'history_tr_world' | 'history_tr_ancient' | 'history_tr_all';
+export type HistorySubcategoryTR = 'history_tr_turkish' | 'history_tr_modern' | 'history_tr_ancient_anatolia' | 'history_tr_mixed';
 
 export interface Question {
     id: number;
@@ -29,6 +29,10 @@ export interface Question {
     historySubcategory?: HistorySubcategory; // Only applicable for 'tarih' category (EN only)
     tags?: string[]; // Optional tags for filtering (e.g., 'modern', 'ancient', 'empires')
 }
+
+// ... (skipping some parts to get to getQuestions)
+
+
 
 // ============================================================================
 // Validation Result Type
@@ -84,7 +88,7 @@ export function validateQuestion(q: Partial<Question>): ValidationResult {
         return { valid: false, reason: `category must be one of: ${validCategories.join(', ')}` };
     }
 
-    const validDifficulties: Difficulty[] = ['kolay', 'orta', 'zor', 'cok_zor'];
+    const validDifficulties: Difficulty[] = ['kolay', 'orta', 'zor', 'mixed'];
     if (!q.difficulty || !validDifficulties.includes(q.difficulty)) {
         return { valid: false, reason: `difficulty must be one of: ${validDifficulties.join(', ')}` };
     }
@@ -234,15 +238,20 @@ export function getQuestions(options: GetQuestionsOptions = {}): Question[] {
     // history_tr_turkish: filter by tags ['turkish']
     // history_tr_world: filter by tags ['world', 'modern']
     // history_tr_ancient: filter by tags ['ancient']
-    if (historySubcategoryTR && language === 'tr' && historySubcategoryTR !== 'history_tr_all') {
+    // Filter by history subcategory (TR only feature)
+    // history_tr_mixed: return all history questions (or mix)
+    // history_tr_turkish: filter by tags ['turkish']
+    // history_tr_modern: filter by tags ['modern_dunya']
+    // history_tr_ancient_anatolia: filter by tags ['antik_anadolu']
+    if (historySubcategoryTR && language === 'tr' && historySubcategoryTR !== 'history_tr_mixed') {
         const tagGroupsTR: Record<HistorySubcategoryTR, string[]> = {
-            'history_tr_turkish': ['turkish', 'ottoman', 'republic', 'seljuk', 'atatürk', 'ataturk', 'cumhuriyet', 'kurtulus', 'osmanli', 'turkiye', 'turk'],
-            'history_tr_world': ['world', 'modern', 'dunya', 'global'],
-            'history_tr_ancient': ['ancient', 'antik', 'ilk_cag'],
-            'history_tr_all': [] // Not used, handled above
+            'history_tr_turkish': ['ilk_cag', 'orta_cag', 'yeni_cag', 'yakin_cag', 'turkish_history'],
+            'history_tr_modern': ['modern_dunya', 'dunya_tarihi'],
+            'history_tr_ancient_anatolia': ['antik_anadolu', 'hitit', 'frig', 'lidya', 'iyon', 'urartu'],
+            'history_tr_mixed': [] // Not used, handled above
         };
         const allowedTagsTR = tagGroupsTR[historySubcategoryTR];
-        if (allowedTagsTR.length > 0) {
+        if (allowedTagsTR && allowedTagsTR.length > 0) {
             filtered = filtered.filter(q =>
                 q.tags && q.tags.some(tag => allowedTagsTR.includes(tag))
             );
@@ -250,7 +259,7 @@ export function getQuestions(options: GetQuestionsOptions = {}): Question[] {
     }
 
     // Filter by difficulty
-    if (difficulty !== 'all') {
+    if (difficulty !== 'all' && difficulty !== 'mixed') {
         filtered = filtered.filter(q => q.difficulty === difficulty);
     }
 
@@ -287,25 +296,26 @@ export const difficultyMap = {
     'easy': 'kolay',
     'medium': 'orta',
     'hard': 'zor',
-    'very-hard': 'cok_zor',
+
 } as const;
 
 export const difficultyMapReverse = {
     'kolay': 'easy',
     'orta': 'medium',
     'zor': 'hard',
-    'cok_zor': 'very-hard',
+
 } as const;
 
 export type LegacyCategory = 'general' | 'history' | 'sports';
-export type LegacyDifficulty = 'easy' | 'medium' | 'hard' | 'very-hard';
+export type LegacyDifficulty = 'easy' | 'medium' | 'hard';
 
 export function toLegacyCategory(category: Category): LegacyCategory {
     return categoryMapReverse[category];
 }
 
 export function toLegacyDifficulty(difficulty: Difficulty): LegacyDifficulty {
-    return difficultyMapReverse[difficulty];
+    if (difficulty === 'mixed') return 'medium'; // Fallback for legacy systems
+    return difficultyMapReverse[difficulty as keyof typeof difficultyMapReverse];
 }
 
 export function fromLegacyCategory(category: LegacyCategory): Category {

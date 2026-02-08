@@ -1,20 +1,23 @@
 import { motion } from 'motion/react';
 import { GameCard } from './GameCard';
-import { Smile, Zap, Flame, Skull } from 'lucide-react';
+import { Smile, Zap, Flame, Skull, Layers } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
 import { CreditBar } from './CreditBar';
 
-export type Difficulty = 'easy' | 'medium' | 'hard' | 'very-hard';
+import { Category } from './CategorySelection';
+
+export type Difficulty = 'easy' | 'medium' | 'hard' | 'mixed';
 
 interface DifficultySelectionProps {
   onSelectDifficulty: (difficulty: Difficulty) => void;
   language: Language;
+  category?: Category;
 }
 
-export function DifficultySelection({ onSelectDifficulty, language }: DifficultySelectionProps) {
+export function DifficultySelection({ onSelectDifficulty, language, category }: DifficultySelectionProps) {
   const t = (key: any) => getTranslation(language, key);
 
-  const difficulties = [
+  let difficulties = [
     {
       id: 'easy' as Difficulty,
       name: t('easy'),
@@ -36,15 +39,18 @@ export function DifficultySelection({ onSelectDifficulty, language }: Difficulty
       description: t('hardDesc'),
       color: 'var(--purple)',
     },
+
     {
-      id: 'very-hard' as Difficulty,
-      name: t('veryHard'),
-      icon: <Skull size={64} />,
-      description: t('veryHardDesc'),
-      color: 'var(--wrong)',
+      id: 'mixed' as Difficulty,
+      name: t('mixed'),
+      icon: <Layers size={64} />,
+      description: t('mixedDesc'),
+      color: '#3B82F6', // Blue like 'All' in categories
       highlighted: true,
     },
   ];
+
+  // Mixed is now available for all categories
 
   return (
     <div className="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden">

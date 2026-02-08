@@ -75,7 +75,6 @@ const legacyDifficultyToNew: Record<LegacyDifficulty, Difficulty> = {
   'easy': 'kolay',
   'medium': 'orta',
   'hard': 'zor',
-  'very-hard': 'cok_zor',
 };
 
 /**

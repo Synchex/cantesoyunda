@@ -46,11 +46,23 @@ function AppContent() {
   const { startNewRun, recordAnswer, finalizeRun } = useGameHistory();
   const { addYuan, resetRunYuan } = useYuan();
 
-  // Loss screen state
+  // Loss screen state - FROZEN SNAPSHOT to prevent data mismatch
   const [lossData, setLossData] = useState<{
+    // Question context (frozen at answer time)
+    questionId: number;
+    questionText: string;
+    answers: string[];
+    correctAnswerIndex: number;
+    // Answer data
     correctAnswer: string;
     userAnswer: string;
+    userAnswerIndex: number | null; // null if time up
+    timeUp: boolean;
     explanation?: string;
+    // Metadata
+    category: string;
+    difficulty: string;
+    timestamp: number;
   } | null>(null);
 
   // Continue (ad watch) state
@@ -187,28 +199,45 @@ function AppContent() {
     setGameState('playing');
   };
 
-  const handleAnswer = (isCorrect: boolean, wrongAnswerData?: { correctAnswer: string; userAnswer: string; explanation?: string }) => {
-    // Record this answer in history
+  const handleAnswer = (isCorrect: boolean, snapshot?: {
+    questionId: number;
+    questionText: string;
+    answers: string[];
+    correctAnswerIndex: number;
+    correctAnswer: string;
+    userAnswer: string;
+    userAnswerIndex: number | null;
+    timeUp: boolean;
+    explanation?: string;
+    category: string;
+    difficulty: string;
+    timestamp: number;
+  }) => {
+    // Record this answer in history (use snapshot data if available)
     const currentQuestion = questions[currentQuestionIndex];
     if (currentQuestion) {
       recordAnswer({
-        questionId: String(currentQuestion.id),
-        questionIndex: currentQuestionIndex, // Used for deduplication and ordering
-        questionText: currentQuestion.question,
-        selectedIndex: wrongAnswerData ? -1 : 0, // We don't track exact index, just correct/wrong
-        correctIndex: 0,
+        questionId: snapshot?.questionId?.toString() || String(currentQuestion.id),
+        questionIndex: currentQuestionIndex,
+        questionText: snapshot?.questionText || currentQuestion.question,
+        selectedIndex: snapshot?.userAnswerIndex ?? (isCorrect ? 0 : -1),
+        correctIndex: snapshot?.correctAnswerIndex ?? 0,
         isCorrect,
-        userAnswer: wrongAnswerData?.userAnswer || (isCorrect ? 'Correct' : 'N/A'),
-        correctAnswer: wrongAnswerData?.correctAnswer || 'N/A',
+        userAnswer: snapshot?.userAnswer || (isCorrect ? 'Correct' : 'N/A'),
+        correctAnswer: snapshot?.correctAnswer || 'N/A',
       });
     }
 
     if (isCorrect) {
+      // CRITICAL: Clear any stale lossData from previous wrong answer
+      // This prevents showing old loss screen after correct answer
+      console.log('[App] Clearing lossData on correct answer');
+      setLossData(null);
+
       const newStreak = streak + 1;
-      const multiplier = Math.min(Math.floor(newStreak / 3) + 1, 5); // Max 5x multiplier
+      const multiplier = Math.min(Math.floor(newStreak / 3) + 1, 5);
       const earnedCoins = 100 * multiplier;
 
-      // Add yuan from prize ladder for current question
       const prizeAmount = getCurrentPrize(currentQuestionIndex);
       addYuan(prizeAmount);
 
@@ -219,16 +248,19 @@ function AppContent() {
     } else {
       setStreak(0);
 
-      // Check if continue has been used already
-      if (!continueUsed && wrongAnswerData) {
-        // First wrong answer - offer continue option
-        setLossData(wrongAnswerData);
-        // Don't navigate yet - wait for modal interaction
-      } else {
-        // Continue already used or no wrong answer data - go to loss screen
-        if (wrongAnswerData) {
-          setLossData(wrongAnswerData);
+      // Store FROZEN SNAPSHOT directly - no mutation possible
+      if (snapshot) {
+        // INVARIANT CHECK: Verify correctAnswer exists in answers
+        if (!snapshot.answers.includes(snapshot.correctAnswer)) {
+          console.error('[App] INVARIANT VIOLATION: correctAnswer not in answers!', {
+            snapshot,
+            currentQuestionIndex,
+            currentQuestionId: currentQuestion?.id,
+          });
         }
+
+        console.log('[App] Storing snapshot for loss screen:', snapshot);
+        setLossData(snapshot);
       }
     }
   };
@@ -277,6 +309,40 @@ function AppContent() {
     setLossData(null);
     setContinueUsed(false);
     setSelectedSportsSubcategory(null);
+    setGameState('home');
+    setViewState('game');
+    setActiveTab('home');
+  };
+
+  const handleWithdraw = (cashOutAmount: number) => {
+    console.log('[App] handleWithdraw called with cashOutAmount:', cashOutAmount);
+
+    // DEV invariant check
+    if (import.meta.env.DEV) {
+      if (cashOutAmount < 0) {
+        console.error('[App] INVARIANT VIOLATION: cashOutAmount < 0', { cashOutAmount });
+      }
+    }
+
+    // 1. Add cashed out YUAN to balance
+    if (cashOutAmount > 0) {
+      addYuan(cashOutAmount);
+    }
+
+    // 2. Finalize run as 'withdrawn' with prize
+    finalizeRun('withdrawn', cashOutAmount);
+
+    // 3. Reset game state
+    setCurrentQuestionIndex(0);
+    setCoins(0);
+    setStreak(0);
+    setMaxStreak(0);
+    setCorrectAnswers(0);
+    setLossData(null);
+    setContinueUsed(false);
+    setSelectedSportsSubcategory(null);
+
+    // 4. Navigate to home
     setGameState('home');
     setViewState('game');
     setActiveTab('home');
@@ -421,7 +487,11 @@ function AppContent() {
   if (gameState === 'difficulty') {
     return (
       <>
-        <DifficultySelection onSelectDifficulty={handleSelectDifficulty} language={language} />
+        <DifficultySelection
+          onSelectDifficulty={handleSelectDifficulty}
+          language={language}
+          category={selectedCategory}
+        />
         <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />
       </>
     );
@@ -453,6 +523,7 @@ function AppContent() {
           onAnswer={handleAnswer}
           onNextQuestion={handleNextQuestion}
           onContinueRequest={() => setShowContinueModal(true)}
+          onWithdraw={handleWithdraw}
           continueUsed={continueUsed}
           language={language}
         />
@@ -468,7 +539,9 @@ function AppContent() {
   }
 
   if (gameState === 'loss' && lossData) {
-    const currentQuestion = questions[currentQuestionIndex];
+    // CRITICAL: All data comes from frozen snapshot - NOT from currentQuestion
+    // This prevents stale data or index mismatch bugs
+    console.log('[App] Rendering LossScreen with frozen snapshot:', lossData);
     return (
       <>
         <LossScreen
@@ -483,11 +556,11 @@ function AppContent() {
           onTryAgain={handleTryAgain}
           onGoHome={handleGoHome}
           language={language}
-          questionId={currentQuestion?.id?.toString()}
-          questionText={currentQuestion?.question}
-          choices={currentQuestion?.options}
-          category={selectedCategory}
-          difficulty={selectedDifficulty}
+          questionId={lossData.questionId.toString()}
+          questionText={lossData.questionText}
+          choices={lossData.answers}
+          category={lossData.category}
+          difficulty={lossData.difficulty}
         />
         <BottomTabBar activeTab={activeTab} onTabChange={handleTabChange} language={language} />
       </>

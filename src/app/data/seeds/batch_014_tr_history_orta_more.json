@@ -1,0 +1,786 @@
+[
+  {
+    "id": 14000,
+    "question": "Büyük Selçuklu Devleti'nin en parlak dönemi hangi hükümdar zamanında yaşanmıştır?",
+    "choices": [
+      "Melikşah",
+      "Alparslan",
+      "Tuğrul Bey",
+      "Sencer"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14001,
+    "question": "Anadolu Selçuklu Devleti'nde donanma komutanına ne ad verilir?",
+    "choices": [
+      "Reisü'l Bahr (Melikü's Sevahil)",
+      "Kaptan-ı Derya",
+      "Levent",
+      "Subaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14002,
+    "question": "Hangi savaş Anadolu Selçuklu Devleti'nin yıkılmasına neden olmuştur?",
+    "choices": [
+      "Kösedağ Savaşı",
+      "Yassı Çemen Savaşı",
+      "Miryokefalon Savaşı",
+      "Ankara Savaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14003,
+    "question": "Osmanlı Devleti'nin Rumeli'de aldığı ilk toprak parçası hangisidir?",
+    "choices": [
+      "Çimpe Kalesi",
+      "Gelibolu",
+      "Edirne",
+      "Varna"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14004,
+    "question": "Osmanlı Devleti'ne katılan ilk Türk beyliği hangisidir?",
+    "choices": [
+      "Karesioğulları",
+      "Germiyanoğulları",
+      "Hamitoğulları",
+      "Aydınoğulları"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14005,
+    "question": "Yıldırım Bayezid hangi savaşta Timur'a esir düşmüştür?",
+    "choices": [
+      "Ankara Savaşı",
+      "Niğbolu Savaşı",
+      "Kosova Savaşı",
+      "Varna Savaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14006,
+    "question": "Osmanlı Devleti'nin ikinci kurucusu kabul edilen padişah kimdir?",
+    "choices": [
+      "I. Mehmet (Çelebi)",
+      "II. Murat",
+      "Orhan Bey",
+      "I. Murat"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14007,
+    "question": "Devşirme sistemi hangi padişah döneminde kanunlaşmıştır?",
+    "choices": [
+      "II. Murat",
+      "I. Murat",
+      "Fatih Sultan Mehmet",
+      "Yıldırım Bayezid"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14008,
+    "question": "İlk Osmanlı-Haçlı savaşı hangisidir?",
+    "choices": [
+      "Sırpsındığı Savaşı",
+      "I. Kosova Savaşı",
+      "Niğbolu Savaşı",
+      "Varna Savaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14009,
+    "question": "I. Murat hangi savaşta şehit düşmüştür?",
+    "choices": [
+      "I. Kosova Savaşı",
+      "II. Kosova Savaşı",
+      "Sırpsındığı",
+      "Çirmen"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14010,
+    "question": "Anadolu Hisarı'nı (Güzelcehisar) yaptıran padişah kimdir?",
+    "choices": [
+      "Yıldırım Bayezid",
+      "Fatih Sultan Mehmet",
+      "II. Murat",
+      "Orhan Bey"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14011,
+    "question": "Osmanlı Devleti'nde ilk kez 'Sultan' unvanını kullanan padişah kimdir?",
+    "choices": [
+      "Orhan Bey",
+      "I. Murat",
+      "Osman Bey",
+      "Yıldırım Bayezid"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14012,
+    "question": "Edirne Segedin Antlaşması hangi devletle yapılmıştır?",
+    "choices": [
+      "Macaristan",
+      "Venedik",
+      "Bizans",
+      "Sırbistan"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14013,
+    "question": "Büyük Selçuklu Devleti'nde toprakların kayıtlarının tutulduğu deftere ne denirdi?",
+    "choices": [
+      "Divan-ı Pervane",
+      "Tapu Tahrir",
+      "Mühimme",
+      "Şeriyye Sicili"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14014,
+    "question": "Karamanoğulları Beyliği kendisini hangi devletin mirasçısı olarak görmüştür?",
+    "choices": [
+      "Anadolu Selçuklu Devleti",
+      "Büyük Selçuklu Devleti",
+      "Osmanlı Devleti",
+      "Danişmentliler"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14015,
+    "question": "Türkçeyi resmi dil ilan eden Karamanoğlu Mehmet Bey'in ünlü fermanı hangi yüzyıldadır?",
+    "choices": [
+      "13. Yüzyıl",
+      "12. Yüzyıl",
+      "14. Yüzyıl",
+      "11. Yüzyıl"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14016,
+    "question": "Gevher Nesibe Darüşşifası hangi şehirde bulunmaktadır?",
+    "choices": [
+      "Kayseri",
+      "Sivas",
+      "Konya",
+      "Erzurum"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14017,
+    "question": "Divriği Ulu Cami hangi beyliğin eseridir?",
+    "choices": [
+      "Mengücekliler",
+      "Saltuklular",
+      "Artuklular",
+      "Danişmentliler"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14018,
+    "question": "Batman Çayı üzerindeki Malabadi Köprüsü hangi beyliğe aittir?",
+    "choices": [
+      "Artuklular",
+      "Saltuklular",
+      "Danişmentliler",
+      "Mengücekliler"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14019,
+    "question": "Anadolu'da kurulan ilk Türk beyliği hangisidir?",
+    "choices": [
+      "Saltuklular",
+      "Danişmentliler",
+      "Mengücekliler",
+      "Artuklular"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14020,
+    "question": "Osmanlı Devleti'nin kuruluşunda etkili olan zümrelerden 'Bacıyan-ı Rum' ne demektir?",
+    "choices": [
+      "Anadolu Kadınları",
+      "Anadolu Erenleri",
+      "Anadolu Gazileri",
+      "Anadolu Ahileri"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14021,
+    "question": "Şeyh Edebali'nin Osman Bey'e nasihati hangi eserde geçer?",
+    "choices": [
+      "Tevarih-i Al-i Osman",
+      "Osmancık",
+      "Dede Korkut",
+      "Seyahatname"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14022,
+    "question": "İlk Osmanlı parası hangi madenden basılmıştır?",
+    "choices": [
+      "Bakır (Mangır)",
+      "Gümüş (Akçe)",
+      "Altın (Sikke)",
+      "Kağıt (Kaime)"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14023,
+    "question": "İlk Osmanlı müderrisi kimdir?",
+    "choices": [
+      "Davud-u Kayseri",
+      "Molla Fenari",
+      "Akşemseddin",
+      "Ali Kuşçu"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14024,
+    "question": "Osmanlı'da ilk kadı ataması kim tarafından yapılmıştır?",
+    "choices": [
+      "Osman Bey",
+      "Orhan Bey",
+      "I. Murat",
+      "Yıldırım Bayezid"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14025,
+    "question": "Osmanlı Devleti'nin başkentleri sırasıyla hangisidir?",
+    "choices": [
+      "Bursa, Edirne, İstanbul",
+      "İznik, Konya, Söğüt",
+      "Kütahya, Manisa, İstanbul",
+      "Bilecik, Balıkesir, Çanakkale"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14026,
+    "question": "Haçlı Seferleri'ne karşı Kudüs'ü savunan ilk Türk devleti hangisidir?",
+    "choices": [
+      "Büyük Selçuklular",
+      "Eyyubiler",
+      "Memlükler",
+      "Osmanlılar"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14027,
+    "question": "Sultan Alparslan'a 'Ebul Feth' (Fetihlerin Babası) unvanı hangi başarısından sonra verilmiştir?",
+    "choices": [
+      "Ani Kalesi'nin fethi",
+      "Malazgirt Zaferi",
+      "Nişabur'un alınması",
+      "Bağdat Seferi"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14028,
+    "question": "Dandanakan Savaşı (1040) hangi iki Türk devleti arasında yapılmıştır?",
+    "choices": [
+      "Büyük Selçuklu - Gazneliler",
+      "Selçuklu - Karahanlı",
+      "Selçuklu - Harzemşahlar",
+      "Gazneliler - Karahanlılar"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14029,
+    "question": "Gazneli Mahmut Hindistan'a kaç sefer düzenlemiştir?",
+    "choices": [
+      "17",
+      "10",
+      "20",
+      "5"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14030,
+    "question": "Moğol İmparatorluğu'nu kuran Cengiz Han'ın asıl adı nedir?",
+    "choices": [
+      "Temuçin",
+      "Timur",
+      "Hülagü",
+      "Kubilay"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14031,
+    "question": "Babai İsyanı hangi devlette çıkmıştır?",
+    "choices": [
+      "Anadolu Selçuklu",
+      "Osmanlı",
+      "Büyük Selçuklu",
+      "Memlükler"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14032,
+    "question": "Anadolu Selçuklu Devleti'nin ilk başkenti neresidir?",
+    "choices": [
+      "İznik",
+      "Konya",
+      "Sivas",
+      "Kayseri"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14033,
+    "question": "Hıttın Savaşı ile Kudüs'ü Haçlılardan geri alan devlet hangisidir?",
+    "choices": [
+      "Eyyubiler",
+      "Memlükler",
+      "Selçuklular",
+      "Fatımiler"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14034,
+    "question": "Memlük Devleti'nde hükümdarlık sistemi nasıldır?",
+    "choices": [
+      "Her başarılı komutanultan olabilir",
+      "Babadan oğula geçer",
+      "Sadece Halife soyu",
+      "Kurultay seçer"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14035,
+    "question": "Otrar Faciası hangi iki devlet arasında yaşanmıştır?",
+    "choices": [
+      "Harzemşahlar - Moğollar",
+      "Selçuklu - Moğol",
+      "Gazneli - Karahanlı",
+      "Osmanlı - Timur"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14036,
+    "question": "Büyük Selçuklu Devleti'nin ünlü veziri kimdir?",
+    "choices": [
+      "Nizamülmülk",
+      "Tonyukuk",
+      "Candarlı Halil",
+      "Sokullu Mehmet"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14037,
+    "question": "Batınilik (Haşhaşilik) tarikatının kurucusu kimdir?",
+    "choices": [
+      "Hasan Sabbah",
+      "Ömer Hayyam",
+      "Baba İshak",
+      "Şeyh Bedrettin"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14038,
+    "question": "Celali Takvimi hangi hükümdar adına hazırlanmıştır?",
+    "choices": [
+      "Melikşah",
+      "Alparslan",
+      "Tuğrul Bey",
+      "Gazneli Mahmut"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14039,
+    "question": "Kubbetü'l İslam (İslam'ın Kubbesi) olarak bilinen şehir hangisidir?",
+    "choices": [
+      "Ahlat",
+      "Buhara",
+      "Semerkant",
+      "Kaşgar"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14040,
+    "question": "İlk Türk-İslam mutasavvıfı Ahmet Yesevi'nin eseri hangisidir?",
+    "choices": [
+      "Divan-ı Hikmet",
+      "Mesnevi",
+      "Makalat",
+      "Kutadgu Bilig"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14041,
+    "question": "Anadolu Selçuklu döneminde esnaf teşkilatına ne ad verilirdi?",
+    "choices": [
+      "Ahilik",
+      "Lonca",
+      "Gedik",
+      "Enderun"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14042,
+    "question": "'El-Kanun fi't-Tıb' eserinin yazarı İbn-i Sina Avrupa'da hangi isimle bilinir?",
+    "choices": [
+      "Avicenna",
+      "Averroes",
+      "Rhazes",
+      "Alfarabius"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14043,
+    "question": "Osmanlı Devleti'nin Balkanlarda Haçlılarla yaptığı ilk büyük meydan savaşı hangisidir?",
+    "choices": [
+      "I. Kosova Savaşı",
+      "Sırpsındığı",
+      "Niğbolu",
+      "Varna"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14044,
+    "question": "Varna Savaşı'nda (1444) şehit düşen tek Osmanlı hükümdarı (eski padişah) kim olabilir?",
+    "choices": [
+      "Kimse şehit düşmedi",
+      "I. Murat",
+      "II. Murat",
+      "Yıldırım Bayezid"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14045,
+    "question": "Osmanlı tarihinde tahtı kendi isteğiyle bırakan ilk padişah kimdir?",
+    "choices": [
+      "II. Murat",
+      "II. Bayezid",
+      "I. Ahmet",
+      "Mustafa"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14046,
+    "question": "Osmanlı Devleti'nde topçu ocağının temelleri hangi padişah döneminde atılmıştır?",
+    "choices": [
+      "I. Murat",
+      "II. Murat",
+      "Fatih",
+      "Yıldırım"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14047,
+    "question": "Osmanlı'nın Anadolu'da hakimiyet sağladığı son beylik hangisidir?",
+    "choices": [
+      "Dulkadiroğulları",
+      "Ramazanoğulları",
+      "Karamanoğulları",
+      "Candaroğulları"
+    ],
+    "answerIndex": 1,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  },
+  {
+    "id": 14048,
+    "question": "Yavuz Sultan Selim döneminde Turnadağ Savaşı ile son verilen beylik hangisidir?",
+    "choices": [
+      "Dulkadiroğulları",
+      "Ramazanoğulları",
+      "Karamanoğulları",
+      "Aydınoğulları"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "orta_cag"
+    ]
+  }
+]

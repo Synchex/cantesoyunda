@@ -1,0 +1,722 @@
+[
+    {
+        "question": "Tarihte bilinen ilk Türk devleti aşağıdakilerden hangisidir?",
+        "choices": [
+            "Asya Hun Devleti",
+            "Göktürk Devleti",
+            "Uygur Devleti",
+            "Avar Kağanlığı"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Türk adını ilk kez resmi bir devlet adı olarak kullanan devlet hangisidir?",
+        "choices": [
+            "Asya Hun",
+            "Göktürk",
+            "Uygur",
+            "Karahanlı"
+        ],
+        "answerIndex": 1,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Yerleşik hayata geçen ilk Türk devleti hangisidir?",
+        "choices": [
+            "Göktürkler",
+            "Asya Hunları",
+            "Uygurlar",
+            "Kırgızlar"
+        ],
+        "answerIndex": 2,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Asya Hun Devleti'nin en parlak dönemi hangi hükümdar zamanında yaşanmıştır?",
+        "choices": [
+            "Teoman",
+            "Mete Han",
+            "Ki-ok",
+            "Attila"
+        ],
+        "answerIndex": 1,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Orhun Abideleri hangi Türk devleti döneminde dikilmiştir?",
+        "choices": [
+            "I. Göktürk",
+            "II. Göktürk (Kutluk)",
+            "Uygur",
+            "Kırgız"
+        ],
+        "answerIndex": 1,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Türk tarihinde 'Onlu Sistem' adı verilen askeri teşkilatı kim kurmuştur?",
+        "choices": [
+            "Bumin Kağan",
+            "İlteriş Kağan",
+            "Mete Han",
+            "Bilge Kağan"
+        ],
+        "answerIndex": 2,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Kavimler Göçü'nü başlatan Hun hükümdarı kimdir?",
+        "choices": [
+            "Attila",
+            "Balamir",
+            "Uldız",
+            "Rua"
+        ],
+        "answerIndex": 1,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "'Tanrının Kırbacı' (Flagellum Dei) olarak bilinen Avrupa Hun hükümdarı kimdir?",
+        "choices": [
+            "Balamir",
+            "Attila",
+            "Mete Han",
+            "Teoman"
+        ],
+        "answerIndex": 1,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türk devletlerinde devlet işlerinin görüşülüp karara bağlandığı meclise ne ad verilir?",
+        "choices": [
+            "Kurultay (Toy)",
+            "Pankuş",
+            "Divan",
+            "Senato"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Türk tarihinin ve edebiyatının ilk yazılı örnekleri kabul edilen eser hangisidir?",
+        "choices": [
+            "Yenisey Yazıtları",
+            "Orhun Abideleri",
+            "Karabalgasun Yazıtları",
+            "Bugut Yazıtları"
+        ],
+        "answerIndex": 1,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "İskitlerin (Sakalar) en ünlü kadın hükümdarı kimdir?",
+        "choices": [
+            "Tomris Hatun",
+            "Börteçine",
+            "Ay Kanat",
+            "Umay Ana"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Firdevsi'nin Şehname adlı eserinde 'Afrasiyab' olarak geçen İskit hükümdarı kimdir?",
+        "choices": [
+            "Alper Tunga",
+            "Mete Han",
+            "Teoman",
+            "Attila"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Tarihte İstanbul'u kuşatan ilk Türk devleti hangisidir?",
+        "choices": [
+            "Avarlar",
+            "Peçenekler",
+            "Bulgarlar",
+            "Hunlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Museviliği kabul eden ilk ve tek Türk devleti hangisidir?",
+        "choices": [
+            "Hazarlar",
+            "Peçenekler",
+            "Macarlar",
+            "Kumanlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Malazgirt Savaşı'nda taraf değiştirerek Selçukluların kazanmasını sağlayan Türk boyu hangisidir?",
+        "choices": [
+            "Peçenekler",
+            "Hazarlar",
+            "Avarlar",
+            "Kırgızlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde hükümdara yönetme yetkisinin Tanrı tarafından verildiğine inanılan anlayışa ne denir?",
+        "choices": [
+            "Kut",
+            "Töre",
+            "Yargu",
+            "Toy"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Dünyanın en uzun destanı olan Manas Destanı hangi Türk topluluğuna aittir?",
+        "choices": [
+            "Kırgızlar",
+            "Uygurlar",
+            "Oğuzlar",
+            "Karluklar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Uygurların benimsediği ve savaşçı özelliklerini kaybetmelerine neden olan din hangisidir?",
+        "choices": [
+            "Maniheizm",
+            "Gök Tanrı",
+            "İslamiyet",
+            "Hristiyanlık"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Orhun Abideleri hangi üç kişi adına dikilmiştir?",
+        "choices": [
+            "Bilge Kağan, Kültigin, Tonyukuk",
+            "Mete Han, Teoman, Attila",
+            "Bumin Kağan, İstemi Yabgu, Mukan Kağan",
+            "Kutluk Kağan, Kapgan Kağan, Bilge Kağan"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Türk tarihinde kullanılan ilk milli alfabe hangisidir?",
+        "choices": [
+            "Göktürk Alfabesi",
+            "Uygur Alfabesi",
+            "Sogd Alfabesi",
+            "Kiril Alfabesi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "İslamiyet'i kabul eden ilk Türk boyu hangisidir?",
+        "choices": [
+            "Karluklar",
+            "Oğuzlar",
+            "Kıpçaklar",
+            "Türgişler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Kendi adına para bastıran ilk Türk hükümdarı kimdir?",
+        "choices": [
+            "Baga Tarkan",
+            "Bilge Kağan",
+            "Mete Han",
+            "Teoman"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Asya Hun Devleti'nin bilinen ilk hükümdarı kimdir?",
+        "choices": [
+            "Teoman",
+            "Mete Han",
+            "Çiçi",
+            "Ho-han-ye"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Bizans ile ilk resmi teması kuran Göktürk hükümdarı kimdir?",
+        "choices": [
+            "İstemi Yabgu",
+            "Bumin Kağan",
+            "Mukan Kağan",
+            "Tapo Kağan"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "'Bozkırın Kuyumcuları' olarak bilinen Türk topluluğu hangisidir?",
+        "choices": [
+            "İskitler (Sakalar)",
+            "Hunlar",
+            "Göktürkler",
+            "Uygurlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "İkinci Göktürk Devleti'nin kurucusu olup 'İlteriş' (Devleti Derleyen) unvanını alan hükümdar kimdir?",
+        "choices": [
+            "Kutluk Kağan",
+            "Kapgan Kağan",
+            "Bilge Kağan",
+            "Kültigin"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Uygur Devleti'nin kurucusu kimdir?",
+        "choices": [
+            "Kutluk Bilge Kül Kağan",
+            "Moyen-Çur",
+            "Bögü Kağan",
+            "Bumin Kağan"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Hangi Türk devleti döneminde kâğıt ve matbaa kullanılmıştır?",
+        "choices": [
+            "Uygurlar",
+            "Göktürkler",
+            "Hunlar",
+            "Avarlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Rusların 'İgor Destanı'na konu olan Türk boyu hangisidir?",
+        "choices": [
+            "Kıpçaklar (Kumanlar)",
+            "Peçenekler",
+            "Uzlar",
+            "Hazarlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde ölülerin gömüldüğü mezara ne ad verilir?",
+        "choices": [
+            "Kurgan",
+            "Balbal",
+            "Uçmağ",
+            "Tamu"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde mezar taşı olarak dikilen ve öldürülen düşman sayısını simgeleyen taşlara ne denir?",
+        "choices": [
+            "Balbal",
+            "Kurgan",
+            "Ongun",
+            "Yuğ"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde cenaze törenlerine ne ad verilir?",
+        "choices": [
+            "Yuğ",
+            "Toy",
+            "Şölen",
+            "Sagu"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Hıristiyanlığı kabul eden ilk Türk topluluğu hangisidir?",
+        "choices": [
+            "Avarlar",
+            "Bulgarlar",
+            "Macarlar",
+            "Peçenekler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Codex Cumanicus (Kumanlar Sözlüğü) hangi Türk boyuna aittir?",
+        "choices": [
+            "Kıpçaklar",
+            "Oğuzlar",
+            "Karluklar",
+            "Uygurlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Talas Savaşı (751) sırasında Abbasilerin yanında yer alarak savaşın seyrini değiştiren Türk boyu hangisidir?",
+        "choices": [
+            "Karluklar",
+            "Oğuzlar",
+            "Türgişler",
+            "Yağmalar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "İlk Türk devletlerinde hükümdarın erkek çocuklarına ne unvan verilirdi?",
+        "choices": [
+            "Tigin",
+            "Şad",
+            "Yabgu",
+            "Ataman"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde Tiginlerin (şehzadelerin) eğitimiyle görevli kişiye ne ad verilir?",
+        "choices": [
+            "Ataman (İnal/İnanç)",
+            "Kağan",
+            "Toygun",
+            "Yargan"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde 'Yargan' ne demektir?",
+        "choices": [
+            "Yargıç",
+            "Asker",
+            "Vezir",
+            "Elçi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Dede Korkut Hikayeleri hangi Türk boyunun yaşamını anlatır?",
+        "choices": [
+            "Oğuzlar",
+            "Uygurlar",
+            "Kırgızlar",
+            "Karluklar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Çin Seddi, hangi Türk devletinin akınlarına karşı yapılmıştır?",
+        "choices": [
+            "Asya Hun Devleti",
+            "Göktürk Devleti",
+            "Uygur Devleti",
+            "Moğollar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "'Ergenekon Destanı' hangi Türk devletine aittir?",
+        "choices": [
+            "Göktürkler",
+            "Hunlar",
+            "Uygurlar",
+            "İskitler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "'Türeyiş' ve 'Göç' destanları hangi Türk devletine aittir?",
+        "choices": [
+            "Uygurlar",
+            "Hunlar",
+            "Göktürkler",
+            "Kırgızlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Türklerde 'İkili Teşkilat' anlayışına göre devletin Doğu kısmını Kağan yönetirken, Batı kısmını kim yönetirdi?",
+        "choices": [
+            "Yabgu",
+            "Şad",
+            "Tigin",
+            "Ayguci"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "İlk Türk devletlerinde hükümete (bakanlar kurulu) ne ad verilirdi?",
+        "choices": [
+            "Ayukı",
+            "Kurultay",
+            "Toy",
+            "Kengeş"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde 'Oğuş' ne anlama gelir?",
+        "choices": [
+            "Aile",
+            "Sülale",
+            "Boy",
+            "Millet"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Eski Türklerde 'İl' ne anlama gelir?",
+        "choices": [
+            "Devlet",
+            "Halk",
+            "Toprak",
+            "Ordu"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Kürşad Ayaklanması hangi devlete karşı yapılmıştır?",
+        "choices": [
+            "Çin",
+            "Sasani",
+            "Bizans",
+            "Moğol"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "ilk_cag"
+        ]
+    },
+    {
+        "question": "Asya Hun Devleti'nin başkenti neresidir?",
+        "choices": [
+            "Ötüken",
+            "Karabalgasun",
+            "Balasagun",
+            "Semerkant"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "ilk_cag"
+        ]
+    }
+]

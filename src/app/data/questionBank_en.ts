@@ -30,8 +30,8 @@ const baseQuestions: Question[] = [
     { id: 9, question: "What is the speed of light in vacuum?", answers: ["299,792 km/s", "150,000 km/s", "400,000 km/s", "250,000 km/s"], correctAnswer: 0, category: "genel_kultur", difficulty: "zor" },
     { id: 10, question: "Which country has the most UNESCO World Heritage Sites?", answers: ["China", "France", "Italy", "Spain"], correctAnswer: 2, category: "genel_kultur", difficulty: "zor" },
     // GENEL KÜLTÜR - ÇOK ZOR
-    { id: 11, question: "What is the rarest naturally occurring element on Earth?", answers: ["Astatine", "Francium", "Promethium", "Technetium"], correctAnswer: 0, category: "genel_kultur", difficulty: "cok_zor" },
-    { id: 12, question: "In what year was the first email sent?", answers: ["1965", "1971", "1983", "1990"], correctAnswer: 1, category: "genel_kultur", difficulty: "cok_zor" },
+    { id: 11, question: "What is the rarest naturally occurring element on Earth?", answers: ["Astatine", "Francium", "Promethium", "Technetium"], correctAnswer: 0, category: "genel_kultur", difficulty: "zor" },
+    { id: 12, question: "In what year was the first email sent?", answers: ["1965", "1971", "1983", "1990"], correctAnswer: 1, category: "genel_kultur", difficulty: "zor" },
     // TARİH - KOLAY
     { id: 13, question: "Who was the first President of the United States?", answers: ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"], correctAnswer: 1, category: "tarih", difficulty: "kolay", tags: ["modern", "legends"] },
     { id: 14, question: "In which year did World War II end?", answers: ["1943", "1944", "1945", "1946"], correctAnswer: 2, category: "tarih", difficulty: "kolay", tags: ["modern"] },
@@ -46,8 +46,8 @@ const baseQuestions: Question[] = [
     { id: 21, question: "What year did the Byzantine Empire fall?", answers: ["1204", "1453", "1492", "1571"], correctAnswer: 1, category: "tarih", difficulty: "zor", tags: ["ancient", "empires"] },
     { id: 22, question: "Who was the longest-reigning British monarch before Queen Elizabeth II?", answers: ["Queen Victoria", "King George III", "King Henry VIII", "Queen Anne"], correctAnswer: 0, category: "tarih", difficulty: "zor", tags: ["modern", "legends", "empires"] },
     // TARİH - ÇOK ZOR
-    { id: 23, question: "The Treaty of Tordesillas was signed between which two countries?", answers: ["England and France", "Spain and Portugal", "Spain and Italy", "Portugal and France"], correctAnswer: 1, category: "tarih", difficulty: "cok_zor", tags: ["early_modern", "empires"] },
-    { id: 24, question: "What was the name of the first Chinese dynasty?", answers: ["Zhou Dynasty", "Shang Dynasty", "Xia Dynasty", "Qin Dynasty"], correctAnswer: 2, category: "tarih", difficulty: "cok_zor", tags: ["ancient", "empires"] },
+    { id: 23, question: "The Treaty of Tordesillas was signed between which two countries?", answers: ["England and France", "Spain and Portugal", "Spain and Italy", "Portugal and France"], correctAnswer: 1, category: "tarih", difficulty: "zor", tags: ["early_modern", "empires"] },
+    { id: 24, question: "What was the name of the first Chinese dynasty?", answers: ["Zhou Dynasty", "Shang Dynasty", "Xia Dynasty", "Qin Dynasty"], correctAnswer: 2, category: "tarih", difficulty: "zor", tags: ["ancient", "empires"] },
     // SPOR - KOLAY
     { id: 25, question: "How many players are on a soccer team?", answers: ["9", "10", "11", "12"], correctAnswer: 2, category: "spor", difficulty: "kolay", subcategory: "football" },
     { id: 26, question: "Which sport is known as 'The Beautiful Game'?", answers: ["Basketball", "Soccer", "Tennis", "Baseball"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "football" },
@@ -62,8 +62,8 @@ const baseQuestions: Question[] = [
     { id: 33, question: "Who holds the record for most Olympic gold medals?", answers: ["Usain Bolt", "Michael Phelps", "Larisa Latynina", "Paavo Nurmi"], correctAnswer: 1, category: "spor", difficulty: "zor", subcategory: "legends_records" },
     { id: 34, question: "What is the diameter of a basketball hoop in inches?", answers: ["16 inches", "18 inches", "20 inches", "22 inches"], correctAnswer: 1, category: "spor", difficulty: "zor", subcategory: "basketball" },
     // SPOR - ÇOK ZOR
-    { id: 35, question: "Who was the first player to score 100 points in a single NBA game?", answers: ["Wilt Chamberlain", "Michael Jordan", "Kobe Bryant", "Elgin Baylor"], correctAnswer: 0, category: "spor", difficulty: "cok_zor", subcategory: "basketball" },
-    { id: 36, question: "In what year was the first Cricket World Cup held?", answers: ["1971", "1973", "1975", "1977"], correctAnswer: 2, category: "spor", difficulty: "cok_zor", subcategory: "legends_records" },
+    { id: 35, question: "Who was the first player to score 100 points in a single NBA game?", answers: ["Wilt Chamberlain", "Michael Jordan", "Kobe Bryant", "Elgin Baylor"], correctAnswer: 0, category: "spor", difficulty: "zor", subcategory: "basketball" },
+    { id: 36, question: "In what year was the first Cricket World Cup held?", answers: ["1971", "1973", "1975", "1977"], correctAnswer: 2, category: "spor", difficulty: "zor", subcategory: "legends_records" },
     // GENERAL SPORTS - Mixed sports questions
     { id: 37, question: "Which sport uses a shuttlecock?", answers: ["Tennis", "Badminton", "Squash", "Table Tennis"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "general_sports" },
     { id: 38, question: "How many players are on a volleyball team on the court?", answers: ["5", "6", "7", "8"], correctAnswer: 1, category: "spor", difficulty: "kolay", subcategory: "general_sports" },
@@ -85,8 +85,19 @@ import {
     logDeduplicationStats,
 } from './questionDeduplication';
 
+// Import generated batches
+import batch030 from './seeds/batch_030_en_history_generated.json';
+import batch031 from './seeds/batch_031_en_history_expansion.json';
+
+// Combine static base questions with imported batches
+const allQuestions: Question[] = [
+    ...baseQuestions,
+    ...(batch030 as Question[]),
+    ...(batch031 as Question[]),
+];
+
 // Apply advanced deduplication
-const { cleaned, stats, rejected } = dedupeQuestionsFull(baseQuestions);
+const { cleaned, stats, rejected } = dedupeQuestionsFull(allQuestions);
 
 export const questionBankEN: Question[] = cleaned;
 

@@ -1,0 +1,602 @@
+[
+    {
+        "question": "Osmanlı Devleti'nde ilk kez 'Nizam-ı Cedid' (Yeni Düzen) adlı orduyu kuran padişah kimdir?",
+        "choices": [
+            "III. Selim",
+            "II. Mahmut",
+            "Abdülmecid",
+            "IV. Mustafa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı tarihinde Yeniçeri Ocağı'nı kaldıran (Vaka-i Hayriye) padişah kimdir?",
+        "choices": [
+            "II. Mahmut",
+            "III. Selim",
+            "Abdülmecid",
+            "II. Abdülhamit"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Tanzimat Fermanı (1839) hangi padişah döneminde ilan edilmiştir?",
+        "choices": [
+            "Abdülmecid",
+            "II. Mahmut",
+            "Abdülaziz",
+            "V. Murat"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin ilk anayasası olan Kanun-i Esasi hangi padişah döneminde ilan edilmiştir?",
+        "choices": [
+            "II. Abdülhamit",
+            "V. Murat",
+            "Abdülaziz",
+            "V. Mehmet Reşat"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin I. Dünya Savaşı'ndan çekilmesini sağlayan ateşkes antlaşması hangisidir?",
+        "choices": [
+            "Mondros Ateşkes Antlaşması",
+            "Sevr Antlaşması",
+            "Mudanya Ateşkes Antlaşması",
+            "Brest-Litovsk Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Mustafa Kemal Atatürk'ün 'Ben size taarruzu değil, ölmeyi emrediyorum' dediği savaş hangisidir?",
+        "choices": [
+            "Çanakkale Savaşı",
+            "Sakarya Savaşı",
+            "Trablusgarp Savaşı",
+            "Büyük Taarruz"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Kurtuluş Savaşı'nın hazırlık döneminde 'Milli sınırlar içinde vatan bir bütündür, bölünemez' kararı ilk kez nerede alınmıştır?",
+        "choices": [
+            "Erzurum Kongresi",
+            "Sivas Kongresi",
+            "Amasya Genelgesi",
+            "Havza Genelgesi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Türkiye Büyük Millet Meclisi (TBMM) ne zaman açılmıştır?",
+        "choices": [
+            "23 Nisan 1920",
+            "19 Mayıs 1919",
+            "29 Ekim 1923",
+            "30 Ağustos 1922"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Kurtuluş Savaşı'nı fiilen bitiren ve Türkiye'nin bugünkü sınırlarını (Hatay hariç) büyük ölçüde çizen antlaşma hangisidir?",
+        "choices": [
+            "Lozan Barış Antlaşması",
+            "Sevr Antlaşması",
+            "Gümrü Antlaşması",
+            "Kars Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Cumhuriyet ne zaman ilan edilmiştir?",
+        "choices": [
+            "29 Ekim 1923",
+            "23 Nisan 1920",
+            "30 Ağustos 1922",
+            "9 Eylül 1922"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Mustafa Kemal Atatürk'e 'Mareşal' rütbesi ve 'Gazi' unvanı hangi savaştan sonra verilmiştir?",
+        "choices": [
+            "Sakarya Meydan Muharebesi",
+            "Büyük Taarruz",
+            "I. İnönü Savaşı",
+            "Kütahya-Eskişehir Savaşları"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Kadınlara milletvekili seçme ve seçilme hakkı hangi yıl verilmiştir?",
+        "choices": [
+            "1934",
+            "1930",
+            "1926",
+            "1923"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Hatay'ın anavatana katıldığı yıl hangisidir?",
+        "choices": [
+            "1939",
+            "1938",
+            "1936",
+            "1923"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Türkiye'nin NATO'ya üye olduğu yıl hangisidir?",
+        "choices": [
+            "1952",
+            "1949",
+            "1923",
+            "1960"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nde 'Düyun-u Umumiye' (Genel Borçlar İdaresi) hangi tarihte kurulmuştur?",
+        "choices": [
+            "1881",
+            "1854",
+            "1876",
+            "1908"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Trablusgarp Savaşı'nda Mustafa Kemal hangi takma adla görev yapmıştır?",
+        "choices": [
+            "Gazeteci Şerif Bey",
+            "Kuyumcu Hamdi",
+            "Tüccar Mehmet",
+            "Hoca İshak"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin Kuzey Afrika'da kaybettiği son toprak parçası hangisidir?",
+        "choices": [
+            "Trablusgarp",
+            "Mısır",
+            "Tunus",
+            "Cezayir"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "I. Dünya Savaşı'nda Osmanlı Devleti'nin toprak kazandığı tek cephe hangisidir?",
+        "choices": [
+            "Kafkas Cephesi",
+            "Çanakkale Cephesi",
+            "Suriye-Filistin Cephesi",
+            "Irak Cephesi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Mustafa Kemal'in 'Ordular! İlk hedefiniz Akdeniz'dir. İleri!' emrini verdiği savaş hangisidir?",
+        "choices": [
+            "Büyük Taarruz (Başkomutanlık Meydan Muharebesi)",
+            "Sakarya Savaşı",
+            "I. İnönü Savaşı",
+            "Çanakkale Savaşı"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Soyadı Kanunu ne zaman kabul edilmiştir?",
+        "choices": [
+            "1934",
+            "1928",
+            "1925",
+            "1938"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Türk Medeni Kanunu (1926) hangi ülkeden örnek alınarak hazırlanmıştır?",
+        "choices": [
+            "İsviçre",
+            "İtalya",
+            "Almanya",
+            "Fransa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Harf İnkılabı (Yeni Türk Harflerinin kabulü) hangi yıl yapılmıştır?",
+        "choices": [
+            "1928",
+            "1923",
+            "1930",
+            "1934"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Türkiye Cumhuriyeti'nin ilk muhalefet partisi hangisidir?",
+        "choices": [
+            "Terakkiperver Cumhuriyet Fırkası",
+            "Serbest Cumhuriyet Fırkası",
+            "Demokrat Parti",
+            "Milli Kalkınma Partisi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Atatürk'ün Nutuk adlı eseri hangi yılları kapsamaktadır?",
+        "choices": [
+            "1919-1927",
+            "1914-1923",
+            "1920-1938",
+            "1881-1938"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Atatürk'ün Nutuk'u okuduğu kongre hangisidir?",
+        "choices": [
+            "CHP 2. Kurultayı (1927)",
+            "Sivas Kongresi",
+            "Erzurum Kongresi",
+            "İktisat Kongresi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Montrö Boğazlar Sözleşmesi hangi yıl imzalanmıştır?",
+        "choices": [
+            "1936",
+            "1923",
+            "1939",
+            "1945"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Türkiye'nin Kore Savaşı'na asker göndermesi sonucunda üye olduğu uluslararası örgüt hangisidir?",
+        "choices": [
+            "NATO",
+            "Birleşmiş Milletler",
+            "Avrupa Konseyi",
+            "Balkan Paktı"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Kıbrıs Barış Harekatı (1974) sırasında Türkiye Cumhuriyeti Başbakanı kimdir?",
+        "choices": [
+            "Bülent Ecevit",
+            "Süleyman Demirel",
+            "Necmettin Erbakan",
+            "Turgut Özal"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Çok partili hayata geçişle birlikte iktidara gelen ilk parti (CHP dışında) hangisidir?",
+        "choices": [
+            "Demokrat Parti",
+            "Adalet Partisi",
+            "Millet Partisi",
+            "Anavatan Partisi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "İstiklal Marşı'nın yazarı Mehmet Akif Ersoy, marşı nerede yazmıştır?",
+        "choices": [
+            "Tacettin Dergahı",
+            "TBMM Binası",
+            "Ankara Palas",
+            "Çankaya Köşkü"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "İstiklal Marşı hangi savaşın kazanılmasından sonra kabul edilmiştir?",
+        "choices": [
+            "I. İnönü Savaşı",
+            "II. İnönü Savaşı",
+            "Sakarya Savaşı",
+            "Büyük Taarruz"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Atatürk'ün 'Yurtta Sulh, Cihanda Sulh' sözü hangi ilke ile doğrudan ilgilidir?",
+        "choices": [
+            "Milliyetçilik",
+            "Halkçılık",
+            "Laiklik",
+            "Devletçilik"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı'da '93 Harbi' olarak bilinen 1877-1878 Osmanlı-Rus Savaşı'nın kadın kahramanı kimdir?",
+        "choices": [
+            "Nene Hatun",
+            "Kara Fatma",
+            "Şerife Bacı",
+            "Halide Edip"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Mecelle'yi hazırlayan komisyonun başkanı olan ünlü devlet adamı hangisidir?",
+        "choices": [
+            "Ahmet Cevdet Paşa",
+            "Mithat Paşa",
+            "Enver Paşa",
+            "Talat Paşa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "31 Mart Olayı'nı bastıran ordunun (Hareket Ordusu) komutanı kimdir?",
+        "choices": [
+            "Mahmut Şevket Paşa",
+            "Mustafa Kemal",
+            "Enver Paşa",
+            "Resneli Niyazi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Türkiye Cumhuriyeti'nin ilk Başbakanı kimdir?",
+        "choices": [
+            "İsmet İnönü",
+            "Fevzi Çakmak",
+            "Celal Bayar",
+            "Kazım Karabekir"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Lozan Görüşmeleri'ne giden heyetin başkanı kimdir?",
+        "choices": [
+            "İsmet İnönü",
+            "Rauf Orbay",
+            "Bekir Sami Bey",
+            "Yusuf Kemal Tengirşenk"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Halkevleri ne zaman kurulmuştur?",
+        "choices": [
+            "1932",
+            "1923",
+            "1940",
+            "1930"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Köy Enstitüleri hangi yıl kurulmuştur?",
+        "choices": [
+            "1940",
+            "1932",
+            "1923",
+            "1950"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    },
+    {
+        "question": "Türkiye'nin ilk Diyanet İşleri Başkanı kimdir?",
+        "choices": [
+            "Rıfat Börekçi",
+            "Elmalılı Hamdi Yazır",
+            "Mehmet Akif Ersoy",
+            "Ömer Nasuhi Bilmen"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yakin_cag"
+        ]
+    }
+]

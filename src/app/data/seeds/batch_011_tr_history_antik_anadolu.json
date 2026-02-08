@@ -1,0 +1,322 @@
+[
+    {
+        "question": "Anadolu'da kurulan ilk uygarlık hangisidir?",
+        "choices": [
+            "Hititler",
+            "Lidyalılar",
+            "Frigler",
+            "Urartular"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "antik_anadolu",
+            "hitit"
+        ]
+    },
+    {
+        "question": "Hititler ile Mısırlılar arasında yapılan ve tarihin ilk yazılı antlaşması kabul edilen antlaşma hangisidir?",
+        "choices": [
+            "Kadeş Antlaşması",
+            "Ankara Antlaşması",
+            "Zitvatorok Antlaşması",
+            "Kasr-ı Şirin Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "antik_anadolu",
+            "hitit"
+        ]
+    },
+    {
+        "question": "Parayı icat eden Anadolu uygarlığı hangisidir?",
+        "choices": [
+            "Lidyalılar",
+            "Frigler",
+            "İyonlar",
+            "Hititler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "antik_anadolu",
+            "lidya"
+        ]
+    },
+    {
+        "question": "Başkenti Gordion olan Anadolu uygarlığı hangisidir?",
+        "choices": [
+            "Frigler",
+            "Lidyalılar",
+            "Urartular",
+            "Hititler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "frig"
+        ]
+    },
+    {
+        "question": "Özgür düşüncenin ve bilimin merkezi olan, Efes ve Milet gibi şehir devletleri kuran uygarlık hangisidir?",
+        "choices": [
+            "İyonlar",
+            "Lidyalılar",
+            "Frigler",
+            "Urartular"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "iyon"
+        ]
+    },
+    {
+        "question": "Friglerin dünyaca ünlü efsanevi kralı kimdir?",
+        "choices": [
+            "Midas",
+            "Croesus (Krezus)",
+            "Telepinu",
+            "Şuppiluliuma"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "frig"
+        ]
+    },
+    {
+        "question": "Doğu Anadolu'da kurulan, başkenti Tuşpa (Van) olan ve taş işçiliği ile ünlü uygarlık hangisidir?",
+        "choices": [
+            "Urartular",
+            "Hititler",
+            "Frigler",
+            "Lidyalılar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "urartu"
+        ]
+    },
+    {
+        "question": "Hititlerin başkenti neresidir?",
+        "choices": [
+            "Hattuşaş",
+            "Gordion",
+            "Sardes",
+            "Tuşpa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "antik_anadolu",
+            "hitit"
+        ]
+    },
+    {
+        "question": "Kral Yolu'nu inşa ederek ticareti geliştiren Anadolu uygarlığı hangisidir?",
+        "choices": [
+            "Lidyalılar",
+            "Persler",
+            "Frigler",
+            "Hititler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "lidya"
+        ]
+    },
+    {
+        "question": "Hitit krallarının tanrılara hesap vermek amacıyla tuttukları yıllıklara ne ad verilir?",
+        "choices": [
+            "Anal",
+            "Pankuş",
+            "Tavananna",
+            "Fibula"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "antik_anadolu",
+            "hitit"
+        ]
+    },
+    {
+        "question": "Dünyanın yedi harikasından biri olan Artemis Tapınağı hangi İyon şehrindedir?",
+        "choices": [
+            "Efes",
+            "Milet",
+            "Smyrna (İzmir)",
+            "Halikarnas"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "antik_anadolu",
+            "iyon"
+        ]
+    },
+    {
+        "question": "Friglerin 'Fibula' adını verdikleri icat nedir?",
+        "choices": [
+            "Çengelli İğne",
+            "Tekerlek",
+            "Yazı",
+            "Para"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "antik_anadolu",
+            "frig"
+        ]
+    },
+    {
+        "question": "Urartuların savaş tanrısı kimdir?",
+        "choices": [
+            "Haldi",
+            "Zeus",
+            "Kibele",
+            "Teşup"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "antik_anadolu",
+            "urartu"
+        ]
+    },
+    {
+        "question": "Hititlerde kralın yetkilerini sınırlayan meclisin adı nedir?",
+        "choices": [
+            "Pankuş",
+            "Senato",
+            "Kurultay",
+            "Divan"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "hitit"
+        ]
+    },
+    {
+        "question": "Ankara'da bulunan ve Anadolu Medeniyetleri Müzesi'nde sergilenen ünlü Hitit sembolü nedir?",
+        "choices": [
+            "Güneş Kursu",
+            "Çift Başlı Kartal",
+            "Aslanlı Kapı",
+            "Sfenks"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "hitit"
+        ]
+    },
+    {
+        "question": "Friglerin bereket tanrıçası kimdir?",
+        "choices": [
+            "Kibele",
+            "Artemis",
+            "Hera",
+            "Afrodit"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "frig"
+        ]
+    },
+    {
+        "question": "İlk çağda tıp biliminin kurucusu sayılan Hipokrat hangi uygarlıkta yaşamıştır?",
+        "choices": [
+            "İyonlar",
+            "Lidyalılar",
+            "Hititler",
+            "Sümerler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "iyon"
+        ]
+    },
+    {
+        "question": "Tarihteki ilk kütüphaneyi kuran (Ninova Kütüphanesi) Mezopotamya uygarlığı hangisidir?",
+        "choices": [
+            "Asurlar",
+            "Babiller",
+            "Sümerler",
+            "Elamlar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "mezopotamya",
+            "antik_anadolu"
+        ]
+    },
+    {
+        "question": "Çatalhöyük Neolitik Kenti hangi ilimizdedir?",
+        "choices": [
+            "Konya",
+            "Şanlıurfa",
+            "Çorum",
+            "Burdur"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "antik_anadolu",
+            "arkeoloji"
+        ]
+    },
+    {
+        "question": "Tarihin sıfır noktası olarak bilinen Göbeklitepe hangi ilimizdedir?",
+        "choices": [
+            "Şanlıurfa",
+            "Gaziantep",
+            "Mardin",
+            "Diyarbakır"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "antik_anadolu",
+            "arkeoloji"
+        ]
+    }
+]

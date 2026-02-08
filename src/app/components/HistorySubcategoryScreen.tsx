@@ -8,7 +8,7 @@ import { CreditBar } from './CreditBar';
 export type HistorySubcategoryEN = 'history_modern' | 'history_legends_empires' | 'history_ancient_early' | 'history_all';
 
 // TR History subcategories
-export type HistorySubcategoryTR = 'history_tr_turkish' | 'history_tr_world' | 'history_tr_ancient' | 'history_tr_all';
+export type HistorySubcategoryTR = 'history_tr_turkish' | 'history_tr_modern' | 'history_tr_ancient_anatolia' | 'history_tr_mixed';
 
 // Combined type for the screen
 export type HistorySubcategory = HistorySubcategoryEN | HistorySubcategoryTR;
@@ -59,30 +59,31 @@ export function HistorySubcategoryScreen({ onSelectSubcategory, language }: Hist
         {
             id: 'history_tr_turkish' as HistorySubcategory,
             name: t('historyTrTurkish'),
-            icon: <Star size={56} />,
+            icon: <Crown size={56} />,
             description: t('historyTrTurkishDesc'),
-            color: '#EF4444', // Red for Turkish (flag color)
+            color: '#EF4444',
         },
         {
-            id: 'history_tr_world' as HistorySubcategory,
-            name: t('historyTrWorld'),
+            id: 'history_tr_modern' as HistorySubcategory,
+            name: t('historyTrModern'), // Modern History (World wars etc.)
             icon: <Globe size={56} />,
-            description: t('historyTrWorldDesc'),
-            color: '#3B82F6', // Blue for world
+            description: t('historyTrModernDesc'),
+            color: '#3B82F6',
         },
         {
-            id: 'history_tr_ancient' as HistorySubcategory,
-            name: t('historyTrAncient'),
+            id: 'history_tr_ancient_anatolia' as HistorySubcategory,
+            name: t('historyTrAncientAnatolia'),
             icon: <Columns size={56} />,
-            description: t('historyTrAncientDesc'),
-            color: '#D97706', // Amber for ancient
+            description: t('historyTrAncientAnatoliaDesc'),
+            color: '#D97706',
         },
         {
-            id: 'history_tr_all' as HistorySubcategory,
-            name: t('historyTrAll'),
+            id: 'history_tr_mixed' as HistorySubcategory,
+            name: t('historyTrMixed'),
+            name: t('historyTrMixed'),
             icon: <Layers size={56} />,
-            description: t('historyTrAllDesc'),
-            color: '#10B981', // Emerald for all/mixed
+            description: t('historyTrMixedDesc'),
+            color: '#10B981',
             highlighted: true,
         },
     ];

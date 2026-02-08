@@ -1,0 +1,1752 @@
+[
+  {
+    "id": 5100,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Code of Hammurabi is one of the earliest examples of what?",
+    "answers": [
+      "Written laws",
+      "Musical notation",
+      "Mathematical theorems",
+      "Epic poetry"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "law"
+    ]
+  },
+  {
+    "id": 5101,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which empire was known for its capital city of Nineveh?",
+    "answers": [
+      "Babylonian",
+      "Assyrian",
+      "Persian",
+      "Sumerian"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "empires"
+    ]
+  },
+  {
+    "id": 5102,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Cyrus the Great was the founder of which empire?",
+    "answers": [
+      "Achaemenid (Persian)",
+      "Macedonian",
+      "Roman",
+      "Ottoman"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "empires",
+      "legends"
+    ]
+  },
+  {
+    "id": 5103,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Great Sphinx of Giza faces which direction?",
+    "answers": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "monuments"
+    ]
+  },
+  {
+    "id": 5104,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which Egyptian queen became pharaoh and wore a fake beard?",
+    "answers": [
+      "Nefertiti",
+      "Cleopatra",
+      "Hatshepsut",
+      "Sobekneferu"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "legends"
+    ]
+  },
+  {
+    "id": 5105,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Peloponnesian War was fought between which two city-states?",
+    "answers": [
+      "Athens and Sparta",
+      "Rome and Carthage",
+      "Thebes and Corinth",
+      "Troy and Mycenae"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "war"
+    ]
+  },
+  {
+    "id": 5106,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who is considered the 'Father of History'?",
+    "answers": [
+      "Thucydides",
+      "Herodotus",
+      "Plutarch",
+      "Xenophon"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "literature"
+    ]
+  },
+  {
+    "id": 5107,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which battle ended the second Persian invasion of Greece?",
+    "answers": [
+      "Marathon",
+      "Thermopylae",
+      "Salamis",
+      "Plataea"
+    ],
+    "correctAnswer": 3,
+    "tags": [
+      "ancient",
+      "war"
+    ]
+  },
+  {
+    "id": 5108,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Alexander the Great defeated King Darius III at which decisive battle?",
+    "answers": [
+      "Gaugamela",
+      "Issus",
+      "Granicus",
+      "Hydaspes"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "war",
+      "legends"
+    ]
+  },
+  {
+    "id": 5109,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which Roman emperor built a wall across northern Britain?",
+    "answers": [
+      "Trajan",
+      "Hadrian",
+      "Nero",
+      "Marcus Aurelius"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "empire"
+    ]
+  },
+  {
+    "id": 5110,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Year of the Four Emperors occurred after the death of which emperor?",
+    "answers": [
+      "Augustus",
+      "Nero",
+      "Caligula",
+      "Tiberius"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "empire"
+    ]
+  },
+  {
+    "id": 5111,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who led the slave revolt against Rome in 73 BC?",
+    "answers": [
+      "Crixus",
+      "Spartacus",
+      "Gannicus",
+      "Hannibal"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "legends"
+    ]
+  },
+  {
+    "id": 5112,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which battle marked the end of the Roman Republic?",
+    "answers": [
+      "Actium",
+      "Pharsalus",
+      "Philippi",
+      "Zama"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "war"
+    ]
+  },
+  {
+    "id": 5113,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "What was the name of the elite unit that protected the Roman Emperor?",
+    "answers": [
+      "Praetorian Guard",
+      "Varangian Guard",
+      "Legion X",
+      "Immortal Guard"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "military"
+    ]
+  },
+  {
+    "id": 5114,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Ashoka the Great ruled which Indian empire?",
+    "answers": [
+      "Gupta",
+      "Maurya",
+      "Mughal",
+      "Chola"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "asia"
+    ]
+  },
+  {
+    "id": 5115,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Silk Road trade route connected China with which region?",
+    "answers": [
+      "Europe",
+      "South Africa",
+      "Australia",
+      "Americas"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "trade"
+    ]
+  },
+  {
+    "id": 5116,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Sun Tzu is famous for writing which book?",
+    "answers": [
+      "The Book of Five Rings",
+      "The Art of War",
+      "Tao Te Ching",
+      "Analects"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "literature"
+    ]
+  },
+  {
+    "id": 5117,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which Carthaginian general defeated the Romans at Cannae?",
+    "answers": [
+      "Hamilcar",
+      "Hasdrubal",
+      "Hannibal",
+      "Scipio"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "war",
+      "legends"
+    ]
+  },
+  {
+    "id": 5118,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The library of Alexandria was located in which modern-day country?",
+    "answers": [
+      "Greece",
+      "Italy",
+      "Turkey",
+      "Egypt"
+    ],
+    "correctAnswer": 3,
+    "tags": [
+      "ancient"
+    ]
+  },
+  {
+    "id": 5119,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which civilization invented the first known writing system (Cuneiform)?",
+    "answers": [
+      "Sumerians",
+      "Egyptians",
+      "Phoenicians",
+      "Chinese"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "invention"
+    ]
+  },
+  {
+    "id": 5120,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the Greek god of the underworld?",
+    "answers": [
+      "Zeus",
+      "Apollo",
+      "Hades",
+      "Ares"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "mythology"
+    ]
+  },
+  {
+    "id": 5121,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Trojan War is the subject of which epic poem?",
+    "answers": [
+      "The Odyssey",
+      "The Iliad",
+      "The Aeneid",
+      "Beowulf"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "literature"
+    ]
+  },
+  {
+    "id": 5122,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which king of Babylon created the Hanging Gardens?",
+    "answers": [
+      "Nebuchadnezzar II",
+      "Hammurabi",
+      "Sargon",
+      "Gilgamesh"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "wonders"
+    ]
+  },
+  {
+    "id": 5123,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Colossus of Rhodes was a statue of which god?",
+    "answers": [
+      "Zeus",
+      "Poseidon",
+      "Helios",
+      "Apollo"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "wonders"
+    ]
+  },
+  {
+    "id": 5124,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which philosopher was sentenced to death by drinking hemlock?",
+    "answers": [
+      "Plato",
+      "Aristotle",
+      "Socrates",
+      "Epicurus"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "philosophy"
+    ]
+  },
+  {
+    "id": 5125,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Battle of Hastings took place in which year?",
+    "answers": [
+      "1066",
+      "1215",
+      "1415",
+      "1485"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "medieval",
+      "war"
+    ]
+  },
+  {
+    "id": 5126,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who was the first Holy Roman Emperor?",
+    "answers": [
+      "Charlemagne",
+      "Otto I",
+      "Frederick Barbarossa",
+      "Charles V"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "medieval",
+      "empires"
+    ]
+  },
+  {
+    "id": 5127,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Magna Carta was signed by which English king?",
+    "answers": [
+      "Richard I",
+      "John",
+      "Henry II",
+      "Edward I"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "medieval",
+      "law"
+    ]
+  },
+  {
+    "id": 5128,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Joan of Arc was a heroine of which war?",
+    "answers": [
+      "Thirty Years' War",
+      "Hundred Years' War",
+      "War of the Roses",
+      "Crusades"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "medieval",
+      "war",
+      "legends"
+    ]
+  },
+  {
+    "id": 5129,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Saladin was a famous leader during which conflict?",
+    "answers": [
+      "The Crusades",
+      "Mongol Invasions",
+      "Reconquista",
+      "Ottoman Expansion"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "medieval",
+      "war",
+      "legends"
+    ]
+  },
+  {
+    "id": 5130,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The bubonic plague that devastated Europe is also known as?",
+    "answers": [
+      "The Spanish Flu",
+      "The Black Death",
+      "The White Plague",
+      "Justinian's Plague"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "medieval",
+      "disease"
+    ]
+  },
+  {
+    "id": 5131,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the Venetian merchant who traveled to China?",
+    "answers": [
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "Marco Polo",
+      "Ferdinand Magellan"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "medieval",
+      "exploration"
+    ]
+  },
+  {
+    "id": 5132,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Wars of the Roses were fought between which two houses?",
+    "answers": [
+      "York and Lancaster",
+      "Tudor and Stuart",
+      "Valois and Bourbon",
+      "Habsburg and Hanover"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "medieval",
+      "war"
+    ]
+  },
+  {
+    "id": 5133,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Genghis Khan founded which empire?",
+    "answers": [
+      "Ottoman",
+      "Mughal",
+      "Mongol",
+      "Qing"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "medieval",
+      "empires",
+      "legends"
+    ]
+  },
+  {
+    "id": 5134,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which city was the capital of the Aztec Empire?",
+    "answers": [
+      "Cusco",
+      "Tenochtitlan",
+      "Chichen Itza",
+      "Tikal"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "medieval",
+      "americas"
+    ]
+  },
+  {
+    "id": 5135,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "William Wallace was a freedom fighter for which country?",
+    "answers": [
+      "Ireland",
+      "Wales",
+      "Scotland",
+      "Cornwall"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "medieval",
+      "legends"
+    ]
+  },
+  {
+    "id": 5136,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Reconquista was the retaking of which peninsula from the Moors?",
+    "answers": [
+      "Italian",
+      "Balkan",
+      "Iberian",
+      "Anatolian"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "medieval",
+      "war"
+    ]
+  },
+  {
+    "id": 5137,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who wrote 'The Divine Comedy'?",
+    "answers": [
+      "Petrarch",
+      "Boccaccio",
+      "Dante Alighieri",
+      "Machiavelli"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "medieval",
+      "literature"
+    ]
+  },
+  {
+    "id": 5138,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Vikings primarily came from which region?",
+    "answers": [
+      "Scandinavia",
+      "Baltics",
+      "British Isles",
+      "Germany"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "medieval"
+    ]
+  },
+  {
+    "id": 5139,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which battle stopped the Muslim advance into Western Europe in 732?",
+    "answers": [
+      "Battle of Tours",
+      "Battle of Hastings",
+      "Battle of Vienna",
+      "Battle of Lepanto"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "medieval",
+      "war"
+    ]
+  },
+  {
+    "id": 5140,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Knights Templar were founded to protect pilgrims traveling to where?",
+    "answers": [
+      "Rome",
+      "Jerusalem",
+      "Santiago de Compostela",
+      "Mecca"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "medieval",
+      "religion"
+    ]
+  },
+  {
+    "id": 5141,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Mansa Musa was the wealthy ruler of which African empire?",
+    "answers": [
+      "Ghana",
+      "Songhai",
+      "Mali",
+      "Ethiopia"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "medieval",
+      "africa"
+    ]
+  },
+  {
+    "id": 5142,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Forbidden City was built during which Chinese dynasty?",
+    "answers": [
+      "Han",
+      "Tang",
+      "Song",
+      "Ming"
+    ],
+    "correctAnswer": 3,
+    "tags": [
+      "medieval",
+      "asia"
+    ]
+  },
+  {
+    "id": 5143,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who invented the printing press in Europe?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Johannes Gutenberg",
+      "Galileo",
+      "Isaac Newton"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "medieval",
+      "invention"
+    ]
+  },
+  {
+    "id": 5144,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Bayeux Tapestry depicts which historical event?",
+    "answers": [
+      "Magna Carta signing",
+      "Battle of Hastings",
+      "Crusades",
+      "Viking raids"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "medieval",
+      "art"
+    ]
+  },
+  {
+    "id": 5145,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which king broke away from the Catholic Church to form the Church of England?",
+    "answers": [
+      "Henry VII",
+      "Henry VIII",
+      "Edward VI",
+      "James I"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "religion"
+    ]
+  },
+  {
+    "id": 5146,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who was the first person to circumnavigate the globe?",
+    "answers": [
+      "Columbus",
+      "Magellan",
+      "Drake",
+      "Cook"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "exploration"
+    ]
+  },
+  {
+    "id": 5147,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Gunpowder Plot of 1605 failed to blow up which building?",
+    "answers": [
+      "Buckingham Palace",
+      "Tower of London",
+      "Houses of Parliament",
+      "Westminster Abbey"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern",
+      "uk"
+    ]
+  },
+  {
+    "id": 5148,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Louis XIV of France became known as the?",
+    "answers": [
+      "Lion King",
+      "Sun King",
+      "Moon King",
+      "Iron King"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "france"
+    ]
+  },
+  {
+    "id": 5149,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which philosopher said 'I think, therefore I am'?",
+    "answers": [
+      "Locke",
+      "Kant",
+      "Descartes",
+      "Voltaire"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern",
+      "philosophy"
+    ]
+  },
+  {
+    "id": 5150,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Battle of Waterloo marked the final defeat of whom?",
+    "answers": [
+      "Napoleon Bonaparte",
+      "Duke of Wellington",
+      "King George III",
+      "Tsar Alexander I"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "early_modern",
+      "war"
+    ]
+  },
+  {
+    "id": 5151,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who discovered the law of gravity after seeing an apple fall?",
+    "answers": [
+      "Copernicus",
+      "Kepler",
+      "Galileo",
+      "Newton"
+    ],
+    "correctAnswer": 3,
+    "tags": [
+      "early_modern",
+      "science"
+    ]
+  },
+  {
+    "id": 5152,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Peter the Great is credited with modernizing which country?",
+    "answers": [
+      "Germany",
+      "France",
+      "Russia",
+      "Sweden"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern",
+      "russia"
+    ]
+  },
+  {
+    "id": 5153,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Boston Tea Party was a protest against which country?",
+    "answers": [
+      "France",
+      "Spain",
+      "Great Britain",
+      "Netherlands"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern",
+      "usa"
+    ]
+  },
+  {
+    "id": 5154,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Marie Antoinette was queen of France during which revolution?",
+    "answers": [
+      "Russian Revolution",
+      "French Revolution",
+      "American Revolution",
+      "Industrial Revolution"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "france"
+    ]
+  },
+  {
+    "id": 5155,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who wrote 'The Prince'?",
+    "answers": [
+      "Machiavelli",
+      "Dante",
+      "Hobbes",
+      "More"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "early_modern",
+      "literature"
+    ]
+  },
+  {
+    "id": 5156,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which treaty ended the American Revolutionary War?",
+    "answers": [
+      "Treaty of Paris",
+      "Treaty of Versailles",
+      "Treaty of Ghent",
+      "Treaty of Utrecht"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "early_modern",
+      "usa"
+    ]
+  },
+  {
+    "id": 5157,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Catherine the Great was the Empress of?",
+    "answers": [
+      "Austria",
+      "Prussia",
+      "Russia",
+      "France"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern",
+      "russia"
+    ]
+  },
+  {
+    "id": 5158,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Who painted 'The Night Watch'?",
+    "answers": [
+      "Vermeer",
+      "Rembrandt",
+      "Van Gogh",
+      "Rubens"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "art"
+    ]
+  },
+  {
+    "id": 5159,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Great Fire of London happened in which year?",
+    "answers": [
+      "1666",
+      "1642",
+      "1688",
+      "1605"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "early_modern",
+      "uk"
+    ]
+  },
+  {
+    "id": 5160,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Captain James Cook is famous for exploring which region?",
+    "answers": [
+      "Arctic",
+      "Pacific Ocean",
+      "Amazon",
+      "Sahara"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "exploration"
+    ]
+  },
+  {
+    "id": 5161,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The guillotine was widely used during which historical period?",
+    "answers": [
+      "Middle Ages",
+      "French Revolution",
+      "Spanish Inquisition",
+      "English Civil War"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "france"
+    ]
+  },
+  {
+    "id": 5162,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which War of Independence began in 1775?",
+    "answers": [
+      "French",
+      "American",
+      "Haitian",
+      "Greek"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "usa"
+    ]
+  },
+  {
+    "id": 5163,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Queen Victoria reigned for how many years?",
+    "answers": [
+      "50",
+      "63",
+      "45",
+      "70"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "uk"
+    ]
+  },
+  {
+    "id": 5164,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Battle of Gettysburg was a turning point in which war?",
+    "answers": [
+      "WWI",
+      "American Civil War",
+      "Mexican-American War",
+      "War of 1812"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "usa"
+    ]
+  },
+  {
+    "id": 5165,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who wrote The Communist Manifesto?",
+    "answers": [
+      "Lenin",
+      "Marx and Engels",
+      "Stalin",
+      "Trotsky"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "politics"
+    ]
+  },
+  {
+    "id": 5166,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Light Brigade charge happened during which war?",
+    "answers": [
+      "Boer War",
+      "Crimean War",
+      "Napoleonic Wars",
+      "Seven Years' War"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "war"
+    ]
+  },
+  {
+    "id": 5167,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who assassinated Abraham Lincoln?",
+    "answers": [
+      "Lee Harvey Oswald",
+      "John Wilkes Booth",
+      "Charles Guiteau",
+      "James Earl Ray"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "usa"
+    ]
+  },
+  {
+    "id": 5168,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Suez Canal connects the Mediterranean Sea to which body of water?",
+    "answers": [
+      "Black Sea",
+      "Red Sea",
+      "Atlantic Ocean",
+      "Caspian Sea"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "geography"
+    ]
+  },
+  {
+    "id": 5169,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which country sold Alaska to the USA in 1867?",
+    "answers": [
+      "Canada",
+      "France",
+      "Russia",
+      "Spain"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "trade"
+    ]
+  },
+  {
+    "id": 5170,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who invented the telephone?",
+    "answers": [
+      "Edison",
+      "Bell",
+      "Tesla",
+      "Marconi"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "invention"
+    ]
+  },
+  {
+    "id": 5171,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Eiffel Tower was built for the World's Fair in which year?",
+    "answers": [
+      "1889",
+      "1900",
+      "1851",
+      "1875"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "modern",
+      "monuments"
+    ]
+  },
+  {
+    "id": 5172,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Florence Nightingale is considered the founder of modern?",
+    "answers": [
+      "Surgery",
+      "Nursing",
+      "Midwifery",
+      "Pharmacy"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "medicine"
+    ]
+  },
+  {
+    "id": 5173,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Boer Wars were fought in which African country?",
+    "answers": [
+      "Egypt",
+      "Kenya",
+      "South Africa",
+      "Nigeria"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "war"
+    ]
+  },
+  {
+    "id": 5174,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who was the first Chancellor of Germany?",
+    "answers": [
+      "Bismarck",
+      "Wilhelm I",
+      "Hitler",
+      "Hindenburg"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "modern",
+      "germany"
+    ]
+  },
+  {
+    "id": 5175,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Meiji Restoration modernized which country?",
+    "answers": [
+      "China",
+      "Japan",
+      "Korea",
+      "Thailand"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "asia"
+    ]
+  },
+  {
+    "id": 5176,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which famous ship sank on its maiden voyage in 1912?",
+    "answers": [
+      "Lusitania",
+      "Titanic",
+      "Britannic",
+      "Olympic"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "disaster"
+    ]
+  },
+  {
+    "id": 5177,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The assassination of Archduke Franz Ferdinand took place in which city?",
+    "answers": [
+      "Vienna",
+      "Berlin",
+      "Sarajevo",
+      "Belgrade"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "ww1"
+    ]
+  },
+  {
+    "id": 5178,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which country was NOT part of the Axis Powers in WWII?",
+    "answers": [
+      "Germany",
+      "Italy",
+      "Japan",
+      "Soviet Union"
+    ],
+    "correctAnswer": 3,
+    "tags": [
+      "modern",
+      "ww2"
+    ]
+  },
+  {
+    "id": 5179,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the leader of Nazi Germany?",
+    "answers": [
+      "Mussolini",
+      "Hitler",
+      "Himmler",
+      "Goebbels"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "ww2"
+    ]
+  },
+  {
+    "id": 5180,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The D-Day landings took place in which region of France?",
+    "answers": [
+      "Brittany",
+      "Normandy",
+      "Provence",
+      "Calais"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "ww2"
+    ]
+  },
+  {
+    "id": 5181,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The atomic bombs were dropped on Hiroshima and?",
+    "answers": [
+      "Tokyo",
+      "Kyoto",
+      "Nagasaki",
+      "Osaka"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "ww2"
+    ]
+  },
+  {
+    "id": 5182,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who was the first woman to fly solo across the Atlantic?",
+    "answers": [
+      "Amelia Earhart",
+      "Bessie Coleman",
+      "Harriet Quimby",
+      "Valentina Tereshkova"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "modern",
+      "aviation"
+    ]
+  },
+  {
+    "id": 5183,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Cold War was primarily between which two superpowers?",
+    "answers": [
+      "USA and China",
+      "USA and USSR",
+      "UK and Germany",
+      "France and Russia"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "politics"
+    ]
+  },
+  {
+    "id": 5184,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who was the first human to journey into outer space?",
+    "answers": [
+      "Neil Armstrong",
+      "John Glenn",
+      "Yuri Gagarin",
+      "Buzz Aldrin"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "space"
+    ]
+  },
+  {
+    "id": 5185,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Berlin Wall was built in which year?",
+    "answers": [
+      "1945",
+      "1953",
+      "1961",
+      "1972"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "cold_war"
+    ]
+  },
+  {
+    "id": 5186,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "In which city was President John F. Kennedy assassinated?",
+    "answers": [
+      "Austin",
+      "Dallas",
+      "Houston",
+      "Washington D.C."
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "usa"
+    ]
+  },
+  {
+    "id": 5187,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which treaty created the European Union?",
+    "answers": [
+      "Treaty of Rome",
+      "Maastricht Treaty",
+      "Treaty of Paris",
+      "Lisbon Treaty"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "eu"
+    ]
+  },
+  {
+    "id": 5188,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Apartheid was a system of racial segregation in?",
+    "answers": [
+      "USA",
+      "Australia",
+      "South Africa",
+      "Brazil"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "politics"
+    ]
+  },
+  {
+    "id": 5189,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Chernobyl nuclear disaster happened in which country (at the time)?",
+    "answers": [
+      "Russia",
+      "Ukraine (USSR)",
+      "Belarus",
+      "Poland"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "disaster"
+    ]
+  },
+  {
+    "id": 5190,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who was the first female Prime Minister of the UK?",
+    "answers": [
+      "Theresa May",
+      "Margaret Thatcher",
+      "Liz Truss",
+      "Angela Merkel"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "uk"
+    ]
+  },
+  {
+    "id": 5191,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The 9/11 attacks targeted the World Trade Center and?",
+    "answers": [
+      "White House",
+      "Capitol Building",
+      "Pentagon",
+      "Statue of Liberty"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "usa"
+    ]
+  },
+  {
+    "id": 5192,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which war lasted from 1950 to 1953?",
+    "answers": [
+      "Vietnam War",
+      "Korean War",
+      "Gulf War",
+      "Falklands War"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "war"
+    ]
+  },
+  {
+    "id": 5193,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Who succeeded Stalin as leader of the Soviet Union?",
+    "answers": [
+      "Brezhnev",
+      "Khrushchev",
+      "Gorbachev",
+      "Andropov"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "ussr"
+    ]
+  },
+  {
+    "id": 5194,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The 'Iron Curtain' speech was given by?",
+    "answers": [
+      "Truman",
+      "Churchill",
+      "Stalin",
+      "Roosevelt"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "politics"
+    ]
+  },
+  {
+    "id": 5195,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which country was first to grant women the right to vote?",
+    "answers": [
+      "USA",
+      "UK",
+      "New Zealand",
+      "Finland"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "rights"
+    ]
+  },
+  {
+    "id": 5196,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Mahatma Gandhi led the independence movement in?",
+    "answers": [
+      "South Africa",
+      "Pakistan",
+      "India",
+      "Bangladesh"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "india"
+    ]
+  }
+]

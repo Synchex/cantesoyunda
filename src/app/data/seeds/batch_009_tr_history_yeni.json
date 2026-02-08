@@ -1,0 +1,542 @@
+[
+    {
+        "question": "İstanbul'un Fethi (1453) ile başlayan tarih çağı hangisidir?",
+        "choices": [
+            "Yeni Çağ",
+            "Orta Çağ",
+            "Yakın Çağ",
+            "İlk Çağ"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Fatih Sultan Mehmet'in 'Kayser-i Rum' (Roma Kayseri) unvanını almasının temel sebebi nedir?",
+        "choices": [
+            "İstanbul'u fethederek Doğu Roma'nın varisi olması",
+            "Akkoyunlu Devleti'ni yıkması",
+            "Kırım Hanlığı'nı alması",
+            "Balkanları feth etmesi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Kırım'ın fethi ile hangi deniz 'Türk Gölü' haline gelmiştir?",
+        "choices": [
+            "Karadeniz",
+            "Akdeniz",
+            "Ege Denizi",
+            "Marmara Denizi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı tarihinde 'Sekiz yıla seksen yıllık iş sığdıran padişah' olarak bilinen hükümdar kimdir?",
+        "choices": [
+            "Yavuz Sultan Selim",
+            "Fatih Sultan Mehmet",
+            "Kanuni Sultan Süleyman",
+            "IV. Murat"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Mısır Seferi (Ridaniye Savaşı) sonucunda Halifelik hangi devlete geçmiştir?",
+        "choices": [
+            "Osmanlı Devleti",
+            "Memlükler",
+            "Abbasiler",
+            "Emeviler"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "İlk Osmanlı Halifesi kimdir?",
+        "choices": [
+            "Yavuz Sultan Selim",
+            "Fatih Sultan Mehmet",
+            "Kanuni Sultan Süleyman",
+            "II. Bayezid"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin en parlak dönemi ve en uzun süre (46 yıl) tahtta kalan padişahı kimdir?",
+        "choices": [
+            "Kanuni Sultan Süleyman",
+            "Fatih Sultan Mehmet",
+            "Yavuz Sultan Selim",
+            "IV. Mehmet"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Preveze Deniz Zaferi (1538) ile hangi deniz 'Türk Gölü' haline gelmiştir?",
+        "choices": [
+            "Akdeniz",
+            "Karadeniz",
+            "Kızıldeniz",
+            "Hazar Denizi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Preveze Deniz Savaşı'nın komutanı ünlü Türk denizcisi kimdir?",
+        "choices": [
+            "Barbaros Hayrettin Paşa",
+            "Turgut Reis",
+            "Piri Reis",
+            "Seydi Ali Reis"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Dünya haritasını ilk kez çizen ve 'Kitab-ı Bahriye' adlı eseri yazan denizci kimdir?",
+        "choices": [
+            "Piri Reis",
+            "Katip Çelebi",
+            "Evliya Çelebi",
+            "Barbaros Hayrettin Paşa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Mimar Sinan'ın 'Ustalık Eserim' dediği Edirne'deki cami hangisidir?",
+        "choices": [
+            "Selimiye Camii",
+            "Süleymaniye Camii",
+            "Şehzade Camii",
+            "Sultanahmet Camii"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Viyana'yı kuşatan ilk Osmanlı padişahı kimdir?",
+        "choices": [
+            "Kanuni Sultan Süleyman",
+            "Fatih Sultan Mehmet",
+            "IV. Mehmet",
+            "II. Süleyman"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin doğuda en geniş sınırlara ulaştığı antlaşma hangisidir?",
+        "choices": [
+            "Ferhat Paşa Antlaşması",
+            "Kasr-ı Şirin Antlaşması",
+            "Amasya Antlaşması",
+            "Nasuh Paşa Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Bugünkü Türkiye-İran sınırını büyük ölçüde belirleyen 1639 tarihli antlaşma hangisidir?",
+        "choices": [
+            "Kasr-ı Şirin Antlaşması",
+            "Ferhat Paşa Antlaşması",
+            "Serav Antlaşması",
+            "Zitvatorok Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Ordunun başında sefere çıkma geleneğini terk eden ilk Osmanlı padişahı kimdir?",
+        "choices": [
+            "II. Selim (Sarı Selim)",
+            "III. Murat",
+            "I. Ahmet",
+            "IV. Mehmet"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "İnebahtı'da Osmanlı donanmasının yakılmasına neden olan olay nedir?",
+        "choices": [
+            "Kıbrıs'ın Fethi",
+            "Girit'in Fethi",
+            "Rodos'un Fethi",
+            "Mora'nın Fethi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin batıda en geniş sınırlara ulaştığı antlaşma hangisidir?",
+        "choices": [
+            "Bucaş Antlaşması",
+            "Zitvatorok Antlaşması",
+            "Karlofça Antlaşması",
+            "Pasarofça Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin 'Duraklama Dönemi'ni bitirip 'Gerileme Dönemi'ne girmesine neden olan antlaşma hangisidir?",
+        "choices": [
+            "Karlofça Antlaşması (1699)",
+            "Pasarofça Antlaşması",
+            "Küçük Kaynarca Antlaşması",
+            "Prut Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Lale Devri (1718-1730) hangi olayla sona ermiştir?",
+        "choices": [
+            "Patrona Halil İsyanı",
+            "Kabakçı Mustafa İsyanı",
+            "Vaka-i Vakvakiye",
+            "Celali İsyanları"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Lale Devri'nde kurulan ilk Türk matbaasını kim getirmiştir?",
+        "choices": [
+            "İbrahim Müteferrika ve Said Efendi",
+            "Katip Çelebi",
+            "Naima",
+            "Lagari Hasan Çelebi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Matbaada basılan ilk Türkçe eser hangisidir?",
+        "choices": [
+            "Van Kulu Lügati",
+            "Cihannüma",
+            "Seyahatname",
+            "Keşfü'z-Zünun"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı'da 'Bağdat Fatihi' olarak bilinen, içki ve tütün yasağı getiren padişah kimdir?",
+        "choices": [
+            "IV. Murat",
+            "I. Ahmet",
+            "II. Osman (Genç Osman)",
+            "IV. Mehmet"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Yeniçeriler tarafından öldürülen ilk Osmanlı padişahı kimdir?",
+        "choices": [
+            "Genç Osman (II. Osman)",
+            "III. Selim",
+            "I. İbrahim",
+            "IV. Mustafa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Sultanahmet Camii'nin mimarı kimdir?",
+        "choices": [
+            "Sedefkar Mehmet Ağa",
+            "Mimar Sinan",
+            "Sarkis Balyan",
+            "Davut Ağa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nde ilk bütçeyi hazırlayan devlet adamı kimdir?",
+        "choices": [
+            "Tarhuncu Ahmet Paşa",
+            "Köprülü Mehmet Paşa",
+            "Sokullu Mehmet Paşa",
+            "Nevşehirli Damat İbrahim Paşa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Girit Adası'nın fethi yaklaşık kaç yıl sürmüştür?",
+        "choices": [
+            "24 Yıl",
+            "10 Yıl",
+            "5 Yıl",
+            "50 Yıl"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "17. yüzyılda roketle uçmayı başaran Türk bilgini kimdir?",
+        "choices": [
+            "Lagari Hasan Çelebi",
+            "Hezarfen Ahmet Çelebi",
+            "Takiyüddin",
+            "Ali Kuşçu"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Galata Kulesi'nden Üsküdar'a kanat takarak uçtuğu söylenen kişi kimdir?",
+        "choices": [
+            "Hezarfen Ahmet Çelebi",
+            "Lagari Hasan Çelebi",
+            "Piri Reis",
+            "Seydi Ali Reis"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nde ilk kez 'Ekber ve Erşed' (En yaşlı ve en olgun) sistemini getirerek veraset usulünü değiştiren padişah kimdir?",
+        "choices": [
+            "I. Ahmet",
+            "I. Süleyman",
+            "II. Osman",
+            "IV. Murat"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nde şehzadelerin sancaklara gönderilmesi usulünü (Sancak Sistemi) kaldıran padişah kimdir?",
+        "choices": [
+            "III. Mehmet",
+            "I. Ahmet",
+            "IV. Murat",
+            "II. Selim"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Lale Devri'nin ünlü minyatür sanatçısı (nakkaş) kimdir?",
+        "choices": [
+            "Levni",
+            "Nigari",
+            "Matrakçı Nasuh",
+            "Bihzad"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Lale Devri'nin ünlü şairi kimdir?",
+        "choices": [
+            "Nedim",
+            "Baki",
+            "Fuzuli",
+            "Nefi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti'nin Rusya ile imzaladığı ilk antlaşma hangisidir?",
+        "choices": [
+            "Bahçesaray (Çehring) Antlaşması",
+            "Prut Antlaşması",
+            "İstanbul Antlaşması",
+            "Küçük Kaynarca Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Kırım Hanlığı'nın bağımsız olduğu antlaşma hangisidir?",
+        "choices": [
+            "Küçük Kaynarca Antlaşması",
+            "Yaş Antlaşması",
+            "Aynalıkavak Tenkihnamesi",
+            "Ziştovi Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı Devleti Kırım'ın Rusya'ya ait olduğunu hangi antlaşma ile kabul etmiştir?",
+        "choices": [
+            "Yaş Antlaşması (1792)",
+            "Bükreş Antlaşması",
+            "Edirne Antlaşması",
+            "Ayastefanos Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    },
+    {
+        "question": "Osmanlı'da Batı tarzı ilk askeri ıslahatları yapan (Hendesehane'yi kuran) padişah kimdir?",
+        "choices": [
+            "I. Mahmut",
+            "III. Selim",
+            "II. Mahmut",
+            "Abdülmecid"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "yeni_cag"
+        ]
+    }
+]

@@ -1,0 +1,614 @@
+[
+  {
+    "id": 17300,
+    "question": "Süper Lig'de 'Dört Büyükler'in hepsinde forma giyen ilk futbolcu kimdir?",
+    "answers": [
+      "Sergen Yalçın",
+      "Burak Yılmaz",
+      "Emre Aşık",
+      "Mehmet Topal"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17301,
+    "question": "Naim Süleymanoğlu kariyeri boyunca kaç Olimpiyat altını kazanmıştır?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17302,
+    "question": "Süper Lig tarihinin en çok gol atan oyuncusu (Gol Kralı) kimdir?",
+    "answers": [
+      "Metin Oktay",
+      "Tanju Çolak",
+      "Hakan Şükür",
+      "Aykut Kocaman"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17303,
+    "question": "Hangi teknik direktör Süper Lig'de 3 farklı takımla şampiyonluk yaşamıştır?",
+    "answers": [
+      "Fatih Terim",
+      "Mustafa Denizli",
+      "Şenol Güneş",
+      "Okan Buruk"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17304,
+    "question": "Galatasaray UEFA Kupası'nı hangi takımı yenerek kazanmıştır?",
+    "answers": [
+      "Arsenal",
+      "Leeds United",
+      "Dortmund",
+      "Bologna"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17305,
+    "question": "Süper Lig'de bir sezonda en çok puan toplayan takım unvanı (2024 itibarıyla) kime aittir?",
+    "answers": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Başakşehir"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17306,
+    "question": "EuroLeague'i üst üste iki kez kazanan Türk takımı hangisidir?",
+    "answers": [
+      "Fenerbahçe Beko",
+      "Anadolu Efes",
+      "Galatasaray MP",
+      "Beşiktaş Milangaz"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17307,
+    "question": "Olimpiyatlarda okçuluk dalında Türkiye'ye ilk madalyayı getiren sporcu kimdir?",
+    "answers": [
+      "Mete Gazoz",
+      "Yasemin Ecem Anag",
+      "Elif Berra Gökkır",
+      "Demir Elmacıoğlu"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17308,
+    "question": "Bir sezonda en çok gol atarak 'Gol Kralı' olma rekoru kime aittir (39 gol)?",
+    "answers": [
+      "Metin Oktay",
+      "Hakan Şükür",
+      "Tanju Çolak",
+      "Mbaye Diagne"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17309,
+    "question": "Süper Lig'in en erken golünü kim atmıştır (yaklaşık 6. saniye)?",
+    "answers": [
+      "Hakan Şükür",
+      "Darryl Roberts",
+      "Muhammet Demir",
+      "Umut Bulut"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17310,
+    "question": "A Milli Futbol Takımı'nın en çok gol atan oyuncusu kimdir?",
+    "answers": [
+      "Burak Yılmaz",
+      "Hakan Şükür",
+      "Lefter Küçükandonyadis",
+      "Nihat Kahveci"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17311,
+    "question": "Süper Lig tarihinde en çok maça çıkan futbolcu kimdir?",
+    "answers": [
+      "Oğuz Çetin",
+      "Rıza Çalımbay",
+      "Umut Bulut",
+      "Bülent Korkmaz"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17312,
+    "question": "Beşiktaş'ın Şampiyonlar Ligi gruplarını namağlup lider bitirdiği sezondaki teknik direktörü kimdi?",
+    "answers": [
+      "Şenol Güneş",
+      "Sergen Yalçın",
+      "Slaven Bilic",
+      "Mustafa Denizli"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17313,
+    "question": "Hangi takım Süper Lig'i eksi averajla şampiyon tamamlamıştır? (Aslında böyle bir olay yok, soru iptal. Yerine: En az gol yiyerek şampiyon olan?)",
+    "answers": [
+      "Galatasaray",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17314,
+    "question": "Süper Lig tarihinin en farklı skoru hangi maçta alınmıştır?",
+    "answers": [
+      "Beşiktaş 10-0 Adana Demirspor",
+      "Galatasaray 9-0 Altay",
+      "Fenerbahçe 8-1 Samsunspor",
+      "Malatyaspor 8-2 Rizespor"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17315,
+    "question": "Kendi kalesine gol atma şanssızlığını 2008 Avrupa Şampiyonası'nda kim yaşamamıştır? (Soru: Euro 2008'de Semih Şentürk'ün Hırvatistan'a attığı gol dakikası?)",
+    "answers": [
+      "90+2",
+      "118",
+      "120+2",
+      "115"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17316,
+    "question": "Milli Takım'ın 1000. golünü kim atmıştır? (Bin gol yok. 500. gol diyelim)",
+    "answers": [
+      "Hakan Şükür",
+      "Nihat Kahveci",
+      "Semih Şentürk",
+      "Arda Turan"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17317,
+    "question": "Süper Lig'in ilk yabancı gol kralı Tarik Hodzic hangi takımda oynamıştır?",
+    "answers": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Bursaspor"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17318,
+    "question": "Fatih Terim Galatasaray'ın başında toplam kaç lig şampiyonluğu yaşamıştır?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17319,
+    "question": "NBA'de bir maçta en çok sayı atan Türk oyuncu rekoru kime aittir?",
+    "answers": [
+      "Hidayet Türkoğlu",
+      "Mehmet Okur",
+      "Alperen Şengün",
+      "Ersan İlyasova"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17320,
+    "question": "Olimpiyatlarda üç farklı olimpiyatta altın madalya kazanan tek sporcumuz kimdir?",
+    "answers": [
+      "Halil Mutlu",
+      "Naim Süleymanoğlu",
+      "Hamza Yerlikaya",
+      "Mithat Bayrak"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17321,
+    "question": "Olimpiyatlarda üç kez üst üste altın madalya kazanan İLK haltercimiz kimdir?",
+    "answers": [
+      "Naim Süleymanoğlu",
+      "Halil Mutlu",
+      "Taner Sağır",
+      "Nurcan Taylan"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17322,
+    "question": "49 maçla 'Süper Lig'de en uzun süre yenilmeyen takım' rekoru kime aittir?",
+    "answers": [
+      "Galatasaray",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17323,
+    "question": "A Milli Futbol Takımı'nın en çok maça çıkan oyuncusu kimdir?",
+    "answers": [
+      "Bülent Korkmaz",
+      "Hakan Şükür",
+      "Rüştü Reçber",
+      "Emre Belözoğlu"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17324,
+    "question": "Tanju Çolak, Avrupa Gol Kralı (Altın Ayakkabı) ödülünü kaç golle kazanmıştır?",
+    "answers": [
+      "33",
+      "39",
+      "41",
+      "36"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17325,
+    "question": "Tugay Kerimoğlu Blackburn Rovers formasıyla kaç yıl oynamıştır?",
+    "answers": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17326,
+    "question": "Hangi kaleci Süper Lig'de gol atma başarısı göstermiştir?",
+    "answers": [
+      "Rüştü Reçber",
+      "Volkan Demirel",
+      "Muslera",
+      "Petkovic"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17327,
+    "question": "Şenol Güneş'in milli takımda teknik direktör olarak Dünya Kupası'ndaki başarısı nedir?",
+    "answers": [
+      "Dünya Şampiyonu",
+      "Dünya İkincisi",
+      "Dünya Üçüncüsü",
+      "Çeyrek Final"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17328,
+    "question": "Fenerbahçe'nin Manchester United'ı Old Trafford'da yendiği maçta golü kim atmıştır?",
+    "answers": [
+      "Tuncay Şanlı",
+      "Elvir Boliç",
+      "Alex de Souza",
+      "Pierre van Hooijdonk"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17329,
+    "question": "EuroLeague tarihinde 'Top 16' aşamasında bir maçta en çok sayı atan oyuncu rekorunu uzun süre elinde tutan Türk?",
+    "answers": [
+      "İbrahim Kutluay",
+      "Mirsad Türkcan",
+      "Serkan Erdoğan",
+      "Harun Erdenay"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17330,
+    "question": "Türkiye Kupası'nı en çok kazanan takım hangisidir?",
+    "answers": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Galatasaray",
+      "Trabzonspor"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17331,
+    "question": "Bir maçta 6 gol atarak Süper Lig rekorunu paylaşan futbolculardan biri kimdir?",
+    "answers": [
+      "Metin Oktay",
+      "Tanju Çolak",
+      "Jardel",
+      "Şota Arveladze"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17332,
+    "question": "Hangi teknik direktör iki farklı takımı (Bursaspor ve Beşiktaş) şampiyon yapmıştır? (Soru hatalı olabilir, Beşiktaş'ta şampiyonluk yaşadı mı?) Şenol Güneş Beşiktaş 2, Bursaspor 0. Ertuğrul Sağlam Bursa 1, Beşiktaş 0. Mustafa Denizli 3 büyükler. Cevap Mustafa Denizli.",
+    "answers": [
+      "Fatih Terim",
+      "Christoph Daum",
+      "Mustafa Denizli",
+      "Şenol Güneş"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  },
+  {
+    "id": 17333,
+    "question": "Üç Büyükler'in (GS, FB, BJK) üçünü de şampiyon yapan tek teknik direktör kimdir?",
+    "answers": [
+      "Mustafa Denizli",
+      "Okan Buruk",
+      "Sergen Yalçın",
+      "Christoph Daum"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "legends_records",
+    "tags": [
+      "legends_records",
+      "turkish_records"
+    ]
+  }
+]

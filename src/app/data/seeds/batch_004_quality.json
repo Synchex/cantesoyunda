@@ -84,7 +84,7 @@
     "lang": "tr",
     "category": "tarih",
     "subcategory": "osmanlı",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Osmanlı'da ilk kağıt para hangi padişah döneminde tedavüle çıkmıştır?",
     "choices": [
       "II. Mahmut",
@@ -244,7 +244,7 @@
     "lang": "tr",
     "category": "tarih",
     "subcategory": "cumhuriyet",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Şapka Kanunu hangi yıl çıkarılmıştır?",
     "choices": [
       "1925",
@@ -584,7 +584,7 @@
     "lang": "tr",
     "category": "spor",
     "subcategory": "güreş",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Hamza Yerlikaya kaç kez Dünya Şampiyonu olmuştur?",
     "choices": [
       "3",
@@ -704,7 +704,7 @@
     "lang": "tr",
     "category": "genel_kultur",
     "subcategory": "edebiyat",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Türkiye'de Dil Bayramı hangi tarihte kutlanır?",
     "choices": [
       "26 Eylül",
@@ -984,7 +984,7 @@
     "lang": "tr",
     "category": "genel_kultur",
     "subcategory": "resim",
-    "difficulty": "cok_zor",
+    "difficulty": "zor",
     "question": "Türk resminin öncülerinden Osman Hamdi Bey'in en ünlü tablosu hangisidir?",
     "choices": [
       "Kaplumbağa Terbiyecisi",

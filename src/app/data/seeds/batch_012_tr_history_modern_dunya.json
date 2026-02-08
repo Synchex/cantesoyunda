@@ -1,0 +1,322 @@
+[
+    {
+        "question": "1789 yılında gerçekleşen ve 'Özgürlük, Eşitlik, Kardeşlik' sloganıyla bilinen olay nedir?",
+        "choices": [
+            "Fransız İhtilali",
+            "Amerikan Bağımsızlık Savaşı",
+            "Sanayi Devrimi",
+            "Bolşevik Devrimi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "avrupa"
+        ]
+    },
+    {
+        "question": "Sanayi Devrimi ilk olarak hangi ülkede başlamıştır?",
+        "choices": [
+            "İngiltere",
+            "Fransa",
+            "Almanya",
+            "Amerika Birleşik Devletleri"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "sanayi"
+        ]
+    },
+    {
+        "question": "I. Dünya Savaşı'nı başlatan olay olarak kabul edilen suikast kime yapılmıştır?",
+        "choices": [
+            "Avusturya-Macaristan Veliahtı Franz Ferdinand",
+            "Rus Çarı II. Nicholas",
+            "Alman İmparatoru II. Wilhelm",
+            "İngiltere Kralı V. George"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "birinci_dunya_savasi"
+        ]
+    },
+    {
+        "question": "I. Dünya Savaşı sonunda İtilaf Devletleri ile Almanya arasında imzalanan barış antlaşması hangisidir?",
+        "choices": [
+            "Versay Antlaşması",
+            "Saint-Germain Antlaşması",
+            "Triyanon Antlaşması",
+            "Neuilly Antlaşması"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "modern_dunya",
+            "birinci_dunya_savasi"
+        ]
+    },
+    {
+        "question": "II. Dünya Savaşı hangi ülkenin Polonya'yı işgaliyle başlamıştır?",
+        "choices": [
+            "Almanya",
+            "Sovyetler Birliği",
+            "İtalya",
+            "Japonya"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "ikinci_dunya_savasi"
+        ]
+    },
+    {
+        "question": "II. Dünya Savaşı sırasında Amerika Birleşik Devletleri hangi şehirlere atom bombası atmıştır?",
+        "choices": [
+            "Hiroşima ve Nagazaki",
+            "Tokyo ve Osaka",
+            "Berlin ve Münih",
+            "Roma ve Milano"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "ikinci_dunya_savasi"
+        ]
+    },
+    {
+        "question": "II. Dünya Savaşı sonrasında dünya barışını korumak amacıyla 1945'te kurulan örgüt hangisidir?",
+        "choices": [
+            "Birleşmiş Milletler (BM)",
+            "Milletler Cemiyeti",
+            "NATO",
+            "Avrupa Birliği"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "orgutler"
+        ]
+    },
+    {
+        "question": "Soğuk Savaş döneminde batı bloğunun kurduğu askeri ittifakın adı nedir?",
+        "choices": [
+            "NATO (Kuzey Atlantik Paktı)",
+            "Varşova Paktı",
+            "Bağdat Paktı",
+            "Sadabat Paktı"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "soguk_savas"
+        ]
+    },
+    {
+        "question": "Berlin Duvarı hangi yıl yıkılmıştır?",
+        "choices": [
+            "1989",
+            "1991",
+            "1980",
+            "1990"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "soguk_savas"
+        ]
+    },
+    {
+        "question": "Sovyetler Birliği (SSCB) resmen hangi yıl dağılmıştır?",
+        "choices": [
+            "1991",
+            "1989",
+            "1995",
+            "2000"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "soguk_savas"
+        ]
+    },
+    {
+        "question": "1969 yılında Ay'a ayak basan ilk insan kimdir?",
+        "choices": [
+            "Neil Armstrong",
+            "Yuri Gagarin",
+            "Buzz Aldrin",
+            "Michael Collins"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "uzay"
+        ]
+    },
+    {
+        "question": "Uzaya çıkan ilk insan kimdir?",
+        "choices": [
+            "Yuri Gagarin",
+            "Neil Armstrong",
+            "Valentina Tereşkova",
+            "Laika"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "uzay"
+        ]
+    },
+    {
+        "question": "Hindistan'ın bağımsızlık hareketinin lideri olan ve 'Mahatma' (Yüce Ruh) olarak anılan kişi kimdir?",
+        "choices": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Muhammed Ali Cinnah",
+            "Indira Gandhi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "liderler"
+        ]
+    },
+    {
+        "question": "Güney Afrika'da ırk ayrımcılığına (Apartheid) karşı mücadele eden ve ülkenin ilk siyahi devlet başkanı olan lider kimdir?",
+        "choices": [
+            "Nelson Mandela",
+            "Desmond Tutu",
+            "Martin Luther King",
+            "Kofi Annan"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "liderler"
+        ]
+    },
+    {
+        "question": "Küba Devrimi'nin lideri kimdir?",
+        "choices": [
+            "Fidel Castro",
+            "Che Guevara",
+            "Hugo Chavez",
+            "Simon Bolivar"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "devrimler"
+        ]
+    },
+    {
+        "question": "Mona Lisa tablosunu yapan Rönesans sanatçısı kimdir?",
+        "choices": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Raphael",
+            "Donatello"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "sanat"
+        ]
+    },
+    {
+        "question": "Amerika kıtasını 1492 yılında keşfeden denizci kimdir?",
+        "choices": [
+            "Kristof Kolomb",
+            "Amerigo Vespucci",
+            "Vasco da Gama",
+            "Macellan"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "kesifler"
+        ]
+    },
+    {
+        "question": "İngiltere'de 'Demir Leydi' lakabıyla bilinen kadın başbakan kimdir?",
+        "choices": [
+            "Margaret Thatcher",
+            "Theresa May",
+            "Kraliçe Victoria",
+            "Indira Gandhi"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "orta",
+        "tags": [
+            "modern_dunya",
+            "liderler"
+        ]
+    },
+    {
+        "question": "1917 Bolşevik Devrimi hangi ülkede gerçekleşmiştir?",
+        "choices": [
+            "Rusya",
+            "Almanya",
+            "Çin",
+            "Fransa"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "kolay",
+        "tags": [
+            "modern_dunya",
+            "devrimler"
+        ]
+    },
+    {
+        "question": "Titanik gemisi hangi yıl batmıştır?",
+        "choices": [
+            "1912",
+            "1910",
+            "1914",
+            "1920"
+        ],
+        "answerIndex": 0,
+        "category": "tarih",
+        "difficulty": "zor",
+        "tags": [
+            "modern_dunya",
+            "olaylar"
+        ]
+    }
+]

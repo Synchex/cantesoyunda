@@ -21,7 +21,7 @@ export interface GameRun {
     questions: QuestionRecord[];
     totalQuestions: number;
     correctCount: number;
-    status: 'completed' | 'lost' | 'abandoned';
+    status: 'completed' | 'lost' | 'abandoned' | 'withdrawn';
     prizeWon: number; // ArenaCoins won
 }
 
@@ -30,7 +30,7 @@ interface GameHistoryContextType {
     currentRun: Partial<GameRun> | null;
     startNewRun: (category: Category, difficulty: Difficulty, totalQuestions: number) => void;
     recordAnswer: (question: QuestionRecord) => void;
-    finalizeRun: (status: 'completed' | 'lost' | 'abandoned', prizeWon: number) => void;
+    finalizeRun: (status: 'completed' | 'lost' | 'abandoned' | 'withdrawn', prizeWon: number) => void;
     clearHistory: () => void;
 }
 
@@ -165,7 +165,7 @@ export function GameHistoryProvider({ children }: { children: ReactNode }) {
         });
     };
 
-    const finalizeRun = (status: 'completed' | 'lost' | 'abandoned', prizeWon: number) => {
+    const finalizeRun = (status: 'completed' | 'lost' | 'abandoned' | 'withdrawn', prizeWon: number) => {
         if (!currentRun || !currentRun.runId) return;
 
         const runId = currentRun.runId;

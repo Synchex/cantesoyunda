@@ -5,12 +5,14 @@ interface CircularTimerProps {
   duration: number; // in seconds
   onComplete?: () => void;
   size?: number;
+  resetKey?: string | number; // Force reset when this changes
+  isLockedRef?: React.RefObject<boolean>; // External lock to prevent firing after answer
 }
 
-export function CircularTimer({ duration, onComplete, size = 80 }: CircularTimerProps) {
+export function CircularTimer({ duration, onComplete, size = 80, resetKey, isLockedRef }: CircularTimerProps) {
   const [timeLeft, setTimeLeft] = useState(duration);
   const [isRunning, setIsRunning] = useState(true);
-  // Ref to ensure onComplete is only called ONCE
+  // Ref to ensure onComplete is only called ONCE per question
   const hasCompletedRef = useRef(false);
   // Stable ref for onComplete to avoid dependency issues
   const onCompleteRef = useRef(onComplete);
@@ -20,22 +22,32 @@ export function CircularTimer({ duration, onComplete, size = 80 }: CircularTimer
   const circumference = 2 * Math.PI * radius;
   const progress = (timeLeft / duration) * circumference;
 
-  // Handle timer completion - only fires once
+  // Handle timer completion - only fires once and respects external lock
   const handleComplete = useCallback(() => {
-    if (hasCompletedRef.current) return;
+    // Check external lock FIRST (synchronous check)
+    if (isLockedRef?.current) {
+      console.log('[CircularTimer] handleComplete BLOCKED - external lock is set');
+      return;
+    }
+    if (hasCompletedRef.current) {
+      console.log('[CircularTimer] handleComplete BLOCKED - already completed');
+      return;
+    }
     hasCompletedRef.current = true;
     setIsRunning(false);
+    console.log('[CircularTimer] Timer expired - calling onComplete');
     if (onCompleteRef.current) {
       onCompleteRef.current();
     }
-  }, []);
+  }, [isLockedRef]);
 
+  // Reset on mount and when resetKey or duration changes (new question)
   useEffect(() => {
-    // Reset on duration change (new question)
+    console.log('[CircularTimer] Resetting timer - resetKey:', resetKey, 'duration:', duration);
     hasCompletedRef.current = false;
     setTimeLeft(duration);
     setIsRunning(true);
-  }, [duration]);
+  }, [duration, resetKey]);
 
   useEffect(() => {
     if (!isRunning) return;
@@ -52,13 +64,13 @@ export function CircularTimer({ duration, onComplete, size = 80 }: CircularTimer
 
     return () => clearInterval(timer);
   }, [isRunning, handleComplete]);
-  
+
   const getColor = () => {
     if (timeLeft <= 5) return 'var(--wrong)';
     if (timeLeft <= 10) return 'var(--gold)';
     return 'var(--neon-green)';
   };
-  
+
   return (
     <div className="relative" style={{ width: size, height: size }}>
       <svg width={size} height={size} className="transform -rotate-90">
@@ -71,7 +83,7 @@ export function CircularTimer({ duration, onComplete, size = 80 }: CircularTimer
           stroke="rgba(255, 255, 255, 0.1)"
           strokeWidth="4"
         />
-        
+
         {/* Progress circle */}
         <motion.circle
           cx={size / 2}
@@ -92,9 +104,9 @@ export function CircularTimer({ duration, onComplete, size = 80 }: CircularTimer
           transition={{ duration: 0.1, ease: 'linear' }}
         />
       </svg>
-      
+
       {/* Time display */}
-      <div 
+      <div
         className="absolute inset-0 flex items-center justify-center"
         style={{
           fontSize: size / 3,

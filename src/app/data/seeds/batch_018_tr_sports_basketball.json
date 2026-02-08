@@ -1,0 +1,668 @@
+[
+  {
+    "id": 17100,
+    "question": "Türkiye'de basketbol deyince akla gelen '12 Dev Adam' lakabı hangi takıma aittir?",
+    "answers": [
+      "Fenerbahçe Beko",
+      "Anadolu Efes",
+      "A Milli Basketbol Takımı",
+      "Galatasaray"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17101,
+    "question": "NBA'de forma giyen ilk Türk basketbolcu kimdir?",
+    "answers": [
+      "Hidayet Türkoğlu",
+      "Mehmet Okur",
+      "Mirsad Türkcan",
+      "İbrahim Kutluay"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17102,
+    "question": "Anadolu Efes'in EuroLeague şampiyonu olduğu yıllar hangileridir?",
+    "answers": [
+      "2019-2020",
+      "2020-2021 ve 2021-2022",
+      "2010-2011",
+      "2015-2016"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17103,
+    "question": "Hangi Türk basketbolcu NBA'de 'All-Star' seçilmiştir?",
+    "answers": [
+      "Mirsad Türkcan",
+      "Hidayet Türkoğlu",
+      "Mehmet Okur",
+      "Cedi Osman"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17104,
+    "question": "'Beyaz Gölge' dizisi Türkiye'de hangi sporun sevilmesinde etkili olmuştur?",
+    "answers": [
+      "Futbol",
+      "Voleybol",
+      "Basketbol",
+      "Hentbol"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17105,
+    "question": "EuroLeague kupasını kazanan ilk Türk takımı hangisidir?",
+    "answers": [
+      "Anadolu Efes",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17106,
+    "question": "NBA'de 'Hedo' lakabıyla tanınan oyuncumuz kimdir?",
+    "answers": [
+      "Hidayet Türkoğlu",
+      "Semih Erden",
+      "Furkan Korkmaz",
+      "Ersan İlyasova"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17107,
+    "question": "Türkiye Basketbol Süper Ligi'nin kısaltması nedir?",
+    "answers": [
+      "TBSL",
+      "BSL",
+      "TBL",
+      "TSL"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17108,
+    "question": "Abdi İpekçi Spor Salonu hangi şehirdeydi?",
+    "answers": [
+      "Ankara",
+      "İzmir",
+      "İstanbul",
+      "Bursa"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17109,
+    "question": "basketbolda bir maçta atılan basket kaç puan değerinde olamaz?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17110,
+    "question": "EuroLeague'de 'Sezonun En Değerli Oyuncusu' (MVP) seçilen ilk Türk takımı oyuncusu kimdir?",
+    "answers": [
+      "Shane Larkin",
+      "Vasilije Micic",
+      "Nando De Colo",
+      "Bogdan Bogdanovic"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17111,
+    "question": "Fenerbahçe'nin EuroLeague şampiyonu olduğu yıl hangisidir?",
+    "answers": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17112,
+    "question": "A Milli Basketbol Takımımız 2010 Dünya Şampiyonası'nda kaçıncı olmuştur?",
+    "answers": [
+      "Birinci",
+      "İkinci",
+      "Üçüncü",
+      "Dördüncü"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17113,
+    "question": "NBA'de şampiyonluk yüzüğü kazanan tek Türk oyuncu kimdir?",
+    "answers": [
+      "Hidayet Türkoğlu",
+      "Mehmet Okur",
+      "Ersan İlyasova",
+      "Ömer Aşık"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17114,
+    "question": "Galatasaray kadın basketbol takımı EuroLeague Women şampiyonluğunu hangi yıl kazandı?",
+    "answers": [
+      "2012",
+      "2014",
+      "2016",
+      "2018"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17115,
+    "question": "Ergin Ataman toplam kaç farklı Avrupa kupası kazanmıştır?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17116,
+    "question": "Koraç Kupası'nı kazanan ilk Türk takımı hangisidir?",
+    "answers": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Anadolu Efes (Efes Pilsen)",
+      "Tofaş"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17117,
+    "question": "İbrahim Kutluay'ın EuroLeague şampiyonluğu yaşadığı Yunan takımı hangisidir?",
+    "answers": [
+      "Olympiakos",
+      "Panathinaikos",
+      "AEK",
+      "PAOK"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17118,
+    "question": "Hidayet Türkoğlu NBA'de 'En Çok Gelişme Kaydeden Oyuncu' (MIP) ödülünü hangi yıl aldı?",
+    "answers": [
+      "2006",
+      "2008",
+      "2010",
+      "2012"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17119,
+    "question": "Türkiye'de basketbolun 'Üç Büyükler'i dışında şampiyon olan takımlardan biri hangisidir?",
+    "answers": [
+      "Karşıyaka",
+      "Göztepe",
+      "Altay",
+      "Bucaspor"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17120,
+    "question": "Alperen Şengün hangi NBA takımında oynamaktadır?",
+    "answers": [
+      "Houston Rockets",
+      "Cleveland Cavaliers",
+      "Utah Jazz",
+      "San Antonio Spurs"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17121,
+    "question": "'Potanın Perileri' lakabı kime aittir?",
+    "answers": [
+      "A Milli Kadın Voleybol Takımı",
+      "A Milli Kadın Basketbol Takımı",
+      "Fenerbahçe Kadın Basketbol",
+      "Galatasaray Kadın Basketbol"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17122,
+    "question": "Anadolu Efes'in efsane koçu Aydın Örs ile kazandığı Avrupa kupası hangisidir?",
+    "answers": [
+      "EuroLeague",
+      "Saporta Kupası",
+      "Koraç Kupası",
+      "EuroChallenge"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17123,
+    "question": "Harun Erdenay'ın lakabı nedir?",
+    "answers": [
+      "Pegasus",
+      "Sihirbaz",
+      "Kral",
+      "Bombacı"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17124,
+    "question": "NBA Draftı'nda en yüksek sıradan seçilen (3. sıra) Türk oyuncu kimdir?",
+    "answers": [
+      "Alperen Şengün",
+      "Enes Kanter",
+      "Hidayet Türkoğlu",
+      "Mehmet Okur"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17125,
+    "question": "Anadolu Efes (Efes Pilsen) Koraç Kupası'nı hangi yıl kazanmıştır?",
+    "answers": [
+      "1993",
+      "1994",
+      "1995",
+      "1996"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17126,
+    "question": "2001 EuroBasket'te Türkiye finalde kime yenilerek ikinci olmuştur?",
+    "answers": [
+      "İspanya",
+      "Yugoslavya",
+      "Litvanya",
+      "İtalya"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17127,
+    "question": "Hangi Türk basketbolcu NCAA'de final oynama başarısı göstermiştir?",
+    "answers": [
+      "Kerem Tunçeri",
+      "Ömer Aşık",
+      "Engin Atsür",
+      "Sinan Güler"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17128,
+    "question": "Fenerbahçe'ye EuroLeague şampiyonluğunu kazandıran efsane koç kimdir?",
+    "answers": [
+      "Zeljko Obradovic",
+      "Dimitris Itoudis",
+      "Sarunas Jasikevicius",
+      "Neven Spahija"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17129,
+    "question": "A Milli Basketbol takımımız ilk kez hangi yıl Dünya Şampiyonası'na katılmıştır?",
+    "answers": [
+      "2002",
+      "2006",
+      "2010",
+      "2014"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17130,
+    "question": "Erman Kunter, bir lig maçında attığı kaç sayıyla rekor kırmıştır?",
+    "answers": [
+      "81",
+      "100",
+      "153",
+      "112"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17131,
+    "question": "Beşiktaş'ın 2012 yılında 3 kupa birden kazandığı sezonun koçu kimdi?",
+    "answers": [
+      "Oktay Mahmuti",
+      "Ergin Ataman",
+      "Ufuk Sarıca",
+      "Orhun Ene"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17132,
+    "question": "Cedi Osman NBA'de hangi takımın formasını en uzun süre giymiştir?",
+    "answers": [
+      "San Antonio Spurs",
+      "Cleveland Cavaliers",
+      "Utah Jazz",
+      "Philadelphia 76ers"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17133,
+    "question": "Fenerbahçe kadın basketbol takımının EuroLeague şampiyonu olduğu ilk sezon hangisidir?",
+    "answers": [
+      "2018-2019",
+      "2020-2021",
+      "2022-2023",
+      "2015-2016"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17134,
+    "question": "Shane Larkin Türk vatandaşlığına geçtikten sonra hangi ismi almıştır? (Resmiyette ismi değişmemiştir ama bir tercih konuşulmuştu, soru riskli)",
+    "answers": [
+      "Şahin",
+      "Kaan",
+      "Ali",
+      "İsmi değişmedi"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17135,
+    "question": "Galatasaray Tekerlekli Sandalye Basketbol Takımı kaç kez Şampiyonlar Ligi şampiyonu olmuştur?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "Hiç"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  },
+  {
+    "id": 17136,
+    "question": "1981 yılında Avrupa Karması'na seçilen ilk Türk basketbolcu kimdir?",
+    "answers": [
+      "Efe Aydan",
+      "Erman Kunter",
+      "Levent Opsar",
+      "Doğan Hakyemez"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "basketball",
+    "tags": [
+      "basketball",
+      "turkish_basketball"
+    ]
+  }
+]

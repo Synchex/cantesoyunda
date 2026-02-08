@@ -1,0 +1,706 @@
+[
+  {
+    "id": 5000,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the first emperor of Rome?",
+    "answers": [
+      "Julius Caesar",
+      "Augustus",
+      "Nero",
+      "Trajan"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "empires",
+      "legends"
+    ]
+  },
+  {
+    "id": 5001,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Great Wall of China was built primarily to protect against which group?",
+    "answers": [
+      "Mongols",
+      "Japanese",
+      "Romans",
+      "Persians"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "empires"
+    ]
+  },
+  {
+    "id": 5002,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which Egyptian pharaoh is famous for his intact tomb discovered in 1922?",
+    "answers": [
+      "Ramses II",
+      "Tutankhamun",
+      "Akhenaten",
+      "Khufu"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "legends"
+    ]
+  },
+  {
+    "id": 5003,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Parthenon is located in which city?",
+    "answers": [
+      "Rome",
+      "Athens",
+      "Cairo",
+      "Instanbul"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient"
+    ]
+  },
+  {
+    "id": 5004,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which general crossed the Alps with elephants to attack Rome?",
+    "answers": [
+      "Hannibal",
+      "Alexander the Great",
+      "Scipio Africanus",
+      "Attila"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "legends"
+    ]
+  },
+  {
+    "id": 5005,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Battle of Thermopylae was fought between the Greeks and which empire?",
+    "answers": [
+      "Roman Empire",
+      "Persian Empire",
+      "Ottoman Empire",
+      "Mongol Empire"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "empires"
+    ]
+  },
+  {
+    "id": 5006,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who was the tutor of Alexander the Great?",
+    "answers": [
+      "Plato",
+      "Socrates",
+      "Aristotle",
+      "Pythagoras"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "legends"
+    ]
+  },
+  {
+    "id": 5007,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "What was the capital of the Byzantine Empire?",
+    "answers": [
+      "Rome",
+      "Constantinople",
+      "Athens",
+      "Alexandria"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "empires"
+    ]
+  },
+  {
+    "id": 5008,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which Roman emperor made Christianity the official religion?",
+    "answers": [
+      "Nero",
+      "Theodosius I",
+      "Constantine the Great",
+      "Trajan"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient"
+    ]
+  },
+  {
+    "id": 5009,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Rosetta Stone was key to deciphering which language?",
+    "answers": [
+      "Greek",
+      "Latin",
+      "Egyptian Hieroglyphs",
+      "Sumerian"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient"
+    ]
+  },
+  {
+    "id": 5010,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who wrote 'The Odyssey'?",
+    "answers": [
+      "Homer",
+      "Virgil",
+      "Sophocles",
+      "Hesiod"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "legends"
+    ]
+  },
+  {
+    "id": 5011,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which city was destroyed by the eruption of Mount Vesuvius in 79 AD?",
+    "answers": [
+      "Rome",
+      "Naples",
+      "Pompeii",
+      "Venice"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient"
+    ]
+  },
+  {
+    "id": 5012,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the queen of Ancient Egypt known for her relationship with Julius Caesar?",
+    "answers": [
+      "Nefertiti",
+      "Cleopatra",
+      "Hatshepsut",
+      "Nefertari"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "ancient",
+      "legends"
+    ]
+  },
+  {
+    "id": 5013,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Punic Wars were fought between Rome and which city-state?",
+    "answers": [
+      "Athens",
+      "Sparta",
+      "Carthage",
+      "Alexandria"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "ancient",
+      "empires"
+    ]
+  },
+  {
+    "id": 5014,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "Which empire constructed the Terracotta Army?",
+    "answers": [
+      "Qin Dynasty",
+      "Han Dynasty",
+      "Tang Dynasty",
+      "Ming Dynasty"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "ancient",
+      "empires"
+    ]
+  },
+  {
+    "id": 5015,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Industrial Revolution began in which country?",
+    "answers": [
+      "France",
+      "USA",
+      "Germany",
+      "Great Britain"
+    ],
+    "correctAnswer": 3,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5016,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the leader of the Soviet Union during World War II?",
+    "answers": [
+      "Vladimir Lenin",
+      "Joseph Stalin",
+      "Nikita Khrushchev",
+      "Mikhail Gorbachev"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5017,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Titanic sank in which year?",
+    "answers": [
+      "1910",
+      "1912",
+      "1914",
+      "1916"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5018,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which event triggered World War I?",
+    "answers": [
+      "Invasion of Poland",
+      "Bombing of Pearl Harbor",
+      "Assassination of Archduke Franz Ferdinand",
+      "The October Revolution"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5019,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the first man in space?",
+    "answers": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "John Glenn"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5020,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The Berlin Wall fell in which year?",
+    "answers": [
+      "1987",
+      "1989",
+      "1991",
+      "1993"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5021,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which treaty ended World War I?",
+    "answers": [
+      "Treaty of Paris",
+      "Treaty of Versailles",
+      "Treaty of Tordesillas",
+      "Treaty of Ghent"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5022,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who delivered the 'I Have a Dream' speech?",
+    "answers": [
+      "Malcolm X",
+      "John F. Kennedy",
+      "Martin Luther King Jr.",
+      "Rosa Parks"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5023,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "The American Civil War was fought between North and South over which main issue?",
+    "answers": [
+      "Taxation",
+      "Slavery",
+      "Territory",
+      "Religion"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5024,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "In which year did the moon landing occur?",
+    "answers": [
+      "1965",
+      "1969",
+      "1971",
+      "1975"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5025,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who was the British Prime Minister during most of WWII?",
+    "answers": [
+      "Neville Chamberlain",
+      "Winston Churchill",
+      "Clement Attlee",
+      "Tony Blair"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5026,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The French Revolution began in which year?",
+    "answers": [
+      "1776",
+      "1789",
+      "1812",
+      "1848"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5027,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who discovered penicillin?",
+    "answers": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Marie Curie",
+      "Isaac Newton"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5028,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which crisis in 1962 brought the world close to nuclear war?",
+    "answers": [
+      "Berlin Crisis",
+      "Korean War",
+      "Cuban Missile Crisis",
+      "Vietnam War"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern"
+    ]
+  },
+  {
+    "id": 5029,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Nelson Mandela was the first black president of which country?",
+    "answers": [
+      "Kenya",
+      "Nigeria",
+      "South Africa",
+      "Zimbabwe"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5030,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Who painted the Sistine Chapel ceiling?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Raphael",
+      "Michelangelo",
+      "Donatello"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5031,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "In 1492, Columbus sailed the ocean blue for which country?",
+    "answers": [
+      "Portugal",
+      "Italy",
+      "Spain",
+      "France"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern"
+    ]
+  },
+  {
+    "id": 5032,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who started the Protestant Reformation?",
+    "answers": [
+      "John Calvin",
+      "Martin Luther",
+      "Henry VIII",
+      "Pope Leo X"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern"
+    ]
+  },
+  {
+    "id": 5033,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "kolay",
+    "question": "Which English king had six wives?",
+    "answers": [
+      "Henry V",
+      "Henry VIII",
+      "Richard III",
+      "Edward VI"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5034,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The defeat of the Spanish Armada occurred in which year?",
+    "answers": [
+      "1588",
+      "1603",
+      "1492",
+      "1776"
+    ],
+    "correctAnswer": 0,
+    "tags": [
+      "early_modern",
+      "empires"
+    ]
+  },
+  {
+    "id": 5035,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who proposed the heliocentric model of the universe?",
+    "answers": [
+      "Galileo Galilei",
+      "Nicolaus Copernicus",
+      "Johannes Kepler",
+      "Isaac Newton"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern"
+    ]
+  },
+  {
+    "id": 5036,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "zor",
+    "question": "The Thirty Years' War was primarily fought in which area?",
+    "answers": [
+      "France",
+      "Spain",
+      "Germany (Holy Roman Empire)",
+      "England"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern"
+    ]
+  },
+  {
+    "id": 5037,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Which queen ruled England during the Golden Age?",
+    "answers": [
+      "Victoria",
+      "Elizabeth I",
+      "Mary I",
+      "Anne"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "legends"
+    ]
+  },
+  {
+    "id": 5038,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "Who conquered the Aztec Empire?",
+    "answers": [
+      "Francisco Pizarro",
+      "Hernán Cortés",
+      "Christopher Columbus",
+      "Ferdinand Magellan"
+    ],
+    "correctAnswer": 1,
+    "tags": [
+      "early_modern",
+      "empires"
+    ]
+  },
+  {
+    "id": 5039,
+    "lang": "en",
+    "category": "tarih",
+    "difficulty": "orta",
+    "question": "The Taj Mahal was built by which emperor?",
+    "answers": [
+      "Akbar",
+      "Jahangir",
+      "Shah Jahan",
+      "Aurangzeb"
+    ],
+    "correctAnswer": 2,
+    "tags": [
+      "early_modern",
+      "empires"
+    ]
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "id": 17000,
+    "question": "Türkiye Süper Ligi'nde en çok şampiyon olan takım hangisidir?",
+    "answers": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Galatasaray",
+      "Trabzonspor"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17001,
+    "question": "Türk futbolunun 'Taçsız Kral' lakaplı efsane golcüsü kimdir?",
+    "answers": [
+      "Lefter Küçükandonyadis",
+      "Metin Oktay",
+      "Hakkı Yeten",
+      "Can Bartu"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17002,
+    "question": "2002 FIFA Dünya Kupası'nda Türkiye kaçıncı olmuştur?",
+    "answers": [
+      "Birinci",
+      "İkinci",
+      "Üçüncü",
+      "Dördüncü"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17003,
+    "question": "Galatasaray'ın UEFA Kupası'nı kazandığı yıl hangisidir?",
+    "answers": [
+      "1999",
+      "2000",
+      "2001",
+      "2002"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17004,
+    "question": "Hangi takım 'Dört Büyükler' arasında yer almaz?",
+    "answers": [
+      "Bursaspor",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17005,
+    "question": "Fatih Terim'in lakabı nedir?",
+    "answers": [
+      "İmparator",
+      "Kral",
+      "Şef",
+      "Usta"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17006,
+    "question": "Türkiye Milli Takımı'nın ilk teknik direktörü kimdir?",
+    "answers": [
+      "Ali Sami Yen",
+      "Cihat Arman",
+      "Fikret Arıcan",
+      "Billy Hunter"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17007,
+    "question": "'Sinyor' lakaplı Fenerbahçeli efsane futbolcu kimdir?",
+    "answers": [
+      "Lefter Küçükandonyadis",
+      "Can Bartu",
+      "Cemil Turan",
+      "Rıdvan Dilmen"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17008,
+    "question": "Hangi stadyum Beşiktaş'ın ev sahibidir?",
+    "answers": [
+      "Türk Telekom Arena",
+      "Şükrü Saracoğlu",
+      "Vodafone Park (Tüpraş)",
+      "Atatürk Olimpiyat"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17009,
+    "question": "Türkiye'nin ilk yerli teknik direktörü kimdir?",
+    "answers": [
+      "Gündüz Kılıç",
+      "Ahmet Robenson",
+      "Ali Sami Yen",
+      "Ziya Şengül"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17010,
+    "question": "Süper Lig'de 'Gol Kralı' olan ilk yabancı futbolcu kimdir?",
+    "answers": [
+      "Tarik Hodzic",
+      "Shota Arveladze",
+      "Alex de Souza",
+      "Mario Jardel"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17011,
+    "question": "Trabzonspor şampiyonluk serisini hangi yıllar arasında yaşamıştır?",
+    "answers": [
+      "1970-1975",
+      "1975-1984",
+      "1990-1995",
+      "2000-2005"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17012,
+    "question": "Fenerbahçe'nin 103 golle şampiyon olduğu sezon hangisidir?",
+    "answers": [
+      "1988-1989",
+      "1995-1996",
+      "2000-2001",
+      "2010-2011"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17013,
+    "question": "Hangi Türk futbolcu Barcelona'da forma giymiştir?",
+    "answers": [
+      "Arda Turan",
+      "Emre Belözoğlu",
+      "Tugay Kerimoğlu",
+      "Nihat Kahveci"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17014,
+    "question": "Altın Ayakkabı ödülünü alan tek Türk futbolcu kimdir?",
+    "answers": [
+      "Hakan Şükür",
+      "Metin Oktay",
+      "Tanju Çolak",
+      "Burak Yılmaz"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "kolay",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17015,
+    "question": "Süper Lig tarihinin en çok gol atan futbolcusu kimdir?",
+    "answers": [
+      "Tanju Çolak",
+      "Hakan Şükür",
+      "Hami Mandıralı",
+      "Aykut Kocaman"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17016,
+    "question": "Beşiktaş'ın 100. yılında şampiyon yapan teknik direktör kimdir?",
+    "answers": [
+      "Gordon Milne",
+      "Jean Tigana",
+      "Mircea Lucescu",
+      "Mustafa Denizli"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17017,
+    "question": "Euro 2008'de Türkiye hangi aşamaya kadar yükselmiştir?",
+    "answers": [
+      "Çeyrek Final",
+      "Yarı Final",
+      "Final",
+      "Son 16"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17018,
+    "question": "Galatasaray, UEFA Süper Kupa maçında hangi takımı yenmiştir?",
+    "answers": [
+      "Arsenal",
+      "Real Madrid",
+      "Milan",
+      "Liverpool"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17019,
+    "question": "Fenerbahçe'nin efsanevi başkanı Şükrü Saracoğlu hangi görevde de bulunmuştur?",
+    "answers": [
+      "Cumhurbaşkanı",
+      "Başbakan",
+      "Genelkurmay Başkanı",
+      "Milli Eğitim Bakanı"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17020,
+    "question": "Süper Lig'de yenilgisiz şampiyon olan tek takım hangisidir?",
+    "answers": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17021,
+    "question": "'Şeytan' lakaplı efsane futbolcu kimdir?",
+    "answers": [
+      "Rıdvan Dilmen",
+      "Rıza Çalımbay",
+      "Tanju Çolak",
+      "Sergen Yalçın"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17022,
+    "question": "Hangi takım Süper Lig'de şampiyonluk yaşayan 5. takımdır?",
+    "answers": [
+      "Bursaspor",
+      "Başakşehir",
+      "Eskişehirspor",
+      "Sivasspor"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17023,
+    "question": "Tugay Kerimoğlu uzun yıllar hangi İngiliz takımında oynamıştır?",
+    "answers": [
+      "Liverpool",
+      "Blackburn Rovers",
+      "Newcastle United",
+      "Aston Villa"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17024,
+    "question": "Nihat Kahveci İspanya'da hangi takımla şampiyonluk mücadelesi verip 2. olmuştur?",
+    "answers": [
+      "Real Sociedad",
+      "Villarreal",
+      "Celta Vigo",
+      "Deportivo"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17025,
+    "question": "Milli Takımımızın 2002 Dünya Kupası'ndaki 3.lük maçında yendiği ülke hangisidir?",
+    "answers": [
+      "Brezilya",
+      "Güney Kore",
+      "Senegal",
+      "Japonya"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17026,
+    "question": "Alex de Souza Fenerbahçe formasıyla toplam kaç lig şampiyonluğu yaşamıştır?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17027,
+    "question": "Galatasaray'ın Neuchâtel Xamax'ı 5-0 yendiği efsane maç hangi turdaydı?",
+    "answers": [
+      "Şampiyon Kulüpler Kupası 2. Tur",
+      "UEFA Kupası Yarı Final",
+      "Kupa Galipleri Kupası Çeyrek Final",
+      "Şampiyonlar Ligi Grubu"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17028,
+    "question": "Sergen Yalçın 'Dört Büyükler'in tamamında forma giymiş midir?",
+    "answers": [
+      "Evet",
+      "Hayır",
+      "Sadece üçünde",
+      "Sadece ikisinde"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17029,
+    "question": "Süper Lig'de en çok şampiyonluk yaşayan teknik direktör kimdir?",
+    "answers": [
+      "Mustafa Denizli",
+      "Şenol Güneş",
+      "Fatih Terim",
+      "Ahmet Suat Özyazıcı"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "orta",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17030,
+    "question": "Türkiye'nin FIFA dünya sıralamasında gördüğü en yüksek sıra kaçtır?",
+    "answers": [
+      "5",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17031,
+    "question": "Mustafa Denizli hangi takımı şampiyon yapmamıştır?",
+    "answers": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "correctAnswer": 3,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17032,
+    "question": "Süper Lig'in ilk golünü kim atmıştır?",
+    "answers": [
+      "Metin Oktay",
+      "Özcan Altuğ",
+      "Lefter Küçükandonyadis",
+      "Can Bartu"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17033,
+    "question": "Göztepe, Avrupa Fuar Şehirleri Kupası'nda (UEFA Kupası) hangi yıl yarı final oynamıştır?",
+    "answers": [
+      "1967-1968",
+      "1968-1969",
+      "1969-1970",
+      "1970-1971"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17034,
+    "question": "Hakan Şükür, Dünya Kupaları tarihinin en hızlı golünü kaçıncı saniyede atmıştır?",
+    "answers": [
+      "9. saniye",
+      "11. saniye",
+      "15. saniye",
+      "13. saniye"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17035,
+    "question": "Ziya Şengül ve Ziya Doğan dışında 'Ziya Kaptan' olarak bilinen efsane kimdir?",
+    "answers": [
+      "Ziya Baykal",
+      "Ziya Taner",
+      "Ziya Şahin",
+      "Ziya Aksoy"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17036,
+    "question": "Rüştü Reçber Barcelona formasıyla La Liga'da kaç maça çıkmıştır?",
+    "answers": [
+      "4",
+      "7",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17037,
+    "question": "İlhan Mansız'ın 2002 Dünya Kupası çeyrek finalinde Senegal'e attığı golün özelliği neydi?",
+    "answers": [
+      "Penaltı golüydü",
+      "Altın Gol",
+      "Kendi kalesine",
+      "Frikik"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17038,
+    "question": "Başakşehir'i şampiyon yaparak tarihe geçen teknik direktör kimdir?",
+    "answers": [
+      "Abdullah Avcı",
+      "Okan Buruk",
+      "Emre Belözoğlu",
+      "Aykut Kocaman"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17039,
+    "question": "Eskişehirspor'un efsane kadrosuna verilen lakap neydi?",
+    "answers": [
+      "Kırmızı Şimşekler",
+      "Es-Es",
+      "Anadolu Yıldızı",
+      "Kızıl Şeytanlar"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17040,
+    "question": "Hangi Türk hakem FIFA kokartıyla Dünya Kupası'nda yarı final yönetmiştir?",
+    "answers": [
+      "Cüneyt Çakır",
+      "Ahmet Çakar",
+      "Erman Toroğlu",
+      "Doğan Babacan"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17041,
+    "question": "San Marino'ya karşı oynanan ve 0-0 biten maçta Milli Takım teknik direktörü kimdi?",
+    "answers": [
+      "Sepp Piontek",
+      "Fatih Terim",
+      "Mustafa Denizli",
+      "Coşkun Özarı"
+    ],
+    "correctAnswer": 0,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17042,
+    "question": "Süper Lig'de en uzun süre gol yememe rekoru kime aittir?",
+    "answers": [
+      "Rüştü Reçber",
+      "Şenol Güneş",
+      "Turgay Şeren",
+      "Claudio Taffarel"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17043,
+    "question": "Galatasaray'ın UEFA Kupası finalindeki rakibi Arsenal'in penaltı kaçıran yıldızları kimlerdi?",
+    "answers": [
+      "Henry ve Bergkamp",
+      "Suker ve Vieira",
+      "Petit ve Overmars",
+      "Kanu ve Ljungberg"
+    ],
+    "correctAnswer": 1,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  },
+  {
+    "id": 17044,
+    "question": "Beşiktaş'ın efsane üçlüsü Metin-Ali-Feyyaz'ın 'Ali'si Ali Gültiken hangi mevkide oynardı?",
+    "answers": [
+      "Stoper",
+      "Orta Saha",
+      "Forvet (Kanat)",
+      "Kaleci"
+    ],
+    "correctAnswer": 2,
+    "category": "spor",
+    "difficulty": "zor",
+    "subcategory": "football",
+    "tags": [
+      "football",
+      "turkish_football"
+    ]
+  }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "id": 18000,
+    "question": "Bir küreyi sonlu sayıda parçaya bölüp tekrar birleştirerek aynı hacimde iki küre elde edilebileceğini öne süren paradoks hangisidir?",
+    "answers": [
+      "Banach-Tarski Paradoksu",
+      "Zeno Paradoksu",
+      "Hilbert Oteli",
+      "Russell Paradoksu"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18001,
+    "question": "Asal sayıların dağılımıyla ilgili olan ve hala kanıtlanamamış ünlü matematik problemi hangisidir?",
+    "answers": [
+      "Riemann Hipotezi",
+      "Fermat'nın Son Teoremi",
+      "Poincare Sanısı",
+      "Dört Renk Teoremi"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18002,
+    "question": "Kaos teorisinde, küçük bir değişikliğin büyük sonuçlar doğurabileceğini ifade eden terim nedir?",
+    "answers": [
+      "Kelebek Etkisi",
+      "Kartopu Etkisi",
+      "Domino Teorisi",
+      "Kırılma Noktası"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18003,
+    "question": "Matematikte 'sıfır' kavramını ve ondalık sistemi Batı dünyasına tanıtan ünlü İslam matematikçisi kimdir?",
+    "answers": [
+      "Harezmi",
+      "Biruni",
+      "Ömer Hayyam",
+      "Ali Kuşçu"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18004,
+    "question": "Kalkülüs'ün (türev ve integral) keşfi konusunda Isaac Newton ile şiddetli bir öncelik tartışması yaşayan Alman matematikçi kimdir?",
+    "answers": [
+      "Gottfried Wilhelm Leibniz",
+      "Carl Friedrich Gauss",
+      "Bernhard Riemann",
+      "Leonhard Euler"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18005,
+    "question": "İkinci Dünya Savaşı'nda Almanların Enigma şifresini kıran, ancak daha sonra eşcinselliği nedeniyle yargılanan ünlü matematikçi kimdir?",
+    "answers": [
+      "Alan Turing",
+      "John von Neumann",
+      "Kurt Gödel",
+      "George Boole"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18006,
+    "question": "Matematiğin 'Prens'i olarak bilinen ve henüz 19 yaşındayken pergel ve cetvelle 17-genin çizilebileceğini kanıtlayan kimdir?",
+    "answers": [
+      "Carl Friedrich Gauss",
+      "Blaise Pascal",
+      "Pierre de Fermat",
+      "Evariste Galois"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18007,
+    "question": "Öklid dışı (Non-Euclidean) geometrilerin kurucularından biri kabul edilen Rus matematikçi kimdir?",
+    "answers": [
+      "Nikolay Lobaçevski",
+      "Andrey Kolmogorov",
+      "Grigori Perelman",
+      "Lev Landau"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18008,
+    "question": "Bin Yılın Soruları (Millennium Prize Problems) arasında yer alan ve çözüldüğü takdirde kriptografi güvenliğini sarsabilecek problem hangisidir?",
+    "answers": [
+      "P vs NP Problemi",
+      "Navier-Stokes Denklemleri",
+      "Hodge Sanısı",
+      "Birch ve Swinnerton-Dyer Sanısı"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18009,
+    "question": "Sadece pergel ve cetvel kullanarak 'bir daireyle aynı alana sahip kare çizme' probleminin imkansızlığı hangi sayının özelliğinden kaynaklanır?",
+    "answers": [
+      "Pi sayısının transandantal (aşkın) olması",
+      "Pi sayısının irrasyonel olması",
+      "Kök 2'nin irrasyonel olması",
+      "Altın oranın sonsuz olması"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "matematik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18010,
+    "question": "Termodinamiğin ikinci yasasına göre, kapalı bir sistemde zamanla azalmayan ve evrenin 'ısı ölümü'ne gitmesine neden olan nicelik nedir?",
+    "answers": [
+      "Entropi",
+      "Entalpi",
+      "İç Enerji",
+      "Gibbs Serbest Enerjisi"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18011,
+    "question": "Kuantum mekaniğinde, bir parçacığın konumu ve momentumunun aynı anda kesin olarak bilinemeyeceğini ifade eden ilke nedir?",
+    "answers": [
+      "Heisenberg Belirsizlik İlkesi",
+      "Pauli Dışlama İlkesi",
+      "Schrödinger Denklemi",
+      "Planck Sabiti"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18012,
+    "question": "Işığın hem dalga hem de parçacık özelliği gösterdiğini kanıtlayan ünlü deney hangisidir?",
+    "answers": [
+      "Çift Yarık Deneyi (Young)",
+      "Michelson-Morley Deneyi",
+      "Millikan Yağ Damlası Deneyi",
+      "Rutherford Altın Levha Deneyi"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18013,
+    "question": "Standart Model'e göre, proton ve nötronları oluşturan temel parçacıklara ne ad verilir?",
+    "answers": [
+      "Kuark",
+      "Lepton",
+      "Bozon",
+      "Foton"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18014,
+    "question": "Evrendeki kütleçekiminin, galaksilerin dönüş hızını açıklamaya yetmemesi nedeniyle var olduğu düşünülen görünmez maddeye ne denir?",
+    "answers": [
+      "Karanlık Madde",
+      "Karanlık Enerji",
+      "Antimadde",
+      "Plazma"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18015,
+    "question": "Bir kara deliğin olay ufkuna (event horizon) düşen bir cismin, dışarıdan bakan bir gözlemciye göre zamanla donup kalması etkisine ne ad verilir?",
+    "answers": [
+      "Zaman Genişlemesi (Time Dilation)",
+      "Kütleçekimsel Kızıla Kayma",
+      "Spagettileşme",
+      "Hawking Işıması"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18016,
+    "question": "Fizikte, dört temel kuvveti (kütleçekim hariç) tek bir matematiksel çatıda birleştiren teorilere ne ad verilir?",
+    "answers": [
+      "Büyük Birleşik Teori (GUT)",
+      "Sicim Teorisi",
+      "M-Kuramı",
+      "Kuantum Kütleçekimi"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18017,
+    "question": "Manhattan Projesi'nin bilimsel lideri olan ve 'Atom bombasının babası' olarak bilinen fizikçi kimdir?",
+    "answers": [
+      "J. Robert Oppenheimer",
+      "Enrico Fermi",
+      "Edward Teller",
+      "Niels Bohr"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18018,
+    "question": "Antimaddenin varlığını teorik olarak öngören ve kendi adıyla anılan denklemi yazan İngiliz fizikçi kimdir?",
+    "answers": [
+      "Paul Dirac",
+      "James Clerk Maxwell",
+      "Michael Faraday",
+      "J.J. Thomson"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "fizik",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18019,
+    "question": "Hücresel solunumun gerçekleştiği ve 'Sitrik Asit Döngüsü' olarak da bilinen metabolik sürecin adı nedir?",
+    "answers": [
+      "Krebs Döngüsü",
+      "Calvin Döngüsü",
+      "Glikoliz",
+      "Fermantasyon"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18020,
+    "question": "Hücre bölünmesi sırasında, kromozomların uç kısımlarında bulunan ve her bölünmede kısalan, yaşlanmayla ilişkilendirilen yapı nedir?",
+    "answers": [
+      "Telomer",
+      "Sentromer",
+      "Kromatit",
+      "Nükleozom"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18021,
+    "question": "Penisilin'i keşfeden Alexander Fleming, bu keşfi hangi organizma üzerinde tesadüfen yapmıştır?",
+    "answers": [
+      "Penicillium notatum (Küf mantarı)",
+      "Escherichia coli",
+      "Staphylococcus aureus",
+      "Saccharomyces cerevisiae"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18022,
+    "question": "Tüm modern insanların (Homo sapiens) annesel soyunun dayandığı varsayılan ortak ataya genetik biliminde ne isim verilir?",
+    "answers": [
+      "Mitokondriyal Havva",
+      "Y-Kromozom Adem'i",
+      "Lucy",
+      "Ardi"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18023,
+    "question": "DNA replikasyonu sırasında DNA zincirini fermuar gibi açan enzimin adı nedir?",
+    "answers": [
+      "Helikaz",
+      "Polimeraz",
+      "Ligaz",
+      "Primaz"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18024,
+    "question": "Biyolojide, canlıların sınıflandırılması (taksonomi) sistemini kuran İsveçli bilim insanı kimdir?",
+    "answers": [
+      "Carl Linnaeus",
+      "Jean-Baptiste Lamarck",
+      "Georges Cuvier",
+      "Alfred Russel Wallace"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18025,
+    "question": "Programlı hücre ölümüne bilimsel olarak ne ad verilir?",
+    "answers": [
+      "Apoptoz",
+      "Nekroz",
+      "Mitoz",
+      "Metastaz"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18026,
+    "question": "1953 yılında DNA'nın çift sarmal yapısını keşfeden Watson ve Crick'in çalışmalarında kritik rol oynayan 'Fotoğraf 51'i çeken bilim kadını kimdir?",
+    "answers": [
+      "Rosalind Franklin",
+      "Barbara McClintock",
+      "Marie Curie",
+      "Ada Yonath"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "biyoloji",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18027,
+    "question": "Altın ve platin gibi soy metalleri çözebilen tek asit karışımının (Kral Suyu) içeriği nedir?",
+    "answers": [
+      "Hidroklorik asit ve Nitrik asit",
+      "Sülfürik asit ve Hidroklorik asit",
+      "Nitrik asit ve Asetik asit",
+      "Siyanür ve Sülfürik asit"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "kimya",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18028,
+    "question": "Modern atom teorisine göre, elektronların bulunma olasılığının en yüksek olduğu hacimsel bölgelere ne ad verilir?",
+    "answers": [
+      "Orbital",
+      "Yörünge",
+      "Kabuk",
+      "Çekirdek"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "kimya",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18029,
+    "question": "Periyodik tablonun 'Lantanitler' ve 'Aktinitler' serisi genellikle hangi isimle anılır?",
+    "answers": [
+      "Nadir Toprak Elementleri",
+      "Soy Gazlar",
+      "Halojenler",
+      "Alkali Metaller"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "kimya",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18030,
+    "question": "Haber-Bosch süreci, endüstriyel olarak hangi maddenin üretimini sağlayarak tarım devrimine yol açmıştır?",
+    "answers": [
+      "Amonyak (Yapay Gübre)",
+      "Sülfürik Asit",
+      "Plastik",
+      "Çelik"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "kimya",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18031,
+    "question": "Radyoaktivite birimi 'Becquerel'in yanı sıra, tarihsel olarak kullanılan ve 1 gram radyumun aktivitesine eşit olan birim hangisidir?",
+    "answers": [
+      "Curie",
+      "Gray",
+      "Sievert",
+      "Rem"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "kimya",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18032,
+    "question": "Karbonun, grafitten farklı olarak futbol topu şeklindeki kafes yapısına sahip allotropuna ne ad verilir?",
+    "answers": [
+      "Fulleren (Buckminsterfullerene)",
+      "Elmas",
+      "Grafen",
+      "Karbon Nanotüp"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "kimya",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18033,
+    "question": "Simyacıların 'Felsefe Taşı'nı ararken yanlışlıkla fosforu keşfeden kişi kimdir?",
+    "answers": [
+      "Hennig Brand",
+      "Paracelsus",
+      "Robert Boyle",
+      "Antoine Lavoisier"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "kimya",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18034,
+    "question": "Dostoyevski'nin 'Karamazov Kardeşler' romanında, Tanrı'nın varlığını ve kötülük problemini sorgulayan ünlü bölümün adı nedir?",
+    "answers": [
+      "Büyük Engizisyoncu",
+      "Yeraltından Notlar",
+      "Suç ve Ceza",
+      "Budala"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18035,
+    "question": "James Joyce'un 'Ulysses' romanı, Homeros'un hangi destanının modern bir versiyonu olarak kurgulanmıştır?",
+    "answers": [
+      "Odysseia",
+      "İlyada",
+      "Aeneis",
+      "Gılgamış"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18036,
+    "question": "Divan Edebiyatı'nda, şairlerin şiirlerinde kullandıkları takma isme ne ad verilir?",
+    "answers": [
+      "Mahlas",
+      "Tapşırma",
+      "Müstear",
+      "Lakap"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18037,
+    "question": "Gabriel Garcia Marquez'in öncüsü olduğu, büyülü unsurların olağan gerçeklikle harmanlandığı edebi akım nedir?",
+    "answers": [
+      "Büyülü Gerçekçilik",
+      "Sürrealizm",
+      "Dadaizm",
+      "Egzistansiyalizm"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18038,
+    "question": "Sinema tarihinde 'Montaj' (Kurgu) teorisinin temellerini atan ve 'Potemkin Zırhlısı' filmini yöneten Sovyet yönetmen kimdir?",
+    "answers": [
+      "Sergei Eisenstein",
+      "Dziga Vertov",
+      "Andrei Tarkovsky",
+      "Lev Kuleshov"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18039,
+    "question": "Alfred Hitchcock'un filmlerinde bizzat küçük bir rolde (cameo) görünmesi geleneği hangi filminde teknik imkansızlıklar nedeniyle (tek mekan, tek bot) gazete ilanıyla çözülmüştür?",
+    "answers": [
+      "Lifeboat (Yaşamak İstiyoruz)",
+      "Rear Window",
+      "Rope",
+      "Dial M for Murder"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18040,
+    "question": "Stanley Kubrick'in '2001: Bir Uzay Destanı' filmindeki yapay zeka karakterinin adı nedir?",
+    "answers": [
+      "HAL 9000",
+      "Skynet",
+      "Bishop",
+      "Matrix"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18041,
+    "question": "Rönesans döneminde, Leonardo, Michelangelo ve Raphael'in öncülüğünü yaptığı döneme ne ad verilir?",
+    "answers": [
+      "Yüksek Rönesans",
+      "Erken Rönesans",
+      "Maniyerizm",
+      "Barok"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18042,
+    "question": "Edvard Munch'un ünlü 'Çığlık' tablosunun orijinal Almanca adı aslında 'Çığlık' değildir. Tablonun asıl ifade ettiği şey nedir?",
+    "answers": [
+      "Doğanın Çığlığı",
+      "İnsanın Çaresizliği",
+      "Sessiz Çığlık",
+      "Korku"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "zor",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  },
+  {
+    "id": 18043,
+    "question": "Pablo Picasso'nun İspanya İç Savaşı sırasında Nazi bombardımanına uğrayan bir kasabayı resmettiği devasa tablonun adı nedir?",
+    "answers": [
+      "Guernica",
+      "Avignonlu Kızlar",
+      "Ağlayan Kadın",
+      "Yaşlı Gitarist"
+    ],
+    "correctAnswer": 0,
+    "category": "genel_kultur",
+    "difficulty": "orta",
+    "subcategory": "edebiyat_sanat",
+    "tags": [
+      "revamp",
+      "hard_mode",
+      "expert",
+      "bilim_sanat"
+    ]
+  }
+]

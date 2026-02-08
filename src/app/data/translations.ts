@@ -27,8 +27,9 @@ export interface Translations {
   mediumDesc: string;
   hard: string;
   hardDesc: string;
-  veryHard: string;
-  veryHardDesc: string;
+
+  mixed: string;
+  mixedDesc: string;
 
   // Question Screen
   questionOf: string;
@@ -109,12 +110,18 @@ export interface Translations {
   // History Subcategory (TR only)
   historyTrTurkish: string;
   historyTrTurkishDesc: string;
-  historyTrWorld: string;
-  historyTrWorldDesc: string;
-  historyTrAncient: string;
-  historyTrAncientDesc: string;
-  historyTrAll: string;
-  historyTrAllDesc: string;
+  historyTrModern: string;
+  historyTrModernDesc: string;
+  historyTrAncientAnatolia: string;
+  historyTrAncientAnatoliaDesc: string;
+  historyTrMixed: string;
+  historyTrMixedDesc: string;
+  // Withdraw feature
+  withdraw: string;
+  withdrawTitle: string;
+  withdrawBody: string;
+  withdrawCancel: string;
+  withdrawConfirm: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -145,8 +152,9 @@ export const translations: Record<Language, Translations> = {
     mediumDesc: 'A balanced challenge',
     hard: 'Hard',
     hardDesc: 'For the true trivia masters',
-    veryHard: 'Very Hard',
-    veryHardDesc: 'Only legends survive this',
+
+    mixed: 'Mixed',
+    mixedDesc: 'Random difficulty mix',
 
     // Question Screen
     questionOf: 'Question {current} of {total}',
@@ -227,12 +235,18 @@ export const translations: Record<Language, Translations> = {
     // History Subcategory (TR only - English placeholders)
     historyTrTurkish: 'Turkish History',
     historyTrTurkishDesc: 'From Central Asia to the year 2000',
-    historyTrWorld: 'World History',
-    historyTrWorldDesc: 'Global events and great wars',
-    historyTrAncient: 'Ancient Civilizations',
-    historyTrAncientDesc: 'Great civilizations of the ancient world',
-    historyTrAll: 'All History',
-    historyTrAllDesc: 'Mixed questions from all eras',
+    historyTrModern: 'Modern History',
+    historyTrModernDesc: 'World Wars, Cold War and Modern Era',
+    historyTrAncientAnatolia: 'Ancient Anatolia',
+    historyTrAncientAnatoliaDesc: 'Hittites, Phrygians, and Lydians',
+    historyTrMixed: 'All History',
+    historyTrMixedDesc: 'Mixed questions from all eras',
+    // Withdraw feature
+    withdraw: 'Withdraw',
+    withdrawTitle: 'Withdraw from the game?',
+    withdrawBody: 'You will cash out {amount} YUAN and end this run.',
+    withdrawCancel: 'Cancel',
+    withdrawConfirm: 'Withdraw',
   },
 
   tr: {
@@ -262,8 +276,9 @@ export const translations: Record<Language, Translations> = {
     mediumDesc: 'Dengeli bir meydan okuma',
     hard: 'Zor',
     hardDesc: 'Gerçek bilgi yarışması ustaları için',
-    veryHard: 'Çok Zor',
-    veryHardDesc: 'Sadece efsaneler bunu başarır',
+
+    mixed: 'Karışık',
+    mixedDesc: 'Her zorluktan sorular',
 
     // Question Screen
     questionOf: 'Soru {current} / {total}',
@@ -343,13 +358,19 @@ export const translations: Record<Language, Translations> = {
     historyAllDesc: 'Nihai tarih savaş alanı',
     // History Subcategory (TR only)
     historyTrTurkish: 'Türk Tarihi',
-    historyTrTurkishDesc: 'Orta Asya\'dan 2000 yılına kadar',
-    historyTrWorld: 'Dünya Tarihi',
-    historyTrWorldDesc: 'Küresel olaylar ve büyük savaşlar',
-    historyTrAncient: 'Antik Uygarlıklar',
-    historyTrAncientDesc: 'Eski dünyanın büyük medeniyetleri',
-    historyTrAll: 'Tüm Tarih',
-    historyTrAllDesc: 'Tüm çağlardan karışık sorular',
+    historyTrTurkishDesc: 'Selçuklu, Osmanlı ve Cumhuriyet Tarihi',
+    historyTrModern: 'Modern Tarih',
+    historyTrModernDesc: 'Dünya Savaşı, Soğuk Savaş ve Yakın Tarih',
+    historyTrAncientAnatolia: 'Antik Anadolu',
+    historyTrAncientAnatoliaDesc: 'Hitit, Frig, İyon, Urartu ve Lidyalılar',
+    historyTrMixed: 'Karışık Tarih',
+    historyTrMixedDesc: 'Tüm dönemlerden karışık sorular',
+    // Withdraw feature
+    withdraw: 'Çekil',
+    withdrawTitle: 'Yarışmadan çekilmek istiyor musun?',
+    withdrawBody: '{amount} YUAN kazanıp yarışmayı bitireceksin.',
+    withdrawCancel: 'Vazgeç',
+    withdrawConfirm: 'Çekil',
   },
 };
 

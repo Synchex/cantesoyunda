@@ -92,6 +92,20 @@ export function SportsSubcategoryScreen({ onSelectSubcategory, language }: Sport
             description: t('basketballDesc'),
             color: '#FF9800', // Orange for basketball
         },
+        {
+            id: 'turkish_sports' as SportsSubcategory,
+            name: t('turkishSports'),
+            icon: <Award size={64} />,
+            description: t('turkishSportsDesc'),
+            color: '#9C27B0', // Purple for other sports
+        },
+        {
+            id: 'legends_records' as SportsSubcategory,
+            name: t('legendsRecords'),
+            icon: <Trophy size={64} />,
+            description: t('legendsRecordsDesc'),
+            color: '#FFD700', // Gold for legends
+        },
     ];
 
     // Select subcategories based on language

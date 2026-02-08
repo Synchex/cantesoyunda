@@ -1,0 +1,802 @@
+[
+  {
+    "id": 15000,
+    "question": "Akkoyunlu Devleti'ne son veren Otlukbeli Savaşı (1473) hangi padişah döneminde yapılmıştır?",
+    "choices": [
+      "Fatih Sultan Mehmet",
+      "Yavuz Sultan Selim",
+      "II. Bayezid",
+      "Kanuni Sultan Süleyman"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15001,
+    "question": "Osmanlı Devleti'nde '8. Yük' olarak bilinen ve baharat yolunu kontrol altına alan sefer hangisidir?",
+    "choices": [
+      "Mısır Seferi",
+      "Hint Deniz Seferleri",
+      "Irakeyn Seferi",
+      "Girit Seferi"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15002,
+    "question": "Safevi Devleti ile yapılan ve Doğu Anadolu'nun güvenliğini sağlayan Çaldıran Savaşı (1514) hangi padişah dönemidir?",
+    "choices": [
+      "Yavuz Sultan Selim",
+      "Kanuni Sultan Süleyman",
+      "Fatih Sultan Mehmet",
+      "II. Bayezid"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15003,
+    "question": "Rodos Adası hangi padişah döneminde fethedilmiştir?",
+    "choices": [
+      "Kanuni Sultan Süleyman",
+      "Fatih Sultan Mehmet",
+      "Yavuz Sultan Selim",
+      "II. Selim"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15004,
+    "question": "Dünyanın en kısa süren meydan savaşı olarak bilinen savaş hangisidir?",
+    "choices": [
+      "Mohaç Meydan Savaşı",
+      "Varna Savaşı",
+      "Kosova Savaşı",
+      "Niğbolu Savaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15005,
+    "question": "Turgut Reis hangi kuşatma sırasında şehit düşmüştür?",
+    "choices": [
+      "Malta Kuşatması",
+      "Rodos Kuşatması",
+      "Girit Kuşatması",
+      "Kıbrıs Kuşatması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15006,
+    "question": "Cezayir'i Osmanlı topraklarına katan ünlü denizci kimdir?",
+    "choices": [
+      "Barbaros Hayrettin Paşa",
+      "Turgut Reis",
+      "Piri Reis",
+      "Oruç Reis"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15007,
+    "question": "Sokullu Mehmet Paşa'nın kanal projeleri arasında hangisi YOKTUR?",
+    "choices": [
+      "Panama Kanalı",
+      "Don-Volga Kanalı",
+      "Süveyş Kanalı",
+      "İznik-Sapanca Kanalı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15008,
+    "question": "Osmanlı tarihinde 'Vaka-i Vakvakiye' (Çınar Vakası) olarak bilinen olay hangi padişah döneminde yaşanmıştır?",
+    "choices": [
+      "IV. Mehmet",
+      "III. Murat",
+      "I. Ahmet",
+      "Genç Osman"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15009,
+    "question": "Kıbrıs'ın fethi üzerine Haçlıların kurduğu donanma ile yapılan savaş hangisidir?",
+    "choices": [
+      "İnebahtı Deniz Savaşı",
+      "Preveze Deniz Savaşı",
+      "Cerbe Deniz Savaşı",
+      "Mora Savaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15010,
+    "question": "Osmanlı Devleti'nin Avusturya arşidükünü Osmanlı sadrazamına denk saydırdığı antlaşma hangisidir?",
+    "choices": [
+      "İstanbul Antlaşması (1533)",
+      "Zitvatorok Antlaşması",
+      "Vasvar Antlaşması",
+      "Karlofça Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15011,
+    "question": "Osmanlı Devleti'nin Avusturya karşısındaki siyasi üstünlüğünü kaybettiği antlaşma hangisidir?",
+    "choices": [
+      "Zitvatorok Antlaşması",
+      "Karlofça Antlaşması",
+      "Pasarofça Antlaşması",
+      "Vasvar Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15012,
+    "question": "Hotin Seferi'ndeki disiplinsizlikleri yüzünden Yeniçeri Ocağı'nı kaldırmayı düşünen ilk padişah kimdir?",
+    "choices": [
+      "II. Osman (Genç Osman)",
+      "IV. Murat",
+      "I. Ahmet",
+      "III. Selim"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15013,
+    "question": "Sultan İbrahim'in lakabı nedir?",
+    "choices": [
+      "Deli",
+      "Avcı",
+      "Sarı",
+      "Yavuz"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15014,
+    "question": "IV. Mehmet'in lakabı nedir?",
+    "choices": [
+      "Avcı",
+      "Deli",
+      "Fatih",
+      "Kanuni"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15015,
+    "question": "Köprülüler Devri hangi padişah zamanında yaşanmıştır?",
+    "choices": [
+      "IV. Mehmet",
+      "I. İbrahim",
+      "II. Süleyman",
+      "III. Ahmet"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15016,
+    "question": "Hangi antlaşma ile Osmanlı batıda ilk kez büyük toprak kaybetmiştir?",
+    "choices": [
+      "Karlofça Antlaşması",
+      "Pasarofça Antlaşması",
+      "Küçük Kaynarca",
+      "Prut"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15017,
+    "question": "Rusya'nın Karadeniz'e inme politikasının ilk adımı sayılan ve Azak Kalesi'nin verildiği antlaşma nedir?",
+    "choices": [
+      "İstanbul Antlaşması (1700)",
+      "Prut Antlaşması",
+      "Edirne Antlaşması",
+      "Küçük Kaynarca"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15018,
+    "question": "Patrona Halil İsyanı hangi padişahı tahttan indirmiştir?",
+    "choices": [
+      "III. Ahmet",
+      "I. Mahmut",
+      "III. Selim",
+      "II. Mustafa"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15019,
+    "question": "Napolyon'un Mısır'ı işgali sırasında Akka Kalesi'ni savunan 'Cezzar' lakaplı komutan kimdir?",
+    "choices": [
+      "Ahmet Paşa",
+      "Kavalalı Mehmet Ali Paşa",
+      "Alemdar Mustafa Paşa",
+      "Köprülü Fazıl Ahmet"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15020,
+    "question": "Kırım'ın Rusya'ya ait olduğunu kabul eden antlaşma hangisidir?",
+    "choices": [
+      "Yaş Antlaşması",
+      "Ziştovi Antlaşması",
+      "Küçük Kaynarca",
+      "Ayastefanos"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15021,
+    "question": "Osmanlı Devleti'nin 'Denge Politikası' izlediği ilk olay hangisidir?",
+    "choices": [
+      "Napolyon'un Mısır'ı işgali",
+      "Kavalalı İsyanı",
+      "Kırım Savaşı",
+      "93 Harbi"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15022,
+    "question": "İlk Osmanlı-Rus dostluk antlaşması hangisidir?",
+    "choices": [
+      "Hünkar İskelesi Antlaşması",
+      "İstanbul Antlaşması",
+      "Prut Antlaşması",
+      "Edirne Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15023,
+    "question": "Sırpların ilk kez ayrıcalık elde ettiği antlaşma hangisidir?",
+    "choices": [
+      "Bükreş Antlaşması",
+      "Edirne Antlaşması",
+      "Berlin Antlaşması",
+      "Paris Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15024,
+    "question": "Yunanistan'ın bağımsızlığını kazandığı antlaşma hangisidir?",
+    "choices": [
+      "Edirne Antlaşması",
+      "Bükreş Antlaşması",
+      "Berlin Antlaşması",
+      "Paris Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15025,
+    "question": "Osmanlı Devleti'nin Avrupa devleti sayıldığı antlaşma hangisidir?",
+    "choices": [
+      "Paris Antlaşması (1856)",
+      "Berlin Antlaşması",
+      "Viyana Kongresi",
+      "Londra Konferansı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15026,
+    "question": "93 Harbi sonucunda imzalanan ancak yürürlüğe girmeyen antlaşma hangisidir?",
+    "choices": [
+      "Ayastefanos Antlaşması",
+      "Berlin Antlaşması",
+      "Edirne Antlaşması",
+      "Sevr Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15027,
+    "question": "Berlin Antlaşması ile bağımsız olan devletler hangileridir?",
+    "choices": [
+      "Sırbistan, Karadağ, Romanya",
+      "Yunanistan, Bulgaristan, Arnavutluk",
+      "Sırbistan, Bosna, Yunanistan",
+      "Romanya, Bulgaristan, Mısır"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15028,
+    "question": "II. Abdülhamit döneminde İngiltere'nin işgal ettiği Osmanlı toprağı hangisidir?",
+    "choices": [
+      "Mısır",
+      "Kıbrıs",
+      "Tunus",
+      "Trablusgarp"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15029,
+    "question": "Osmanlı'nın Kuzey Afrika'da kaybettiği ilk toprak hangisidir?",
+    "choices": [
+      "Cezayir",
+      "Tunus",
+      "Trablusgarp",
+      "Mısır"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15030,
+    "question": "Boğazlar Sorunu'nu başlatan antlaşma hangisidir?",
+    "choices": [
+      "Hünkar İskelesi Antlaşması",
+      "Londra Boğazlar Sözleşmesi",
+      "Montrö",
+      "Kütahya Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15031,
+    "question": "Boğazların uluslararası statü kazandığı ilk sözleşme hangisidir?",
+    "choices": [
+      "Londra Boğazlar Sözleşmesi (1841)",
+      "Montrö",
+      "Sevr",
+      "Lozan"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15032,
+    "question": "Ermeni Sorunu'nun uluslararası bir belgeye girdiği ilk antlaşma hangisidir?",
+    "choices": [
+      "Berlin Antlaşması",
+      "Ayastefanos",
+      "Paris",
+      "Sevr"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15033,
+    "question": "Sened-i İttifak (1808) hangi padişah ile Ayanlar arasında imzalanmıştır?",
+    "choices": [
+      "II. Mahmut",
+      "III. Selim",
+      "Abdülmecid",
+      "IV. Mustafa"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15034,
+    "question": "Tanzimat Fermanı'nın diğer adı nedir?",
+    "choices": [
+      "Gülhane Hatt-ı Hümayunu",
+      "Islahat Fermanı",
+      "Kanun-i Esasi",
+      "Adalet Fermanı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15035,
+    "question": "Islahat Fermanı en çok hangi zümreye haklar tanımıştır?",
+    "choices": [
+      "Gayrimüslimler",
+      "Ayanlar",
+      "Yeniçeriler",
+      "Tüccarlar"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15036,
+    "question": "I. Meşrutiyet'i ilan eden padişah kimdir?",
+    "choices": [
+      "II. Abdülhamit",
+      "V. Murat",
+      "Abdülaziz",
+      "Abdülmecid"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15037,
+    "question": "'İstibdat Dönemi' olarak bilinen dönem hangi olayın ardından başlamıştır?",
+    "choices": [
+      "Meclis-i Mebusan'ın kapatılması (1878)",
+      "31 Mart Olayı",
+      "Balkan Savaşları",
+      "Tanzimat Fermanı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15038,
+    "question": "İttihat ve Terakki Cemiyeti'nin yönetime tam hakim olduğu olay hangisidir?",
+    "choices": [
+      "Bab-ı Ali Baskını",
+      "31 Mart Olayı",
+      "Edirne Vakası",
+      "Kuleli Vakası"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15039,
+    "question": "Osmanlı Devleti'nde ilk siyasi parti hangisidir?",
+    "choices": [
+      "İttihat ve Terakki Fırkası",
+      "Ahrar Fırkası",
+      "Hürriyet ve İtilaf",
+      "Serbest Fırka"
+    ],
+    "answerIndex": 1,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15040,
+    "question": "Mecelle hangi hukuk alanında düzenlemeler yapmıştır?",
+    "choices": [
+      "Medeni Hukuk",
+      "Ceza Hukuku",
+      "Ticaret Hukuku",
+      "Anayasa Hukuku"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15041,
+    "question": "Osmanlı Devleti'nde ilk kağıt para (Kaime) hangi padişah döneminde basılmıştır?",
+    "choices": [
+      "Abdülmecid",
+      "II. Mahmut",
+      "Abdülaziz",
+      "V. Mehmet"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15042,
+    "question": "Osmanlı'da ilk demiryolu hattı (Anadolu dışı) nereye yapılmıştır?",
+    "choices": [
+      "İskenderiye-Kahire",
+      "İzmir-Aydın",
+      "Selanik-Manastır",
+      "Hicaz"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15043,
+    "question": "Dünyanın en büyük üçüncü donanması hangi padişah döneminde oluşturulmuştur?",
+    "choices": [
+      "Abdülaziz",
+      "Abdülmecid",
+      "II. Abdülhamit",
+      "III. Selim"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15044,
+    "question": "Ziraat Bankası'nın temeli sayılan 'Memleket Sandıkları'nı kim kurmuştur?",
+    "choices": [
+      "Mithat Paşa",
+      "Ahmet Cevdet Paşa",
+      "Talat Paşa",
+      "Enver Paşa"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15045,
+    "question": "Osmanlı Devleti'nde çıkan ilk resmi gazete hangisidir?",
+    "choices": [
+      "Takvim-i Vekayi",
+      "Ceride-i Havadis",
+      "Tercüman-ı Ahval",
+      "Tasvir-i Efkar"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15046,
+    "question": "İlk özel gazete 'Tercüman-ı Ahval'i kim çıkarmıştır?",
+    "choices": [
+      "Şinasi ve Agah Efendi",
+      "Namık Kemal",
+      "Ziya Paşa",
+      "Ali Suavi"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15047,
+    "question": "Osmanlı Devleti'nin marşı olarak kullanılan beste hangisi olabilir?",
+    "choices": [
+      "Hamidiye Marşı",
+      "Mecidiye Marşı",
+      "Mahmudiye Marşı",
+      "Hepsi"
+    ],
+    "answerIndex": 3,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15048,
+    "question": "Sanayi-i Nefise Mektebi'ni (Güzel Sanatlar Akademisi) kim kurmuştur?",
+    "choices": [
+      "Osman Hamdi Bey",
+      "Şeker Ahmet Paşa",
+      "İbrahim Çallı",
+      "Mimar Kemalettin"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  },
+  {
+    "id": 15049,
+    "question": "Osmanlı'nın ilk arkeoloji müzesini kim kurmuştur?",
+    "choices": [
+      "Osman Hamdi Bey",
+      "Halil Edhem",
+      "Ahmet Vefik Paşa",
+      "Recaizade Ekrem"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yeni_cag"
+    ]
+  }
+]

@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { CircularTimer } from './CircularTimer';
 import { ProgressBar } from './ProgressBar';
-import { Coins, Zap } from 'lucide-react';
+import { Coins, Zap, LogOut } from 'lucide-react';
 import { Language, getTranslation } from '../data/translations';
 import { CreditBar } from './CreditBar';
 import { PrizeLadder } from './PrizeLadder';
 import { PrizeDisplay } from './PrizeDisplay';
-import { getCurrentPrize } from '../data/prizeLadder';
+import { getCurrentPrize, formatPrizeFull } from '../data/prizeLadder';
 
 /**
  * Get timer duration in seconds based on question number (1-based)
@@ -36,6 +36,24 @@ interface Question {
   question: string;
   answers: string[];
   correctAnswer: number;
+  category?: string;
+  difficulty?: string;
+}
+
+// Snapshot of question state at answer time (prevents data mismatch)
+export interface WrongAnswerSnapshot {
+  questionId: number;
+  questionText: string;
+  answers: string[];
+  correctAnswerIndex: number;
+  correctAnswer: string;
+  userAnswer: string;
+  userAnswerIndex: number | null; // null if time up
+  timeUp: boolean;
+  explanation?: string;
+  category: string;
+  difficulty: string;
+  timestamp: number;
 }
 
 interface QuestionScreenProps {
@@ -44,9 +62,10 @@ interface QuestionScreenProps {
   totalQuestions: number;
   coins: number;
   streak: number;
-  onAnswer: (isCorrect: boolean, wrongAnswerData?: { correctAnswer: string; userAnswer: string; explanation?: string }) => void;
+  onAnswer: (isCorrect: boolean, snapshot?: WrongAnswerSnapshot) => void;
   onNextQuestion: () => void;
   onContinueRequest: () => void;
+  onWithdraw: (cashOutAmount: number) => void;
   continueUsed: boolean;
   language: Language;
 }
@@ -60,6 +79,7 @@ export function QuestionScreen({
   onAnswer,
   onNextQuestion,
   onContinueRequest,
+  onWithdraw,
   continueUsed,
   language,
 }: QuestionScreenProps) {
@@ -69,20 +89,78 @@ export function QuestionScreen({
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [timeUp, setTimeUp] = useState(false);
+  const [showWithdrawModal, setShowWithdrawModal] = useState(false);
+
+  // CRITICAL: Synchronous lock ref to prevent race conditions
+  // This ref is checked by the timer before firing onComplete
+  // It updates IMMEDIATELY (synchronous), unlike React state
+  const isLockedRef = useRef(false);
 
   // Calculate current prize based on question number
   const currentPrize = getCurrentPrize(questionNumber - 1); // questionNumber is 1-based, index is 0-based
 
+  // Calculate cash-out amount: secured prize = prize from LAST COMPLETED question
+  // If on Q1, cash-out = 0 (no questions completed yet)
+  const cashOutAmount = questionNumber > 1 ? getCurrentPrize(questionNumber - 2) : 0;
+
+  // DEV invariant check
+  if (import.meta.env.DEV) {
+    if (cashOutAmount < 0) {
+      console.error('[QuestionScreen] INVARIANT VIOLATION: cashOutAmount < 0', { cashOutAmount, questionNumber });
+    }
+  }
+
   useEffect(() => {
-    // Reset state when question changes
+    // CRITICAL: Reset ALL state when question changes
+    // Use both question.id and questionNumber to ensure reset even if IDs are duplicated
+    console.log('[QuestionScreen] New question loaded - id:', question.id, 'questionNumber:', questionNumber);
+    console.log('[QuestionScreen] Resetting state: selectedAnswer=null, showResult=false, timeUp=false, isLockedRef=false');
     setSelectedAnswer(null);
     setShowResult(false);
     setIsCorrect(false);
     setTimeUp(false);
-  }, [question.id]);
+    setShowWithdrawModal(false);
+    // CRITICAL: Reset the lock ref synchronously
+    isLockedRef.current = false;
+  }, [question.id, questionNumber]);
+
+  const handleWithdrawClick = () => {
+    if (isLockedRef.current || showResult) return; // Don't allow withdraw during result display
+    setShowWithdrawModal(true);
+  };
+
+  const handleWithdrawConfirm = () => {
+    // Lock to prevent any further interactions
+    isLockedRef.current = true;
+    setShowWithdrawModal(false);
+    console.log('[QuestionScreen] Withdraw confirmed. Cash-out amount:', cashOutAmount);
+    onWithdraw(cashOutAmount);
+  };
+
+  const handleWithdrawCancel = () => {
+    setShowWithdrawModal(false);
+  };
 
   const handleAnswerClick = (index: number) => {
-    if (selectedAnswer !== null || timeUp) return;
+    // CRITICAL: Check lock ref FIRST (synchronous, not subject to React batching)
+    if (isLockedRef.current) {
+      console.log('[QuestionScreen] handleAnswerClick BLOCKED - question is locked');
+      return;
+    }
+
+    // CRITICAL: Set lock IMMEDIATELY before any async state updates
+    isLockedRef.current = true;
+    console.log('[QuestionScreen] LOCK ACQUIRED - Answer clicked:', index, 'correctAnswer:', question.correctAnswer);
+
+    // INVARIANT CHECK: Validate correctAnswer index is within bounds
+    if (question.correctAnswer < 0 || question.correctAnswer >= question.answers.length) {
+      console.error('[QuestionScreen] INVARIANT VIOLATION: correctAnswer index out of bounds!', {
+        questionId: question.id,
+        correctAnswerIndex: question.correctAnswer,
+        answersLength: question.answers.length,
+        answers: question.answers,
+      });
+    }
 
     setSelectedAnswer(index);
     const correct = index === question.correctAnswer;
@@ -96,14 +174,24 @@ export function QuestionScreen({
         onNextQuestion();
       }, 2000);
     } else {
-      // For wrong answer, show brief feedback then navigate to loss screen
-      const wrongAnswerData = {
+      // Create FROZEN SNAPSHOT of question state at answer time
+      const snapshot: WrongAnswerSnapshot = {
+        questionId: question.id,
+        questionText: question.question,
+        answers: [...question.answers], // Clone array to freeze
+        correctAnswerIndex: question.correctAnswer,
         correctAnswer: question.answers[question.correctAnswer],
         userAnswer: question.answers[index],
-        explanation: undefined, // Can be extended later if questions have explanations
+        userAnswerIndex: index,
+        timeUp: false,
+        explanation: undefined,
+        category: question.category || 'unknown',
+        difficulty: question.difficulty || 'unknown',
+        timestamp: Date.now(),
       };
 
-      onAnswer(false, wrongAnswerData);
+      console.log('[QuestionScreen] Created snapshot:', snapshot);
+      onAnswer(false, snapshot);
 
       // Show wrong answer feedback briefly (shake + red highlight)
       setTimeout(() => {
@@ -119,19 +207,38 @@ export function QuestionScreen({
   };
 
   const handleTimeUp = () => {
-    if (selectedAnswer !== null) return;
+    // CRITICAL: Check lock ref FIRST (synchronous, not subject to React batching)
+    if (isLockedRef.current) {
+      console.log('[QuestionScreen] handleTimeUp BLOCKED - question is locked');
+      return;
+    }
+
+    // CRITICAL: Set lock IMMEDIATELY before any async state updates
+    isLockedRef.current = true;
+    console.log('[QuestionScreen] LOCK ACQUIRED - Time is up! question.id:', question.id);
 
     setTimeUp(true);
     setShowResult(true);
     setIsCorrect(false);
 
-    const wrongAnswerData = {
+    // Create FROZEN SNAPSHOT of question state at time up
+    const snapshot: WrongAnswerSnapshot = {
+      questionId: question.id,
+      questionText: question.question,
+      answers: [...question.answers], // Clone array to freeze
+      correctAnswerIndex: question.correctAnswer,
       correctAnswer: question.answers[question.correctAnswer],
       userAnswer: language === 'tr' ? 'Zaman Doldu' : 'Time Up',
+      userAnswerIndex: null, // null indicates time up, no selection
+      timeUp: true,
       explanation: undefined,
+      category: question.category || 'unknown',
+      difficulty: question.difficulty || 'unknown',
+      timestamp: Date.now(),
     };
 
-    onAnswer(false, wrongAnswerData);
+    console.log('[QuestionScreen] Created snapshot (time up):', snapshot);
+    onAnswer(false, snapshot);
 
     setTimeout(() => {
       if (!continueUsed) {
@@ -209,9 +316,11 @@ export function QuestionScreen({
           {/* Timer */}
           <CircularTimer
             key={`timer-${question.id}`}
+            resetKey={`${question.id}-${questionNumber}`}
             duration={getTimerDuration(questionNumber)}
             onComplete={handleTimeUp}
             size={80}
+            isLockedRef={isLockedRef}
           />
 
           {/* Streak */}
@@ -229,6 +338,18 @@ export function QuestionScreen({
             <Zap className="text-[var(--neon-green)]" size={24} />
             <span className="text-xl text-[var(--neon-green)]">{streak}x</span>
           </motion.div>
+
+          {/* Withdraw Button */}
+          <motion.button
+            onClick={handleWithdrawClick}
+            disabled={showResult}
+            className="flex items-center gap-2 bg-[var(--card)] px-4 py-2 rounded-full border-2 border-[var(--gold)] hover:bg-[var(--gold)]/10 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <LogOut className="text-[var(--gold)]" size={20} />
+            <span className="text-sm font-semibold text-[var(--gold)]">{t('withdraw')}</span>
+          </motion.button>
         </div>
 
         {/* Progress */}
@@ -335,6 +456,46 @@ export function QuestionScreen({
           )}
         </AnimatePresence>
       </div>
+
+      {/* Withdraw Confirmation Modal */}
+      <AnimatePresence>
+        {showWithdrawModal && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="bg-[var(--card)] border-2 border-[var(--gold)] rounded-2xl p-8 max-w-md mx-4 shadow-[0_0_60px_rgba(212,175,55,0.3)]"
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+            >
+              <h2 className="text-2xl font-bold text-[var(--gold)] mb-4 text-center">
+                {t('withdrawTitle')}
+              </h2>
+              <p className="text-[var(--text-secondary)] text-center mb-6">
+                {t('withdrawBody', { amount: formatPrizeFull(cashOutAmount) })}
+              </p>
+              <div className="flex gap-4">
+                <button
+                  onClick={handleWithdrawCancel}
+                  className="flex-1 py-3 px-4 rounded-xl border-2 border-[var(--border)] text-[var(--text-secondary)] font-semibold hover:bg-[var(--muted)] transition-colors"
+                >
+                  {t('withdrawCancel')}
+                </button>
+                <button
+                  onClick={handleWithdrawConfirm}
+                  className="flex-1 py-3 px-4 rounded-xl bg-[var(--gold)] text-[var(--bg-dark)] font-bold hover:bg-[var(--gold)]/90 transition-colors"
+                >
+                  {t('withdrawConfirm')}
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

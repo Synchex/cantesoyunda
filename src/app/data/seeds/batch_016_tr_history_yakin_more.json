@@ -1,0 +1,802 @@
+[
+  {
+    "id": 16000,
+    "question": "Mustafa Kemal'in askerlik hayatındaki ilk görev yeri neresidir?",
+    "choices": [
+      "Şam 5. Ordu",
+      "Manastır 3. Ordu",
+      "Hareket Ordusu",
+      "Sofya Ataşemiliterliği"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16001,
+    "question": "Mustafa Kemal'in tarih sahnesine ilk kez çıktığı olay hangisidir?",
+    "choices": [
+      "31 Mart Olayı",
+      "Trablusgarp Savaşı",
+      "Çanakkale Savaşı",
+      "Balkan Savaşları"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16002,
+    "question": "Mustafa Kemal'e 'Anafartalar Kahramanı' unvanı hangi cephede verilmiştir?",
+    "choices": [
+      "Çanakkale Cephesi",
+      "Kafkas Cephesi",
+      "Suriye Cephesi",
+      "Trablusgarp"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16003,
+    "question": "I. Dünya Savaşı'nda Mustafa Kemal'in savaştığı cephelerin sırası nasıldır?",
+    "choices": [
+      "Çanakkale - Kafkas - Suriye",
+      "Suriye - Çanakkale - Kafkas",
+      "Kafkas - Çanakkale - Suriye",
+      "Çanakkale - Suriye - Kafkas"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16004,
+    "question": "Amasya Genelgesi'ni kaleme alan kişi kimdir?",
+    "choices": [
+      "Cevat Abbas",
+      "Rauf Orbay",
+      "Kazım Karabekir",
+      "Refet Bele"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16005,
+    "question": "Temsil Heyeti'nin ilk kez oluşturulduğu kongre hangisidir?",
+    "choices": [
+      "Erzurum Kongresi",
+      "Sivas Kongresi",
+      "Amasya Genelgesi",
+      "Alapehir Kongresi"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16006,
+    "question": "Temsil Heyeti'nin tüm yurdu temsil eder hale geldiği kongre hangisidir?",
+    "choices": [
+      "Sivas Kongresi",
+      "Erzurum Kongresi",
+      "Pozantı Kongresi",
+      "Nazilli Kongresi"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16007,
+    "question": "Misak-ı Milli kararları son Osmanlı Mebusan Meclisi'nde hangi grup tarafından kabul edilmiştir?",
+    "choices": [
+      "Felah-ı Vatan",
+      "Müdafaa-i Hukuk",
+      "Tesanüd",
+      "İttihatçılar"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zok_zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16008,
+    "question": "İstanbul'un resmen işgali (16 Mart 1920) hangi olayın sonucudur?",
+    "choices": [
+      "Misak-ı Milli'nin kabulü",
+      "Sivas Kongresi",
+      "Büyük Taarruz",
+      "İzmir'in İşgali"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16009,
+    "question": "İstiklal Marşı yarışmasını hangi kurum düzenlemiştir?",
+    "choices": [
+      "Milli Eğitim Bakanlığı (Maarif Vekaleti)",
+      "Genelkurmay",
+      "Diyanet",
+      "Matbuat Müdiriyeti"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16010,
+    "question": "Moskova Antlaşması (1921) ile hangi ilden taviz verilmiştir (İlk taviz)?",
+    "choices": [
+      "Batum",
+      "Musul",
+      "Hatay",
+      "Kars"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16011,
+    "question": "Sakarya Savaşı'nın sonucunda Fransa ile imzalanan antlaşma hangisidir?",
+    "choices": [
+      "Ankara Antlaşması (1921)",
+      "Gümrü Antlaşması",
+      "Kars Antlaşması",
+      "Moskova Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16012,
+    "question": "Doğu sınırımızın kesinlik kazandığı antlaşma hangisidir?",
+    "choices": [
+      "Kars Antlaşması",
+      "Gümrü Antlaşması",
+      "Moskova Antlaşması",
+      "Lozan Antlaşması"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16013,
+    "question": "Mudanya Ateşkes Antlaşması ile savaş yapılmadan kurtarılan yerler nerelerdir?",
+    "choices": [
+      "Doğu Trakya, İstanbul, Boğazlar",
+      "İzmir, Aydın",
+      "Antalya, Konya",
+      "Batum, Kars"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16014,
+    "question": "Saltanatın kaldırılması (1 Kasım 1922) neyi engellemek için hızlandırılmıştır?",
+    "choices": [
+      "Lozan'a Osmanlı'nın da çağrılması",
+      "Halifeliğin güçlenmesi",
+      "Şeyh Sait İsyanı",
+      "Menemen Olayı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16015,
+    "question": "Şeyh Sait İsyanı'nı bastırmak için çıkarılan kanun hangisidir?",
+    "choices": [
+      "Takrir-i Sükun",
+      "Hıyanet-i Vataniye",
+      "Teşkilat-ı Esasiye",
+      "Tekalif-i Milliye"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16016,
+    "question": "Menemen Olayı (Kubilay Olayı) hangi yıl yaşanmıştır?",
+    "choices": [
+      "1930",
+      "1925",
+      "1933",
+      "1937"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16017,
+    "question": "Atatürk İlkeleri anayasaya ne zaman girmiştir?",
+    "choices": [
+      "1937",
+      "1924",
+      "1928",
+      "1946"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16018,
+    "question": "Balkan Antantı'na (1934) katılan devletler hangisidir? (TAYYAR)",
+    "choices": [
+      "Türkiye, Yunanistan, Yugoslavya, Romanya",
+      "Türkiye, Bulgaristan, Yunanistan",
+      "Türkiye, İran, Irak, Afganistan",
+      "Türkiye, Yunanistan, Sırbistan"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16019,
+    "question": "Sadabad Paktı (1937) hangi devletler arasında imzalanmıştır?",
+    "choices": [
+      "Türkiye, İran, Irak, Afganistan",
+      "Türkiye, Suriye, Irak",
+      "Türkiye, Mısır, İran",
+      "Türkiye, Yunanistan, Romanya"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16020,
+    "question": "Atatürk'ün vefat ettiği Dolmabahçe Sarayı hangi padişah döneminde yapılmıştır?",
+    "choices": [
+      "Abdülmecid",
+      "Abdülaziz",
+      "II. Mahmut",
+      "II. Abdülhamit"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16021,
+    "question": "Anıtkabir'in mimarları kimlerdir?",
+    "choices": [
+      "Emin Onat ve Orhan Arda",
+      "Mimar Kemalettin",
+      "Vedat Tek",
+      "Sedad Hakkı Eldem"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16022,
+    "question": "Türkiye'nin II. Dünya Savaşı'ndan sonra yardım aldığı plan hangisidir?",
+    "choices": [
+      "Marshall Planı",
+      "Molotov Planı",
+      "Schuman Planı",
+      "Truman Doktrini"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16023,
+    "question": "Türkiye'de 'Beyaz Devrim' olarak adlandırılan seçim hangisidir?",
+    "choices": [
+      "1950 Seçimleri",
+      "1946 Seçimleri",
+      "1965 Seçimleri",
+      "1983 Seçimleri"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16024,
+    "question": "Nuri Demirağ hangi alanda çalışmalar yapmıştır?",
+    "choices": [
+      "Havacılık ve Demiryolu",
+      "Otomotiv",
+      "Tekstil",
+      "Madencilik"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16025,
+    "question": "Devrim (ilk yerli otomobil) hangi yıl üretilmiştir?",
+    "choices": [
+      "1961",
+      "1971",
+      "1950",
+      "1923"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16026,
+    "question": "Türkiye'nin ('Kardak Krizi') yaşadığı ülke hangisidir?",
+    "choices": [
+      "Yunanistan",
+      "Suriye",
+      "Bulgaristan",
+      "Rusya"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16027,
+    "question": "Kıbrıs Türk Cumhuriyeti'nin kurucu cumhurbaşkanı kimdir?",
+    "choices": [
+      "Rauf Denktaş",
+      "Fazıl Küçük",
+      "Dr. Sadık Ahmet",
+      "Cengiz Topel"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16028,
+    "question": "'Mavi Kelebekler'in izinde toplu mezarların bulunduğu savaş hangisidir?",
+    "choices": [
+      "Bosna Savaşı",
+      "Kosova Savaşı",
+      "Körfez Savaşı",
+      "Kore Savaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16029,
+    "question": "Azerbaycan'ın 'Kara Yanvar' (Kara Ocak) katliamını yapan devlet hangisidir?",
+    "choices": [
+      "SSCB (Sovyet Rusya)",
+      "Ermenistan",
+      "İran",
+      "Türkiye"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16030,
+    "question": "Türkiye'yi Eurovision'da ilk kez temsil eden 'Seninle Bir Dakika' şarkısını kim söylemiştir?",
+    "choices": [
+      "Semiha Yankı",
+      "Ajda Pekkan",
+      "MFÖ",
+      "Sertab Erener"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16031,
+    "question": "Eurovision birincimiz Sertab Erener hangi yıl kazanmıştır?",
+    "choices": [
+      "2003",
+      "2000",
+      "2004",
+      "1999"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16032,
+    "question": "Nobel Edebiyat Ödülü'nü alan ilk Türk yazar hangisidir?",
+    "choices": [
+      "Orhan Pamuk",
+      "Aziz Sancar",
+      "Yaşar Kemal",
+      "Elif Şafak"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16033,
+    "question": "Nobel Kimya Ödülü'nü alan Türk bilim insanı kimdir?",
+    "choices": [
+      "Aziz Sancar",
+      "Cahit Arf",
+      "Oktay Sinanoğlu",
+      "Gazi Yaşargil"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16034,
+    "question": "'Asrın Güreşçisi' unvanına sahip sporcumuz kimdir?",
+    "choices": [
+      "Hamza Yerlikaya",
+      "Naim Süleymanoğlu",
+      "Yaşar Doğu",
+      "Rıza Kayaalp"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16035,
+    "question": "'Cep Herkülü' lakaplı haltercimiz kimdir?",
+    "choices": [
+      "Naim Süleymanoğlu",
+      "Halil Mutlu",
+      "Taner Sağır",
+      "Nurcan Taylan"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16036,
+    "question": "Türkiye'nin AB'ye adaylık statüsü kazandığı zirve hangisidir?",
+    "choices": [
+      "Helsinki Zirvesi (1999)",
+      "Kopenhag Zirvesi",
+      "Ankara Antlaşması",
+      "Maastricht"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16037,
+    "question": "Türkiye'nin para biriminden 6 sıfır atıldığı yıl hangisidir?",
+    "choices": [
+      "2005",
+      "2001",
+      "2003",
+      "2010"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16038,
+    "question": "GAP (Güneydoğu Anadolu Projesi) hangi nehirler üzerindedir?",
+    "choices": [
+      "Fırat ve Dicle",
+      "Seyhan ve Ceyhan",
+      "Kızılırmak ve Yeşilırmak",
+      "Sakarya ve Porsuk"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16039,
+    "question": "'Şu Çılgın Türkler' kitabının yazarı kimdir?",
+    "choices": [
+      "Turgut Özakman",
+      "İlber Ortaylı",
+      "Halil İnalcık",
+      "Attila İlhan"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16040,
+    "question": "'Halikarnas Balıkçısı' olarak bilinen yazar kimdir?",
+    "choices": [
+      "Cevat Şakir Kabaağaçlı",
+      "Sait Faik Abasıyanık",
+      "Azra Erhat",
+      "Sabahattin Ali"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16041,
+    "question": "Türkiye'nin ilk kadın başbakanı kimdir?",
+    "choices": [
+      "Tansu Çiller",
+      "Behice Boran",
+      "Meral Akşener",
+      "Rahşan Ecevit"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16042,
+    "question": "Türkiye'nin ilk kadın pilotu kimdir?",
+    "choices": [
+      "Bedriye Tahir Gökmen",
+      "Sabiha Gökçen",
+      "Safiye Soyman",
+      "Keriman Halis"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "zor",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16043,
+    "question": "Atatürk'ün manevi kızı ve ilk kadın savaş pilotumuz kimdir?",
+    "choices": [
+      "Sabiha Gökçen",
+      "Afet İnan",
+      "Ülkü Adatepe",
+      "Zübeyde Hanım"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16044,
+    "question": "Türkiye'nin ilk sivil cumhurbaşkanı kimdir?",
+    "choices": [
+      "Celal Bayar",
+      "Turgut Özal",
+      "Süleyman Demirel",
+      "Abdullah Gül"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16045,
+    "question": "Kıbrıs Barış Harekatı'nın parolası neydi?",
+    "choices": [
+      "Ayşe Tatile Çıksın",
+      "Şafak Vakti",
+      "Yıldırım Ordusu",
+      "Barış Gücü"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16046,
+    "question": "Çanakkale'de 275 kiloluk top mermisini sırtlayan kahraman kimdir?",
+    "choices": [
+      "Seyit Onbaşı",
+      "Yahya Çavuş",
+      "Ezineli Yahya",
+      "Nezahat Onbaşı"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16047,
+    "question": "Şapka İnkılabı ilk kez hangi ilde tanıtılmıştır?",
+    "choices": [
+      "Kastamonu",
+      "Ankara",
+      "İzmir",
+      "Konya"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "orta",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16048,
+    "question": "Erzurum Kongresi'nin toplanma amacı nedir?",
+    "choices": [
+      "Ermeni tehlikesine karşı birleşmek",
+      "Padişahı kurtarmak",
+      "İngiliz mandasını istemek",
+      "Hilafeti korumak"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  },
+  {
+    "id": 16049,
+    "question": "TBMM tarafından 'Gazi' unvanı verilen şehir hangisidir?",
+    "choices": [
+      "Antep",
+      "Maraş",
+      "Urfa",
+      "İzmir"
+    ],
+    "answerIndex": 0,
+    "category": "tarih",
+    "difficulty": "kolay",
+    "tags": [
+      "yakin_cag"
+    ]
+  }
+]
